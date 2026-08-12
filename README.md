@@ -14,6 +14,12 @@ _source/            everything needed to rebuild them
 Open any `unitNN.html` in a browser. Nothing is fetched from the network: every
 picture and recording is a base64 data URI inside the file.
 
+**Live:** <https://grammarmetric.github.io/interchange-intro/>
+
+Reachable by link, not by search: `robots.txt` disallows everything and every
+page carries `noindex, nofollow, noarchive, nosnippet, noimageindex`. Each unit
+is 5–9 MB, so it takes a moment to arrive and then runs entirely offline.
+
 ## Status
 
 | Unit | Questions | Size | |
@@ -258,12 +264,17 @@ restated sentence, not guessed.
 
 ## Publishing
 
-The content is Cambridge University Press material. The Mindset worksheet is
-published from its own public repo with `robots.txt` (`Disallow: /`) and a
-`noindex` meta tag — reachable by link, not by search. The `noindex` tag is
-already in every file here; add the `robots.txt` if these go to Pages, and keep
-the repo separate from the main site.
+The content is Cambridge University Press material. Published the same way as
+the Mindset worksheet: its own public repo, separate from the main site, with
+`robots.txt` (`Disallow: /`) and a `noindex` meta tag in every page — reachable
+by link, not by search.
 
-Source PDFs and CDs are course material and are not committed. `_source/audio/`
-holds the imported tracks so worksheets can be rebuilt without the discs; drop
-that folder before publishing the source if that matters.
+Source PDFs and CDs are course material and are not committed. **`_source/audio/`
+is also excluded** (see `.gitignore`): the tracks are already embedded in every
+worksheet, so publishing 184 individually downloadable Cambridge MP3s would add
+nothing for the learner. The consequence is that a fresh clone cannot re-run
+`build.mjs` until the discs are re-imported:
+
+```bash
+node _source/import-audio.mjs      # needs the CDs; restores _source/audio/
+```
