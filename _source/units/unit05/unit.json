@@ -1,0 +1,12 @@
+{
+  "number": 5,
+  "titleEn": "What time is it?",
+  "titleZh": "现在几点？",
+  "pages": "30–35",
+  "goals": [
+    { "en": "tell the time and talk about time zones", "zh": "说时间，谈时区" },
+    { "en": "a.m., p.m., noon and midnight", "zh": "a.m.、p.m.、noon 和 midnight" },
+    { "en": "say what people are doing right now", "zh": "说别人此刻正在做什么" },
+    { "en": "present continuous Wh-questions", "zh": "现在进行时的特殊疑问句" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 3 (Student's Book pp. 16-21).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "This unit has three watermarks sitting on top of artwork the exercises",
+    "need - the Persian stamp inside the Snapshot panel, and irLanguage.com",
+    "across both the Busan photograph and the Ex 9 party illustration - so all",
+    "three are painted out rather than cropped around."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 03.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" }
+  ],
+
+  "patch": [
+    { "page": 1, "x": 888, "y": 664, "w": 180, "h": 36, "note": "Persian stamp inside the Snapshot panel" },
+    { "page": 2, "x": 930, "y": 1042, "w": 152, "h": 36, "note": "irLanguage.com across the Busan photograph" },
+    { "page": 6, "x": 630, "y": 645, "w": 258, "h": 34, "note": "irLanguage.com across the Ex 9 party illustration" }
+  ],
+
+  "crops": [
+    { "id": "ex01-snapshot", "page": 1, "book": 16, "x": 152, "y": 452, "w": 940, "h": 218, "note": "Ex 1 Snapshot - the ten largest cities and the country list" },
+    { "id": "ex02-photo",    "page": 1, "book": 16, "x": 610, "y": 905, "w": 465, "h": 392, "note": "Ex 2 - Alexis and Felipe in the classroom" },
+
+    { "id": "ex03-bogota",   "page": 2, "book": 17, "x": 745, "y": 565, "w": 332, "h": 268, "note": "Ex 3 - Bogotá, Colombia" },
+    { "id": "ex03-busan",    "page": 2, "book": 17, "x": 745, "y": 848, "w": 332, "h": 268, "note": "Ex 3 - Busan, South Korea (watermark patched out)" },
+
+    { "id": "ex05-faces",    "page": 3, "book": 18, "x": 152, "y": 845, "w": 930, "h": 290, "note": "Ex 5 - five people to guess the nationality of" },
+
+    { "id": "ex06-phone",    "page": 4, "book": 19, "x": 700, "y": 126, "w": 378, "h": 637, "note": "Ex 6 - the phone showing Ben's sister and her daughter" },
+    { "id": "ex07-family",   "page": 4, "book": 19, "x": 200, "y": 1305, "w": 880, "h": 168, "note": "Ex 7C - Ben's family with their ages" },
+
+    { "id": "ex08-photos",   "page": 5, "book": 20, "x": 738, "y": 508, "w": 302, "h": 762, "note": "Ex 8A - the four people in the conversations" },
+
+    { "id": "ex09-party",    "page": 6, "book": 21, "x": 190, "y": 205, "w": 890, "h": 482, "note": "Ex 9A - the party scene with lettered people (watermark patched out)" }
+  ]
+}

@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<title>Interchange Intro — Unit 2: Where are my keys? (Interactive)</title>
+<style>
+:root{
+  --orange:#e8871e; --orange-d:#c26a0c; --ink:#1e2430; --ink-2:#4a5464; --ink-3:#7b8598;
+  --line:#e2e6ec; --bg:#f4f6f9; --card:#ffffff; --ok:#1a8a4a; --ok-bg:#e8f6ee;
+  --bad:#c62828; --bad-bg:#fdeceb; --hi:#fff6a8; --blue:#2f6fb0; --blue-bg:#eef4fb;
+  --shadow:0 1px 2px rgba(20,30,50,.06),0 4px 16px rgba(20,30,50,.06);
+  --fs:16px; --maxw:960px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-size:var(--fs);
+  font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,
+    "Microsoft YaHei","PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif;
+  line-height:1.55;
+}
+body.big{--fs:20px; --maxw:1120px}
+img{max-width:100%; height:auto; display:block}
+button{font:inherit}
+
+header{background:linear-gradient(135deg,#3a2c1c 0%,#1e2430 100%); color:#fff; padding:22px 20px 20px}
+.hwrap{max-width:var(--maxw); margin:0 auto}
+.kicker{font-size:.72em; letter-spacing:.16em; text-transform:uppercase; color:#f3b05a; font-weight:700}
+h1{margin:.15em 0 .1em; font-size:1.75em; line-height:1.15; font-weight:700}
+.h1zh{font-size:1.15em; font-weight:700; color:#f6d9b0; margin:.1em 0 .2em}
+.sub{color:#c2c8d2; font-size:.9em; margin:0}
+.goals{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
+.goal{background:rgba(232,135,30,.18); border:1px solid rgba(232,135,30,.45); color:#fbdfbc;
+  padding:4px 10px; border-radius:999px; font-size:.78em}
+
+.toolbar{position:sticky; top:0; z-index:50; background:rgba(255,255,255,.94);
+  backdrop-filter:blur(8px); border-bottom:1px solid var(--line); padding:9px 20px}
+.twrap{max-width:var(--maxw); margin:0 auto; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+.btn{border:1px solid var(--line); background:#fff; color:var(--ink); padding:7px 13px;
+  border-radius:8px; cursor:pointer; font-size:.85em; font-weight:600; white-space:nowrap}
+.btn:hover{border-color:#c3cad6; background:#fbfcfd}
+.btn.primary{background:var(--orange); border-color:var(--orange-d); color:#2b1600}
+.btn.primary:hover{background:var(--orange-d); color:#fff}
+.spacer{flex:1}
+.score{font-size:.85em; font-weight:700; padding:6px 12px; border-radius:8px; background:#eef1f5; color:var(--ink-2)}
+.score b{color:var(--ink)}
+.lvlsw{display:inline-flex; border:1px solid var(--line); border-radius:9px; overflow:hidden; background:#fff}
+.lvlsw .btn{border:0; border-radius:0; padding:7px 14px}
+.lvlsw .btn + .btn{border-left:1px solid var(--line)}
+.lvlsw .btn.on{background:var(--blue); border-color:var(--blue); color:#fff}
+.lvlsw .btn.on:hover{background:#2a6199}
+
+main{max-width:var(--maxw); margin:0 auto; padding:22px 20px 90px}
+.band{display:inline-block; background:var(--ink); color:#fff; font-weight:700; font-size:.72em;
+  letter-spacing:.13em; text-transform:uppercase; padding:5px 12px; border-radius:5px;
+  border-left:5px solid var(--orange); margin:34px 0 12px}
+.ex{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px;
+  margin:0 0 14px; box-shadow:var(--shadow)}
+.exhead{display:flex; gap:11px; align-items:flex-start; margin-bottom:12px}
+.num{flex:0 0 auto; background:var(--orange); color:#2b1600; font-weight:800; font-size:.82em;
+  border-radius:6px; padding:3px 9px; min-width:34px; text-align:center; letter-spacing:.04em}
+.num.blue{background:var(--blue); color:#fff}
+.rubric{font-weight:600; margin:0; padding-top:1px}
+.pagetag{display:inline-block; font-size:.72em; font-weight:700; color:var(--ink-3);
+  border:1px solid var(--line); border-radius:5px; padding:2px 7px; margin-left:8px; vertical-align:middle}
+.note{color:var(--ink-3); font-size:.85em; margin:.4em 0 0}
+.extbadge{display:inline-block; background:var(--blue-bg); color:var(--blue); border:1px solid #cddff0;
+  font-size:.7em; font-weight:800; letter-spacing:.1em; text-transform:uppercase;
+  padding:3px 9px; border-radius:5px; margin-left:8px; vertical-align:middle}
+section.ex.ext{border-left:4px solid var(--blue)}
+
+.audio{display:flex; align-items:center; gap:10px; flex-wrap:wrap; background:#fbfcfd;
+  border:1px solid var(--line); border-radius:9px; padding:9px 12px; margin:0 0 14px}
+.audio audio{height:36px}
+.tracktag{font-size:.75em; font-weight:700; color:var(--ink-3); white-space:nowrap}
+
+.dlg{border-left:3px solid var(--orange); padding:2px 0 2px 14px; margin:0 0 14px}
+.dl{display:flex; gap:10px; margin:.42em 0; align-items:baseline}
+.who{flex:0 0 auto; min-width:76px; color:var(--orange-d); font-weight:700; font-size:.87em}
+.say{flex:1 1 auto}
+.zhline{color:var(--ink-3); font-size:.87em; margin-top:1px}
+.stage{color:var(--ink-3); font-style:italic; font-size:.85em; margin:.5em 0 .2em}
+
+.bank{border:2px solid var(--orange); border-radius:9px; padding:9px 13px; margin:0 0 14px;
+  display:flex; flex-wrap:wrap; gap:6px 16px; font-size:.95em}
+.bank span{white-space:nowrap}
+.bank .ex-given{color:var(--orange-d); font-weight:700}
+
+.tip{border:1px solid #f0dcc0; background:#fdf7ef; border-radius:10px; padding:11px 14px; margin:14px 0 0; font-size:.87em}
+.tip h4{margin:0 0 4px; font-size:.9em; color:var(--orange-d); text-transform:uppercase; letter-spacing:.09em}
+.tip p{margin:.35em 0}
+.gbox{border:2px solid var(--orange); border-radius:10px; overflow:hidden; margin:0 0 14px}
+.gbox h4{margin:0; background:var(--orange); color:#2b1600; padding:7px 13px; font-size:.9em; letter-spacing:.03em}
+.gbox .gin{padding:12px 14px}
+.gtab{width:100%; border-collapse:collapse; font-size:.95em}
+.gtab td{padding:3px 10px 3px 0; vertical-align:top}
+.gtab td.r{color:var(--ink-2)}
+.gtab b{color:var(--orange-d)}
+.xout{text-decoration:line-through; color:var(--bad)}
+
+.pics{display:grid; gap:12px; grid-template-columns:repeat(auto-fill,minmax(210px,1fr));
+  align-items:start; margin:0 0 14px}
+.pics.two{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.pic{border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#fff}
+.pic figure{margin:0; padding:8px; background:#fff}
+.pic .cap{border-top:1px solid var(--line); padding:6px 9px; background:#fafbfc; font-size:.8em; color:var(--ink-3)}
+.solo{border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#fff; padding:8px; margin:0 0 14px}
+
+ol.qs,ul.qs{list-style:none; margin:0; padding:0}
+.q{display:flex; gap:11px; padding:8px 0; border-top:1px dashed var(--line)}
+.q:first-child{border-top:0}
+.qn{flex:0 0 auto; width:24px; height:24px; border-radius:50%; background:#eef1f5; color:var(--ink-2);
+  font-size:.78em; font-weight:800; display:flex; align-items:center; justify-content:center; margin-top:2px}
+.qt{flex:1 1 auto; min-width:0}
+select,input[type=text],textarea{font:inherit; color:var(--ink); background:#fff; border:1px solid #ccd3dd;
+  border-radius:7px; padding:6px 8px; max-width:100%}
+select:focus,input[type=text]:focus,textarea:focus{outline:2px solid var(--orange); outline-offset:1px; border-color:var(--orange)}
+select{min-width:104px}
+select.wide{min-width:190px}
+textarea{width:100%; resize:vertical}
+.opts{display:flex; flex-wrap:wrap; gap:7px 16px; margin-top:6px}
+.opts label{display:inline-flex; align-items:center; gap:6px; cursor:pointer}
+.tbl{width:100%; border-collapse:collapse; font-size:.92em; margin:0 0 8px}
+.tbl th,.tbl td{border:1px solid var(--line); padding:7px 9px; text-align:left; vertical-align:middle}
+.tbl th{background:#f7f9fb; font-size:.85em; color:var(--ink-2)}
+.given{color:var(--orange-d); font-weight:700}
+
+.ok{outline:2px solid var(--ok) !important; background:var(--ok-bg) !important}
+.bad{outline:2px solid var(--bad) !important; background:var(--bad-bg) !important}
+.opts.ok,.opts.bad{outline:0 !important; border-radius:7px; padding:4px 7px}
+.opts.ok{background:var(--ok-bg) !important}
+.opts.bad{background:var(--bad-bg) !important}
+.ans{display:none; margin-left:9px; font-size:.85em; font-weight:700; color:var(--ok);
+  background:var(--ok-bg); border:1px solid #bfe3cd; border-radius:6px; padding:1px 8px}
+body.reveal .ans{display:inline-block}
+.sec-score{float:right; font-size:.8em; font-weight:800; color:var(--ink-2);
+  background:#eef1f5; border-radius:6px; padding:3px 9px; margin-left:9px}
+
+details.script{border:1px solid var(--line); border-radius:9px; background:#fbfcfd; padding:0; margin:14px 0 0}
+details.script summary{cursor:pointer; padding:9px 13px; font-weight:700; font-size:.85em; color:var(--ink-2)}
+details.script .sin{padding:0 14px 12px; font-size:.9em}
+details.script .dl{margin:.3em 0}
+
+/* ---------- level visibility — MUST STAY LAST so it wins the cascade ---------- */
+.zhonly{display:none}
+body.lvl-zh .enonly,
+body.lvl-zh .bank.enonly,
+body.lvl-zh .tip.enonly{display:none}
+body.lvl-zh span.zhonly, body.lvl-zh b.zhonly, body.lvl-zh i.zhonly{display:inline}
+body.lvl-zh div.zhonly, body.lvl-zh p.zhonly, body.lvl-zh ul.zhonly, body.lvl-zh ol.zhonly,
+body.lvl-zh section.zhonly, body.lvl-zh details.zhonly, body.lvl-zh h4.zhonly{display:block}
+body.lvl-zh li.zhonly{display:list-item}
+body.lvl-zh tr.zhonly{display:table-row}
+body.lvl-zh td.zhonly{display:table-cell}
+body.lvl-zh .bank.zhonly{display:flex}
+.zhline{display:none}
+body.lvl-zh .zhline{display:block}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hwrap">
+    <div class="kicker">Interchange Intro &middot; Fifth Edition</div>
+    <h1>Unit 2 — Where are my keys?</h1>
+    <div class="h1zh" lang="zh-CN">第 2 单元 — 我的钥匙在哪儿？</div>
+    <p class="sub">Interactive worksheet &middot; Student's Book pp. 8–13 &middot; Grammar plus p. 133</p>
+    <div class="goals">
+      <span class="goal enonly">identify personal and classroom objects</span>
+      <span class="goal zhonly" lang="zh-CN">说出随身物品和教室里的东西</span>
+      <span class="goal enonly">say where things are</span>
+      <span class="goal zhonly" lang="zh-CN">说清楚东西在哪里</span>
+      <span class="goal enonly">a / an and plurals</span>
+      <span class="goal zhonly" lang="zh-CN">冠词 a / an 和名词复数</span>
+      <span class="goal enonly">this / these, it / they</span>
+      <span class="goal zhonly" lang="zh-CN">this / these、it / they</span>
+    </div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="twrap">
+    <div class="lvlsw" role="group" aria-label="Language of instructions">
+      <button class="btn lv on" id="lvEN" data-lv="en" title="Instructions in English only">English</button>
+      <button class="btn lv" id="lvZH" data-lv="zh" title="说明和例句都有中文">中文</button>
+    </div>
+    <button class="btn primary" id="btnCheck">Check answers</button>
+    <button class="btn" id="btnReveal">Show answers</button>
+    <button class="btn" id="btnBig">Large text</button>
+    <button class="btn" id="btnSave">Save file</button>
+    <button class="btn" id="btnLoad">Load file</button>
+    <button class="btn" id="btnClear">Clear all</button>
+    <span class="spacer"></span>
+    <span class="score" id="score">Not checked yet</span>
+  </div>
+</div>
+
+<main>
+
+<div class="band">Cycle 1 &middot; Exercises 1–6</div>
+
+<!-- ---------------- Ex 1 ---------------- -->
+<section class="ex" data-sec="Ex 1">
+  <div class="exhead"><span class="num">01</span>
+    <p class="rubric">
+      <span class="enonly">SNAPSHOT — What's in your bag? Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">图表 —《你包里有什么？》先听录音跟读。</span>
+      <span class="pagetag">p. 8</span>
+    </p></div>
+
+  {{AUDIO:p008-ex01-snapshot.mp3|Track 17}}
+  <div class="solo">{{IMG:ex01-snapshot|A bag with a laptop, cell phone, wallet, umbrella, keys, hairbrush, sunglasses and an energy bar}}</div>
+
+  <div class="tip">
+    <h4 class="enonly">a, an, or nothing?</h4><h4 class="zhonly" lang="zh-CN">用 a、an，还是不用？</h4>
+    <p class="enonly">Singular things take <b>a</b> or <b>an</b>. Plural things take neither: <i>keys</i>, <i>sunglasses</i>.</p>
+    <p class="zhonly" lang="zh-CN">单数的东西前面要用 <b>a</b> 或 <b>an</b>；复数前面什么都不加：<i>keys</i>、<i>sunglasses</i>。中文没有这一套，所以这里特别容易漏掉。</p>
+  </div>
+
+  <p class="rubric" style="margin-top:14px">
+    <span class="enonly">Choose <i>a</i>, <i>an</i>, or — (nothing).</span>
+    <span class="zhonly" lang="zh-CN">选 a、an，或者 —（什么都不加）。</span>
+    <span class="extbadge">practice</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <select data-q="ex01_1" data-a="a"><option value=""></option><option>a</option><option>an</option><option>—</option></select> laptop
+      <span class="ans" data-for="ex01_1">a</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <select data-q="ex01_2" data-a="a"><option value=""></option><option>a</option><option>an</option><option>—</option></select> cell phone
+      <span class="ans" data-for="ex01_2">a</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <select data-q="ex01_3" data-a="an"><option value=""></option><option>a</option><option>an</option><option>—</option></select> umbrella
+      <span class="ans" data-for="ex01_3">an</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">
+      <select data-q="ex01_4" data-a="an"><option value=""></option><option>a</option><option>an</option><option>—</option></select> energy bar
+      <span class="ans" data-for="ex01_4">an</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">
+      <select data-q="ex01_5" data-a="a"><option value=""></option><option>a</option><option>an</option><option>—</option></select> hairbrush
+      <span class="ans" data-for="ex01_5">a</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">
+      <select data-q="ex01_6" data-a="a"><option value=""></option><option>a</option><option>an</option><option>—</option></select> wallet
+      <span class="ans" data-for="ex01_6">a</span></span></li>
+    <li class="q"><span class="qn">7</span><span class="qt">
+      <select data-q="ex01_7" data-a="—"><option value=""></option><option>a</option><option>an</option><option>—</option></select> keys
+      <span class="ans" data-for="ex01_7">— (plural)</span></span></li>
+    <li class="q"><span class="qn">8</span><span class="qt">
+      <select data-q="ex01_8" data-a="—"><option value=""></option><option>a</option><option>an</option><option>—</option></select> sunglasses
+      <span class="ans" data-for="ex01_8">— (plural)</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 2 ---------------- -->
+<section class="ex" data-sec="Ex 2">
+  <div class="exhead"><span class="num">02</span>
+    <p class="rubric">
+      <span class="enonly">ARTICLES — Classroom objects. Listen. Complete the sentences with <i>a</i> or <i>an</i>.</span>
+      <span class="zhonly" lang="zh-CN">冠词 —《教室里的东西》。听录音，用 a 或 an 补全句子。</span>
+      <span class="pagetag">p. 8</span>
+    </p></div>
+
+  {{AUDIO:p008-ex02-articles-a.mp3|Track 18}}
+
+  <div class="gbox">
+    <h4>articles</h4>
+    <div class="gin">
+      <table class="gtab">
+        <tr><td><b>an</b> + vowel sound</td><td class="r"><i>an</i> eraser, <i>an</i> English book, <i>an</i> umbrella</td></tr>
+        <tr><td><b>a</b> + consonant sound</td><td class="r"><i>a</i> book, <i>a</i> pen, <i>a</i> clock</td></tr>
+      </table>
+      <p class="zhonly" lang="zh-CN" style="margin:10px 0 0; color:var(--ink-2)">
+        中文没有冠词，「一本书」直接说就行；英语的单数可数名词前面必须有 a / an / the。<br>
+        看的是<b>读音</b>，不是拼写：<i>an</i> hour（h 不发音），<i>a</i> university（读作 /juː/）。
+      </p>
+    </div>
+  </div>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">This is
+      <select data-q="ex02_1" data-a="a"><option value=""></option><option>a</option><option>an</option></select> book.
+      <span class="ans" data-for="ex02_1">a</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">This is
+      <select data-q="ex02_2" data-a="an"><option value=""></option><option>a</option><option>an</option></select> English book.
+      <span class="ans" data-for="ex02_2">an</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">This is
+      <select data-q="ex02_3" data-a="an"><option value=""></option><option>a</option><option>an</option></select> eraser.
+      <span class="ans" data-for="ex02_3">an</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">This is
+      <select data-q="ex02_4" data-a="a"><option value=""></option><option>a</option><option>an</option></select> notebook.
+      <span class="ans" data-for="ex02_4">a</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">This is
+      <select data-q="ex02_5" data-a="a"><option value=""></option><option>a</option><option>an</option></select> pen.
+      <span class="ans" data-for="ex02_5">a</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">This is
+      <select data-q="ex02_6" data-a="a"><option value=""></option><option>a</option><option>an</option></select> clock.
+      <span class="ans" data-for="ex02_6">a</span></span></li>
+  </ul>
+
+  <div class="bank" style="margin-top:14px">
+    <span>backpack</span><span>chair</span><span>eraser</span><span>pen</span><span>notebook</span>
+    <span>board</span><span>desk</span><span>pencil</span><span>wall</span><span>wastebasket</span>
+    <span>poster</span><span>door</span><span>outlet</span><span>book</span><span>window</span>
+  </div>
+  <p class="note enonly"><b>B</b> Pair work — find and spell these things in your classroom. “A: This is a chair. B: How do you spell <i>chair</i>? A: C-H-A-I-R.”</p>
+  <p class="note zhonly" lang="zh-CN"><b>B</b> 两人一组：在教室里找到这些东西，并把单词拼出来。“A: This is a chair. B: How do you spell <i>chair</i>? A: C-H-A-I-R.”</p>
+</section>
+
+<!-- ---------------- Ex 3 ---------------- -->
+<section class="ex" data-sec="Ex 3">
+  <div class="exhead"><span class="num">03</span>
+    <p class="rubric">
+      <span class="enonly">CONVERSATION — <i>What are these?</i> Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">对话 —《这些是什么？》先听录音跟读。</span>
+      <span class="pagetag">p. 9</span>
+    </p></div>
+
+  {{AUDIO:p009-ex03-conversation.mp3|Track 19}}
+  <div class="pics two">
+    <div class="pic"><figure>{{IMG:ex03-picture|Brandon and Christina looking at gadgets in a shop}}</figure></div>
+  </div>
+
+  <div class="dlg">
+    <p class="dl"><b class="who">Brandon</b><span class="say">Excuse me. What are these?<span class="zhline" lang="zh-CN">打扰一下，这些是什么？</span></span></p>
+    <p class="dl"><b class="who">Christina</b><span class="say">They're flash drives.<span class="zhline" lang="zh-CN">是 U 盘。</span></span></p>
+    <p class="dl"><b class="who">Brandon</b><span class="say">Oh, they're cool. And what's this?<span class="zhline" lang="zh-CN">哦，挺酷的。那这个是什么？</span></span></p>
+    <p class="dl"><b class="who">Christina</b><span class="say">It's a tablet.<span class="zhline" lang="zh-CN">是平板电脑。</span></span></p>
+    <p class="dl"><b class="who">Brandon</b><span class="say">A tablet? Really? Wow! It's great!<span class="zhline" lang="zh-CN">平板？真的吗？哇，太棒了！</span></span></p>
+    <p class="dl"><b class="who">Christina</b><span class="say">Yes, it is. It's a new model.<span class="zhline" lang="zh-CN">是的。这是新款。</span></span></p>
+    <p class="dl"><b class="who">Brandon</b><span class="say">Huh . . . and what's this?<span class="zhline" lang="zh-CN">嗯……那这个呢？</span></span></p>
+    <p class="dl"><b class="who">Christina</b><span class="say">It's a tablet case.<span class="zhline" lang="zh-CN">是平板保护套。</span></span></p>
+    <p class="dl"><b class="who">Brandon</b><span class="say">Oh. It's . . . interesting . . . and different.<span class="zhline" lang="zh-CN">哦。挺……有意思……也挺特别的。</span></span></p>
+  </div>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <span class="enonly">Brandon asks about three things.</span><span class="zhonly" lang="zh-CN">布兰登问了三样东西。</span>
+      <div class="opts mk" data-q="ex03_1" data-a="T">
+        <label><input type="radio" name="ex03_1" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex03_1" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex03_1">True — flash drives, a tablet, a tablet case</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <span class="enonly">The flash drives are singular, so Brandon says <i>What's this?</i></span>
+      <span class="zhonly" lang="zh-CN">U 盘是单数，所以布兰登说 <i>What's this?</i></span>
+      <div class="opts mk" data-q="ex03_2" data-a="F">
+        <label><input type="radio" name="ex03_2" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex03_2" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex03_2">False — they are plural: <i>What are these?</i></span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <span class="enonly">Christina says the tablet is a new model.</span><span class="zhonly" lang="zh-CN">克里斯蒂娜说这台平板是新款。</span>
+      <div class="opts mk" data-q="ex03_3" data-a="T">
+        <label><input type="radio" name="ex03_3" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex03_3" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex03_3">True</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">
+      <span class="enonly">Brandon loves the tablet case.</span><span class="zhonly" lang="zh-CN">布兰登很喜欢那个平板保护套。</span>
+      <div class="opts mk" data-q="ex03_4" data-a="F">
+        <label><input type="radio" name="ex03_4" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex03_4" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex03_4">False — “interesting . . . and different” is polite, not keen</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 4 ---------------- -->
+<section class="ex" data-sec="Ex 4">
+  <div class="exhead"><span class="num">04</span>
+    <p class="rubric">
+      <span class="enonly">PRONUNCIATION — Plural <i>–s</i> endings. Listen and notice the three sounds.</span>
+      <span class="zhonly" lang="zh-CN">语音 —《复数 –s 的读音》。听录音，注意这三种读法。</span>
+      <span class="pagetag">p. 9</span>
+    </p></div>
+
+  {{AUDIO:p009-ex04-pronunciation-a.mp3|Track 20}}
+
+  <div class="gbox">
+    <h4>plural –s endings</h4>
+    <div class="gin">
+      <table class="gtab">
+        <tr><td><b>s = /z/</b></td><td class="r">flash drive → flash drive<b>s</b> &middot; cell phone → cell phone<b>s</b> &middot; pencil → pencil<b>s</b></td></tr>
+        <tr><td><b>s = /s/</b></td><td class="r">desk → desk<b>s</b> &middot; laptop → laptop<b>s</b> &middot; backpack → backpack<b>s</b></td></tr>
+        <tr><td><b>(e)s = /ɪz/</b></td><td class="r">tablet case → tablet case<b>s</b> &middot; class → class<b>es</b> &middot; hairbrush → hairbrush<b>es</b></td></tr>
+      </table>
+      <p class="zhonly" lang="zh-CN" style="margin:10px 0 0; color:var(--ink-2)">
+        中文名词不分单复数，「三本书」就够了；英语必须加 -s，而且这个 -s 有三种读法：<br>
+        清辅音后读 /s/，浊音和元音后读 /z/，本身就是 s、z、ch、sh、x 这类音之后读 /ɪz/。
+      </p>
+    </div>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly"><b>B</b> Say the plural of each noun, then put it in the right column.</span>
+    <span class="zhonly" lang="zh-CN"><b>B</b> 先说出每个词的复数，再把它归到正确的一栏。</span></p>
+  <div class="solo">{{IMG:ex04-row1|Photographs of a phone case, a student ID, a paper clip, a newspaper and a purse}}</div>
+  <div class="solo">{{IMG:ex04-row2|Photographs of a tablet, a television, a ticket and a box}}</div>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">phone cases —
+      <select data-q="ex04_1" data-a="/ɪz/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_1">/ɪz/ (given in the book)</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">student IDs —
+      <select data-q="ex04_2" data-a="/z/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_2">/z/</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">paper clips —
+      <select data-q="ex04_3" data-a="/s/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_3">/s/</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">newspapers —
+      <select data-q="ex04_4" data-a="/z/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_4">/z/</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">purses —
+      <select data-q="ex04_5" data-a="/ɪz/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_5">/ɪz/</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">tablets —
+      <select data-q="ex04_6" data-a="/s/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_6">/s/</span></span></li>
+    <li class="q"><span class="qn">7</span><span class="qt">televisions —
+      <select data-q="ex04_7" data-a="/z/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_7">/z/</span></span></li>
+    <li class="q"><span class="qn">8</span><span class="qt">tickets —
+      <select data-q="ex04_8" data-a="/s/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_8">/s/</span></span></li>
+    <li class="q"><span class="qn">9</span><span class="qt">boxes —
+      <select data-q="ex04_9" data-a="/ɪz/"><option value=""></option><option>/z/</option><option>/s/</option><option>/ɪz/</option></select>
+      <span class="ans" data-for="ex04_9">/ɪz/</span></span></li>
+  </ul>
+
+  <p class="note enonly"><b>C</b> Listen and check your answers.</p>
+  <p class="note zhonly" lang="zh-CN"><b>C</b> 听录音，核对答案。</p>
+  {{AUDIO:p009-ex04-pronunciation-c.mp3|Track 21}}
+</section>
+
+<!-- ---------------- Ex 5 ---------------- -->
+<section class="ex" data-sec="Ex 5">
+  <div class="exhead"><span class="num">05</span>
+    <p class="rubric">
+      <span class="enonly">GRAMMAR FOCUS — <i>this/these</i>, <i>it/they</i>, plurals</span>
+      <span class="zhonly" lang="zh-CN">语法重点 — this/these、it/they、复数</span>
+      <span class="pagetag">p. 10</span>
+    </p></div>
+
+  {{AUDIO:p010-ex05-grammar-focus.mp3|Track 22}}
+
+  <div class="gbox">
+    <h4>this / these &middot; it / they</h4>
+    <div class="gin">
+      <table class="gtab">
+        <tr><td><b>This is</b> a laptop.</td><td class="r">What<b>'s this</b>? — <b>It's</b> a flash drive.</td></tr>
+        <tr><td><b>These are</b> laptops.</td><td class="r">What <b>are these</b>? — <b>They're</b> flash drives.</td></tr>
+        <tr><td colspan="2" style="padding-top:8px">It<b>'s</b> = It <b>is</b> &nbsp;&middot;&nbsp; They<b>'re</b> = They <b>are</b></td></tr>
+      </table>
+      <p class="zhonly" lang="zh-CN" style="margin:10px 0 0; color:var(--ink-2)">
+        中文「这个 / 这些」只差一个字，英语要换词，而且<b>动词也要跟着变</b>：<br>
+        单数 this is / it's，复数 these are / they're。<br>
+        另外，What are these? <b>不能</b>缩写成 <span class="xout">What're these?</span>
+      </p>
+    </div>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly">Complete these conversations.</span>
+    <span class="zhonly" lang="zh-CN">完成下面的对话。</span></p>
+  <div class="solo">{{IMG:ex05-row1|Photographs of keys, two backpacks and an umbrella}}</div>
+  <div class="solo">{{IMG:ex05-row2|Photographs of sunglasses, a wallet and a window}}</div>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">A: What <span class="given">are these</span>?
+      <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i><br>
+      B: <select class="wide" data-q="ex05_1b" data-a="They're keys."><option value=""></option><option>It's a key.</option><option>They're keys.</option><option>They're key.</option></select>
+      <span class="ans" data-for="ex05_1b">They're keys.</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">A: What
+      <select data-q="ex05_2a" data-a="are these"><option value=""></option><option>'s this</option><option>are these</option></select>?<br>
+      B: <select class="wide" data-q="ex05_2b" data-a="They're backpacks."><option value=""></option><option>It's a backpack.</option><option>They're backpacks.</option><option>They're backpack.</option></select>
+      <span class="ans" data-for="ex05_2a">are these</span><span class="ans" data-for="ex05_2b">They're backpacks.</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">A: What
+      <select data-q="ex05_3a" data-a="'s this"><option value=""></option><option>'s this</option><option>are these</option></select>?<br>
+      B: <select class="wide" data-q="ex05_3b" data-a="It's an umbrella."><option value=""></option><option>It's a umbrella.</option><option>It's an umbrella.</option><option>They're umbrellas.</option></select>
+      <span class="ans" data-for="ex05_3a">'s this</span><span class="ans" data-for="ex05_3b">It's an umbrella.</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">A: What
+      <select data-q="ex05_4a" data-a="are these"><option value=""></option><option>'s this</option><option>are these</option></select>?<br>
+      B: <select class="wide" data-q="ex05_4b" data-a="They're sunglasses."><option value=""></option><option>It's a sunglass.</option><option>They're sunglasses.</option><option>It's sunglasses.</option></select>
+      <span class="ans" data-for="ex05_4a">are these</span><span class="ans" data-for="ex05_4b">They're sunglasses.</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">A: What
+      <select data-q="ex05_5a" data-a="'s this"><option value=""></option><option>'s this</option><option>are these</option></select>?<br>
+      B: <select class="wide" data-q="ex05_5b" data-a="It's a wallet."><option value=""></option><option>It's a wallet.</option><option>They're wallets.</option><option>It's wallet.</option></select>
+      <span class="ans" data-for="ex05_5a">'s this</span><span class="ans" data-for="ex05_5b">It's a wallet.</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">A: What
+      <select data-q="ex05_6a" data-a="'s this"><option value=""></option><option>'s this</option><option>are these</option></select>?<br>
+      B: <select class="wide" data-q="ex05_6b" data-a="It's a window."><option value=""></option><option>It's a window.</option><option>They're windows.</option><option>It's an window.</option></select>
+      <span class="ans" data-for="ex05_6a">'s this</span><span class="ans" data-for="ex05_6b">It's a window.</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 6 ---------------- -->
+<section class="ex" data-sec="Ex 6">
+  <div class="exhead"><span class="num">06</span>
+    <p class="rubric">
+      <span class="enonly">SPEAKING — <i>What's this called?</i> Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">口语 —《这个用英语怎么说？》先听录音跟读。</span>
+      <span class="pagetag">p. 10</span>
+    </p></div>
+
+  {{AUDIO:p010-ex06-speaking-a.mp3|Track 23}}
+  <div class="solo">{{IMG:ex06-things|A credit card and a pair of headphones}}</div>
+
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">What's this called in English?<span class="zhline" lang="zh-CN">这个用英语怎么说？</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">I don't know.<span class="zhline" lang="zh-CN">我不知道。</span></span></p>
+    <p class="dl"><b class="who">C</b><span class="say">It's a credit card.<span class="zhline" lang="zh-CN">是信用卡。</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">How do you spell that?<span class="zhline" lang="zh-CN">怎么拼？</span></span></p>
+    <p class="dl"><b class="who">C</b><span class="say">C-R-E-D-I-T C-A-R-D.<span class="zhline" lang="zh-CN">C-R-E-D-I-T C-A-R-D。</span></span></p>
+  </div>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">What are these called in English?<span class="zhline" lang="zh-CN">这些用英语怎么说？</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">I think they're called headphones.<span class="zhline" lang="zh-CN">我想是叫 headphones（耳机）。</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">How do you spell that?<span class="zhline" lang="zh-CN">怎么拼？</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">H-E-A-D-P-H-O-N-E-S.<span class="zhline" lang="zh-CN">H-E-A-D-P-H-O-N-E-S。</span></span></p>
+  </div>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <span class="enonly">You want the English word for one object. You ask —</span>
+      <span class="zhonly" lang="zh-CN">你想问一样东西的英语说法，你会问 ——</span><br>
+      <select class="wide" data-q="ex06_1" data-a="What's this called in English?"><option value=""></option><option>What's this called in English?</option><option>What are these called in English?</option></select>
+      <span class="ans" data-for="ex06_1">What's this called in English?</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <span class="enonly">Headphones is —</span><span class="zhonly" lang="zh-CN">headphones 是 ——</span><br>
+      <select class="wide" data-q="ex06_2" data-a="plural"><option value=""></option><option value="singular" data-zh="单数 singular">singular</option><option value="plural" data-zh="复数 plural">plural</option></select>
+      <span class="ans" data-for="ex06_2">plural — <i>they're called headphones</i></span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <span class="enonly"><i>How do you spell that?</i> asks for —</span>
+      <span class="zhonly" lang="zh-CN"><i>How do you spell that?</i> 是在问 ——</span><br>
+      <select class="wide" data-q="ex06_3" data-a="the letters"><option value=""></option><option value="the letters" data-zh="单词的字母">the letters</option><option value="the price" data-zh="价格">the price</option><option value="the meaning" data-zh="意思">the meaning</option></select>
+      <span class="ans" data-for="ex06_3">the letters</span></span></li>
+  </ul>
+</section>
+
+<div class="band">Cycle 2 &middot; Exercises 7–12</div>
+
+<!-- ---------------- Ex 7 ---------------- -->
+<section class="ex" data-sec="Ex 7">
+  <div class="exhead"><span class="num">07</span>
+    <p class="rubric">
+      <span class="enonly">CONVERSATION — <i>Where are my car keys?</i> Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">对话 —《我的车钥匙在哪儿？》先听录音跟读。</span>
+      <span class="pagetag">p. 11</span>
+    </p></div>
+
+  {{AUDIO:p011-ex07-conversation.mp3|Track 24}}
+  <div class="pics two">
+    <div class="pic"><figure>{{IMG:ex07-picture|Lauren, Matt and a server outside a pizza restaurant}}</figure></div>
+  </div>
+
+  <div class="dlg">
+    <p class="dl"><b class="who">Lauren</b><span class="say">Oh, no! Where are my car keys?<span class="zhline" lang="zh-CN">糟了！我的车钥匙在哪儿？</span></span></p>
+    <p class="dl"><b class="who">Matt</b><span class="say">I don't know. Are they in your purse?<span class="zhline" lang="zh-CN">我不知道。在你包里吗？</span></span></p>
+    <p class="dl"><b class="who">Lauren</b><span class="say">No, they're not.<span class="zhline" lang="zh-CN">不在。</span></span></p>
+    <p class="dl"><b class="who">Matt</b><span class="say">Maybe they're on the table in the restaurant.<span class="zhline" lang="zh-CN">可能在餐厅的桌子上。</span></span></p>
+    <p class="dl"><b class="who">Server</b><span class="say">Excuse me. Are these your keys?<span class="zhline" lang="zh-CN">打扰一下，这是您的钥匙吗？</span></span></p>
+    <p class="dl"><b class="who">Lauren</b><span class="say">Yes, they are. Thank you!<span class="zhline" lang="zh-CN">是的，谢谢你！</span></span></p>
+    <p class="dl"><b class="who">Server</b><span class="say">You're welcome. And is this your wallet?<span class="zhline" lang="zh-CN">不客气。这个钱包也是您的吗？</span></span></p>
+    <p class="dl"><b class="who">Lauren</b><span class="say">Hmm. No, it's not. Where's your wallet, Matthew?<span class="zhline" lang="zh-CN">嗯，不是我的。马修，你的钱包呢？</span></span></p>
+    <p class="dl"><b class="who">Matt</b><span class="say">It's in my pocket. . . . Wait a minute! That <i>is</i> my wallet!<span class="zhline" lang="zh-CN">在我口袋里……等一下！那真是我的钱包！</span></span></p>
+  </div>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <span class="enonly">Lauren's car keys are in her purse.</span><span class="zhonly" lang="zh-CN">劳伦的车钥匙在她包里。</span>
+      <div class="opts mk" data-q="ex07_1" data-a="F">
+        <label><input type="radio" name="ex07_1" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex07_1" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex07_1">False — “No, they're not.”</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <span class="enonly">The server has Lauren's keys.</span><span class="zhonly" lang="zh-CN">钥匙在服务员那里。</span>
+      <div class="opts mk" data-q="ex07_2" data-a="T">
+        <label><input type="radio" name="ex07_2" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex07_2" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex07_2">True — “Yes, they are. Thank you!”</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <span class="enonly">The wallet is Lauren's.</span><span class="zhonly" lang="zh-CN">那个钱包是劳伦的。</span>
+      <div class="opts mk" data-q="ex07_3" data-a="F">
+        <label><input type="radio" name="ex07_3" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex07_3" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex07_3">False — it is Matt's</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">
+      <span class="enonly">Matt thinks his wallet is in his pocket, but it is not.</span>
+      <span class="zhonly" lang="zh-CN">马特以为钱包在自己口袋里，其实不在。</span>
+      <div class="opts mk" data-q="ex07_4" data-a="T">
+        <label><input type="radio" name="ex07_4" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex07_4" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex07_4">True — “Wait a minute! That <i>is</i> my wallet!”</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 8 ---------------- -->
+<section class="ex" data-sec="Ex 8">
+  <div class="exhead"><span class="num">08</span>
+    <p class="rubric">
+      <span class="enonly">GRAMMAR FOCUS — Yes/No and <i>where</i> questions with <i>be</i></span>
+      <span class="zhonly" lang="zh-CN">语法重点 — be 动词的一般疑问句和 where 疑问句</span>
+      <span class="pagetag">p. 11</span>
+    </p></div>
+
+  {{AUDIO:p011-ex08-grammar-focus.mp3|Track 25}}
+
+  <div class="gbox">
+    <h4>Yes/No and <i>where</i> questions with <i>be</i></h4>
+    <div class="gin">
+      <table class="gtab">
+        <tr><td><b>Is this</b> your wallet?</td><td class="r"><b>Where's</b> your wallet? — <b>It's</b> in my pocket.</td></tr>
+        <tr><td>Yes, <b>it is</b>. / No, <b>it's not</b>.</td><td class="r"><b>Where are</b> my keys? — <b>They're</b> on the table.</td></tr>
+        <tr><td><b>Are these</b> your keys?</td><td class="r"></td></tr>
+        <tr><td>Yes, <b>they are</b>. / No, <b>they're not</b>.</td><td class="r"></td></tr>
+      </table>
+      <p class="zhonly" lang="zh-CN" style="margin:10px 0 0; color:var(--ink-2)">
+        <b>一、提问要把 be 提到最前面。</b>中文加「吗」语序不变，英语要说 <b>Is this</b> your wallet?<br>
+        <b>二、where 后面也要跟 be。</b>说 <b>Where is</b> my credit card?，不能说 <span class="xout">Where my credit card is?</span><br>
+        <b>三、肯定的简短回答不缩写：</b>Yes, <b>it is</b>.（不说 <span class="xout">Yes, it's.</span>）否定可以：No, it's not.
+      </p>
+    </div>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly"><b>A</b> Complete these conversations.</span>
+    <span class="zhonly" lang="zh-CN"><b>A</b> 完成下面四段对话。</span></p>
+
+  <p class="stage">1.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say"><span class="given">Is</span> this your cell phone?
+      <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">No,
+      <select data-q="ex08_1" data-a="it's"><option value=""></option><option>it's</option><option>it is</option><option>they're</option></select> not.
+      <span class="ans" data-for="ex08_1">it's</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">
+      <select data-q="ex08_2" data-a="Are"><option value=""></option><option>Is</option><option>Are</option><option>Am</option></select> these your car keys?
+      <span class="ans" data-for="ex08_2">Are</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">Yes,
+      <select data-q="ex08_3" data-a="they"><option value=""></option><option>it</option><option>they</option><option>these</option></select> are. Thanks!
+      <span class="ans" data-for="ex08_3">they</span></span></p>
+  </div>
+
+  <p class="stage">2.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">Where
+      <select data-q="ex08_4" data-a="are"><option value=""></option><option>is</option><option>are</option><option>am</option></select> my glasses?
+      <span class="ans" data-for="ex08_4">are</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="ex08_5" data-a="Are"><option value=""></option><option>Is</option><option>Are</option><option>Am</option></select> these your glasses?
+      <span class="ans" data-for="ex08_5">Are</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">No, they're
+      <select data-q="ex08_6" data-a="not"><option value=""></option><option>not</option><option>no</option><option>don't</option></select>.
+      <span class="ans" data-for="ex08_6">not</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">Look!
+      <select data-q="ex08_7" data-a="Are"><option value=""></option><option>Is</option><option>Are</option><option>Where</option></select> they in your pocket?
+      <span class="ans" data-for="ex08_7">Are</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">Yes,
+      <select class="wide" data-q="ex08_8" data-a="they are"><option value=""></option><option>they are</option><option>they're</option><option>it is</option></select>. Thanks!
+      <span class="ans" data-for="ex08_8">they are</span></span></p>
+  </div>
+
+  <p class="stage">3.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">Where
+      <select data-q="ex08_9" data-a="are"><option value=""></option><option>is</option><option>are</option><option>am</option></select> your headphones?
+      <span class="ans" data-for="ex08_9">are</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="ex08_10" data-a="They're"><option value=""></option><option>It's</option><option>They're</option><option>These</option></select> on the table.
+      <span class="ans" data-for="ex08_10">They're</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">No,
+      <select data-q="ex08_11" data-a="they're"><option value=""></option><option>it's</option><option>they're</option><option>they</option></select> not. They're <i>my</i> headphones!
+      <span class="ans" data-for="ex08_11">they're</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">You're right. My headphones
+      <select data-q="ex08_12" data-a="are"><option value=""></option><option>is</option><option>are</option><option>am</option></select> in my backpack.
+      <span class="ans" data-for="ex08_12">are</span></span></p>
+  </div>
+
+  <p class="stage">4.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">
+      <select data-q="ex08_13" data-a="Is"><option value=""></option><option>Is</option><option>Are</option><option>Am</option></select> this my umbrella?
+      <span class="ans" data-for="ex08_13">Is</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">No,
+      <select data-q="ex08_14" data-a="it's"><option value=""></option><option>it's</option><option>they're</option><option>it</option></select> not. It's <i>my</i> umbrella.
+      <span class="ans" data-for="ex08_14">it's</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">Sorry.
+      <select data-q="ex08_15" data-a="Where"><option value=""></option><option>Where</option><option>What</option><option>Who</option></select> is my umbrella?
+      <span class="ans" data-for="ex08_15">Where</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="ex08_16" data-a="It's"><option value=""></option><option>It's</option><option>They're</option><option>Is</option></select> on your chair.
+      <span class="ans" data-for="ex08_16">It's</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">Oh, you're right!</span></p>
+  </div>
+
+  <details class="script zhonly">
+    <summary lang="zh-CN">中文对照（填好以后再看）</summary>
+    <div class="sin" lang="zh-CN">
+      <p class="stage">1.</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">这是你的手机吗？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">不是。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">这是你的车钥匙吗？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">是的，谢谢！</span></p>
+      </div>
+      <p class="stage">2.</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">我的眼镜在哪儿？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">这副是你的眼镜吗？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">不是。</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">你看！是不是在你口袋里？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">对，是的。谢谢！</span></p>
+      </div>
+      <p class="stage">3.</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">你的耳机在哪儿？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">在桌子上。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">不对，那是我的耳机！</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">你说得对。我的耳机在我背包里。</span></p>
+      </div>
+      <p class="stage">4.</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">这把伞是我的吗？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">不是，这是我的伞。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">抱歉。那我的伞在哪儿？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">在你椅子上。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">哦，你说得对！</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ---------------- Ex 9 ---------------- -->
+<section class="ex" data-sec="Ex 9">
+  <div class="exhead"><span class="num">09</span>
+    <p class="rubric">
+      <span class="enonly">WORD POWER — Prepositions; the article <i>the</i>. Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">词汇 —《方位介词；定冠词 the》。先听录音跟读。</span>
+      <span class="pagetag">p. 12</span>
+    </p></div>
+
+  {{AUDIO:p012-ex09-word-power-a.mp3|Track 26}}
+
+  <div class="tip">
+    <p class="enonly">Where is <b>the</b> cell phone? — <b>The</b> cell phone is in <b>the</b> box.</p>
+    <p class="zhonly" lang="zh-CN">Where is <b>the</b> cell phone? — <b>The</b> cell phone is in <b>the</b> box.<br>
+      双方都知道是哪一个的时候，用 <b>the</b>。中文没有这个词，所以很容易漏掉。</p>
+  </div>
+
+  <div class="solo">{{IMG:ex09-prep1|A phone in a box and a phone in front of a box}}</div>
+  <div class="solo">{{IMG:ex09-prep2|A phone behind, on, next to and under a box}}</div>
+
+  <p class="rubric">
+    <span class="enonly"><b>B</b> Complete these sentences. Then listen and check.</span>
+    <span class="zhonly" lang="zh-CN"><b>B</b> 补全句子，然后听录音核对。</span></p>
+  <div class="solo">{{IMG:ex09b-row1|Books in a backpack, flash drives beside a laptop, a newspaper on a tablet}}</div>
+  <div class="solo">{{IMG:ex09b-row2|A chair and a desk, a wallet on a notebook, glasses and a television}}</div>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">The books are <span class="given">in the</span> backpack.
+      <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">The flash drives are
+      <select class="wide" data-q="ex09_2" data-a="next to"><option value=""></option><option>in</option><option>on</option><option>under</option><option>behind</option><option>next to</option><option>in front of</option></select> the laptop.
+      <span class="ans" data-for="ex09_2">next to</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">The newspaper is
+      <select class="wide" data-q="ex09_3" data-a="on"><option value=""></option><option>in</option><option>on</option><option>under</option><option>behind</option><option>next to</option><option>in front of</option></select> the tablet.
+      <span class="ans" data-for="ex09_3">on</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">The chair is
+      <select class="wide" data-q="ex09_4" data-a="behind"><option value=""></option><option>in</option><option>on</option><option>under</option><option>behind</option><option>next to</option><option>in front of</option></select> the desk.
+      <span class="ans" data-for="ex09_4">behind</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">The wallet is
+      <select class="wide" data-q="ex09_5" data-a="on"><option value=""></option><option>in</option><option>on</option><option>under</option><option>behind</option><option>next to</option><option>in front of</option></select> the notebook.
+      <span class="ans" data-for="ex09_5">on</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">The glasses are
+      <select class="wide" data-q="ex09_6" data-a="in front of"><option value=""></option><option>in</option><option>on</option><option>under</option><option>behind</option><option>next to</option><option>in front of</option></select> the television.
+      <span class="ans" data-for="ex09_6">in front of</span></span></li>
+  </ul>
+  {{AUDIO:p012-ex09-word-power-b.mp3|Track 27}}
+</section>
+
+<!-- ---------------- Ex 10 ---------------- -->
+<section class="ex" data-sec="Ex 10">
+  <div class="exhead"><span class="num">10</span>
+    <p class="rubric">
+      <span class="enonly">LISTENING — Emily's things. Where are they? Listen and choose.</span>
+      <span class="zhonly" lang="zh-CN">听力 —《艾米丽的东西》。它们在哪儿？听录音，选出正确的位置。</span>
+      <span class="pagetag">p. 12</span>
+    </p></div>
+
+  {{AUDIO:p012-ex10-listening.mp3|Track 28}}
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">sunglasses
+      <div class="opts mk" data-q="ex10_1" data-a="B">
+        <label><input type="radio" name="ex10_1" value="A"> <span>on the table</span></label>
+        <label><input type="radio" name="ex10_1" value="B"> <span>in her purse</span></label></div>
+      <span class="ans" data-for="ex10_1">in her purse</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">ID
+      <div class="opts mk" data-q="ex10_2" data-a="B">
+        <label><input type="radio" name="ex10_2" value="A"> <span>in her wallet</span></label>
+        <label><input type="radio" name="ex10_2" value="B"> <span>in front of the clock</span></label></div>
+      <span class="ans" data-for="ex10_2">in front of the clock</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">headphones
+      <div class="opts mk" data-q="ex10_3" data-a="A">
+        <label><input type="radio" name="ex10_3" value="A"> <span>on the chair</span></label>
+        <label><input type="radio" name="ex10_3" value="B"> <span>next to the television</span></label></div>
+      <span class="ans" data-for="ex10_3">on the chair</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">tablet
+      <div class="opts mk" data-q="ex10_4" data-a="B">
+        <label><input type="radio" name="ex10_4" value="A"> <span>on the table</span></label>
+        <label><input type="radio" name="ex10_4" value="B"> <span>under the table</span></label></div>
+      <span class="ans" data-for="ex10_4">under the table</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 11 ---------------- -->
+<section class="ex" data-sec="Ex 11">
+  <div class="exhead"><span class="num">11</span>
+    <p class="rubric">
+      <span class="enonly">SPEAKING — Where are Kevin's things? Ask and answer with a partner.</span>
+      <span class="zhonly" lang="zh-CN">口语 —《凯文的东西在哪儿？》两人一组，一问一答。</span>
+      <span class="pagetag">p. 13</span>
+    </p></div>
+
+  <div class="bank">
+    <span>cell phone</span><span>hairbrush</span><span>laptop</span><span>umbrella</span>
+    <span>glasses</span><span>keys</span><span>tablet</span><span>credit card</span>
+  </div>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">Where's his cell phone?<span class="zhline" lang="zh-CN">他的手机在哪儿？</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">It's under the chair.<span class="zhline" lang="zh-CN">在椅子下面。</span></span></p>
+  </div>
+  <div class="solo">{{IMG:ex11-room|Kevin's messy living room with his things scattered around}}</div>
+  <textarea data-q="ex11_notes" rows="3" placeholder="Where are the other things? …"></textarea>
+  <p class="note enonly">(Speaking — not marked. Use <i>Where's …?</i> for one thing and <i>Where are …?</i> for more than one.)</p>
+  <p class="note zhonly" lang="zh-CN">（口语练习，不计分。一样东西用 <i>Where's …?</i>，多样东西用 <i>Where are …?</i>）</p>
+</section>
+
+<!-- ---------------- Ex 12 ---------------- -->
+<section class="ex" data-sec="Ex 12">
+  <div class="exhead"><span class="num">12</span>
+    <p class="rubric">
+      <span class="enonly">INTERCHANGE 2 — Find the differences. Compare two pictures of a room. Go to Interchange 2 on page 115 of the Student's Book.</span>
+      <span class="zhonly" lang="zh-CN">交际活动 2 —《找不同》。比较两张房间的图片。见课本第 115 页 Interchange 2。</span>
+      <span class="pagetag">p. 13</span>
+    </p></div>
+  <p class="note enonly">This is a class activity in the book — nothing to mark here.</p>
+  <p class="note zhonly" lang="zh-CN">这是课本上的课堂活动，本页不计分。</p>
+</section>
+
+<!-- ==================== GRAMMAR PLUS ==================== -->
+<div class="band">Grammar plus &middot; p. 133</div>
+
+<section class="ex" data-sec="GP 1">
+  <div class="exhead"><span class="num blue">GP1</span>
+    <p class="rubric">
+      <span class="enonly"><i>This/these</i>; <i>it/they</i>; plurals — choose the correct words.</span>
+      <span class="zhonly" lang="zh-CN">《this/these；it/they；复数》— 选出正确的词。</span>
+      <span class="pagetag">p. 133</span>
+    </p></div>
+
+  <div class="tip">
+    <p class="enonly">Don't use a contraction with <i>What</i> + <i>are</i>: <b>What are</b> these? <span class="xout">What're these?</span></p>
+    <p class="zhonly" lang="zh-CN"><i>What</i> + <i>are</i> 不能缩写：<b>What are</b> these?（不能说 <span class="xout">What're these?</span>）</p>
+    <p class="enonly">Use <i>this</i> with singular nouns and <i>these</i> with plural nouns.</p>
+    <p class="zhonly" lang="zh-CN">单数用 <i>this</i>，复数用 <i>these</i>。</p>
+  </div>
+
+  <p class="stage">1.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say"><span class="given">What are</span> these?
+      <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="gp1_1" data-a="They're"><option value=""></option><option>It's</option><option>They're</option></select> my
+      <select class="wide" data-q="gp1_2" data-a="flash drives"><option value=""></option><option>flash drive</option><option>flash drives</option></select>.
+      <span class="ans" data-for="gp1_1">They're</span><span class="ans" data-for="gp1_2">flash drives</span></span></p>
+  </div>
+
+  <p class="stage">2.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">
+      <select class="wide" data-q="gp1_3" data-a="What's"><option value=""></option><option>What's</option><option>What are</option></select> this?
+      <span class="ans" data-for="gp1_3">What's</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="gp1_4" data-a="It's"><option value=""></option><option>It's</option><option>They're</option></select>
+      <select data-q="gp1_5" data-a="a"><option value=""></option><option>a</option><option>an</option></select> cell phone.
+      <span class="ans" data-for="gp1_4">It's</span><span class="ans" data-for="gp1_5">a</span></span></p>
+  </div>
+
+  <p class="stage">3.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">What's
+      <select data-q="gp1_6" data-a="this"><option value=""></option><option>this</option><option>these</option></select>?
+      <span class="ans" data-for="gp1_6">this</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="gp1_7" data-a="It's"><option value=""></option><option>It's</option><option>They're</option></select>
+      <select data-q="gp1_8" data-a="an"><option value=""></option><option>a</option><option>an</option></select> English book.
+      <span class="ans" data-for="gp1_7">It's</span><span class="ans" data-for="gp1_8">an</span></span></p>
+  </div>
+
+  <details class="script zhonly">
+    <summary lang="zh-CN">中文对照（填好以后再看）</summary>
+    <div class="sin" lang="zh-CN">
+      <div class="dlg">
+        <p class="dl"><b class="who">1 A</b><span class="say">这些是什么？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">是我的 U 盘。</span></p>
+        <p class="dl"><b class="who">2 A</b><span class="say">这是什么？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">是一部手机。</span></p>
+        <p class="dl"><b class="who">3 A</b><span class="say">这是什么？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">是一本英语书。</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+<section class="ex" data-sec="GP 2">
+  <div class="exhead"><span class="num blue">GP2</span>
+    <p class="rubric">
+      <span class="enonly">Yes/No and <i>where</i> questions with <i>be</i></span>
+      <span class="zhonly" lang="zh-CN">be 动词的一般疑问句和 where 疑问句</span>
+      <span class="pagetag">p. 133</span>
+    </p></div>
+
+  <div class="tip">
+    <p class="enonly">In questions with <i>where</i>, the verb comes after <i>Where</i>: <b>Where is</b> my credit card? <span class="xout">Where my credit card is?</span></p>
+    <p class="zhonly" lang="zh-CN">where 疑问句里，动词紧跟在 <i>Where</i> 后面：<b>Where is</b> my credit card?（不能说 <span class="xout">Where my credit card is?</span>）</p>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly"><b>A</b> Match the questions with the answers.</span>
+    <span class="zhonly" lang="zh-CN"><b>A</b> 把问句和答句配对。</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">Is that your wallet? — <span class="given">c. Oh, yes, it is!</span>
+      <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">Are these your glasses? —
+      <select class="wide" data-q="gp2_1" data-a="e. No, they're not."><option value=""></option><option>a. They're in your backpack.</option><option>b. No, it's not.</option><option>d. It's on my desk.</option><option>e. No, they're not.</option></select>
+      <span class="ans" data-for="gp2_1">e. No, they're not.</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">Where are my keys? —
+      <select class="wide" data-q="gp2_2" data-a="a. They're in your backpack."><option value=""></option><option>a. They're in your backpack.</option><option>b. No, it's not.</option><option>d. It's on my desk.</option><option>e. No, they're not.</option></select>
+      <span class="ans" data-for="gp2_2">a. They're in your backpack.</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">Is this your bicycle? —
+      <select class="wide" data-q="gp2_3" data-a="b. No, it's not."><option value=""></option><option>a. They're in your backpack.</option><option>b. No, it's not.</option><option>d. It's on my desk.</option><option>e. No, they're not.</option></select>
+      <span class="ans" data-for="gp2_3">b. No, it's not.</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">Where's your tablet? —
+      <select class="wide" data-q="gp2_4" data-a="d. It's on my desk."><option value=""></option><option>a. They're in your backpack.</option><option>b. No, it's not.</option><option>d. It's on my desk.</option><option>e. No, they're not.</option></select>
+      <span class="ans" data-for="gp2_4">d. It's on my desk.</span></span></li>
+  </ul>
+
+  <p class="rubric" style="margin-top:16px">
+    <span class="enonly"><b>B</b> Complete the conversation. Use each word in the box once.</span>
+    <span class="zhonly" lang="zh-CN"><b>B</b> 用方框里的词完成对话，每个词只用一次。</span></p>
+  <div class="bank">
+    <span>are they</span><span>it is</span><span>they are</span><span>where</span>
+    <span>it</span><span>it's</span><span>this</span><span class="ex-given">✓ where's</span>
+  </div>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say"><span class="given">Where's</span> my dictionary?
+      <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">I don't know. Is
+      <select data-q="gp2_5" data-a="it"><option value=""></option><option>it</option><option>it's</option><option>this</option><option>where</option><option>it is</option><option>they are</option><option>are they</option></select> in your backpack?
+      <span class="ans" data-for="gp2_5">it</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">No,
+      <select data-q="gp2_6" data-a="it's"><option value=""></option><option>it</option><option>it's</option><option>this</option><option>where</option><option>it is</option><option>they are</option><option>are they</option></select> not.
+      <span class="ans" data-for="gp2_6">it's</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">Is
+      <select data-q="gp2_7" data-a="this"><option value=""></option><option>it</option><option>it's</option><option>this</option><option>where</option><option>it is</option><option>they are</option><option>are they</option></select> your dictionary?
+      <span class="ans" data-for="gp2_7">this</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">Yes,
+      <select class="wide" data-q="gp2_8" data-a="it is"><option value=""></option><option>it</option><option>it's</option><option>this</option><option>where</option><option>it is</option><option>they are</option><option>are they</option></select> Thanks! Now,
+      <select data-q="gp2_9" data-a="where"><option value=""></option><option>it</option><option>it's</option><option>this</option><option>where</option><option>it is</option><option>they are</option><option>are they</option></select> are my glasses?
+      <span class="ans" data-for="gp2_8">it is</span><span class="ans" data-for="gp2_9">where</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select class="wide" data-q="gp2_10" data-a="Are they"><option value=""></option><option>It</option><option>It's</option><option>This</option><option>Where</option><option>It is</option><option>They are</option><option>Are they</option></select> on your desk?
+      <span class="ans" data-for="gp2_10">Are they</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">Yes,
+      <select class="wide" data-q="gp2_11" data-a="they are"><option value=""></option><option>it</option><option>it's</option><option>this</option><option>where</option><option>it is</option><option>they are</option><option>are they</option></select>. Thank you!
+      <span class="ans" data-for="gp2_11">they are</span></span></p>
+  </div>
+
+  <details class="script zhonly">
+    <summary lang="zh-CN">中文对照（填好以后再看）</summary>
+    <div class="sin" lang="zh-CN">
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">我的词典在哪儿？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">我不知道。在你背包里吗？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">不在。</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">这本是你的词典吗？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">是的，谢谢！那我的眼镜在哪儿？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">在你书桌上吗？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">对，在。谢谢你！</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+</main>
+
+<script>
+(function(){
+"use strict";
+var SKEY = "gm_interchange_intro_u2_v1";
+var body = document.body;
+
+function ctrls(){ return Array.prototype.slice.call(document.querySelectorAll("[data-q]")); }
+function isGroup(el){ return el.tagName === "DIV"; }
+function visible(el){ return !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length); }
+
+function getVal(el){
+  if (!isGroup(el)) return el.value;
+  var ins = el.querySelectorAll("input");
+  for (var j=0;j<ins.length;j++) if (ins[j].checked) return ins[j].value;
+  return "";
+}
+function setVal(el, val){
+  if (!isGroup(el)){ el.value = val; return; }
+  var ins = el.querySelectorAll("input");
+  for (var i=0;i<ins.length;i++) ins[i].checked = (ins[i].value === String(val||""));
+}
+function norm(s){
+  return String(s||"").toLowerCase().replace(/[’']/g,"'").replace(/\s+/g," ").replace(/\.$/,"").trim();
+}
+function grade(el){
+  var a = el.getAttribute("data-a");
+  if (a === null || a === "") return null;
+  var val = getVal(el);
+  if (val === "") return false;
+  var accept = a.split("|");
+  for (var i=0;i<accept.length;i++) if (norm(accept[i]) === norm(val)) return true;
+  return false;
+}
+
+var LKEY = SKEY + "_lang";
+function setLevel(lv, save){
+  var zh = (lv === "zh");
+  body.classList.toggle("lvl-zh", zh);
+  document.getElementById("lvEN").classList.toggle("on", !zh);
+  document.getElementById("lvZH").classList.toggle("on", zh);
+  document.documentElement.setAttribute("lang", zh ? "zh-CN" : "en");
+  var opts = document.querySelectorAll("option[data-zh]");
+  for (var i=0;i<opts.length;i++){
+    var o = opts[i];
+    if (!o.getAttribute("data-en")) o.setAttribute("data-en", o.innerHTML);
+    o.innerHTML = zh ? o.getAttribute("data-zh") : o.getAttribute("data-en");
+  }
+  if (save !== false){ try { localStorage.setItem(LKEY, lv); } catch(e){} }
+}
+document.getElementById("lvEN").addEventListener("click", function(){ switchLevel("en"); });
+document.getElementById("lvZH").addEventListener("click", function(){ switchLevel("zh"); });
+function switchLevel(lv){
+  if ((lv === "zh") === body.classList.contains("lvl-zh")) return;
+  setLevel(lv, true);
+}
+try { setLevel(localStorage.getItem(LKEY) === "zh" ? "zh" : "en", false); } catch(e){ setLevel("en", false); }
+
+function collect(){
+  var o = {};
+  ctrls().forEach(function(el){ o[el.getAttribute("data-q")] = getVal(el); });
+  return o;
+}
+function restore(o){
+  if (!o) return;
+  ctrls().forEach(function(el){
+    var q = el.getAttribute("data-q");
+    if (Object.prototype.hasOwnProperty.call(o, q)) setVal(el, o[q]);
+  });
+}
+var t = null;
+function save(){
+  clearTimeout(t);
+  t = setTimeout(function(){
+    try { localStorage.setItem(SKEY, JSON.stringify(collect())); } catch(e){}
+  }, 350);
+}
+try { restore(JSON.parse(localStorage.getItem(SKEY) || "null")); } catch(e){}
+document.addEventListener("input", save);
+document.addEventListener("change", save);
+
+function clearMarks(){
+  var m = document.querySelectorAll(".ok,.bad");
+  for (var i=0;i<m.length;i++){ m[i].classList.remove("ok"); m[i].classList.remove("bad"); }
+  var s = document.querySelectorAll(".sec-score");
+  for (var j=0;j<s.length;j++) s[j].parentNode.removeChild(s[j]);
+}
+function check(){
+  clearMarks();
+  var total = 0, right = 0;
+  var secs = document.querySelectorAll("section.ex");
+  for (var i=0;i<secs.length;i++){
+    var sec = secs[i], st = 0, sr = 0;
+    if (!visible(sec)) continue;
+    var els = sec.querySelectorAll("[data-q]");
+    for (var j=0;j<els.length;j++){
+      var el = els[j];
+      if (!visible(el)) continue;
+      var g = grade(el);
+      if (g === null) continue;
+      st++;
+      el.classList.add(g ? "ok" : "bad");
+      if (g) sr++;
+    }
+    if (st){
+      var tag = document.createElement("span");
+      tag.className = "sec-score";
+      tag.textContent = sr + " / " + st;
+      sec.querySelector(".exhead").appendChild(tag);
+      total += st; right += sr;
+    }
+  }
+  var sc = document.getElementById("score");
+  var pct = total ? Math.round(right * 100 / total) : 0;
+  sc.innerHTML = "<b>" + right + " / " + total + "</b> &nbsp;" + pct + "%";
+  sc.style.background = pct >= 80 ? "#e8f6ee" : (pct >= 50 ? "#fff6e5" : "#fdeceb");
+  return { right: right, total: total };
+}
+window.__check = check;
+
+document.getElementById("btnCheck").addEventListener("click", function(){ check(); });
+document.getElementById("btnReveal").addEventListener("click", function(){
+  body.classList.toggle("reveal");
+  this.textContent = body.classList.contains("reveal") ? "Hide answers" : "Show answers";
+});
+document.getElementById("btnBig").addEventListener("click", function(){
+  body.classList.toggle("big");
+  this.textContent = body.classList.contains("big") ? "Normal text" : "Large text";
+});
+document.getElementById("btnClear").addEventListener("click", function(){
+  if (!window.confirm("Clear every answer on this page?")) return;
+  ctrls().forEach(function(el){ setVal(el, ""); });
+  clearMarks();
+  var sc = document.getElementById("score");
+  sc.textContent = "Not checked yet";
+  sc.style.background = "#eef1f5";
+  save();
+});
+document.getElementById("btnSave").addEventListener("click", function(){
+  var blob = new Blob([JSON.stringify({ unit: "interchange-intro-u2", answers: collect() }, null, 2)],
+    { type: "application/json" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "interchange-intro-unit-02-answers.json";
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
+});
+document.getElementById("btnLoad").addEventListener("click", function(){
+  var inp = document.createElement("input");
+  inp.type = "file"; inp.accept = "application/json,.json";
+  inp.addEventListener("change", function(){
+    var f = inp.files && inp.files[0];
+    if (!f) return;
+    var r = new FileReader();
+    r.onload = function(){
+      try {
+        var data = JSON.parse(r.result);
+        restore(data && data.answers ? data.answers : data);
+        save();
+        clearMarks();
+      } catch(e){ window.alert("That file could not be read."); }
+    };
+    r.readAsText(f);
+  });
+  inp.click();
+});
+})();
+</script>
+</body>
+</html>

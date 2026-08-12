@@ -1,0 +1,12 @@
+{
+  "number": 9,
+  "titleEn": "I always eat breakfast.",
+  "titleZh": "我总是吃早饭。",
+  "pages": "58–63",
+  "goals": [
+    { "en": "food and food groups", "zh": "食物和食物分类" },
+    { "en": "count and noncount nouns; <i>some</i> and <i>any</i>", "zh": "可数与不可数名词；some 和 any" },
+    { "en": "describe eating habits", "zh": "描述饮食习惯" },
+    { "en": "adverbs of frequency", "zh": "频度副词" }
+  ]
+}

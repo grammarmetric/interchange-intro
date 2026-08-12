@@ -1,0 +1,42 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 4 (Student's Book pp. 22-27).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "This unit carries irLanguage.com four times. Three sit in margins and are",
+    "simply avoided; the one printed across the Ex 8 illustration is painted out",
+    "because the picture is the exercise."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 04.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" },
+    { "page": 1, "x": 848, "y": 274, "w": 195, "h": 36, "note": "irLanguage.com in the unit banner" },
+    { "page": 2, "x": 928, "y": 632, "w": 156, "h": 124, "note": "irLanguage.com stamp beside Ex 3" },
+    { "page": 5, "x": 866, "y": 164, "w": 190, "h": 38, "note": "irLanguage.com in the Ex 9 Grammar Focus header" }
+  ],
+
+  "patch": [
+    { "page": 4, "x": 592, "y": 1386, "w": 250, "h": 38, "note": "irLanguage.com across the Ex 8 snow illustration" }
+  ],
+
+  "crops": [
+    { "id": "ex01-clothes",  "page": 1, "book": 22, "x": 148, "y": 415, "w": 940, "h": 745, "note": "Ex 1A - clothes for work and clothes for free time" },
+
+    { "id": "ex02-colors",   "page": 2, "book": 23, "x": 165, "y": 205, "w": 910, "h": 352, "note": "Ex 2A - the colour swatches and the colour wheel" },
+    { "id": "ex04-picture",  "page": 2, "book": 23, "x": 555, "y": 930, "w": 520, "h": 480, "note": "Ex 4 - Ashley and her room-mate in the laundry" },
+
+    { "id": "ex06-people",   "page": 3, "book": 24, "x": 155, "y": 1040, "w": 930, "h": 300, "note": "Ex 6A - the six people to number" },
+
+    { "id": "ex07-snapshot", "page": 4, "book": 25, "x": 165, "y": 200, "w": 920, "h": 570, "note": "Ex 7 Snapshot - weather and seasons around the world" },
+    { "id": "ex08-picture",  "page": 4, "book": 25, "x": 570, "y": 930, "w": 510, "h": 530, "note": "Ex 8 - Ashley and Jessica in the snow (watermark patched out)" },
+
+    { "id": "ex09-pic1",     "page": 5, "book": 26, "x": 148, "y": 480, "w": 460, "h": 340, "note": "Ex 9A picture 1 - Dylan Jones in the rain" },
+    { "id": "ex09-pic2",     "page": 5, "book": 26, "x": 615, "y": 480, "w": 465, "h": 340, "note": "Ex 9A picture 2 - Michael at the beach" },
+    { "id": "ex09-pic3",     "page": 5, "book": 26, "x": 148, "y": 950, "w": 460, "h": 340, "note": "Ex 9A picture 3 - Adriana Fuentes in the wind" },
+    { "id": "ex09-pic4",     "page": 5, "book": 26, "x": 615, "y": 950, "w": 465, "h": 340, "note": "Ex 9A picture 4 - Hee-sun and Kun-woo in the snow" },
+
+    { "id": "ex10-picture",  "page": 6, "book": 27, "x": 590, "y": 800, "w": 490, "h": 520, "note": "Ex 10 - the party, with name boxes" }
+  ]
+}

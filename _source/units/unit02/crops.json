@@ -1,0 +1,44 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 2 (Student's Book pp. 8-13).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "'page' is the 1-based page of the per-unit PDF; 'book' is the printed page.",
+    "Speech bubbles are kept: in a worksheet the printed dialogue is the",
+    "exercise, not the answer.",
+    "Object rows are cropped as strips rather than one file per object - fewer,",
+    "steadier rectangles, and the exercises refer to them as a set anyway."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 02.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" },
+    { "page": 1, "x": 870, "y": 278, "w": 190, "h": 38, "note": "Persian stamp in the unit banner" }
+  ],
+
+  "patch": [
+    { "page": 5, "x": 850, "y": 848, "w": 168, "h": 44, "note": "Persian stamp printed over the television in Ex 9B item 6" }
+  ],
+
+  "crops": [
+    { "id": "ex01-snapshot",  "page": 1, "book": 8,  "x": 152, "y": 440,  "w": 940, "h": 360, "note": "Ex 1 Snapshot - What's in your bag?" },
+
+    { "id": "ex03-picture",   "page": 2, "book": 9,  "x": 632, "y": 178,  "w": 445, "h": 425, "note": "Ex 3 - Brandon and Christina in the shop" },
+    { "id": "ex04-row1",      "page": 2, "book": 9,  "x": 160, "y": 895,  "w": 900, "h": 178, "note": "Ex 4B objects, row 1 - phone case, student ID, paper clip, newspaper, purse" },
+    { "id": "ex04-row2",      "page": 2, "book": 9,  "x": 215, "y": 1072, "w": 880, "h": 200, "note": "Ex 4B objects, row 2 - tablet, television, ticket, box" },
+
+    { "id": "ex05-row1",      "page": 3, "book": 10, "x": 160, "y": 565,  "w": 900, "h": 162, "note": "Ex 5 objects 1-3 - keys, backpacks, umbrella" },
+    { "id": "ex05-row2",      "page": 3, "book": 10, "x": 160, "y": 785,  "w": 900, "h": 162, "note": "Ex 5 objects 4-6 - sunglasses, wallet, window" },
+    { "id": "ex06-things",    "page": 3, "book": 10, "x": 165, "y": 1095, "w": 790, "h": 168, "note": "Ex 6 - credit card and headphones" },
+
+    { "id": "ex07-picture",   "page": 4, "book": 11, "x": 665, "y": 175,  "w": 415, "h": 450, "note": "Ex 7 - Lauren, Matt and the server outside the pizza place" },
+
+    { "id": "ex09-prep1",     "page": 5, "book": 12, "x": 450, "y": 180,  "w": 625, "h": 158, "note": "Ex 9A - in, in front of" },
+    { "id": "ex09-prep2",     "page": 5, "book": 12, "x": 148, "y": 340,  "w": 930, "h": 168, "note": "Ex 9A - behind, on, next to, under" },
+    { "id": "ex09b-row1",     "page": 5, "book": 12, "x": 160, "y": 565,  "w": 915, "h": 182, "note": "Ex 9B pictures 1-3 - backpack, laptop, newspaper" },
+    { "id": "ex09b-row2",     "page": 5, "book": 12, "x": 160, "y": 835,  "w": 915, "h": 188, "note": "Ex 9B pictures 4-6 - desk, notebook, television (stamp patched out)" },
+
+    { "id": "ex11-room",      "page": 6, "book": 13, "x": 152, "y": 340,  "w": 930, "h": 985, "note": "Ex 11 - Kevin's room" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "number": 6,
+  "titleEn": "I ride my bike to school.",
+  "titleZh": "我骑车上学。",
+  "pages": "36–41",
+  "goals": [
+    { "en": "transportation and family members", "zh": "交通方式和家庭成员" },
+    { "en": "daily and weekly routines", "zh": "每天和每周的作息" },
+    { "en": "simple present statements, and the third-person <i>-s</i>", "zh": "一般现在时陈述句，第三人称单数 -s" },
+    { "en": "questions with <i>do</i> and <i>does</i>", "zh": "用 do / does 提问" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "number": 4,
+  "titleEn": "Is this coat yours?",
+  "titleZh": "这件外套是你的吗？",
+  "pages": "22–27",
+  "goals": [
+    { "en": "clothes for work and free time; colors", "zh": "上班和休闲的衣服；颜色" },
+    { "en": "the weather and what people are wearing", "zh": "天气，以及别人穿了什么" },
+    { "en": "possessive adjectives and pronouns", "zh": "物主形容词和物主代词" },
+    { "en": "present continuous", "zh": "现在进行时" }
+  ]
+}

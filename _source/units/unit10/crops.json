@@ -1,0 +1,37 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 10 (Student's Book pp. 64-69).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "www.irLanguage.com is printed across the middle of the Ex 12 reading, over",
+    "the Mohiniyattam dance photograph, so it is painted out."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 10.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" },
+    { "page": 1, "x": 872, "y": 258, "w": 190, "h": 40, "note": "Persian stamp in the unit banner" }
+  ],
+
+  "patch": [
+    { "page": 6, "x": 470, "y": 650, "w": 262, "h": 44, "note": "www.irLanguage.com across the Ex 12 reading" }
+  ],
+
+  "crops": [
+    { "id": "ex01-quiz",    "page": 1, "book": 64, "x": 148, "y": 380,  "w": 940, "h": 480, "note": "Ex 1 Snapshot - the sports quiz" },
+    { "id": "ex02-photo",   "page": 1, "book": 64, "x": 640, "y": 1010, "w": 440, "h": 440, "note": "Ex 2 - Victor with a basketball" },
+
+    { "id": "ex03-photos",  "page": 2, "book": 65, "x": 700, "y": 430,  "w": 380, "h": 850, "note": "Ex 3 - cyclists and a soccer game" },
+
+    { "id": "ex04-photo",   "page": 3, "book": 66, "x": 720, "y": 128,  "w": 360, "h": 262, "note": "Ex 4 - a flag football game" },
+    { "id": "ex06-photo",   "page": 3, "book": 66, "x": 660, "y": 1075, "w": 420, "h": 380, "note": "Ex 6 - Dylan at the piano with Becky" },
+
+    { "id": "ex07-photos",  "page": 4, "book": 67, "x": 148, "y": 470,  "w": 930, "h": 560, "note": "Ex 7A - six people and what they can and can't do" },
+
+    { "id": "ex09-photos",  "page": 5, "book": 68, "x": 148, "y": 225,  "w": 930, "h": 350, "note": "Ex 9 - eight abilities to listen for" },
+    { "id": "ex10-wordmap", "page": 5, "book": 68, "x": 148, "y": 690,  "w": 930, "h": 360, "note": "Ex 10 Word Power - the talents and abilities word map" },
+
+    { "id": "ex12-reading", "page": 6, "book": 69, "x": 148, "y": 210,  "w": 930, "h": 850, "note": "Ex 12 Reading - Awesome Sports Records (watermark patched out)" }
+  ]
+}

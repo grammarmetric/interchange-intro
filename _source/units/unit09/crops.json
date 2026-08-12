@@ -1,0 +1,34 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 9 (Student's Book pp. 58-63).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "The irLanguage.com logo is printed on top of the Ex 2 photograph, so it is",
+    "painted out rather than cropped around."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 09.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" }
+  ],
+
+  "patch": [
+    { "page": 2, "x": 714, "y": 176, "w": 136, "h": 126, "note": "irLanguage.com logo on the Ex 2 supermarket photograph" }
+  ],
+
+  "crops": [
+    { "id": "ex01-foods",     "page": 1, "book": 58, "x": 155, "y": 440, "w": 930, "h": 850, "note": "Ex 1 Word Power - the Good Food for Good Health plate" },
+
+    { "id": "ex02-photo",     "page": 2, "book": 59, "x": 715, "y": 175, "w": 365, "h": 300, "note": "Ex 2 - Keith and Jane shopping (logo patched out)" },
+
+    { "id": "ex04-foods",     "page": 3, "book": 60, "x": 148, "y": 385, "w": 930, "h": 340, "note": "Ex 4B - the vegetables and fruit, with the shopping basket" },
+    { "id": "ex05-breakfast", "page": 3, "book": 60, "x": 155, "y": 940, "w": 930, "h": 460, "note": "Ex 5 Snapshot - breakfast around the world" },
+
+    { "id": "ex06-photo",     "page": 4, "book": 61, "x": 630, "y": 205, "w": 450, "h": 320, "note": "Ex 6 - a Japanese family at breakfast" },
+
+    { "id": "ex08-photo",     "page": 5, "book": 62, "x": 635, "y": 165, "w": 445, "h": 500, "note": "Ex 8 - Devon and Victoria reading a menu" },
+
+    { "id": "ex11-reading",   "page": 6, "book": 63, "x": 155, "y": 205, "w": 930, "h": 960, "note": "Ex 11 Reading - It's a Food Festival!" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 7 (Student's Book pp. 44-49).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "irLanguage.com is printed across the Ex 12 reading, which the exercise",
+    "needs whole, so it is painted out. The logo on the Ex 6 photograph sits",
+    "outside every rectangle we take."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 07.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" },
+    { "page": 1, "x": 872, "y": 276, "w": 190, "h": 38, "note": "Persian stamp in the unit banner" },
+    { "page": 4, "x": 694, "y": 428, "w": 140, "h": 112, "note": "irLanguage.com logo on the Ex 6 photograph" }
+  ],
+
+  "patch": [
+    { "page": 6, "x": 740, "y": 918, "w": 316, "h": 40, "note": "www.irLanguage.com across the Ex 12 reading" }
+  ],
+
+  "crops": [
+    { "id": "ex01-home",      "page": 1, "book": 44, "x": 150, "y": 415, "w": 940, "h": 400, "note": "Ex 1 Snapshot - a house and an apartment building, rooms labelled" },
+    { "id": "ex02-picture",   "page": 1, "book": 44, "x": 580, "y": 958, "w": 500, "h": 480, "note": "Ex 2 - Julia and Ethan on the phone" },
+
+    { "id": "ex04-photos",    "page": 2, "book": 45, "x": 155, "y": 1152, "w": 930, "h": 292, "note": "Ex 4 - four homes to number" },
+
+    { "id": "ex05-furniture", "page": 3, "book": 46, "x": 148, "y": 200, "w": 930, "h": 1010, "note": "Ex 5 Word Power - furniture and appliances" },
+
+    { "id": "ex07-apartment", "page": 4, "book": 47, "x": 620, "y": 852, "w": 460, "h": 342, "note": "Ex 7A - the picture of Ann's apartment" },
+
+    { "id": "ex11-homes",     "page": 5, "book": 48, "x": 500, "y": 800, "w": 580, "h": 640, "note": "Ex 11 - four dream homes" },
+
+    { "id": "ex12-reading",   "page": 6, "book": 49, "x": 10,  "y": 210, "w": 1140, "h": 760, "note": "Ex 12 Reading - Unique Hotels (watermark patched out)" }
+  ]
+}

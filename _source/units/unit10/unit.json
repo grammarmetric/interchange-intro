@@ -1,0 +1,12 @@
+{
+  "number": 10,
+  "titleEn": "What sports do you like?",
+  "titleZh": "你喜欢什么运动？",
+  "pages": "64–69",
+  "goals": [
+    { "en": "sports to watch and play", "zh": "看的运动和玩的运动" },
+    { "en": "simple present Wh-questions", "zh": "一般现在时的特殊疑问句" },
+    { "en": "skills, abilities and talents", "zh": "技能、能力和特长" },
+    { "en": "<i>can</i> for ability", "zh": "表示能力的 can" }
+  ]
+}

@@ -1,0 +1,14 @@
+# Raw CD rips — the audio is already embedded in every unitNN.html as a data
+# URI, so the worksheets work without this folder. Re-create it from the discs
+# with: node _source/import-audio.mjs
+_source/audio/
+
+# Source PDFs and CDs are course material and are never committed.
+*.pdf
+*.mp3
+*.wav
+
+# Scratch
+*.log
+.DS_Store
+Thumbs.db

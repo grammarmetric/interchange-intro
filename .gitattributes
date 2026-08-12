@@ -1,0 +1,5 @@
+# The worksheets are single files holding megabytes of base64 on very long
+# lines. Don't let Git rewrite line endings or try to diff them as text.
+* -text
+*.html linguist-detectable=false
+_source/units/*/source.md linguist-generated=true

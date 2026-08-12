@@ -1,0 +1,12 @@
+{
+  "number": 3,
+  "titleEn": "Where are you from?",
+  "titleZh": "你是哪里人？",
+  "pages": "16–21",
+  "goals": [
+    { "en": "cities, countries, nationalities and languages", "zh": "城市、国家、国籍和语言" },
+    { "en": "describe appearance, personality and age", "zh": "描述长相、性格和年龄" },
+    { "en": "negative statements and yes/no questions with <i>be</i>", "zh": "be 动词的否定句和一般疑问句" },
+    { "en": "Wh-questions with <i>be</i>", "zh": "be 动词的特殊疑问句" }
+  ]
+}

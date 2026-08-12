@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<title>Interchange Intro — Unit 1: What's your name? (Interactive)</title>
+<style>
+:root{
+  --orange:#e8871e; --orange-d:#c26a0c; --ink:#1e2430; --ink-2:#4a5464; --ink-3:#7b8598;
+  --line:#e2e6ec; --bg:#f4f6f9; --card:#ffffff; --ok:#1a8a4a; --ok-bg:#e8f6ee;
+  --bad:#c62828; --bad-bg:#fdeceb; --hi:#fff6a8; --blue:#2f6fb0; --blue-bg:#eef4fb;
+  --shadow:0 1px 2px rgba(20,30,50,.06),0 4px 16px rgba(20,30,50,.06);
+  --fs:16px; --maxw:960px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-size:var(--fs);
+  font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,
+    "Microsoft YaHei","PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif;
+  line-height:1.55;
+}
+body.big{--fs:20px; --maxw:1120px}
+img{max-width:100%; height:auto; display:block}
+button{font:inherit}
+
+/* ---------- header ---------- */
+header{background:linear-gradient(135deg,#3a2c1c 0%,#1e2430 100%); color:#fff; padding:22px 20px 20px}
+.hwrap{max-width:var(--maxw); margin:0 auto}
+.kicker{font-size:.72em; letter-spacing:.16em; text-transform:uppercase; color:#f3b05a; font-weight:700}
+h1{margin:.15em 0 .1em; font-size:1.75em; line-height:1.15; font-weight:700}
+.h1zh{font-size:1.15em; font-weight:700; color:#f6d9b0; margin:.1em 0 .2em}
+.sub{color:#c2c8d2; font-size:.9em; margin:0}
+.goals{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
+.goal{background:rgba(232,135,30,.18); border:1px solid rgba(232,135,30,.45); color:#fbdfbc;
+  padding:4px 10px; border-radius:999px; font-size:.78em}
+
+/* ---------- toolbar ---------- */
+.toolbar{position:sticky; top:0; z-index:50; background:rgba(255,255,255,.94);
+  backdrop-filter:blur(8px); border-bottom:1px solid var(--line); padding:9px 20px}
+.twrap{max-width:var(--maxw); margin:0 auto; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+.btn{border:1px solid var(--line); background:#fff; color:var(--ink); padding:7px 13px;
+  border-radius:8px; cursor:pointer; font-size:.85em; font-weight:600; white-space:nowrap}
+.btn:hover{border-color:#c3cad6; background:#fbfcfd}
+.btn.primary{background:var(--orange); border-color:var(--orange-d); color:#2b1600}
+.btn.primary:hover{background:var(--orange-d); color:#fff}
+.spacer{flex:1}
+.score{font-size:.85em; font-weight:700; padding:6px 12px; border-radius:8px; background:#eef1f5; color:var(--ink-2)}
+.score b{color:var(--ink)}
+.lvlsw{display:inline-flex; border:1px solid var(--line); border-radius:9px; overflow:hidden; background:#fff}
+.lvlsw .btn{border:0; border-radius:0; padding:7px 14px}
+.lvlsw .btn + .btn{border-left:1px solid var(--line)}
+.lvlsw .btn.on{background:var(--blue); border-color:var(--blue); color:#fff}
+.lvlsw .btn.on:hover{background:#2a6199}
+
+/* ---------- layout ---------- */
+main{max-width:var(--maxw); margin:0 auto; padding:22px 20px 90px}
+.band{display:inline-block; background:var(--ink); color:#fff; font-weight:700; font-size:.72em;
+  letter-spacing:.13em; text-transform:uppercase; padding:5px 12px; border-radius:5px;
+  border-left:5px solid var(--orange); margin:34px 0 12px}
+.ex{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px;
+  margin:0 0 14px; box-shadow:var(--shadow)}
+.exhead{display:flex; gap:11px; align-items:flex-start; margin-bottom:12px}
+.num{flex:0 0 auto; background:var(--orange); color:#2b1600; font-weight:800; font-size:.82em;
+  border-radius:6px; padding:3px 9px; min-width:34px; text-align:center; letter-spacing:.04em}
+.num.blue{background:var(--blue); color:#fff}
+.rubric{font-weight:600; margin:0; padding-top:1px}
+.pagetag{display:inline-block; font-size:.72em; font-weight:700; color:var(--ink-3);
+  border:1px solid var(--line); border-radius:5px; padding:2px 7px; margin-left:8px; vertical-align:middle}
+.note{color:var(--ink-3); font-size:.85em; margin:.4em 0 0}
+.extbadge{display:inline-block; background:var(--blue-bg); color:var(--blue); border:1px solid #cddff0;
+  font-size:.7em; font-weight:800; letter-spacing:.1em; text-transform:uppercase;
+  padding:3px 9px; border-radius:5px; margin-left:8px; vertical-align:middle}
+section.ex.ext{border-left:4px solid var(--blue)}
+
+/* ---------- audio ---------- */
+.audio{display:flex; align-items:center; gap:10px; flex-wrap:wrap; background:#fbfcfd;
+  border:1px solid var(--line); border-radius:9px; padding:9px 12px; margin:0 0 14px}
+.audio audio{height:36px}
+.tracktag{font-size:.75em; font-weight:700; color:var(--ink-3); white-space:nowrap}
+
+/* ---------- dialogue ---------- */
+.dlg{border-left:3px solid var(--orange); padding:2px 0 2px 14px; margin:0 0 14px}
+.dl{display:flex; gap:10px; margin:.42em 0; align-items:baseline}
+.who{flex:0 0 auto; min-width:70px; color:var(--orange-d); font-weight:700; font-size:.87em}
+.say{flex:1 1 auto}
+.zhline{color:var(--ink-3); font-size:.87em; margin-top:1px}
+.stage{color:var(--ink-3); font-style:italic; font-size:.85em; margin:.5em 0 .2em}
+
+/* ---------- word bank ---------- */
+.bank{border:2px solid var(--orange); border-radius:9px; padding:9px 13px; margin:0 0 14px;
+  display:flex; flex-wrap:wrap; gap:6px 16px; font-size:.95em}
+.bank span{white-space:nowrap}
+.bank .ex-given{color:var(--orange-d); font-weight:700}
+
+/* ---------- tip / grammar box ---------- */
+.tip{border:1px solid #f0dcc0; background:#fdf7ef; border-radius:10px; padding:11px 14px; margin:14px 0 0; font-size:.87em}
+.tip h4{margin:0 0 4px; font-size:.9em; color:var(--orange-d); text-transform:uppercase; letter-spacing:.09em}
+.tip p{margin:.35em 0}
+.gbox{border:2px solid var(--orange); border-radius:10px; overflow:hidden; margin:0 0 14px}
+.gbox h4{margin:0; background:var(--orange); color:#2b1600; padding:7px 13px; font-size:.9em; letter-spacing:.03em}
+.gbox .gin{padding:12px 14px}
+.gtab{width:100%; border-collapse:collapse; font-size:.95em}
+.gtab td{padding:3px 10px 3px 0; vertical-align:top}
+.gtab td.r{color:var(--ink-2)}
+.gtab b{color:var(--orange-d)}
+.xout{text-decoration:line-through; color:var(--bad)}
+
+/* ---------- pictures ---------- */
+.pics{display:grid; gap:12px; grid-template-columns:repeat(auto-fill,minmax(210px,1fr));
+  align-items:start; margin:0 0 14px}
+.pics.two{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.pics.one{grid-template-columns:1fr}
+.pic{border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#fff}
+.pic figure{margin:0; padding:8px; background:#fff}
+.pic .cap{border-top:1px solid var(--line); padding:6px 9px; background:#fafbfc; font-size:.8em; color:var(--ink-3)}
+.solo{border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#fff; padding:8px; margin:0 0 14px}
+
+/* ---------- questions ---------- */
+ol.qs,ul.qs{list-style:none; margin:0; padding:0}
+.q{display:flex; gap:11px; padding:8px 0; border-top:1px dashed var(--line)}
+.q:first-child{border-top:0}
+.qn{flex:0 0 auto; width:24px; height:24px; border-radius:50%; background:#eef1f5; color:var(--ink-2);
+  font-size:.78em; font-weight:800; display:flex; align-items:center; justify-content:center; margin-top:2px}
+.qt{flex:1 1 auto; min-width:0}
+select,input[type=text],textarea{font:inherit; color:var(--ink); background:#fff; border:1px solid #ccd3dd;
+  border-radius:7px; padding:6px 8px; max-width:100%}
+select:focus,input[type=text]:focus,textarea:focus{outline:2px solid var(--orange); outline-offset:1px; border-color:var(--orange)}
+select{min-width:104px}
+select.wide{min-width:190px}
+input.gap{width:150px}
+input.gap.short{width:104px}
+textarea{width:100%; resize:vertical}
+.opts{display:flex; flex-wrap:wrap; gap:7px 16px; margin-top:6px}
+.opts label{display:inline-flex; align-items:center; gap:6px; cursor:pointer}
+.tbl{width:100%; border-collapse:collapse; font-size:.92em; margin:0 0 8px}
+.tbl th,.tbl td{border:1px solid var(--line); padding:7px 9px; text-align:left; vertical-align:middle}
+.tbl th{background:#f7f9fb; font-size:.85em; color:var(--ink-2)}
+.given{color:var(--orange-d); font-weight:700}
+
+/* ---------- marking ---------- */
+.ok{outline:2px solid var(--ok) !important; background:var(--ok-bg) !important}
+.bad{outline:2px solid var(--bad) !important; background:var(--bad-bg) !important}
+.opts.ok,.opts.bad{outline:0 !important; background:transparent !important; border-radius:7px; padding:4px 7px}
+.opts.ok{background:var(--ok-bg) !important}
+.opts.bad{background:var(--bad-bg) !important}
+.ans{display:none; margin-left:9px; font-size:.85em; font-weight:700; color:var(--ok);
+  background:var(--ok-bg); border:1px solid #bfe3cd; border-radius:6px; padding:1px 8px}
+body.reveal .ans{display:inline-block}
+.sec-score{float:right; font-size:.8em; font-weight:800; color:var(--ink-2);
+  background:#eef1f5; border-radius:6px; padding:3px 9px; margin-left:9px}
+
+/* ---------- script panels ---------- */
+details.script{border:1px solid var(--line); border-radius:9px; background:#fbfcfd; padding:0; margin:14px 0 0}
+details.script summary{cursor:pointer; padding:9px 13px; font-weight:700; font-size:.85em; color:var(--ink-2)}
+details.script .sin{padding:0 14px 12px; font-size:.9em}
+details.script .dl{margin:.3em 0}
+
+/* ---------- level visibility — MUST STAY LAST so it wins the cascade ---------- */
+.zhonly{display:none}
+body.lvl-zh .enonly,
+body.lvl-zh .bank.enonly,
+body.lvl-zh .tip.enonly{display:none}
+body.lvl-zh span.zhonly, body.lvl-zh b.zhonly, body.lvl-zh i.zhonly{display:inline}
+body.lvl-zh div.zhonly, body.lvl-zh p.zhonly, body.lvl-zh ul.zhonly, body.lvl-zh ol.zhonly,
+body.lvl-zh section.zhonly, body.lvl-zh details.zhonly, body.lvl-zh h4.zhonly{display:block}
+body.lvl-zh li.zhonly{display:list-item}
+body.lvl-zh tr.zhonly{display:table-row}
+body.lvl-zh td.zhonly{display:table-cell}
+body.lvl-zh .bank.zhonly{display:flex}
+.zhline{display:none}
+body.lvl-zh .zhline{display:block}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hwrap">
+    <div class="kicker">Interchange Intro &middot; Fifth Edition</div>
+    <h1>Unit 1 — What's your name?</h1>
+    <div class="h1zh" lang="zh-CN">第 1 单元 — 你叫什么名字？</div>
+    <p class="sub">Interactive worksheet &middot; Student's Book pp. 2–7 &middot; Grammar plus p. 132</p>
+    <div class="goals">
+      <span class="goal enonly">say hello and make introductions</span>
+      <span class="goal zhonly" lang="zh-CN">打招呼、做自我介绍</span>
+      <span class="goal enonly">say good-bye and exchange contact information</span>
+      <span class="goal zhonly" lang="zh-CN">道别、交换联系方式</span>
+      <span class="goal enonly">my, your, his, her</span>
+      <span class="goal zhonly" lang="zh-CN">my / your / his / her（我的、你的、他的、她的）</span>
+      <span class="goal enonly">the verb <i>be</i></span>
+      <span class="goal zhonly" lang="zh-CN">be 动词</span>
+    </div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="twrap">
+    <div class="lvlsw" role="group" aria-label="Language of instructions">
+      <button class="btn lv on" id="lvEN" data-lv="en" title="Instructions in English only">English</button>
+      <button class="btn lv" id="lvZH" data-lv="zh" title="说明和例句都有中文">中文</button>
+    </div>
+    <button class="btn primary" id="btnCheck">Check answers</button>
+    <button class="btn" id="btnReveal">Show answers</button>
+    <button class="btn" id="btnBig">Large text</button>
+    <button class="btn" id="btnSave">Save file</button>
+    <button class="btn" id="btnLoad">Load file</button>
+    <button class="btn" id="btnClear">Clear all</button>
+    <span class="spacer"></span>
+    <span class="score" id="score">Not checked yet</span>
+  </div>
+</div>
+
+<main>
+
+<!-- ==================== CYCLE 1 ==================== -->
+<div class="band">Cycle 1 &middot; Exercises 1–7</div>
+
+<!-- ---------------- Ex 1 ---------------- -->
+<section class="ex" data-sec="Ex 1">
+  <div class="exhead"><span class="num">01</span>
+    <p class="rubric">
+      <span class="enonly">CONVERSATION — <i>My name is Joshua Brown.</i> Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">对话 —《我叫约书亚·布朗。》先听录音，再跟读。</span>
+      <span class="pagetag">p. 2</span>
+    </p></div>
+
+  {{AUDIO:p002-ex01-conversation-a.mp3|Track 1}}
+
+  <div class="pics two">
+    <div class="pic"><figure>{{IMG:ex01-photo|Joshua and Isabella shaking hands}}</figure></div>
+    <div class="pic"><figure>{{IMG:ex01-namebox|A box showing first names Joshua, Isabella and last names Brown, Martins}}</figure>
+      <div class="cap"><span class="enonly">first name = the name your friends use &middot; last name = your family name</span><span class="zhonly" lang="zh-CN">first name = 名 &middot; last name = 姓</span></div></div>
+  </div>
+
+  <div class="dlg">
+    <p class="dl"><b class="who">Joshua</b><span class="say">Hello. My name is Joshua Brown.<span class="zhline" lang="zh-CN">你好。我叫约书亚·布朗。</span></span></p>
+    <p class="dl"><b class="who">Isabella</b><span class="say">Hi. My name is Isabella Martins.<span class="zhline" lang="zh-CN">嗨。我叫伊莎贝拉·马丁斯。</span></span></p>
+    <p class="dl"><b class="who">Joshua</b><span class="say">It's nice to meet you, Isabella.<span class="zhline" lang="zh-CN">很高兴认识你，伊莎贝拉。</span></span></p>
+    <p class="dl"><b class="who">Isabella</b><span class="say">Nice to meet you, too.<span class="zhline" lang="zh-CN">我也很高兴认识你。</span></span></p>
+    <p class="dl"><b class="who">Joshua</b><span class="say">I'm sorry. What's your last name again?<span class="zhline" lang="zh-CN">不好意思，你姓什么来着？</span></span></p>
+    <p class="dl"><b class="who">Isabella</b><span class="say">It's Martins.<span class="zhline" lang="zh-CN">马丁斯。</span></span></p>
+  </div>
+
+  <div class="tip">
+    <h4 class="enonly">Note</h4><h4 class="zhonly" lang="zh-CN">说明</h4>
+    <p class="enonly"><b>My name is Isabella.</b> and <b>I'm Isabella.</b> mean the same thing.</p>
+    <p class="zhonly" lang="zh-CN"><b>My name is Isabella.</b> 和 <b>I'm Isabella.</b> 意思一样，都是「我叫伊莎贝拉」。</p>
+    <p class="enonly"><i>Nice to meet you.</i> is a short way of saying <i>It's nice to meet you.</i></p>
+    <p class="zhonly" lang="zh-CN"><i>Nice to meet you.</i> 是 <i>It's nice to meet you.</i> 的简短说法。</p>
+  </div>
+</section>
+
+<section class="ex ext" data-sec="Ex 1 practice">
+  <div class="exhead"><span class="num blue">1A</span>
+    <p class="rubric">
+      <span class="enonly">Complete the conversation with the words in the box.</span>
+      <span class="zhonly" lang="zh-CN">用方框里的词完成对话。</span>
+      <span class="extbadge">practice</span>
+    </p></div>
+  <div class="bank"><span>Hello</span><span>name</span><span>nice</span><span>too</span><span>sorry</span><span>last</span></div>
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <select data-q="ex01a_1" data-a="Hello"><option value=""></option><option>Hello</option><option>name</option><option>nice</option><option>too</option><option>sorry</option><option>last</option></select>. My name is Joshua Brown.
+      <span class="ans" data-for="ex01a_1">Hello</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      My <select data-q="ex01a_2" data-a="name"><option value=""></option><option>Hello</option><option>name</option><option>nice</option><option>too</option><option>sorry</option><option>last</option></select> is Isabella Martins.
+      <span class="ans" data-for="ex01a_2">name</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      It's <select data-q="ex01a_3" data-a="nice"><option value=""></option><option>Hello</option><option>name</option><option>nice</option><option>too</option><option>sorry</option><option>last</option></select> to meet you, Isabella.
+      <span class="ans" data-for="ex01a_3">nice</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">
+      Nice to meet you, <select data-q="ex01a_4" data-a="too"><option value=""></option><option>Hello</option><option>name</option><option>nice</option><option>too</option><option>sorry</option><option>last</option></select>.
+      <span class="ans" data-for="ex01a_4">too</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">
+      I'm <select data-q="ex01a_5" data-a="sorry"><option value=""></option><option>Hello</option><option>name</option><option>nice</option><option>too</option><option>sorry</option><option>last</option></select>.
+      <span class="ans" data-for="ex01a_5">sorry</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">
+      What's your <select data-q="ex01a_6" data-a="last"><option value=""></option><option>Hello</option><option>name</option><option>nice</option><option>too</option><option>sorry</option><option>last</option></select> name again?
+      <span class="ans" data-for="ex01a_6">last</span></span></li>
+  </ul>
+
+  <p class="rubric" style="margin-top:16px">
+    <span class="enonly">First name or last name?</span>
+    <span class="zhonly" lang="zh-CN">这是「名」还是「姓」？</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">7</span><span class="qt">Joshua —
+      <select class="wide" data-q="ex01b_1" data-a="first name"><option value=""></option><option value="first name" data-zh="名 first name">first name</option><option value="last name" data-zh="姓 last name">last name</option></select>
+      <span class="ans" data-for="ex01b_1">first name</span></span></li>
+    <li class="q"><span class="qn">8</span><span class="qt">Brown —
+      <select class="wide" data-q="ex01b_2" data-a="last name"><option value=""></option><option value="first name" data-zh="名 first name">first name</option><option value="last name" data-zh="姓 last name">last name</option></select>
+      <span class="ans" data-for="ex01b_2">last name</span></span></li>
+    <li class="q"><span class="qn">9</span><span class="qt">Isabella —
+      <select class="wide" data-q="ex01b_3" data-a="first name"><option value=""></option><option value="first name" data-zh="名 first name">first name</option><option value="last name" data-zh="姓 last name">last name</option></select>
+      <span class="ans" data-for="ex01b_3">first name</span></span></li>
+    <li class="q"><span class="qn">10</span><span class="qt">Martins —
+      <select class="wide" data-q="ex01b_4" data-a="last name"><option value=""></option><option value="first name" data-zh="名 first name">first name</option><option value="last name" data-zh="姓 last name">last name</option></select>
+      <span class="ans" data-for="ex01b_4">last name</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 2 ---------------- -->
+<section class="ex" data-sec="Ex 2">
+  <div class="exhead"><span class="num">02</span>
+    <p class="rubric">
+      <span class="enonly">SNAPSHOT — Names and nicknames. Listen and practise. Then match each name with its nickname.</span>
+      <span class="zhonly" lang="zh-CN">图表 —《名字和昵称》。先听录音跟读，再把名字和昵称配对。</span>
+      <span class="pagetag">p. 2</span>
+    </p></div>
+
+  {{AUDIO:p002-ex02-snapshot.mp3|Track 2}}
+
+  <p class="note enonly">A <b>nickname</b> is a short, friendly form of a name. Try the matching first, then open the Snapshot to check.</p>
+  <p class="note zhonly" lang="zh-CN"><b>nickname</b> 是名字的简称、小名。先自己配对，再打开下面的图表核对。</p>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">Nicholas —
+      <select data-q="ex02_1" data-a="Nick"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_1">Nick</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">Emily —
+      <select data-q="ex02_2" data-a="Em"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_2">Em</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">Michael —
+      <select data-q="ex02_3" data-a="Mike"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_3">Mike</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">Madison —
+      <select data-q="ex02_4" data-a="Maddie"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_4">Maddie</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">Joshua —
+      <select data-q="ex02_5" data-a="Josh"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_5">Josh</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">William —
+      <select data-q="ex02_6" data-a="Will"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_6">Will</span></span></li>
+    <li class="q"><span class="qn">7</span><span class="qt">Jennifer —
+      <select data-q="ex02_7" data-a="Jen"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_7">Jen</span></span></li>
+    <li class="q"><span class="qn">8</span><span class="qt">Isabella —
+      <select data-q="ex02_8" data-a="Izzy"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_8">Izzy</span></span></li>
+    <li class="q"><span class="qn">9</span><span class="qt">Elizabeth —
+      <select data-q="ex02_9" data-a="Liz"><option value=""></option><option>Nick</option><option>Em</option><option>Mike</option><option>Maddie</option><option>Josh</option><option>Will</option><option>Jen</option><option>Izzy</option><option>Liz</option></select>
+      <span class="ans" data-for="ex02_9">Liz</span></span></li>
+  </ul>
+
+  <details class="script">
+    <summary><span class="enonly">Show the Snapshot from the book</span><span class="zhonly" lang="zh-CN">打开课本上的图表</span></summary>
+    <div class="sin">{{IMG:ex02-snapshot|The Snapshot page showing nine names with their nicknames}}</div>
+  </details>
+</section>
+
+<!-- ---------------- Ex 3 ---------------- -->
+<section class="ex" data-sec="Ex 3">
+  <div class="exhead"><span class="num">03</span>
+    <p class="rubric">
+      <span class="enonly">GRAMMAR FOCUS — <i>my, your, his, her</i></span>
+      <span class="zhonly" lang="zh-CN">语法重点 —《my / your / his / her》</span>
+      <span class="pagetag">p. 3</span>
+    </p></div>
+
+  {{AUDIO:p003-ex03-grammar-focus.mp3|Track 3}}
+
+  <div class="gbox">
+    <h4>my, your, his, her</h4>
+    <div class="gin">
+      <table class="gtab">
+        <tr><td>What's <b>your</b> name?</td><td class="r"><b>My</b> name's Carlos.</td></tr>
+        <tr><td>What's <b>his</b> name?</td><td class="r"><b>His</b> name's Joshua.</td></tr>
+        <tr><td>What's <b>her</b> name?</td><td class="r"><b>Her</b> name's Isabella.</td></tr>
+        <tr><td colspan="2" style="padding-top:8px">What<b>'s</b> = What <b>is</b></td></tr>
+      </table>
+      <p class="zhonly" lang="zh-CN" style="margin:10px 0 0; color:var(--ink-2)">
+        my 我的 &middot; your 你的 &middot; his 他的 &middot; her 她的。<br>
+        中文只要在「我、你、他、她」后面加「的」，英语却要换成完全不同的词。<br>
+        还有：<b>name's</b> 里的 <b>'s</b> 就是 <b>is</b>，这个 be 动词不能省。中文说「我的名字卡洛斯」也听得懂，英语不行。
+      </p>
+    </div>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly"><b>A</b> Complete the conversations. Use <i>my</i>, <i>your</i>, <i>his</i>, or <i>her</i>.</span>
+    <span class="zhonly" lang="zh-CN"><b>A</b> 用 my / your / his / her 完成对话。</span></p>
+
+  <div class="pics two">
+    <div class="pic"><figure>{{IMG:ex03-pic1|Two students meeting and shaking hands}}</figure><div class="cap">1</div></div>
+    <div class="pic"><figure>{{IMG:ex03-pic2|Four students, two of them looking at the others}}</figure><div class="cap">2</div></div>
+  </div>
+
+  <p class="stage"><span class="enonly">Conversation 1</span><span class="zhonly" lang="zh-CN">对话 1</span></p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">Hello. What's <span class="given">your</span> name? <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">Hi.
+      <select data-q="ex03_1" data-a="My"><option value=""></option><option>My</option><option>Your</option><option>His</option><option>Her</option></select>
+      name is Carlos. What's
+      <select data-q="ex03_2" data-a="your"><option value=""></option><option>my</option><option>your</option><option>his</option><option>her</option></select>
+      name?
+      <span class="ans" data-for="ex03_1">My</span><span class="ans" data-for="ex03_2">your</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">
+      <select data-q="ex03_3" data-a="My"><option value=""></option><option>My</option><option>Your</option><option>His</option><option>Her</option></select>
+      name is Akina.
+      <span class="ans" data-for="ex03_3">My</span></span></p>
+  </div>
+
+  <p class="stage"><span class="enonly">Conversation 2</span><span class="zhonly" lang="zh-CN">对话 2</span></p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">What's
+      <select data-q="ex03_4" data-a="his"><option value=""></option><option>my</option><option>your</option><option>his</option><option>her</option></select>
+      name?
+      <span class="ans" data-for="ex03_4">his</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="ex03_5" data-a="His"><option value=""></option><option>My</option><option>Your</option><option>His</option><option>Her</option></select>
+      name is Ethan.
+      <span class="ans" data-for="ex03_5">His</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">And what's
+      <select data-q="ex03_6" data-a="her"><option value=""></option><option>my</option><option>your</option><option>his</option><option>her</option></select>
+      name?
+      <span class="ans" data-for="ex03_6">her</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="ex03_7" data-a="Her"><option value=""></option><option>My</option><option>Your</option><option>His</option><option>Her</option></select>
+      name is Caroline.
+      <span class="ans" data-for="ex03_7">Her</span></span></p>
+  </div>
+
+  <details class="script zhonly">
+    <summary lang="zh-CN">中文对照（填好以后再看）</summary>
+    <div class="sin" lang="zh-CN">
+      <p class="stage">对话 1</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">你好。你叫什么名字？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">你好。我叫卡洛斯。你叫什么名字？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">我叫秋菜。</span></p>
+      </div>
+      <p class="stage">对话 2</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">他叫什么名字？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">他叫伊桑。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">那她叫什么名字？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">她叫卡罗琳。</span></p>
+      </div>
+    </div>
+  </details>
+
+  <p class="rubric" style="margin-top:14px">
+    <span class="enonly"><b>B</b> PAIR WORK — practise the conversations with a partner. Write anything you want to remember.</span>
+    <span class="zhonly" lang="zh-CN"><b>B</b> 两人一组练习这两段对话。想记下来的内容写在这里。</span></p>
+  <textarea data-q="ex03_notes" rows="2" placeholder="Notes…"></textarea>
+  <p class="note enonly">(Speaking — not marked.)</p>
+  <p class="note zhonly" lang="zh-CN">（口语练习，不计分。）</p>
+</section>
+
+<!-- ---------------- Ex 4 ---------------- -->
+<section class="ex" data-sec="Ex 4">
+  <div class="exhead"><span class="num">04</span>
+    <p class="rubric">
+      <span class="enonly">SPEAKING — Spelling names. Listen and practise the alphabet.</span>
+      <span class="zhonly" lang="zh-CN">口语 —《拼名字》。先听录音跟读字母表。</span>
+      <span class="pagetag">p. 3</span>
+    </p></div>
+
+  {{AUDIO:p003-ex04-speaking-a.mp3|Track 4 · the alphabet}}
+  <div class="solo">{{IMG:ex04-alphabet|The alphabet A to Z in capital and small letters}}</div>
+
+  {{AUDIO:p003-ex04-speaking-b.mp3|Track 5 · spelling names}}
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">What's your name?<span class="zhline" lang="zh-CN">你叫什么名字？</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">My name is Akina Hayashi.<span class="zhline" lang="zh-CN">我叫秋菜·林。</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">Is that A-K-I-N-A?<span class="zhline" lang="zh-CN">是 A-K-I-N-A 吗？</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">Yes, that's right.<span class="zhline" lang="zh-CN">对，没错。</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">How do you spell your last name? H-A-Y-A-S-H-Y?<span class="zhline" lang="zh-CN">你的姓怎么拼？H-A-Y-A-S-H-Y 吗？</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">No, it's H-A-Y-A-S-H-I.<span class="zhline" lang="zh-CN">不是，是 H-A-Y-A-S-H-I。</span></span></p>
+  </div>
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <span class="enonly">Her first name is spelled A-K-I-N-A.</span>
+      <span class="zhonly" lang="zh-CN">她的名拼作 A-K-I-N-A。</span>
+      <div class="opts mk" data-q="ex04_1" data-a="T">
+        <label><input type="radio" name="ex04_1" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex04_1" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex04_1">True</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <span class="enonly">Her last name is spelled H-A-Y-A-S-H-Y.</span>
+      <span class="zhonly" lang="zh-CN">她的姓拼作 H-A-Y-A-S-H-Y。</span>
+      <div class="opts mk" data-q="ex04_2" data-a="F">
+        <label><input type="radio" name="ex04_2" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex04_2" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex04_2">False — H-A-Y-A-S-H-I</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <span class="enonly"><i>How do you spell your last name?</i> asks for —</span>
+      <span class="zhonly" lang="zh-CN"><i>How do you spell your last name?</i> 是在问 ——</span><br>
+      <select class="wide" data-q="ex04_3" data-a="the letters">
+        <option value=""></option>
+        <option value="the letters" data-zh="名字的字母">the letters</option>
+        <option value="the meaning" data-zh="名字的意思">the meaning</option>
+        <option value="the pronunciation" data-zh="名字的读音">the pronunciation</option></select>
+      <span class="ans" data-for="ex04_3">the letters</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 5 ---------------- -->
+<section class="ex" data-sec="Ex 5">
+  <div class="exhead"><span class="num">05</span>
+    <p class="rubric">
+      <span class="enonly">LISTENING — <i>Your name, please?</i> How do you spell the names? Listen and choose the correct answer.</span>
+      <span class="zhonly" lang="zh-CN">听力 —《请问您贵姓？》这些名字怎么拼？听录音，选出正确的拼写。</span>
+      <span class="pagetag">p. 3</span>
+    </p></div>
+
+  {{AUDIO:p003-ex05-listening.mp3|Track 6}}
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <div class="opts mk" data-q="ex05_1" data-a="B">
+        <label><input type="radio" name="ex05_1" value="A"> <span>Kate</span></label>
+        <label><input type="radio" name="ex05_1" value="B"> <span>Cate</span></label></div>
+      <span class="ans" data-for="ex05_1">Cate — “It's C-A-T-E.”</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <div class="opts mk" data-q="ex05_2" data-a="A">
+        <label><input type="radio" name="ex05_2" value="A"> <span>Erick</span></label>
+        <label><input type="radio" name="ex05_2" value="B"> <span>Eric</span></label></div>
+      <span class="ans" data-for="ex05_2">Erick — “E-R-I-C-K.”</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <div class="opts mk" data-q="ex05_3" data-a="A">
+        <label><input type="radio" name="ex05_3" value="A"> <span>Sophia</span></label>
+        <label><input type="radio" name="ex05_3" value="B"> <span>Sofia</span></label></div>
+      <span class="ans" data-for="ex05_3">Sophia — “S-O-P-H-I-A.”</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">
+      <div class="opts mk" data-q="ex05_4" data-a="B">
+        <label><input type="radio" name="ex05_4" value="A"> <span>Zackary</span></label>
+        <label><input type="radio" name="ex05_4" value="B"> <span>Zachary</span></label></div>
+      <span class="ans" data-for="ex05_4">Zachary — “Z-A-C-H-A-R-Y.”</span></span></li>
+  </ul>
+
+  <details class="script">
+    <summary><span class="enonly">Show the listening script</span><span class="zhonly" lang="zh-CN">打开听力原文</span></summary>
+    <div class="sin">
+      <p class="stage">1.</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">Woman</b><span class="say">Is your name Cate Lopez?</span></p>
+        <p class="dl"><b class="who">Cate</b><span class="say">That's right.</span></p>
+        <p class="dl"><b class="who">Woman</b><span class="say">And how do you spell your first name?</span></p>
+        <p class="dl"><b class="who">Cate</b><span class="say">It's C-A-T-E.</span></p>
+        <p class="dl"><b class="who">Woman</b><span class="say">OK. Thank you.</span></p>
+      </div>
+      <p class="stage">2.</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">Woman</b><span class="say">Eric Russo. Is your first name spelled E-R-I-C?</span></p>
+        <p class="dl"><b class="who">Erick</b><span class="say">No. My name is spelled E-R-I-C-K.</span></p>
+        <p class="dl"><b class="who">Woman</b><span class="say">I'm sorry. Could you repeat that?</span></p>
+        <p class="dl"><b class="who">Erick</b><span class="say">Yes. It's E-R-I-C-K.</span></p>
+        <p class="dl"><b class="who">Woman</b><span class="say">Oh, so it's Erick with a C-K. Got it.</span></p>
+      </div>
+      <p class="stage">3.</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">Sophia</b><span class="say">My name is Sophia Peters.</span></p>
+        <p class="dl"><b class="who">Woman</b><span class="say">Thank you. Sophia . . . that's S-O-F-I-A?</span></p>
+        <p class="dl"><b class="who">Sophia</b><span class="say">No. It's spelled S-O-P-H-I-A.</span></p>
+        <p class="dl"><b class="who">Woman</b><span class="say">Oh, excuse me. S-O-P-H-I-A.</span></p>
+        <p class="dl"><b class="who">Sophia</b><span class="say">That's right.</span></p>
+      </div>
+      <p class="stage">4.</p>
+      <div class="dlg">
+        <p class="dl"><b class="who">Woman</b><span class="say">Your name, please?</span></p>
+        <p class="dl"><b class="who">Zachary</b><span class="say">It's Zachary Tanaka.</span></p>
+        <p class="dl"><b class="who">Woman</b><span class="say">Is your first name Z-A-C-K-A-R-Y?</span></p>
+        <p class="dl"><b class="who">Zachary</b><span class="say">No, it's Z-A-C-H-A-R-Y.</span></p>
+        <p class="dl"><b class="who">Woman</b><span class="say">Oh, so it's Z-A-C-H-A-R-Y. Thank you, Mr. Tanaka.</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ---------------- Ex 6 ---------------- -->
+<section class="ex" data-sec="Ex 6">
+  <div class="exhead"><span class="num">06</span>
+    <p class="rubric">
+      <span class="enonly">WORD POWER — Titles. Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">词汇 —《称呼》。先听录音跟读。</span>
+      <span class="pagetag">p. 4</span>
+    </p></div>
+
+  {{AUDIO:p004-ex06-word-power-a.mp3|Track 7}}
+  <div class="solo">{{IMG:ex06-titles|A box showing Miss Kato, Mrs. Jones, Ms. Yong and Mr. Rodriguez with who uses each title}}</div>
+
+  <div class="tip">
+    <h4 class="enonly">Note</h4><h4 class="zhonly" lang="zh-CN">说明</h4>
+    <p class="enonly">Titles go with <b>last names</b>: Mr. Rodriguez, not Mr. Carlos.</p>
+    <p class="zhonly" lang="zh-CN">称呼要和<b>姓</b>连用：说 Mr. Rodriguez，不说 Mr. Carlos。</p>
+    <p class="zhonly" lang="zh-CN">Miss 小姐（未婚女性）&middot; Mrs. 太太（已婚女性）&middot; Ms. 女士（不表明婚否，读 /mɪz/）&middot; Mr. 先生（不分婚否）</p>
+    <p class="enonly"><b>Ms.</b> is pronounced /mɪz/ and does not say whether she is married.</p>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly"><b>B</b> Listen and choose the title you hear.</span>
+    <span class="zhonly" lang="zh-CN"><b>B</b> 听录音，选出你听到的称呼。</span></p>
+  {{AUDIO:p004-ex06-word-power-b.mp3|Track 8}}
+
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <select data-q="ex06_1" data-a="Mr."><option value=""></option><option>Miss</option><option>Mrs.</option><option>Ms.</option><option>Mr.</option></select> Santos
+      <span class="ans" data-for="ex06_1">Mr.</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <select data-q="ex06_2" data-a="Mrs."><option value=""></option><option>Miss</option><option>Mrs.</option><option>Ms.</option><option>Mr.</option></select> Wilson
+      <span class="ans" data-for="ex06_2">Mrs.</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <select data-q="ex06_3" data-a="Miss"><option value=""></option><option>Miss</option><option>Mrs.</option><option>Ms.</option><option>Mr.</option></select> Park
+      <span class="ans" data-for="ex06_3">Miss</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">
+      <select data-q="ex06_4" data-a="Ms."><option value=""></option><option>Miss</option><option>Mrs.</option><option>Ms.</option><option>Mr.</option></select> Rossi
+      <span class="ans" data-for="ex06_4">Ms.</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 7 ---------------- -->
+<section class="ex" data-sec="Ex 7">
+  <div class="exhead"><span class="num">07</span>
+    <p class="rubric">
+      <span class="enonly">SPEAKING — Saying hello. Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">口语 —《打招呼》。先听录音跟读。</span>
+      <span class="pagetag">p. 4</span>
+    </p></div>
+
+  {{AUDIO:p004-ex07-speaking-a.mp3|Track 9}}
+
+  <div class="pics two">
+    <div class="pic"><figure>{{IMG:ex07-1|Two women and a small child waving hello}}</figure><div class="cap">1</div></div>
+    <div class="pic"><figure>{{IMG:ex07-2|A passenger greeting a bus driver in the morning}}</figure><div class="cap">2</div></div>
+    <div class="pic"><figure>{{IMG:ex07-3|Two colleagues shaking hands in an office in the afternoon}}</figure><div class="cap">3</div></div>
+    <div class="pic"><figure>{{IMG:ex07-4|A man and a woman greeting each other at an evening reception}}</figure><div class="cap">4</div></div>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly">What do you say at these times?</span>
+    <span class="zhonly" lang="zh-CN">在下面这些时间，你会怎么打招呼？</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">9:00 a.m. —
+      <select class="wide" data-q="ex07_1" data-a="Good morning."><option value=""></option><option>Good morning.</option><option>Good afternoon.</option><option>Good evening.</option></select>
+      <span class="ans" data-for="ex07_1">Good morning.</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">3:00 p.m. —
+      <select class="wide" data-q="ex07_2" data-a="Good afternoon."><option value=""></option><option>Good morning.</option><option>Good afternoon.</option><option>Good evening.</option></select>
+      <span class="ans" data-for="ex07_2">Good afternoon.</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">8:00 p.m. —
+      <select class="wide" data-q="ex07_3" data-a="Good evening."><option value=""></option><option>Good morning.</option><option>Good afternoon.</option><option>Good evening.</option></select>
+      <span class="ans" data-for="ex07_3">Good evening.</span></span></li>
+  </ul>
+
+  <p class="rubric" style="margin-top:14px">
+    <span class="enonly">Choose the reply from the pictures.</span>
+    <span class="zhonly" lang="zh-CN">根据图片，选出对方的回答。</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">4</span><span class="qt">“Hi, Mia and Gina. How's it going?” —
+      <select class="wide" data-q="ex07_4" data-a="Great, thanks!"><option value=""></option><option>Great, thanks!</option><option>I'm just fine, thank you.</option><option>Pretty good, thanks.</option></select>
+      <span class="ans" data-for="ex07_4">Great, thanks!</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">“Good morning, Taylor. How are you?” —
+      <select class="wide" data-q="ex07_5" data-a="I'm just fine, thank you."><option value=""></option><option>Great, thanks!</option><option>I'm just fine, thank you.</option><option>Pretty good, thanks.</option></select>
+      <span class="ans" data-for="ex07_5">I'm just fine, thank you.</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">“Good afternoon, Amanda. How are you?” —
+      <select class="wide" data-q="ex07_6" data-a="Pretty good, thanks."><option value=""></option><option>Great, thanks!</option><option>I'm just fine, thank you.</option><option>Pretty good, thanks.</option></select>
+      <span class="ans" data-for="ex07_6">Pretty good, thanks.</span></span></li>
+  </ul>
+
+  <div class="tip">
+    <h4 class="enonly">Formal or friendly?</h4><h4 class="zhonly" lang="zh-CN">正式还是随意？</h4>
+    <p class="enonly"><i>How's it going?</i> is friendly — for classmates and friends. <i>Good morning, Mrs. Rodriguez.</i> is formal — title + last name.</p>
+    <p class="zhonly" lang="zh-CN"><i>How's it going?</i> 很随意，对同学、朋友说。<i>Good morning, Mrs. Rodriguez.</i> 比较正式：称呼 + 姓。</p>
+  </div>
+</section>
+
+<!-- ==================== CYCLE 2 ==================== -->
+<div class="band">Cycle 2 &middot; Exercises 8–14</div>
+
+<!-- ---------------- Ex 8 ---------------- -->
+<section class="ex" data-sec="Ex 8">
+  <div class="exhead"><span class="num">08</span>
+    <p class="rubric">
+      <span class="enonly">CONVERSATION — <i>Are you Andrea Clark?</i> Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">对话 —《你是安德莉亚·克拉克吗？》先听录音跟读。</span>
+      <span class="pagetag">p. 5</span>
+    </p></div>
+
+  {{AUDIO:p005-ex08-conversation-a.mp3|Track 10}}
+
+  <div class="pics">
+    <div class="pic"><figure>{{IMG:ex08-1|Daniel speaking to a woman in a corridor}}</figure><div class="cap">1</div></div>
+    <div class="pic"><figure>{{IMG:ex08-2|Lena handing Matt a book in the library}}</figure><div class="cap">2</div></div>
+    <div class="pic"><figure>{{IMG:ex08-3|Jack, Christy and Ben talking outside}}</figure><div class="cap">3</div></div>
+  </div>
+
+  <div class="dlg">
+    <p class="dl"><b class="who">Daniel</b><span class="say">Excuse me. Are you Andrea Clark?<span class="zhline" lang="zh-CN">打扰一下，你是安德莉亚·克拉克吗？</span></span></p>
+    <p class="dl"><b class="who">Sheila</b><span class="say">No, I'm not. She's over there.<span class="zhline" lang="zh-CN">不，我不是。她在那边。</span></span></p>
+    <p class="dl"><b class="who">Daniel</b><span class="say">Oh, I'm sorry.<span class="zhline" lang="zh-CN">哦，不好意思。</span></span></p>
+  </div>
+  <div class="dlg">
+    <p class="dl"><b class="who">Lena</b><span class="say">Matt? This is your book.<span class="zhline" lang="zh-CN">马特？这是你的书。</span></span></p>
+    <p class="dl"><b class="who">Matt</b><span class="say">Oh, thank you. You're in my math class, right?<span class="zhline" lang="zh-CN">哦，谢谢。你和我上同一节数学课，对吧？</span></span></p>
+    <p class="dl"><b class="who">Lena</b><span class="say">Yes, I am. I'm Lena Garza.<span class="zhline" lang="zh-CN">对，是的。我是莉娜·加尔萨。</span></span></p>
+  </div>
+  <div class="dlg">
+    <p class="dl"><b class="who">Jack</b><span class="say">Hey, Christy, this is Ben. He's in our history class.<span class="zhline" lang="zh-CN">嘿，克里斯蒂，这位是本。他和我们上同一节历史课。</span></span></p>
+    <p class="dl"><b class="who">Christy</b><span class="say">Hi, Ben.<span class="zhline" lang="zh-CN">你好，本。</span></span></p>
+    <p class="dl"><b class="who">Ben</b><span class="say">Hi, Christy. Nice to meet you.<span class="zhline" lang="zh-CN">你好，克里斯蒂。很高兴认识你。</span></span></p>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly">True or False?</span>
+    <span class="zhonly" lang="zh-CN">判断正误。</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <span class="enonly">Sheila is Andrea Clark.</span><span class="zhonly" lang="zh-CN">希拉就是安德莉亚·克拉克。</span>
+      <div class="opts mk" data-q="ex08_1" data-a="F">
+        <label><input type="radio" name="ex08_1" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex08_1" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex08_1">False — “No, I'm not.”</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <span class="enonly">Andrea Clark is over there.</span><span class="zhonly" lang="zh-CN">安德莉亚·克拉克在那边。</span>
+      <div class="opts mk" data-q="ex08_2" data-a="T">
+        <label><input type="radio" name="ex08_2" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex08_2" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex08_2">True — “She's over there.”</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <span class="enonly">Lena and Matt are in the same math class.</span><span class="zhonly" lang="zh-CN">莉娜和马特上同一节数学课。</span>
+      <div class="opts mk" data-q="ex08_3" data-a="T">
+        <label><input type="radio" name="ex08_3" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex08_3" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex08_3">True — “You're in my math class, right?” “Yes, I am.”</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">
+      <span class="enonly">Christy gives Matt his book.</span><span class="zhonly" lang="zh-CN">是克里斯蒂把书还给马特的。</span>
+      <div class="opts mk" data-q="ex08_4" data-a="F">
+        <label><input type="radio" name="ex08_4" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex08_4" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex08_4">False — Lena does.</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">
+      <span class="enonly">Ben is in Jack and Christy's history class.</span><span class="zhonly" lang="zh-CN">本和杰克、克里斯蒂上同一节历史课。</span>
+      <div class="opts mk" data-q="ex08_5" data-a="T">
+        <label><input type="radio" name="ex08_5" value="T"> <span>True</span></label>
+        <label><input type="radio" name="ex08_5" value="F"> <span>False</span></label></div>
+      <span class="ans" data-for="ex08_5">True — “He's in our history class.”</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 9 ---------------- -->
+<section class="ex" data-sec="Ex 9">
+  <div class="exhead"><span class="num">09</span>
+    <p class="rubric">
+      <span class="enonly">GRAMMAR FOCUS — the verb <i>be</i></span>
+      <span class="zhonly" lang="zh-CN">语法重点 — be 动词</span>
+      <span class="pagetag">p. 5</span>
+    </p></div>
+
+  {{AUDIO:p005-ex09-grammar-focus.mp3|Track 11}}
+
+  <div class="gbox">
+    <h4>the verb <i>be</i></h4>
+    <div class="gin">
+      <table class="gtab">
+        <tr><td><b>I'm</b> Lena Garza.</td><td class="r"><b>Are you</b> Andrea Clark?</td></tr>
+        <tr><td><b>You're</b> in my class.</td><td class="r">Yes, <b>I am</b>. <span class="xout">Yes, I'm.</span></td></tr>
+        <tr><td><b>She's</b> over there.</td><td class="r">No, <b>I'm not</b>.</td></tr>
+        <tr><td><b>He's</b> in our class.</td><td class="r">How <b>are</b> you? — <b>I'm</b> fine, thanks.</td></tr>
+        <tr><td><b>It's</b> Garza.</td><td class="r">I'm = I am &middot; you're = you are &middot; he's = he is &middot; she's = she is &middot; it's = it is</td></tr>
+      </table>
+      <p class="zhonly" lang="zh-CN" style="margin:10px 0 0; color:var(--ink-2)">
+        <b>一、be 动词不能省。</b>中文说「我很好」不用「是」，英语一定要说 <b>I'm</b> fine，不能说 <span class="xout">I very fine</span>。<br>
+        <b>二、简短回答不缩写。</b>要说 <b>Yes, I am.</b>，不能说 <span class="xout">Yes, I'm.</span>（否定却可以缩写：No, I'm not.）<br>
+        <b>三、提问要把 be 放到最前面。</b>中文加个「吗」语序不变，英语要说 <b>Are you</b> Andrea Clark?，不能说 <span class="xout">You are Andrea Clark?</span>
+      </p>
+    </div>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly"><b>A</b> Complete the conversation with the correct words in parentheses.</span>
+    <span class="zhonly" lang="zh-CN"><b>A</b> 从括号里选出正确的词完成对话。</span></p>
+  <div class="dlg">
+    <p class="dl"><b class="who">Ben</b><span class="say">Hello, Christy. How <span class="given">are</span> you? <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></p>
+    <p class="dl"><b class="who">Christy</b><span class="say">
+      <select data-q="ex09a_1" data-a="I'm"><option value=""></option><option>I'm</option><option>It's</option></select> fine, thanks.
+      <select data-q="ex09a_2" data-a="I'm"><option value=""></option><option>I'm</option><option>It's</option></select> sorry — what's your name again?
+      <span class="ans" data-for="ex09a_1">I'm</span><span class="ans" data-for="ex09a_2">I'm</span></span></p>
+    <p class="dl"><b class="who">Ben</b><span class="say">
+      <select data-q="ex09a_3" data-a="It's"><option value=""></option><option>Is</option><option>It's</option></select> Ben — Ben Durant.
+      <span class="ans" data-for="ex09a_3">It's</span></span></p>
+    <p class="dl"><b class="who">Christy</b><span class="say">That's right! Ben, this
+      <select data-q="ex09a_4" data-a="is"><option value=""></option><option>is</option><option>it's</option></select> Joshua Brown.
+      <select data-q="ex09a_5" data-a="He's"><option value=""></option><option>He's</option><option>She's</option></select> in our history class.
+      <span class="ans" data-for="ex09a_4">is</span><span class="ans" data-for="ex09a_5">He's</span></span></p>
+    <p class="dl"><b class="who">Ben</b><span class="say">
+      <select data-q="ex09a_6" data-a="It's"><option value=""></option><option>I'm</option><option>It's</option></select> nice to meet you.
+      <span class="ans" data-for="ex09a_6">It's</span></span></p>
+    <p class="dl"><b class="who">Joshua</b><span class="say">Hi, Ben. I think
+      <select data-q="ex09a_7" data-a="you're"><option value=""></option><option>I'm</option><option>you're</option></select> in my English class, too.
+      <span class="ans" data-for="ex09a_7">you're</span></span></p>
+    <p class="dl"><b class="who">Ben</b><span class="say">Oh, right! Yes, I
+      <select data-q="ex09a_8" data-a="am"><option value=""></option><option>am</option><option>'m</option></select>.
+      <span class="ans" data-for="ex09a_8">am</span></span></p>
+  </div>
+
+  <details class="script zhonly">
+    <summary lang="zh-CN">中文对照（填好以后再看）</summary>
+    <div class="sin" lang="zh-CN">
+      <div class="dlg">
+        <p class="dl"><b class="who">Ben</b><span class="say">你好，克里斯蒂。你好吗？</span></p>
+        <p class="dl"><b class="who">Christy</b><span class="say">我很好，谢谢。不好意思——你叫什么名字来着？</span></p>
+        <p class="dl"><b class="who">Ben</b><span class="say">我是本——本·杜兰特。</span></p>
+        <p class="dl"><b class="who">Christy</b><span class="say">对了！本，这位是约书亚·布朗。他和我们上同一节历史课。</span></p>
+        <p class="dl"><b class="who">Ben</b><span class="say">很高兴认识你。</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">你好，本。我想你也在我的英语课上。</span></p>
+        <p class="dl"><b class="who">Ben</b><span class="say">哦，对！是的，我在。</span></p>
+      </div>
+    </div>
+  </details>
+
+  <p class="rubric" style="margin-top:16px">
+    <span class="enonly"><b>B</b> Complete the conversations.</span>
+    <span class="zhonly" lang="zh-CN"><b>B</b> 完成下面两段对话。</span>
+    <span class="pagetag">p. 6</span></p>
+  <div class="dlg">
+    <p class="dl"><b class="who">Cara</b><span class="say">Excuse me. <span class="given">Are</span> you Alex Lane? <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></p>
+    <p class="dl"><b class="who">James</b><span class="say">No,
+      <select data-q="ex09b_1" data-a="I'm"><option value=""></option><option>I</option><option>I'm</option><option>It's</option></select> not. My name
+      <select data-q="ex09b_2" data-a="is"><option value=""></option><option>is</option><option>are</option><option>am</option></select> James Harris. Alex
+      <select data-q="ex09b_3" data-a="is"><option value=""></option><option>is</option><option>are</option><option>am</option></select> over there.
+      <span class="ans" data-for="ex09b_1">I'm</span><span class="ans" data-for="ex09b_2">is</span><span class="ans" data-for="ex09b_3">is</span></span></p>
+    <p class="dl"><b class="who">Cara</b><span class="say">Oh, sorry.</span></p>
+  </div>
+  <div class="dlg">
+    <p class="dl"><b class="who">Cara</b><span class="say">
+      <select data-q="ex09b_4" data-a="Are"><option value=""></option><option>Are</option><option>Is</option><option>Am</option></select> you Alex Lane?
+      <span class="ans" data-for="ex09b_4">Are</span></span></p>
+    <p class="dl"><b class="who">Alex</b><span class="say">Yes, I
+      <select data-q="ex09b_5" data-a="am"><option value=""></option><option>am</option><option>'m</option><option>is</option></select>.
+      <span class="ans" data-for="ex09b_5">am</span></span></p>
+    <p class="dl"><b class="who">Cara</b><span class="say">Hi.
+      <select class="wide" data-q="ex09b_6" data-a="My name is"><option value=""></option><option>My name is</option><option>My name</option><option>Me is</option><option>I name is</option></select> Cara Ruiz.
+      <span class="ans" data-for="ex09b_6">My name is — <i>I'm</i> is also correct</span></span></p>
+    <p class="dl"><b class="who">Alex</b><span class="say">Oh,
+      <select data-q="ex09b_7" data-a="you're"><option value=""></option><option>you're</option><option>you</option><option>your</option></select> in my history class, right?
+      <span class="ans" data-for="ex09b_7">you're</span></span></p>
+    <p class="dl"><b class="who">Cara</b><span class="say">Yes, I
+      <select data-q="ex09b_8" data-a="am"><option value=""></option><option>am</option><option>'m</option><option>is</option></select>.
+      <span class="ans" data-for="ex09b_8">am</span></span></p>
+    <p class="dl"><b class="who">Alex</b><span class="say">
+      <select data-q="ex09b_9" data-a="It's"><option value=""></option><option>It's</option><option>Is</option><option>I'm</option></select> nice to meet you, Cara.
+      <span class="ans" data-for="ex09b_9">It's</span></span></p>
+  </div>
+
+  <details class="script zhonly">
+    <summary lang="zh-CN">中文对照（填好以后再看）</summary>
+    <div class="sin" lang="zh-CN">
+      <div class="dlg">
+        <p class="dl"><b class="who">Cara</b><span class="say">打扰一下，你是亚历克斯·莱恩吗？</span></p>
+        <p class="dl"><b class="who">James</b><span class="say">不，我不是。我叫詹姆斯·哈里斯。亚历克斯在那边。</span></p>
+        <p class="dl"><b class="who">Cara</b><span class="say">哦，抱歉。</span></p>
+      </div>
+      <div class="dlg">
+        <p class="dl"><b class="who">Cara</b><span class="say">你是亚历克斯·莱恩吗？</span></p>
+        <p class="dl"><b class="who">Alex</b><span class="say">是的，我是。</span></p>
+        <p class="dl"><b class="who">Cara</b><span class="say">你好，我叫卡拉·鲁伊斯。</span></p>
+        <p class="dl"><b class="who">Alex</b><span class="say">哦，你和我上同一节历史课，对吧？</span></p>
+        <p class="dl"><b class="who">Cara</b><span class="say">对，是的。</span></p>
+        <p class="dl"><b class="who">Alex</b><span class="say">很高兴认识你，卡拉。</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ---------------- Ex 10 ---------------- -->
+<section class="ex" data-sec="Ex 10">
+  <div class="exhead"><span class="num">10</span>
+    <p class="rubric">
+      <span class="enonly">PRONUNCIATION — Linked sounds. Listen and notice how the words join together.</span>
+      <span class="zhonly" lang="zh-CN">语音 —《连读》。听录音，注意两个词是怎么连在一起的。</span>
+      <span class="pagetag">p. 6</span>
+    </p></div>
+
+  {{AUDIO:p006-ex10-pronunciation.mp3|Track 12}}
+
+  <div class="tip">
+    <p class="enonly">When a word ends in a consonant and the next word begins with a vowel (a, e, i, o, u), the two sounds join.</p>
+    <p class="zhonly" lang="zh-CN">前一个词以辅音结尾、后一个词以元音（a, e, i, o, u）开头时，这两个音会连起来读。</p>
+    <p><b>I'm<span style="color:var(--orange-d)">‿</span>Isabella. &nbsp; She's<span style="color:var(--orange-d)">‿</span>over there. &nbsp; You're<span style="color:var(--orange-d)">‿</span>in my class.</b></p>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly">Which two words join together?</span>
+    <span class="zhonly" lang="zh-CN">哪两个词会连读？</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">I'm Isabella. —
+      <select class="wide" data-q="ex10_1" data-a="I'm + Isabella"><option value=""></option><option>I'm + Isabella</option><option>Isabella + I'm</option></select>
+      <span class="ans" data-for="ex10_1">I'm + Isabella</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">She's over there. —
+      <select class="wide" data-q="ex10_2" data-a="She's + over"><option value=""></option><option>She's + over</option><option>over + there</option></select>
+      <span class="ans" data-for="ex10_2">She's + over</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">You're in my class. —
+      <select class="wide" data-q="ex10_3" data-a="You're + in"><option value=""></option><option>You're + in</option><option>in + my</option><option>my + class</option></select>
+      <span class="ans" data-for="ex10_3">You're + in</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 11 ---------------- -->
+<section class="ex" data-sec="Ex 11">
+  <div class="exhead"><span class="num">11</span>
+    <p class="rubric">
+      <span class="enonly">SPEAKING — Personal information. Listen and practise the numbers.</span>
+      <span class="zhonly" lang="zh-CN">口语 —《个人信息》。先听录音跟读数字。</span>
+      <span class="pagetag">p. 6</span>
+    </p></div>
+
+  {{AUDIO:p006-ex11-speaking-a.mp3|Track 13}}
+  <div class="solo">{{IMG:ex11-numbers|The numbers zero to ten written as digits and as words}}</div>
+  <p class="note enonly">0 alone is <i>zero</i>. Inside a phone number you may say <i>zero</i> or <i>oh</i>.</p>
+  <p class="note zhonly" lang="zh-CN">单独的 0 读 <i>zero</i>；在电话号码里读 <i>zero</i> 或 <i>oh</i> 都可以。</p>
+
+  <p class="rubric" style="margin-top:14px">
+    <span class="enonly"><b>B</b> Listen to the phone numbers and email addresses.</span>
+    <span class="zhonly" lang="zh-CN"><b>B</b> 听录音里的电话号码和电子邮箱。</span></p>
+  {{AUDIO:p006-ex11-speaking-b.mp3|Track 14}}
+  <div class="pics two">
+    <div class="pic"><figure>{{IMG:ex11-card1|Jessica Adams business card with work phone, cell phone and email address}}</figure></div>
+    <div class="pic"><figure>{{IMG:ex11-card2|Ryan Walker business card with two phone numbers and an email address}}</figure></div>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly">How do you say these symbols?</span>
+    <span class="zhonly" lang="zh-CN">这些符号怎么读？</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt"><b style="font-size:1.2em">@</b> —
+      <select data-q="ex11_1" data-a="at"><option value=""></option><option>at</option><option>dot</option><option>dash</option><option>underscore</option></select>
+      <span class="ans" data-for="ex11_1">at</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt"><b style="font-size:1.2em">.</b> —
+      <select data-q="ex11_2" data-a="dot"><option value=""></option><option>at</option><option>dot</option><option>dash</option><option>underscore</option></select>
+      <span class="ans" data-for="ex11_2">dot</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt"><b style="font-size:1.2em">-</b> —
+      <select data-q="ex11_3" data-a="dash"><option value=""></option><option>at</option><option>dot</option><option>dash</option><option>underscore</option></select>
+      <span class="ans" data-for="ex11_3">dash</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt"><b style="font-size:1.2em">_</b> —
+      <select data-q="ex11_4" data-a="underscore"><option value=""></option><option>at</option><option>dot</option><option>dash</option><option>underscore</option></select>
+      <span class="ans" data-for="ex11_4">underscore</span></span></li>
+    <li class="q"><span class="qn">5</span><span class="qt">402-555-2301 is Jessica's —
+      <select class="wide" data-q="ex11_5" data-a="work phone"><option value=""></option><option value="work phone" data-zh="办公电话 work phone">work phone</option><option value="cell phone" data-zh="手机 cell phone">cell phone</option><option value="email address" data-zh="电子邮箱 email address">email address</option></select>
+      <span class="ans" data-for="ex11_5">work phone</span></span></li>
+    <li class="q"><span class="qn">6</span><span class="qt">jadams1@cup.org is her —
+      <select class="wide" data-q="ex11_6" data-a="email address"><option value=""></option><option value="work phone" data-zh="办公电话 work phone">work phone</option><option value="cell phone" data-zh="手机 cell phone">cell phone</option><option value="email address" data-zh="电子邮箱 email address">email address</option></select>
+      <span class="ans" data-for="ex11_6">email address</span></span></li>
+  </ul>
+</section>
+
+<!-- ---------------- Ex 12 ---------------- -->
+<section class="ex" data-sec="Ex 12">
+  <div class="exhead"><span class="num">12</span>
+    <p class="rubric">
+      <span class="enonly">LISTENING — Contact information. Isabella and Joshua are making a list of classmates' phone numbers and email addresses. Listen and complete the list.</span>
+      <span class="zhonly" lang="zh-CN">听力 —《联系方式》。伊莎贝拉和约书亚在记同学的电话和邮箱。听录音，把表格填完整。</span>
+      <span class="pagetag">p. 7</span>
+    </p></div>
+
+  {{AUDIO:p007-ex12-listening-a.mp3|Track 15}}
+  <div class="solo">{{IMG:ex12-contacts|A phone screen showing a contact list with four names}}</div>
+
+  <table class="tbl">
+    <tr>
+      <th class="enonly">Name</th><th class="zhonly" lang="zh-CN">姓名</th>
+      <th class="enonly">Phone number</th><th class="zhonly" lang="zh-CN">电话号码</th>
+      <th class="enonly">Email address</th><th class="zhonly" lang="zh-CN">电子邮箱</th>
+    </tr>
+    <tr>
+      <td>Ben Durant</td>
+      <td><span class="given">718-555-8241</span></td>
+      <td><select data-q="ex12_1" data-a="bendurant@cup.org"><option value=""></option><option>bendurant@cup.org</option><option>bendurant@cambridge.org</option><option>bendurand@cup.org</option></select>
+        <span class="ans" data-for="ex12_1">bendurant@cup.org</span></td>
+    </tr>
+    <tr>
+      <td>Cara Ruiz</td>
+      <td><select data-q="ex12_2" data-a="347-555-7645"><option value=""></option><option>347-555-7645</option><option>347-555-7654</option><option>343-555-7645</option></select>
+        <span class="ans" data-for="ex12_2">347-555-7645</span></td>
+      <td><select data-q="ex12_3" data-a="carar@cambridge.org"><option value=""></option><option>carar@cambridge.org</option><option>carar@cup.org</option><option>cararuiz@cambridge.org</option></select>
+        <span class="ans" data-for="ex12_3">carar@cambridge.org</span></td>
+    </tr>
+    <tr>
+      <td>Andrea Clark</td>
+      <td><select data-q="ex12_4" data-a="212-645-5960"><option value=""></option><option>212-645-5960</option><option>212-645-5690</option><option>221-645-5960</option></select>
+        <span class="ans" data-for="ex12_4">212-645-5960</span></td>
+      <td><select data-q="ex12_5" data-a="aclark134@cup.org"><option value=""></option><option>aclark134@cup.org</option><option>aclark143@cup.org</option><option>aclark134@cambridge.org</option></select>
+        <span class="ans" data-for="ex12_5">aclark134@cup.org</span></td>
+    </tr>
+    <tr>
+      <td>Akina Hayashi</td>
+      <td><select data-q="ex12_6" data-a="917-555-2807"><option value=""></option><option>917-555-2807</option><option>917-555-2870</option><option>719-555-2807</option></select>
+        <span class="ans" data-for="ex12_6">917-555-2807</span></td>
+      <td><select data-q="ex12_7" data-a="akinah@cambridge.org"><option value=""></option><option>akinah@cambridge.org</option><option>akinah@cup.org</option><option>akina@cambridge.org</option></select>
+        <span class="ans" data-for="ex12_7">akinah@cambridge.org</span></td>
+    </tr>
+  </table>
+
+  <details class="script">
+    <summary><span class="enonly">Show the listening script</span><span class="zhonly" lang="zh-CN">打开听力原文</span></summary>
+    <div class="sin">
+      <div class="dlg">
+        <p class="dl"><b class="who">Isabella</b><span class="say">What's Ben Durant's phone number, Joshua?</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">It's seven-one-eight, five-five-five, eight-two-four-one.</span></p>
+        <p class="dl"><b class="who">Isabella</b><span class="say">Seven-one-eight, five-five-five, eight-two-four-one?</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">Yes, that's it.</span></p>
+        <p class="dl"><b class="who">Isabella</b><span class="say">And his email address?</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">It's Ben Durant at C-U-P dot org. . . . OK. Cara Ruiz. What's her phone number?</span></p>
+        <p class="dl"><b class="who">Isabella</b><span class="say">Hmm. Cara. Her number is three-four-seven, five-five-five, seven-six-four-five.</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">Three-four-seven, five-five-five, seven-six-four-five?</span></p>
+        <p class="dl"><b class="who">Isabella</b><span class="say">That's right. Her email is Cara R at cambridge dot org. That's C-A-R-A-R at cambridge dot org.</span></p>
+        <p class="dl"><b class="who">Isabella</b><span class="say">Her email address is A Clark one-three-four at C-U-P dot org.</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">So that's A-C-L-A-R-K one-three-four at C-U-P dot org?</span></p>
+        <p class="dl"><b class="who">Isabella</b><span class="say">Yes.</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">And Akina Hayashi's number and email?</span></p>
+        <p class="dl"><b class="who">Isabella</b><span class="say">Oh, Akina is my roommate. Our number is nine-one-seven, five-five-five, two-eight-oh-seven. Her email address is Akina H at cambridge dot org.</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">I'm sorry. Can you spell that?</span></p>
+        <p class="dl"><b class="who">Isabella</b><span class="say">Sure. It's A-K-I-N-A-H at cambridge dot org.</span></p>
+        <p class="dl"><b class="who">Joshua</b><span class="say">OK. Got it. Thanks.</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+<!-- ---------------- Ex 13 ---------------- -->
+<section class="ex" data-sec="Ex 13">
+  <div class="exhead"><span class="num">13</span>
+    <p class="rubric">
+      <span class="enonly">INTERCHANGE 1 — Celebrity classmates. Meet some “famous classmates.” Go to Interchange 1 on page 114 of the Student's Book.</span>
+      <span class="zhonly" lang="zh-CN">交际活动 1 —《明星同学》。见见几位「名人同学」。见课本第 114 页 Interchange 1。</span>
+      <span class="pagetag">p. 7</span>
+    </p></div>
+  <p class="note enonly">This is a class activity in the book — nothing to mark here.</p>
+  <p class="note zhonly" lang="zh-CN">这是课本上的课堂活动，本页不计分。</p>
+</section>
+
+<!-- ---------------- Ex 14 ---------------- -->
+<section class="ex" data-sec="Ex 14">
+  <div class="exhead"><span class="num">14</span>
+    <p class="rubric">
+      <span class="enonly">SPEAKING — Saying good-bye. Listen and practise.</span>
+      <span class="zhonly" lang="zh-CN">口语 —《道别》。先听录音跟读。</span>
+      <span class="pagetag">p. 7</span>
+    </p></div>
+
+  {{AUDIO:p007-ex14-speaking-a.mp3|Track 16}}
+
+  <div class="pics two">
+    <div class="pic"><figure>{{IMG:ex14-1|Students walking down steps saying good-bye}}</figure><div class="cap">1</div></div>
+    <div class="pic"><figure>{{IMG:ex14-2|Two people saying good night in a shop late in the evening}}</figure><div class="cap">2</div></div>
+    <div class="pic"><figure>{{IMG:ex14-3|Three friends in a park waving good-bye}}</figure><div class="cap">3</div></div>
+    <div class="pic"><figure>{{IMG:ex14-4|Two colleagues in suits saying good-bye on the street}}</figure><div class="cap">4</div></div>
+  </div>
+
+  <p class="rubric">
+    <span class="enonly">What do you say?</span>
+    <span class="zhonly" lang="zh-CN">这些情况下你会说什么？</span></p>
+  <ul class="qs">
+    <li class="q"><span class="qn">1</span><span class="qt">
+      <span class="enonly">You will see your classmate again tomorrow.</span>
+      <span class="zhonly" lang="zh-CN">你明天还会见到这位同学。</span><br>
+      <select class="wide" data-q="ex14_1" data-a="See you tomorrow."><option value=""></option><option>See you tomorrow.</option><option>Good night.</option><option>Have a good weekend.</option><option>You, too.</option></select>
+      <span class="ans" data-for="ex14_1">See you tomorrow.</span></span></li>
+    <li class="q"><span class="qn">2</span><span class="qt">
+      <span class="enonly">It is 11:00 p.m. and you are going home.</span>
+      <span class="zhonly" lang="zh-CN">晚上十一点，你要回家了。</span><br>
+      <select class="wide" data-q="ex14_2" data-a="Good night."><option value=""></option><option>See you tomorrow.</option><option>Good night.</option><option>Have a good weekend.</option><option>You, too.</option></select>
+      <span class="ans" data-for="ex14_2">Good night.</span></span></li>
+    <li class="q"><span class="qn">3</span><span class="qt">
+      <span class="enonly">It is Friday evening. You will see your colleague on Monday.</span>
+      <span class="zhonly" lang="zh-CN">周五傍晚，你下周一才会再见到同事。</span><br>
+      <select class="wide" data-q="ex14_3" data-a="Have a good weekend."><option value=""></option><option>See you tomorrow.</option><option>Good night.</option><option>Have a good weekend.</option><option>You, too.</option></select>
+      <span class="ans" data-for="ex14_3">Have a good weekend.</span></span></li>
+    <li class="q"><span class="qn">4</span><span class="qt">
+      <span class="enonly">Someone says “Have a good evening.” You answer —</span>
+      <span class="zhonly" lang="zh-CN">别人对你说 “Have a good evening.”，你回答 ——</span><br>
+      <select class="wide" data-q="ex14_4" data-a="You, too."><option value=""></option><option>See you tomorrow.</option><option>Good night.</option><option>Have a good weekend.</option><option>You, too.</option></select>
+      <span class="ans" data-for="ex14_4">You, too.</span></span></li>
+  </ul>
+</section>
+
+<!-- ==================== GRAMMAR PLUS ==================== -->
+<div class="band">Grammar plus &middot; p. 132</div>
+
+<section class="ex" data-sec="GP 1">
+  <div class="exhead"><span class="num blue">GP1</span>
+    <p class="rubric">
+      <span class="enonly"><i>My, your, his, her</i> — complete the conversations with <i>my</i>, <i>your</i>, <i>his</i>, or <i>her</i>.</span>
+      <span class="zhonly" lang="zh-CN">《my / your / his / her》— 用 my / your / his / her 完成对话。</span>
+      <span class="pagetag">p. 132</span>
+    </p></div>
+
+  <div class="tip">
+    <p class="enonly">Use <b>his</b> with males and <b>her</b> with females: <b>His</b> name is Travis. <span class="xout">Her name is Travis.</span> &nbsp; <b>Her</b> name is Nicole. <span class="xout">His name is Nicole.</span></p>
+    <p class="zhonly" lang="zh-CN">男性用 <b>his</b>，女性用 <b>her</b>：<b>His</b> name is Travis.（不能说 <span class="xout">Her name is Travis.</span>）&nbsp; <b>Her</b> name is Nicole.（不能说 <span class="xout">His name is Nicole.</span>）</p>
+  </div>
+
+  <p class="stage">1.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">Hello. <span class="given">My</span> name is Carlos. <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">Hi, Carlos. What's
+      <select data-q="gp1_1" data-a="your"><option value=""></option><option>my</option><option>your</option><option>his</option><option>her</option></select> last name?
+      <span class="ans" data-for="gp1_1">your</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">It's Gonzales.</span></p>
+    <p class="dl"><b class="who">B</b><span class="say">How do you spell
+      <select data-q="gp1_2" data-a="your"><option value=""></option><option>my</option><option>your</option><option>his</option><option>her</option></select> last name? Is it G-O-N-Z-A-L-E-Z?
+      <span class="ans" data-for="gp1_2">your</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">No, it's G-O-N-Z-A-L-E-S. And what's
+      <select data-q="gp1_3" data-a="your"><option value=""></option><option>my</option><option>your</option><option>his</option><option>her</option></select> name?
+      <span class="ans" data-for="gp1_3">your</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="gp1_4" data-a="My"><option value=""></option><option>My</option><option>Your</option><option>His</option><option>Her</option></select> name is Bill Powers. Nice to meet you.
+      <span class="ans" data-for="gp1_4">My</span></span></p>
+  </div>
+
+  <p class="stage">2.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">What's Ms. Robinson's first name?</span></p>
+    <p class="dl"><b class="who">B</b><span class="say">
+      <select data-q="gp1_5" data-a="Her"><option value=""></option><option>My</option><option>Your</option><option>His</option><option>Her</option></select> first name is Elizabeth.
+      <select data-q="gp1_6" data-a="Her"><option value=""></option><option>My</option><option>Your</option><option>His</option><option>Her</option></select> nickname is Liz.
+      <span class="ans" data-for="gp1_5">Her</span><span class="ans" data-for="gp1_6">Her</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">I'm sorry. What's
+      <select data-q="gp1_7" data-a="her"><option value=""></option><option>my</option><option>your</option><option>his</option><option>her</option></select> first name again?
+      <span class="ans" data-for="gp1_7">her</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">It's Elizabeth. And what's Mr. Weber's first name?</span></p>
+    <p class="dl"><b class="who">A</b><span class="say">
+      <select data-q="gp1_8" data-a="His"><option value=""></option><option>My</option><option>Your</option><option>His</option><option>Her</option></select> first name is Peter.
+      <span class="ans" data-for="gp1_8">His</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">That's right. And
+      <select data-q="gp1_9" data-a="his"><option value=""></option><option>my</option><option>your</option><option>his</option><option>her</option></select> nickname is Pete.
+      <span class="ans" data-for="gp1_9">his</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">That's right, too!</span></p>
+  </div>
+
+  <details class="script zhonly">
+    <summary lang="zh-CN">中文对照（填好以后再看）</summary>
+    <div class="sin" lang="zh-CN">
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">你好，我叫卡洛斯。</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">你好，卡洛斯。你姓什么？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">姓冈萨雷斯。</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">你的姓怎么拼？是 G-O-N-Z-A-L-E-Z 吗？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">不是，是 G-O-N-Z-A-L-E-S。你叫什么名字？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">我叫比尔·鲍尔斯。很高兴认识你。</span></p>
+      </div>
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">罗宾逊女士的名叫什么？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">她的名是伊丽莎白。她的昵称是莉兹。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">不好意思，她的名再说一遍是什么？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">是伊丽莎白。那韦伯先生的名叫什么？</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">他的名是彼得。</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">对。他的昵称是皮特。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">也对！</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+<section class="ex" data-sec="GP 2">
+  <div class="exhead"><span class="num blue">GP2</span>
+    <p class="rubric">
+      <span class="enonly">The verb <i>be</i> — complete the conversations with the words in the box. Use each word once.</span>
+      <span class="zhonly" lang="zh-CN">be 动词 — 用方框里的词完成对话，每个词只用一次。</span>
+      <span class="pagetag">p. 132</span>
+    </p></div>
+
+  <div class="tip">
+    <p class="enonly">In questions, <i>be</i> comes before the noun or pronoun: <b>Are you</b> Joshua Brown? <b>Is he</b> in our English class?</p>
+    <p class="zhonly" lang="zh-CN">疑问句里 be 要放在名词或代词前面：<b>Are you</b> Joshua Brown? <b>Is he</b> in our English class?</p>
+    <p class="enonly">Don't use contractions in short answers: Yes, <b>I am</b>. <span class="xout">Yes, I'm.</span></p>
+    <p class="zhonly" lang="zh-CN">简短回答不能用缩写：Yes, <b>I am</b>.（不能说 <span class="xout">Yes, I'm.</span>）</p>
+  </div>
+
+  <div class="bank">
+    <span>am</span><span class="ex-given">✓ are</span><span>I'm</span><span>I am</span><span>it's</span>
+    <span>I'm not</span><span>she's</span><span>you</span><span>you're</span>
+  </div>
+
+  <p class="stage">1.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">Excuse me. <span class="given">Are</span> you Layla Moore? <i class="note" style="display:inline"><span class="enonly">(example)</span><span class="zhonly" lang="zh-CN">（例）</span></i></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">No,
+      <select class="wide" data-q="gp2_1" data-a="I'm not"><option value=""></option><option>am</option><option>I'm</option><option>I am</option><option>it's</option><option>I'm not</option><option>she's</option><option>you</option><option>you're</option></select>.
+      <select class="wide" data-q="gp2_2" data-a="She's"><option value=""></option><option>Am</option><option>I'm</option><option>I am</option><option>It's</option><option>I'm not</option><option>She's</option><option>You</option><option>You're</option></select> over there.
+      <span class="ans" data-for="gp2_1">I'm not</span><span class="ans" data-for="gp2_2">She's</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">OK. Thanks.</span></p>
+  </div>
+
+  <p class="stage">2.</p>
+  <div class="dlg">
+    <p class="dl"><b class="who">A</b><span class="say">Hi. Are
+      <select data-q="gp2_3" data-a="you"><option value=""></option><option>am</option><option>I'm</option><option>I am</option><option>it's</option><option>I'm not</option><option>she's</option><option>you</option><option>you're</option></select> Layla Moore?
+      <span class="ans" data-for="gp2_3">you</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">Yes,
+      <select class="wide" data-q="gp2_4" data-a="I am"><option value=""></option><option>am</option><option>I'm</option><option>I am</option><option>it's</option><option>I'm not</option><option>she's</option><option>you</option><option>you're</option></select>.
+      <span class="ans" data-for="gp2_4">I am</span></span></p>
+    <p class="dl"><b class="who">A</b><span class="say">Nice to meet you.
+      <select class="wide" data-q="gp2_5" data-a="I'm"><option value=""></option><option>Am</option><option>I'm</option><option>I am</option><option>It's</option><option>I'm not</option><option>She's</option><option>You</option><option>You're</option></select> Sergio Oliveira.
+      <select class="wide" data-q="gp2_6" data-a="You're"><option value=""></option><option>Am</option><option>I'm</option><option>I am</option><option>It's</option><option>I'm not</option><option>She's</option><option>You</option><option>You're</option></select> in my English class.
+      <span class="ans" data-for="gp2_5">I'm</span><span class="ans" data-for="gp2_6">You're</span></span></p>
+    <p class="dl"><b class="who">B</b><span class="say">Yes, I
+      <select data-q="gp2_7" data-a="am"><option value=""></option><option>am</option><option>I'm</option><option>I am</option><option>it's</option><option>I'm not</option><option>she's</option><option>you</option><option>you're</option></select>.
+      <select class="wide" data-q="gp2_8" data-a="It's"><option value=""></option><option>Am</option><option>I'm</option><option>I am</option><option>It's</option><option>I'm not</option><option>She's</option><option>You</option><option>You're</option></select> nice to meet you too, Sergio.
+      <span class="ans" data-for="gp2_7">am</span><span class="ans" data-for="gp2_8">It's</span></span></p>
+  </div>
+
+  <details class="script zhonly">
+    <summary lang="zh-CN">中文对照（填好以后再看）</summary>
+    <div class="sin" lang="zh-CN">
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">打扰一下，你是蕾拉·摩尔吗？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">不，我不是。她在那边。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">好的，谢谢。</span></p>
+      </div>
+      <div class="dlg">
+        <p class="dl"><b class="who">A</b><span class="say">你好，你是蕾拉·摩尔吗？</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">是的，我是。</span></p>
+        <p class="dl"><b class="who">A</b><span class="say">很高兴认识你。我是塞尔吉奥·奥利维拉。你在我的英语课上。</span></p>
+        <p class="dl"><b class="who">B</b><span class="say">对，我在。我也很高兴认识你，塞尔吉奥。</span></p>
+      </div>
+    </div>
+  </details>
+</section>
+
+</main>
+
+<script>
+(function(){
+"use strict";
+var SKEY = "gm_interchange_intro_u1_v1";
+var body = document.body;
+
+function ctrls(){ return Array.prototype.slice.call(document.querySelectorAll("[data-q]")); }
+function isGroup(el){ return el.tagName === "DIV"; }
+function visible(el){ return !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length); }
+
+function getVal(el){
+  if (!isGroup(el)) return el.value;
+  var ins = el.querySelectorAll("input");
+  for (var j=0;j<ins.length;j++) if (ins[j].checked) return ins[j].value;
+  return "";
+}
+function setVal(el, val){
+  if (!isGroup(el)){ el.value = val; return; }
+  var ins = el.querySelectorAll("input");
+  for (var i=0;i<ins.length;i++) ins[i].checked = (ins[i].value === String(val||""));
+}
+/* Straight and curly apostrophes are the same character to a learner, and a
+   trailing period on "Mr." must not decide the mark. */
+function norm(s){
+  return String(s||"").toLowerCase().replace(/[’']/g,"'").replace(/\s+/g," ").replace(/\.$/,"").trim();
+}
+function grade(el){
+  var a = el.getAttribute("data-a");
+  if (a === null || a === "") return null;
+  var val = getVal(el);
+  if (val === "") return false;
+  var accept = a.split("|");
+  for (var i=0;i<accept.length;i++) if (norm(accept[i]) === norm(val)) return true;
+  return false;
+}
+
+/* ---------- language of instructions ---------- */
+var LKEY = SKEY + "_lang";
+function setLevel(lv, save){
+  var zh = (lv === "zh");
+  body.classList.toggle("lvl-zh", zh);
+  document.getElementById("lvEN").classList.toggle("on", !zh);
+  document.getElementById("lvZH").classList.toggle("on", zh);
+  document.documentElement.setAttribute("lang", zh ? "zh-CN" : "en");
+  /* Option labels that carry a Chinese gloss. The English stays: it is the
+     thing being learned, not the instructions. */
+  var opts = document.querySelectorAll("option[data-zh]");
+  for (var i=0;i<opts.length;i++){
+    var o = opts[i];
+    if (!o.getAttribute("data-en")) o.setAttribute("data-en", o.innerHTML);
+    o.innerHTML = zh ? o.getAttribute("data-zh") : o.getAttribute("data-en");
+  }
+  if (save !== false){ try { localStorage.setItem(LKEY, lv); } catch(e){} }
+}
+document.getElementById("lvEN").addEventListener("click", function(){ switchLevel("en"); });
+document.getElementById("lvZH").addEventListener("click", function(){ switchLevel("zh"); });
+function switchLevel(lv){
+  if ((lv === "zh") === body.classList.contains("lvl-zh")) return;
+  setLevel(lv, true);
+}
+try { setLevel(localStorage.getItem(LKEY) === "zh" ? "zh" : "en", false); } catch(e){ setLevel("en", false); }
+
+/* ---------- persistence ---------- */
+function collect(){
+  var o = {};
+  ctrls().forEach(function(el){ o[el.getAttribute("data-q")] = getVal(el); });
+  return o;
+}
+function restore(o){
+  if (!o) return;
+  ctrls().forEach(function(el){
+    var q = el.getAttribute("data-q");
+    if (Object.prototype.hasOwnProperty.call(o, q)) setVal(el, o[q]);
+  });
+}
+var t = null;
+function save(){
+  clearTimeout(t);
+  t = setTimeout(function(){
+    try { localStorage.setItem(SKEY, JSON.stringify(collect())); } catch(e){}
+  }, 350);
+}
+try { restore(JSON.parse(localStorage.getItem(SKEY) || "null")); } catch(e){}
+document.addEventListener("input", save);
+document.addEventListener("change", save);
+
+/* ---------- checking ---------- */
+function clearMarks(){
+  var m = document.querySelectorAll(".ok,.bad");
+  for (var i=0;i<m.length;i++){ m[i].classList.remove("ok"); m[i].classList.remove("bad"); }
+  var s = document.querySelectorAll(".sec-score");
+  for (var j=0;j<s.length;j++) s[j].parentNode.removeChild(s[j]);
+}
+function check(){
+  clearMarks();
+  var total = 0, right = 0;
+  var secs = document.querySelectorAll("section.ex");
+  for (var i=0;i<secs.length;i++){
+    var sec = secs[i], st = 0, sr = 0;
+    if (!visible(sec)) continue;
+    var els = sec.querySelectorAll("[data-q]");
+    for (var j=0;j<els.length;j++){
+      var el = els[j];
+      if (!visible(el)) continue;
+      var g = grade(el);
+      if (g === null) continue;
+      st++;
+      el.classList.add(g ? "ok" : "bad");
+      if (g) sr++;
+    }
+    if (st){
+      var tag = document.createElement("span");
+      tag.className = "sec-score";
+      tag.textContent = sr + " / " + st;
+      sec.querySelector(".exhead").appendChild(tag);
+      total += st; right += sr;
+    }
+  }
+  var sc = document.getElementById("score");
+  var pct = total ? Math.round(right * 100 / total) : 0;
+  sc.innerHTML = "<b>" + right + " / " + total + "</b> &nbsp;" + pct + "%";
+  sc.style.background = pct >= 80 ? "#e8f6ee" : (pct >= 50 ? "#fff6e5" : "#fdeceb");
+  return { right: right, total: total };
+}
+window.__check = check;
+
+document.getElementById("btnCheck").addEventListener("click", function(){ check(); });
+document.getElementById("btnReveal").addEventListener("click", function(){
+  body.classList.toggle("reveal");
+  this.textContent = body.classList.contains("reveal") ? "Hide answers" : "Show answers";
+});
+document.getElementById("btnBig").addEventListener("click", function(){
+  body.classList.toggle("big");
+  this.textContent = body.classList.contains("big") ? "Normal text" : "Large text";
+});
+document.getElementById("btnClear").addEventListener("click", function(){
+  if (!window.confirm("Clear every answer on this page?")) return;
+  ctrls().forEach(function(el){ setVal(el, ""); });
+  clearMarks();
+  var sc = document.getElementById("score");
+  sc.textContent = "Not checked yet";
+  sc.style.background = "#eef1f5";
+  save();
+});
+
+/* ---------- save / load a file (no server anywhere) ---------- */
+document.getElementById("btnSave").addEventListener("click", function(){
+  var blob = new Blob([JSON.stringify({ unit: "interchange-intro-u1", answers: collect() }, null, 2)],
+    { type: "application/json" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "interchange-intro-unit-01-answers.json";
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
+});
+document.getElementById("btnLoad").addEventListener("click", function(){
+  var inp = document.createElement("input");
+  inp.type = "file"; inp.accept = "application/json,.json";
+  inp.addEventListener("change", function(){
+    var f = inp.files && inp.files[0];
+    if (!f) return;
+    var r = new FileReader();
+    r.onload = function(){
+      try {
+        var data = JSON.parse(r.result);
+        restore(data && data.answers ? data.answers : data);
+        save();
+        clearMarks();
+      } catch(e){ window.alert("That file could not be read."); }
+    };
+    r.readAsText(f);
+  });
+  inp.click();
+});
+})();
+</script>
+</body>
+</html>

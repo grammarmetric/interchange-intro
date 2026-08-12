@@ -1,0 +1,29 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 6 (Student's Book pp. 36-41).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "The grammar boxes on pp. 37-39 are typeset in HTML rather than cropped:",
+    "they are tables, so typesetting keeps them translatable and legible."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 06.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" },
+    { "page": 1, "x": 872, "y": 276, "w": 190, "h": 38, "note": "Persian stamp in the unit banner" }
+  ],
+
+  "patch": [],
+
+  "crops": [
+    { "id": "ex01-transport", "page": 1, "book": 36, "x": 150, "y": 440, "w": 940, "h": 400, "note": "Ex 1 Snapshot - eight ways of getting around the city" },
+    { "id": "ex02-picture",   "page": 1, "book": 36, "x": 545, "y": 1055, "w": 535, "h": 398, "note": "Ex 2 - Yuto and Austin beside the car" },
+
+    { "id": "ex03-family",    "page": 2, "book": 37, "x": 795, "y": 175, "w": 285, "h": 505, "note": "Ex 3 Word Power - the Mitchell family tree" },
+
+    { "id": "ex07-timeexp",   "page": 4, "book": 39, "x": 758, "y": 462, "w": 322, "h": 222, "note": "Ex 7 - the time-expressions box" },
+
+    { "id": "ex11-reading",   "page": 6, "book": 41, "x": 175, "y": 215, "w": 890, "h": 785, "note": "Ex 11 Reading - the interview with Mike Watts" }
+  ]
+}
