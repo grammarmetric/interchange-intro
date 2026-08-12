@@ -1,4 +1,4 @@
-# Unit 11 — What are you going to do?
+# Unit 11 — I’m going to have a party.
 
 Student's Book pp. 72–77. PDF page = printed page + 8.
 
@@ -27,159 +27,131 @@ Student's Book pp. 72–77. PDF page = printed page + 8.
 ### Printed page 72  (PDF page 80)
 
 ```
-WORD             POWER          Months and dates
+WORD POWER Months and dates
 
- A    Listen and practice the months of the year.
+A Listen and practice the months of the year.
 
+             a                       ane
 
+           B Complete the dates. Then listen and practice.
 
-          a                        ane
-  B   Complete the dates. Then listen and practice.
+             Fe) a
 
-          Fe) a
-          1st        first                      11th     eleventh                           twenty-first
-          2nd         second                             twelfth                            twe
-                      third                     13th     thirteenth                         twenty-third
-          Ath         fourth                    14th     fourteenth                         twenty-fourth
-          5th        fifth                               fifteenth                          twenty-fifth
-                      sixth                     16th     sixteenth                          twe       i
-          7th         seventh                   17th     seventeenth                        twenty-seventh
-          8th         eighth                    18th     eighteenth                         twe         ighth
-          9th         ninth                              nineteenth                         twenty-ninth
-                     tenth                      20th     twentieth                          thirtieth
-                                                                                            thirty-first
+             1st    first                 11th              eleventh                            twenty-first
 
- Cc                      Go around the room. Ask for your classmates’ birthdays.
-      A: When’s your birthday?                 B: It's November eighteenth. When's yours?
+             2nd    second                                  twelfth                             twe
 
+                    third                 13th              thirteenth                          twenty-third
 
-  CONVERSATION                           is she going to bake a cake?
+             Ath    fourth                14th              fourteenth                          twenty-fourth
 
-  Listen and practice.
+             5th    fifth                                   fifteenth                           twenty-fifth
 
-                     Are you going to do anything exciting this weekend?
-3638.45
+                    sixth                 16th              sixteenth                           twe        i
 
+             7th    seventh               17th              seventeenth                         twenty-seventh
 
+             8th    eighth                18th              eighteenth                          twe           ighth
 
+             9th    ninth                                   nineteenth                          twenty-ninth
 
-                     Well, I'm going to celebrate my birthday.
+                    tenth                 20th              twentieth                           thirtieth
 
-                     Oh, happy birthday! When is it, exactly?
+                                                                                                thirty-first
 
-                     It's April twenty-first — Sunday.
+Cc                         Go around the room. Ask for your classmates' birthdays.
 
-                     So what are your plans?
+           A: When's your birthday?       B: It's November eighteenth. When's yours?
 
-                     I'm going to go to my friend Rosa’s house.
-                     She’s going to cook a special dinner for me.
+415 3638.45CONVERSATION is she going to bake a cake?
+           Listen and practice.
 
-                     Nice! Is Rosa going to bake a birthday cake for you, too?
-415
-
-
-
-
-                     A cake for me? Mmm...| hope so!
+                                    Are you going to do anything exciting this weekend?
+                                    Well, I'm going to celebrate my birthday.
+                                    Oh, happy birthday! When is it, exactly?
+                                     It's April twenty-first -- Sunday.
+                                     So what are your plans?
+                                     I'm going to go to my friend Rosa's house.
+                                     She's going to cook a special dinner for me.
+                                     Nice! Is Rosa going to bake a birthday cake for you, too?
+                                    A cake for me? Mmm...| hope so!
 ```
 
 ### Printed page 73  (PDF page 81)
 
 ```
-GRAMMAR                   FOCUS
-©        Biceccw ue         cen
+GRAMMAR FOCUS
 
-         Are you going to do anything this weekend?         Yes, | am. |’m going to celebrate my birthday.
-                                                            No, I’m not. I’m going to stay home.
-         Is Rosa going to cook dinner for you?              Yes, she is. She’s going to cook a special dinner.
-                                                            No, she’s not. She’s going to order takeout.
-         Are your friends going to be there?                Yes, they are. They’re going to stop by after dinner.
-                                                            No, they’re not. They’re going to be away all weekend.
-                                                                                             GRAMMAR    PLUS see page 142
+� Biceccw ue cen                                   Yes, | am. |'m going to celebrate my birthday.
+       Are you going to do anything this weekend?  No, I'm not. I'm going to stay home.
+       Is Rosa going to cook dinner for you?       Yes, she is. She's going to cook a special dinner.
+       Are your friends going to be there?         No, she's not. She's going to order takeout.
+                                                   Yes, they are. They're going to stop by after dinner.
+                                                   No, they're not. They're going to be away all weekend.
 
+                                                                                                         GRAMMAR PLUS see page 142
 
-     A What are these people going to do this weekend? Write sentences.
-           Then compare with a partner.
+A What are these people going to do this weekend? Write sentences.
+    Then compare with a partner.
 
+      1. He's going to go biking.
 
+B PAIR WORK Is your partner going to do the things in part A this weekend?
+    Ask and answer questions.
+    "Are you going to go biking this weekend?"
 
+PRONUNCIATION Reduction of going to
 
-            1.     He’s going to go biking.
+� A Listen and practice. Notice the reduction of going to to /gano/.
 
+A: Are you going to go to the game?                A: Are you going to go to a restaurant?
+B: No. I'm going to study for a test.              B: Yes. We're going to go to Nick's Caf�.
 
-     B     PAIR WORK      Is your partner going to do the things in part A this weekend?
-           Ask and answer questions.
+B PAIR WORK Ask your partner about his or her evening plans.
+   Try to reduce going to.
 
-           “Are you going to go biking this weekend?”
-
-
-     PRONUNCIATION                            Reduction of going to
-©A         Listen and practice. Notice the reduction of going to to /gano/.
-
-           A: Are you going to go to the game?                     A: Are you going to go to a restaurant?
-           B: No. I’m going to study for a test.                   B: Yes. We're going to go to Nick’s Café.
-
-     B     PAIR WORK Ask your partner about his or her evening plans.
-           Try to reduce going to.
-
-
-                                                                                       I'm going to have a party.
+                                                                      I'm going to have a party.
 ```
 
 ### Printed page 74  (PDF page 82)
 
 ```
-LISTENING              Holiday plans
-     A What are these
-        people’s plans for
-        a Monday holiday?
-        Write your guesses in
-        the chart.
+LISTENING Holiday plans
 
-©B      Listen to the interview.
-        What are the people
-        really going to do on
-        Monday? Complete
-        the chart.
+    A What are these
+         people's plans for
+         a Monday holiday?
 
+          Write your guesses in
+         the chart.
 
+� B Listen to the interview.
+          What are the people
+         really going to do on
+         Monday? Complete
+         the chart.
 
+                                 Morgan    What they're really going to do
 
-                                          Morgan
+Morgan                      Your guess
+        Morgan is going to go to the gym.
+Isaac
+Brian
+Lauren
 
+    INTERCHANGE 11 Take a guess
 
-                                        Your guess                    What they're really going to do
-         Morgan         Morgan is going to go to the gym.
-         Isaac
+     Make guesses about your classmates' plans. Go to Interchange 11 on page 125.
 
-         Brian
+   SNAPSHOT
 
-         Lauren
+� Listen and practice.
 
+    Celebrating Holidays in the U.S.
 
-
-
-     INTERCHANGE                   11   Take a guess
-     Make guesses about your classmates’ plans. Go to Interchange 11 on page 125.
-
-
-
-     SNAPSHOT
-©    Listen and practice.
-
-
-       Celebrating Holidays in the U.S.
-
-
-
-
-                                                                                               :¥   x
-      New Year’s Eve || Valentine’s Day | Independence Day | Halloween                        fe leks
-
-     Do you celebrate any of these holidays? Do any of your friends celebrate them?
-     What are some holidays in your country? What's your favorite holiday?
-
-
+     New Year's Eve || Valentine's Day | Independence Day | Halloween               :� x
+   Do you celebrate any of these holidays? Do any of your friends celebrate them?  fe leks
+   What are some holidays in your country? What's your favorite holiday?
 
 Unit 11
 ```
@@ -187,113 +159,108 @@ Unit 11
 ### Printed page 75  (PDF page 83)
 
 ```
-CONVERSATION                        We're going to go dancing.
-©   Listen and practice.
+CONVERSATION We're going to go dancing.
 
-               ALLIE     So, Jim, do you have any plans for Valentine's Day?
-anaoaD         JIM        | sure do. I'm going to take Marissa out for dinner.
+� Listen and practice.
 
-              ALLIE      Oh, really? Where are you going to eat?
+            ALLIE So, Jim, do you have any plans for Valentine's Day?
 
-               JIM       At the Red Rose. They have great desserts.
+3 a anaoaD  JIM    | sure do. I'm going to take Marissa out for dinner.
 
-               ALLIE   — Wow! That sounds really nice!
-                                                                                                    (Bima?
-                                                                                                       g                 4               +
+            ALLIE  Oh, really? Where are you going to eat?
 
+            JIM    At the Red Rose. They have great desserts.
 
+            ALLIE -- Wow! That sounds really nice!                                    (g Bim4 a?+
 
+            JIM    Yeah! How about you? What are you                                 . ae "
+            ALLIE  and Matt going to do?
 
-               JIM       Yeah! How about you? What are you
-                         and Matt going to do?
+                   Well, we're not going to go to a fancy
+                   restaurant. We're going to go dancing.
 
-               ALLIE     Well, we're not going to go to a fancy                             .               ae                               "
-    a
+            JIM    Sounds like fun, too.
 
+GRAMMAR FOCUS
 
+O Wietco cuca ule                  a
 
+What are you going to do for Valentine's Day?              I'm going to go to a dance club.
+                                                           I'`m not going to go to a restaurant.
+How is Allie going to get to the dance club?               She's going to drive.
+                                                           She's not going to take the bus.
+Where are Jim and his girlfriend going to eat?             They`re going to eat at the Red Rose.
+                                                           They`re not going to eat at Nick's Caf�.
 
-                         restaurant. We're going to go dancing.
+                                                                                       GRAMMAR PLUS see page 142
 
-               JIM       Sounds like fun, too.
-3
+A Complete these conversations with the correct form of be going to. Then practice with a partner.
 
+1. A: Where                   are     you     going to spend             (spend) Thanksgiving?
 
+            B: My parents and |                             (visit) my grandparents.
 
+2. A: Who                             you                                (invite) to your Independence Day picnic?
+    B: |
+                                           (ask) my family and some good friends.
+3. A: What
+    B: | don't know. |                you                                (do) for New Year's Day?
 
-    GRAMMAR                  FOCUS
-O Wietco cuca ule                       a
+                                                           (not do) anything special.
 
-        What are you going to do for Valentine’s Day?               I'm going to go to a dance club.
-                                                                    I'‘m not going to go to a restaurant.
-        How is Allie going to get to the dance club?                She’s going to drive.
-                                                                    She’s not going to take the bus.
-        Where are Jim and his girlfriend going to eat?              They‘re going to eat at the Red Rose.
-                                                                    They‘re not going to eat at Nick’s Café.
-                                                                                     GRAMMAR         PLUS see page 142
+4. A: How                             your children                                    (celebrate) Halloween?
+    B: They                                           (go) to their school's party.  (do) for Valentine's Day?
 
+5. A: What                             your sister
 
-    A Complete these conversations with the correct form of be going to. Then practice with a partner.
-          1. A: Where        are              you         going to spend         (spend) Thanksgiving?
-             B: My parents and |                                     (visit) my grandparents.
-          2. A: Who                         you                                  (invite) to your Independence Day picnic?
-             B: |                                   (ask) my family and some good friends.
-          3. A: What                        you                                 (do) for New Year's Day?
-             B: | don’t know. |                                    (not do) anything special.
-          4. A: How                         your children                                       (celebrate) Halloween?
-             B: They                                      (go) to their school’s party.
-          5. A: What                        your sister                                   (do) for Valentine’s Day?
-             B: Her boyfriend                                       (take) her out to dinner.
+            B: Her boyfriend                               (take) her out to dinner.
 
-    B     GROUP WORK Ask your classmates about their plans.
-          Use the names of holidays and the time expressions in the box.                        .
-                                                                                          tonight                            next week
-          A: What are you going to do tonight?                                            somotrow                           next month
-          B: I'm going to go to a party.                                                  tomorrow         afternoon         next summer
-          C: Oh, really? Who's going to be there?
-                                                                                          tomorrow night                     next year
-          B: Well, Chris and Sam are going to come....
-                                                                                                    I'm going to have a party.
+B GROUP WORK Ask your classmates about their plans.                                  toni.ght                     next week
+    Use the names of holidays and the time expressions in the box.                   somotrow                     next month
+
+   A: What are you going to do tonight?                                              tomorrow afternoon           next summer
+    B: I'm going to go to a party.
+    C: Oh, really? Who's going to be there?                                          tomorrow night               next year
+    B: Well, Chris and Sam are going to come....
+
+                                                                                      I'm going to have a party.
 ```
 
 ### Printed page 76  (PDF page 84)
 
 ```
-WORD          POWER              Let's celebrate!
+WORD POWER            Let's celebrate!
+� A Listen and practice.
 
-©A       Listen and practice.
+play music                go to a parade            go on a picnic       watch fireworks
 
+B PAIR WORK Are you going to celebrate a special day this year? Are you (or is someone
+   you know) going to do any of the things in part A?
 
+   A: |'m going to go to a wedding next month. I'm going to wear special clothes.
+    B: Is it a family member's wedding?
 
+   SPEAKING Holidays and festivals                  Carnival, Brazil TM
+                                                            )
+   A PAIR WORK Choose any holiday or festival.
+       Then ask and answer these questions.
+       What is the holiday or festival?
+        When is it?
+       What are you going to do?
+        Where are you going to go?
+       Who's going to be there?
+       When are you going to go?
+        How are you going to get there?
 
-                play music                    go to a parade               go on a picnic   watch fireworks
+       A: What is the holiday or festival?
+        B: It's my city's Cherry Blossom Festival.
+        A: When is it?
+        B: It's on March twenty-third.
+       A: What are you going to do?
+        B: I'm going to go to the park. ...
 
-     B   PAIR WORK Are you going to celebrate a special day this year? Are you (or is someone
-         you know) going to do any of the things in part A?
-         A: |'m going to go to a wedding next month. I’m going to wear special clothes.
-         B: Is it a family member's wedding?
-
-
-     SPEAKING                Holidays and festivals
-     A   PAIR WORK Choose any holiday or festival.             Carnival, Brazil ™
-         Then ask and answer these questions.                          )
-         What is the holiday or festival?
-         When is it?
-         What are you going to do?
-         Where are you going to go?
-         Who's going to be there?
-         When are you going to go?
-         How are you going to get there?
-
-         A: What is the holiday or festival?
-         B: It’s my city’s Cherry Blossom Festival.
-         A: When   is it?
-         B: It’s on March twenty-third.
-         A: What are you going to do?
-         B: I'm going to go to the park. ...
-
-     B   CLASS ACTIVITY         Tell the class about
-         your partner's plans.
+    B CLASS ACTIVITY Tell the class about
+       your partner's plans.
 
 Unit 11
 ```
@@ -301,1010 +268,765 @@ Unit 11
 ### Printed page 77  (PDF page 85)
 
 ```
-J READING ©
-A Scan the blog post. Who sends a letter when people are 100 years old?
+J READING �
 
+  A Scan the blog post. Who sends a letter when people are 100 years old?
 
-                              lO aaic)   mess)      Nola           OO              OF
+lO aaic)  mess)                  Nola      OO                              OF
 
+Jim Dixon, Montego Bay, Jamaica
 
+          Victoria Smith, London, UK
 
+                                       ae  SIN  {  Sl
 
-     Jim Dixon, Montego Bay, Jamaica
+                                                      In my country, we celebrate
+                                                      birthdays with a special type
+                                                      of food. Noodles are a sign
+                                                      of long life for us. This year,
+                                                      I'm going to make some
+                                                      "long life noodles" for all my
+                                                     friends. We're going to eat
+                                                     them together and have a
+                                                            great evening!
 
+B Read the questions. Write short answers.
 
+    1. Which two countries celebrate birthdays with food?
+    2. Why is Jim going to the store?
+    3. What three things do you need to make fairy bread?
+    4. What do noodles mean in China?
 
-
-                                            Victoria Smith, London, UK
-                                                              ae   SIN   {    Sl
-
-
-
-
-                                            In my country, we celebrate
-                                            birthdays with a special type
-                                            of food. Noodles are a sign
-                                            of long life for us. This year,
-                                            I'm going to make some
-                                            “long life noodles” for all my
-                                            friends. We're going to eat
-                                            them together and have a
-                                            great evening!
-
-
- B   Read the questions. Write short answers.
-     1.   Which two countries celebrate birthdays with food?
-     2.   Why is Jim going to the store?
-     3.   What three things do you need to make fairy bread?
-     4.   What do noodles mean in China?
-
- C GROUP WORK How do people usually celebrate birthdays in your country?
-   Do you have plans for your next birthday? How about the birthday of a friend
-   or a family member? What are you going to do? Tell your classmates.
-                                                                                   I'm going to have a party.
+C GROUP WORK How do people usually celebrate birthdays in your country?
+    Do you have plans for your next birthday? How about the birthday of a friend
+    or a family member? What are you going to do? Tell your classmates.
+                                                                                                  I'm going to have a party.
 ```
 
 ## Teacher's edition notes for this unit (answer keys and audio scripts)
 
 ```
-letter
-parade
-party
-picnic
-present
+May 22nd ) on the board. Point out that we write the
+month and then the number. Read the dates aloud
+and have Ss repeat.
 
-Queen
-restaurant
-sugar
-surprise
+• Option: Model other ways to write dates.
+For example:
 
-Pronoun
-anything
+November 18th
+November 18
+November eighteenth
+11/18
+
+18 November
+
+• Write your birthday on the board. Say: “My birthday
+is . . .” Explain that your birthday is the date you
+were born.
+
+• Books open. Explain the task. Ask two Ss to model
+the example conversation.
+
+• Ss take their pencils and notebooks, go around the
+class, and complete the activity by making a list of
+their classmates’ birthdays. Continue until most Ss
+have at least five birthdays on their list. While Ss
+make their lists, list the names of the Ss in the class
+on the board.
+
+• Ask the class about each S in the class: “When is
+(Juan)’s birthday?” Ask different Ss to write the
+birthdays on the board. The class helps with spelling
+as needed.
+
+• Option: Make a list of 10 dates (e.g., January 21st,
+October 7th ). Dictate them to the class and have the
+Ss write them down. Then ask different Ss to write the
+dates on the board. Alternatively, Ss dictate dates to
+each other in pairs.
+For more practice with months and dates, play Line
+Up! – download it from the website. Ss line up in the
+order of their birthdays.
+
+2 CONVERSATION
+Learning Objective: use the future with be going to in
+a conversation about plans
+
+[CD 2, Track 54]
+• Text covered. Focus Ss’ attention on the picture
+and set the scene. Ava is asking Martin about his
+weekend plans. Elicit or explain what kind of cake is
+shown (a special cake/a birthday cake).
+
+• Text uncovered. Play the audio program. Ss listen
+and read silently.
+
+• Play the audio program again. Ss read, listen,
+and repeat.
+
+• Ss practice the conversation in pairs.
+
+I’m going to have a party.
+
+T-72
+
+3 GRAMMAR FOCUS
+Learning Objective: use the future with be going to in
+statements and yes/no questions
+
+[CD 2, Track 55]
+
+5. work
+6. dance, go dancing
+7. play the drums
+8. go to the movies, watch a movie, see a movie
+
+The future with be going to
+• Focus Ss’ attention on the Grammar Focus box. Elicit
+
+• Ss complete the task individually. Go around the class
+
+or explain that we use be going to to talk about
+future plans.
+
+• Ss compare sentences in pairs. Then elicit sentences
+
+• Write this on the board:
+I’m going to study tonight. = I’m planning to study
+tonight.
+Point out that these sentences have the same
+meaning.
+
+• Elicit or explain the pattern for statements and yes/
+no questions with be going to:
+Subject + be going to + verb.
+Be + subject + going to + verb?
+Yes, + subject + be.
+No, + subject + be + not.
+
+• Play the audio program. Ss listen and read silently.
+• Option: Play the audio program again. Ss listen
+and repeat.
+
+and help with spelling and punctuation as needed.
+from the class and ask different Ss to write them on
+the board.
+
+Possible answers
+1. He’s going to go biking.
+2. He’s going to swim./He’s going to go swimming.
+3. She’s going to go shopping.
+4. They are going to watch a soccer game.
+5. She’s going to work./She’s going to go to work.
+6. They’re going to dance./They’re going to go
+dancing.
+7. He’s going to play (the) drums.
+8. They’re going to go to the movies./They’re
+going to watch/see a movie.
+
+B Pair work
+• Explain the task. Model the example question, and
+ask a S to respond.
 
-Adjectives
-Dates
-
-(1st–31st)
-See Exercise 1 on page 72.
-
-Other
-fancy
-special
-traditional
-
-Verbs
-ask
-bake
-
-celebrate
-cook
-decorate
-give
-go on a picnic
-invite
-order
-take (someone) out
-
-Adverbs
-
-Time expressions
-next month
-next summer
-next week
-next year
-this weekend
-tomorrow
-tomorrow afternoon
-tomorrow night
-tonight
-
-EXPRESSIONS
-Talking about future plans
-
-Talking about dates
-
-Are you going to do anything exciting this weekend?
-Yes, I am. I’m going to . . .
-No, I’m not. I’m going to . . .
-What are your plans?
-What are you going to do?
-I’m going to . . .
-Where are you going to go?
-I’m going to go to . . .
-How are you going to get there?
-We’re going to . . .
-Who’s going to be there?
-. . . is/are going to be there.
-When are you going to . . . ?
-We’re going to . . . at . . .
-
-When is your birthday?
-It’s August 9th.
-
-T-162
-T-328
-
-Language summary
-
-Wishing someone a good birthday
-Happy birthday!
-
-Expressing anticipation
-I hope so!
-
-Exchanging information
-How about you?
-
-Expressing approval
-(That) sounds like fun.
-Nice!
-That’s nice.
-How fancy!
-Wow!
-
-Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
-
-12 Language summary
-VOCABULARY
-Nouns
-
-Parts of the body
-ankle
-arm
-back
-brain
-chest
-chin
-ear
-elbow
-eye
-eyebrow
-finger(s)
-foot (plural: feet)
-hair
-hand
-head
-heart
-hip
-knee
-leg
-mouth
-neck
-nose
-shoulder
-skin
-stomach
-
-throat
-thumb
-toe(s)
-tooth (plural: teeth)
-wrist
-
-Health problems
-backache
-cold
-cough
-dry eyes
-earache
-fever
-the flu
-headache
-sore throat
-stomachache
-toothache
-
-Medications/
-remedies
-antacid
-aspirin
-chamomile tea
-chicken soup
-cold medicine
-cough syrup
-eye drops
-ice pack
-nasal spray
-
-Other
-
-Other
-
-bacteria
-cells
-dentist
-electricity
-hour
-part
-patient
-rest
-signals
-soda
-
-noisy
-wrong
-
-Adjectives
-
-Positive feelings
-better
-fantastic
-fine
-great
-terrific
-
-Verbs
-beat
-feel
-have
-hurt
-lose
-relax
-stay up
-take a look
-
-Adverbs
-much
-so (= very)
-well
-
-Negative feelings
-awful
-exhausted
-horrible
-miserable
-sick
-sore
-terrible
-tired
-
-EXPRESSIONS
-Talking about health problems
-
-Refusing something politely
-
-How are you?
-How do you feel (today)?
-I feel better.
-Not so good/well.
-What’s the matter?
-What’s wrong?
-I feel sick/terrible.
-I don’t feel well.
-
-Do you want . . . ?
-No, but thanks anyway.
-
-Expressing sympathy
-That’s too bad.
-I’m sorry to hear that.
-That’s good.
-I’m glad to hear that.
-
-Asking for permission
-Is that OK?
-
-Giving a suggestion
-I have an idea.
-Take/Don’t take . . .
-Eat/Don’t eat . . .
-
-Asking for more information
-Anything else?
-
-Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
-
-Language summary
-
-T-329
-T-163
-
-13 Language summary
-VOCABULARY
-Nouns
-
-Form of address
-
-Places
-
-sir
-
-avenue
-bank
-bookstore
-center
-coffee shop
-department store
-drugstore
-flower shop
-garage
-gas station
-library
-movie theater
-museum
-parking lot
-planetarium
-post office
-restaurant
-restroom
-shoe store
-square
-street
-supermarket
-
-Other
-attraction
-competition
-debit card
-espresso
-garden
-gasoline
-magazine
-map
-monument
-package
-painting
-plant(s)
-polo
-sculpture
-stamps
-statue
-telescope
-tourist
-
-Verbs
-go down/up
-turn around
-turn left/right
-walk down/up
-
-Adverb
-right
-
-Prepositions
-across from
-behind
-between
-next to
-on
-on the corner of
-on the left/right
-
-EXPRESSIONS
-Asking for and giving locations
-
-Getting someone’s attention
-
-Is there a . . . around here?
-Yes, there is. It’s next to/across from/. . .
-(No.) I don’t think so.
-Where is the . . . ? Is it far from here?
-It’s right behind you.
-
-Excuse me.
-
-Asking for and giving directions
-
-It’s an emergency!
-
-How do/can I get to . . . ?
-Walk/Go up . . .
-Walk/Go down . . .
-Turn left/right on . . .
-It’s on the left/right.
-You can’t miss it.
-
-Pausing before responding
-
-T-164
-T-330
-
-Language summary
-
-Asking for help
-Can you help me?
-
-Expressing urgency
-
-Hmm.
-
-Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
-
-14 Language summary
-VOCABULARY
-Nouns
-
-Adjective
-
-bang
-barbecue
-beach volleyball
-braces
-chores
-exhibit
-instructor
-lesson
-library
-mall
-music
-parasailing
-relatives
-shopping
-tablet
-test
-vacation
-white-water rafting
-
-different
-
-Verbs
-argue
-break down
-clean
-climb
-come home
-decide
-do laundry
-get married
-go camping
-go out
-hang out
-have fun
-invite (someone) over
-listen
-make (your) bed
-
-paint
-play
-see (a movie)
-speak
-stay
-take (classes/lessons)
-travel
-visit
-watch
-
-Other
-anywhere
-
-Adverbs
-
-Time expressions
-last month
-last night
-last summer
-last week
-last weekend
-last year
-yesterday
-
-EXPRESSIONS
-Talking about past activities
-Did you . . . last summer?
-Yes, I did. I . . .
-No, I didn’t. I . . .
-What did you do?
-I...
-I didn’t . . .
-Did you do anything else?
-
-Giving opinions about past experiences
-Did you like . . . ?
-Yes, I did. I liked it a lot.
-We loved it!
-Did you have a good summer?
-Yes, I did. I had a great summer.
-No, I didn’t.
-
-Greeting someone who’s been away
-Welcome back.
-
-Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
-
-Language summary
-
-T-331
-T-165
-
-15 Language summary
-VOCABULARY
-Nouns
-
-Classes at school
-chemistry
-geography
-history
-photography
-physical education
-science
-
-Places at school
-auditorium
-cafeteria
-classroom
-computer lab
-library
-
-Types of Schools
-elementary school
-middle school
-high school
-college
-
-Jobs
-actress
-comedian
-engineer
-game designer
-hairstylist
-musician
-photographer
-singer
-teacher
-
-Other
-charity
-communicate
-culture
-raise
-major
-way of life
-
-Adjectives
-
-Adverb
-
-angry
-bilingual
-on time
-sunny
-young
-
-on time
-
-Verbs
-
-because
-
-Preposition
-for (. . . years)
-
-Conjunction
-
-be born
-begin
-believe
-graduate
-grow up
-need
-open a bank account
-spend (time)
-start (school)
-turn (an age)
-work
-
-EXPRESSIONS
-Exchanging personal information
-
-Asking about someone
-
-When were you born?
-I was born in 1990.
-Where were you born?
-I was born in Brazil.
-Were you born in the United States?
-Yes, I was.
-No, I wasn’t. I was born in . . .
-Where did you grow up?
-I grew up in New York.
-How old were you in . . . ?
-I was . . .
-What was your favorite . . . ?
-It was . . .
-
-Who was . . . ?
-He was . . .
-What was he like?
-He was . . .
-He wasn’t . . .
-
-T-166
-T-332
-
-Language summary
-
-Asking for an opinion
-What do you think?
-
-Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
-
-16 Language summary
-VOCABULARY
-Nouns
-amusement park
-art market
-autograph
-barbecue
-camping
-comedy
-concert
-excuse
-(street) fair
-(art) festival
-food court
-
-invitation
-message
-musical
-musician
-play
-show
-shower
-stage
-trip
-
-Verbs
-
-Adverbs
-
-babysit
-call (you) back
-go out with (my
-girlfriend/boyfriend)
-have to
-help
-need to
-want to
-would like/love to
-
-already
-around (seven o’clock)
-
-Prepositions
-at (home/school/work)
-at the (beach/library/
-mall)
-in (bed/class/Mexico)
-in a (meeting)
-in the (hospital/shower)
-on (her break/a trip/
-vacation)
-
-Adjective
-amazing
-
-EXPRESSIONS
-Making a phone call
-
-Declining an invitation and making an excuse
-
-Hello. Is . . . there/in?
-Hi. Can I speak to/with . . . ?
-I’m sorry, but she’s in a meeting right now.
-Sorry I called you at work.
-
-I’m sorry, but I can’t. I have to . . ./I need to . . .
-I’d like to, but . . .
-
-Taking a phone message
-Do you want to leave a message?
-Can I take a message?
-Sure. Please give her my number.
-Yes. Please ask/tell her to call me.
-I’ll give her your message.
-
-Making and accepting an invitation
-Do you want to . . . (with me)?
-Would you like to . . . (with me)?
-Sure. I’d really like to . . . (with you).
-Yes, I’d love to.
-
-Suggesting a different activity
-I don’t really like . . .
-Do you want to do something else?
-
-Asking what is happening
-What’s up?
-
-Asking for a favor
-Can you . . . ? Please . . .
-
-Offering to help
-Can I help you?
-
-Expressing happy surprise
-Terrific!
-
-Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
-
-Language summary
-
-T-333
-T-167
-
-Workbook answer key
-1 What’s your name?
-Exercise 1
-
-Exercise 7
-
-Hi, Nancy.
-Hello, Mr. Garcia.
-It’s nice to meet you, Ms. Baker.
-Nice to meet you, too, John.
-
-1. A: What’s your name?
-B: I’m Momoko Sato.
-A: It’s nice to meet you, Momoko.
-2. A: Hello. I’m Josh Brown. I’m in your English class.
-B: Yes, and you’re in my math class, too.
-3. A: What’s his name?
-B: It’s Chris Allen.
-A: He’s in our English class.
-B: You’re right!
-
-Exercise 2
-1. A: Hi. What’s your name?
-B: My name is Lisa. And what’s your name?
-A: My name is James.
-2. A: What’s his name?
-B: His name is Michael.
-A: And what’s her name?
-B: Her name is Susan.
-
-Exercise 3
-1. A: Hello, Mr. Wilson.
-B: Good morning, David. How are you?
-A: I’m OK, thank you.
-2. A: Hi. How are you, Mrs. Turner?
-B: I’m just fine, thank you. How about you, Mr. Smith?
-A: Pretty good, thanks.
-3. A: How’s it going, Ken?
-B: Great. How are you doing?
-A: Pretty good.
-
-Exercise 4
-2. A: My name is Ellen Miller.
-B: I’m Rob Williams.
-3. A: Hello, Carol. How’s it going?
-B: Fine, thanks.
-4. A: How do you spell your last name?
-B: R-O-G-E-R-S
-5. A: I’m Rich Martinez.
-B: It’s nice to meet you
-
-Exercise 5
-3: three
-8: eight
-1: one
-7: seven
-10: ten
-5: five
-6: six
-0: zero
-9: nine
-4: four
-
-Exercise 6
-3. 604-555-4731
-4. 949-555-3802
-5. brian.johnson039@cup.org
-6. 773-555-1779
-7. mariabrady_7@cup.org
-8. tina-fox_952@cup.org
-
-T-168
-
-Workbook answer key
-
-Exercise 8
-1. Amy: Excuse me. Are you Alex Walker?
-Carlos: No, I’m not. He’s over there.
-Amy: Oh, I’m sorry.
-2. Amy: Excuse me. Are you Alex Walker?
-Alex: Yes, I am.
-Amy: Hi, Alex. My name is Amy Clark.
-Alex: Oh, you’re in my English class.
-Amy: That’s right. It’s nice to meet you.
-Alex: Nice to meet you, too.
-
-Exercise 9
-A: Hi. Are you Andrea Nelson?
-B: No, I’m not.
-A: Oh, I’m sorry. What’s your name?
-B: Kerry Moore.
-A: How do you spell your first name?
-B: K-E-R-R-Y.
-A: And how do you spell your last name?
-B: M-O-O-R-E.
-A: What’s your phone number?
-B: It’s 618-555-7120.
-A: And what’s your email address?
-B: It’s kmoore19@cup.org.
-
-Exercise 10
 A
-2. A: Good-bye.
-B: See you tomorrow.
-3. A: Excuse me. Are you Min-ji Park?
-B: Yes, I am. It’s nice to meet you.
-4. A: Good evening.
-B: Hello.
+• Focus Ss’ attention on the pictures. Explain the task.
+Ask a S to model the example sentence.
+
+• Option: Elicit the activities in the remaining pictures.
+Write possible phrases for each picture on the board.
+For example:
+1. go biking, go bike riding
+2. swim, go swimming
+3. shop, go shopping
+4. watch a soccer game
+
+• Ss complete the task in pairs.
+• Ss share information about their partner’s weekend
+plans with another pair.
+For a new way to practice yes/no questions with be
+going to, try Question Exchange – download it from
+the website.
+For more practice using statements with be going to,
+play the Chain Game – download it from the website.
+Begin with this sentence: “This weekend, I’m going
+to go swimming.”
+
+4 PRONUNCIATION
+Learning Objective: sound more natural by reducing
+going to when talking about future plans
+
+A [CD 2, Track 56]
+• Explain the task and play the audio program. Ss listen
+and read silently.
+
+• Point out that we use this reduction when we talk
+about future plans (i.e., be going to + verb). We do
+not use it to talk about the present continuous (i.e.,
+with be going to + noun).
+
+• Write these two sentences on the board:
+I’m going to have a party.
+I’m going to a party.
+
+T-73
+
+Unit 11
+
+Ask: “Which sentence talks about future plans?” Ss
+explain their answers.
+
+• Play the audio program again. Ss listen and repeat.
+Then they practice the conversations in pairs. Go
+around the class and check Ss’ use of the reduction.
+
+B Pair work
+• Explain the task. Then Ss complete the task in
+pairs. Go around the class and check Ss’ use of
+the reduction.
+
+5 LISTENING
+Learning Objective: listen for specific information
+about future plans
+
+Isaac
+Jacob
+
+A
+• Focus Ss’ attention on the picture and explain the
+task. Ss complete the left-hand column of the chart
+individually. Elicit guesses from the class.
+
+B [CD 2, Track 57]
+
+Isaac
+Jacob
+
+• Explain the task. Then play the audio program once
+
+Brian
+Jacob
+
+or twice, pausing after each interview. Ss listen and
+complete the right-hand column of the chart.
+
+Brian
+
+Audio script
+Jacob
+
+Hello, everyone! I’m Jacob with the
+Real City website. It’s Friday evening,
+and it’s going to be a long weekend,
+because Monday is a holiday. I’m talking
+with people waiting for the subway. I’m
+finding out how they’re going to spend
+the Monday holiday. What’s your name?
+Morgan It’s Morgan.
+Jacob What are you going to do on Monday?
+Are you going to go to the gym?
+Morgan No, not on Monday. I’m going to meet
+a friend. We’re going to run together in
+the park.
+Jacob Great! Have fun. And what’s your name?
+Isaac
+I’m Isaac. Nice to meet you.
+Jacob Nice to meet you, too. Are you going
+home now, Isaac?
+
+Jacob
+Brian
+Jacob
+Lauren
+Jacob
+Lauren
+Jacob
+Lauren
+Jacob
+
+No, I’m not. I’m going to go to a concert
+with some friends tonight.
+That’s great. What are you going to do on
+Monday? It’s a holiday, you know.
+Oh, I’m going to play the drums all day.
+I need to practice. I really want to be in a
+band.
+Well, good luck with that, Isaac! Hi there.
+I’m Jacob from Real City News. Can I ask
+your name?
+Sure. I’m Brian.
+Are you going to do anything interesting
+on Monday, Brian?
+I don’t think so. I’m going to work at home
+this weekend, and on Monday, too. I have
+all my work right here in my bag.
+I see. So, Monday really isn’t a holiday for
+you.
+No. It really isn’t.
+OK, I have time for one more person.
+Oh, hi. I’m Lauren.
+What are you going to do on Monday,
+Lauren?
+I’m going to play computer games on my
+laptop.
+Alone?
+No, not alone. I’m going to play online. A
+lot of my friends are going to play online,
+too!
+Sounds like fun.
+
+• Elicit the answers from the class.
+Answers
+Morgan is going to meet a friend/run in the park.
+Isaac is going to play the drums all day.
+Brian is going to work at home.
+Lauren is going to play computer games online.
+
+6 INTERCHANGE 11
+See page T-125 for teaching notes.
+
+End of Cycle 1
+See the Supplementary Resources chart at the
+beginning of this unit for additional teaching materials
+and student activities related to this Cycle.
+
+Cycle 2, Exercises 7–12
+
+7 SNAPSHOT
+Learning Objective: discuss common holidays
+
+[CD 2, Track 58]
+• Focus Ss’ attention on the pictures. Then play the
+audio program. Ss listen and read silently.
+
+• Ss discuss the questions in small groups. Go around
+the class and help with vocabulary as needed. Then
+elicit information from each group.
+
+• Option: When Ss say their favorite holiday, have
+them give the date also.
+
+• Play the audio program again. Ss listen and repeat.
+
+I’m going to have a party.
+
+T-74
+
+8 CONVERSATION
+Learning Objective: use Wh-questions with be going
+to in a conversation about a holiday
+
+[CD 2, Track 59]
+• Books closed. Write Valentine’s Day on the board.
+Ask the class: “When is Valentine’s Day? How
+do people celebrate it?” If needed, explain that
+Valentine’s Day is on February 14th. To celebrate,
+people exchange cards with people they love or
+really like. Some people give their husband, wife,
+boyfriend, or girlfriend a present, such as chocolate
+or flowers. Sometimes they go out for dinner.
+
+• Books open. Set the scene. Allie and Jim are talking
+about their plans for Valentine’s Day.
+
+• Write these questions on the board:
+1. Who is going to go out for dinner on Valentine’s Day?
+2. Where are they going to go?
+3. Who is going to go dancing?
+• Play the audio program. Ss listen for the answers.
+(Answers: 1. Jim and Marissa 2. the Red Rose/a fancy
+restaurant 3. Allie and Matt)
+
+• Play the audio program again. Ss listen and repeat.
+Then they practice the conversation in pairs.
+For a new way to practice this Conversation, try
+Moving Dialog – download it from the website.
+
+9 GRAMMAR FOCUS
+Learning Objective: use be going to in Wh-questions
+
+[CD 2, Track 60]
+Wh-questions with be going to
+• Focus Ss’ attention on the Grammar Focus box. Point
+out the pattern for the first three Wh-questions:
+Wh-question + be + subject + going to + verb?
+
+• Point out the patterns for positive and negative
+statements with be going to:
+Positive: Subject + be + going to + verb.
+Negative: Subject + be + not + going to + verb.
+
+• Play the audio program. Ss listen and read silently.
+• Option: Play the audio program again. Ss listen
+and repeat.
+
+A
+• Explain the task. Read the first line of the first
+conversation and elicit the second line from the
+class. Point out that Ss should use the words in
+parentheses.
+
+• Ss complete the task individually. Go around the class
+and give help as needed. Then Ss compare their
+answers in pairs.
+
+• Ask different Ss to read the conversations. If needed,
+correct any errors as a class. Then Ss practice the
+conversations in pairs.
+
+Answers
+1. A: Where are you going to spend Thanksgiving?
+B: My parents and I are going to visit
+my grandparents.
+2. A: Who are you going to invite to your
+Independence Day picnic?
+B: I’m going to ask my family and some
+good friends.
+3. A: What are you going to do for New
+Year’s Day?
+B: I don’t know. I’m not going to do
+anything special.
+4. A: How are your children going to
+celebrate Halloween?
+B: They are going to go to their
+school’s party.
+5. A: What is your sister going to do for
+Valentine’s Day?
+B: Her boyfriend is going to take her
+out to dinner.
+
+B Group work
+• Explain the task and focus Ss’ attention on the
+time expressions in the box. Point out that these
+expressions are for future time.
+
+• Read the time expressions aloud. Ss listen and read
+silently. Read the time expressions again. Ss listen
+and repeat.
+
+• Ask three Ss to model the example conversation.
+• Ss complete the activity in groups. Go around the
+class and encourage Ss to ask and answer questions
+using different time expressions and the names of
+holidays.
+
+• Option: Ask different Ss to share information about
+their groups with the class.
+
+T-75
+
+Unit 11
+
+10 WORD POWER
+Learning Objective: discuss ways of celebrating
+special occasions
+
+A [CD 2, Track 61]
+• Focus Ss’ attention on the title and pictures. Elicit or
+explain the meaning of any new vocabulary.
+
+• Play the audio program. Ss listen and read silently.
+• Play the audio program again. Ss listen and repeat.
+
+B Pair work
+• Elicit special occasions from the class (e.g., a baby
+shower, graduation, a wedding, an anniversary,
+Mother’s Day, Father’s Day, a high school reunion).
+Then write them on the board.
+
+• Explain the task. Read the questions and ask two Ss
+to model the example conversation. Point out that
+the conversation is about future plans, so Ss should
+use be going to.
+
+• Ss discuss the questions in pairs. Go around the class
+and encourage Ss to ask follow-up questions and
+give more information.
+
+• Ask different pairs to share their information.
+
+11 SPEAKING
+Learning Objective: discuss plans for holidays and
+festivals using the future with be going to
+
+• Ss work individually. They choose a holiday or
+
+A Pair work
+
+festival and make notes about their plans for it. Go
+around the class and encourage Ss to answer all the
+questions. Help with vocabulary as needed.
+
+• Focus Ss’ attention on the title. If needed, explain
+
+TIP
+
+that a holiday is a special day when people don’t
+go to work or school in order to celebrate a special
+occasion (e.g., New Year’s Day ). A festival is a special
+day or days that people celebrate with special
+activities or food. Festivals can celebrate many
+things, including religious events, cultural events, and
+times of year (e.g., Spring Festival ).
+
+• Focus Ss’ attention on the pictures. Read the names
+of the holiday and festival aloud. Elicit or give
+information about them.
+
+Vocabulary
+
+Carnival: a famous street festival in Rio de
+Janeiro, Brazil, usually in February or March,
+celebrated with parades, music, and dancing
+Cherry Blossom Festival: a Japanese festival that
+celebrates the beginning of spring and the cherry
+blossoms
+
+To build Ss’ confidence and make discussions
+more successful, give Ss time to think about what
+to say before they begin the discussion.
+
+• Ss work in pairs. They take turns asking and
+answering questions about the holiday or festival.
+Have Ss take notes about their partner’s plans.
+
+B Class activity
+• Explain the task. Then Ss use their notes to tell the
+class about their partner’s plans.
+
+• Option: Ss write sentences about their partner’s
+plans before they speak.
+
+• Option: Ask Ss to research information about these
+holidays before class.
+
+• Explain the task and read the questions. Point out
+that Ss can choose any holiday or festival they plan to
+celebrate.
+
+• Ask two Ss to model the example conversation.
+
+I’m going to have a party.
+
+T-76
+
+12 READING
+Learning Objective: scan and read for details in a blog
+post about birthday celebrations
+
+A [CD 2, Track 62]
+• Read the title and the heads aloud. Encourage Ss
+to look at the pictures. Ask the class: “Who are the
+people? Where are they from?” Elicit the answers.
+(Answers: Harry Baker, Australia; Jim Dixon, Jamaica;
+Victoria Smith, U.K.; Jiang Li, China)
+
+• Option: Ss find the places on a map or in an atlas.
+• Focus Ss’ attention on the task. Ss complete the task
+individually. Tell Ss to raise their hands when they find
+the answer.
+
+• To check answers, ask: “Who sends a letter when
+people are 100 years old?” Elicit the answer. (Answer:
+the Queen). Then ask a follow-up question: “In what
+country?” (Answer: the U.K.).
+
+TIP
 
 B
-b. 3
-c. 4
-d. 2
+• Explain the task.
+• Write the first question on the board. Point out that
+Ss can find the information quickly by looking for key
+words (e.g., eat, food ).
 
-2 Where are my keys?
-Exercise 1
-A
-2. a laptop
-3. an umbrella
-4. a wallet
-5. a wastebasket
-6. a tablet
-7. a notebook
-8. a hairbrush
+• Ss complete the task individually. Go around the class
+and give help as needed.
 
-B
-2. This is a laptop.
-3. This is an umbrella.
-4. This is a wallet.
-5. This is a wastebasket.
-6. This is a tablet.
-7. This is a notebook.
-8. This is a hairbrush.
+• Ss compare their answers in pairs. Then ask different
+Ss to write the correct answers on the board.
 
-Exercise 2
-/z/ = doors, umbrellas, keys, energy bars
-/s/ = books, laptops, desks, tablets
-/ɪz/ = quizzes, boxes, purses, hairbrushes
+Answers
+1. Australia and China celebrate birthdays with
+food.
+2. Jim is going to the store to buy flour.
+3. You need bread, butter, and sugar.
+4. In China, noodles mean long life.
 
-Exercise 3
-2. A: What’s this?
-B: It’s a flash drive.
-3. A: What are these?
-B: They’re pencils.
-4. A: What are these?
-B: They’re paper clips.
-5. A: What are these?
-B: They’re sunglasses.
-6. A: What’s this?
-B: It’s a purse.
+C Group work
 
-Exercise 4
-Clara: Wow! What’s this?
-Kevin: It’s a purse.
-Clara: Oh, cool. Thank you, Kevin.
-Kevin: You’re welcome.
-Eva: Now open this box.
-Clara: OK. What’s this?
-Eva: It’s a tablet case.
-Clara: Oh, thank you, Eva. And what are these?
-Eva: They’re sunglasses.
-Clara: Thanks! They’re great!
-Laura: Open this, too!
-Clara: Oh, it’s an umbrella. Thanks, Laura!
+To improve Ss’ reading skills, have them discuss
+the title, the heads, and the pictures before they
+read.
 
-Exercise 5
-2. A: Excuse me. Is this the math class?
-B: Yes, it is. And I’m your teacher.
-3. A: Is my purse on the chair?
-B: No, it’s not. It’s under the table.
-4. A: Where’s my laptop?
-B: It’s in your backpack.
-5. A: Where are your glasses?
-B: They’re in my purse.
-6. A: Hi. Are you in my math class?
-B: Yes, I am. And I’m in your English class, too!
+• Read the questions and explain the task. Point out
 
-7. A: Are these your keys?
-B: Yes, they are. Thank you.
-8. A: Excuse me. Are you Min-soo Cho?
-B: No, I’m not. My name is Jin-ho Han. Min-soo isn’t in
-this class.
+• Have Ss read the blog post individually and underline
 
-Exercise 6
-1. A: Oh, no! Where is my tablet?
-B: Is it in your backpack?
-A: No, it’s not.
-B: Hmm. Is it under your math book?
-A: Yes, it is! Thank you!
-2. A: Is this my cell phone?
-B: No, it’s not. It’s my cell phone.
-A: Sorry. Where is my cell phone?
-B: Is it in your purse?
-A: Oh, yes, it is. Thanks.
-3. A: Where are my keys?
-B: Are they in your pocket?
-A: No, they’re not.
-B: Are they on the table?
-A: Hmm. Yes, they are. Thanks.
-4. A: Is my notebook in your backpack?
-B: No, it’s not. Sorry.
-A: Hmm. Where is my notebook?
-B: Is it behind your laptop?
-A: Let me see. Yes, it is. Thank you!
+• Ss discuss the questions in small groups. If possible,
 
-Exercise 7
-Answers will vary.
-2. No, it’s not. It’s . . .
-3. No, it’s not. It’s . . . / Yes, it is.
-4. No, it’s not. It’s . . .
-5. No, I’m not. I’m in an English class.
+any words they don’t know. Elicit or explain any new
+vocabulary.
 
-Exercise 8
-2. The umbrella is under the table.
-3. The keys are next to the wallet.
-4. The pen is in front of the purse.
-5. The laptop is on the desk.
-6. The wastebasket is behind the chair.
+Vocabulary
 
-Exercise 9
-A
-2. A: Where are the books?
-B: They’re under the table.
-3. A: Where is the cell phone?
-B: It’s in the purse.
-4. A: Where are the pens?
-B: They’re on the table.
-5. A: Where is the purse?
-B: It’s in front of the TV.
-6. A: Where are the sunglasses?
-B: They’re behind the chair.
+sugar: sweet granules used to flavor drinks and
+food
+custom: something a group of people always do,
+especially on a special occasion
+flour: a powder made from wheat or other grains
+that is used to make bread and cakes
+Queen: the female ruler in some countries, such
+as the U.K.’s Queen Elizabeth II
 
-B
-Answers will vary.
+• Option: Read the text aloud. Ss listen and read along
+silently.
 
-Workbook answer key
+that Ss should take notes about their classmates’
+plans.
+put Ss from different countries in each group. Go
+around the class and help with vocabulary as needed.
 
-T-169
+• Ask Ss from each group to share information about
+their classmates’ plans.
+For a new way to practice reading for specific
+information, try Reading Race – download it from the
+website. Include three questions about each person.
+For example:
+1. Where does (Harry Baker) live?
+2. Who is going to celebrate (his) birthday
+with (him)?
+3. How is (he) going to celebrate (his) birthday?
 
-3 Where are you from?
-Exercise 1
-A
-Countries
-Brazil
-Colombia
-South Korea
-Canada
-Turkey
-Argentina
-Japan
-Egypt
+End of Cycle 2
+See the Supplementary Resources chart at the
+beginning of this unit for additional teaching materials
+and student activities related to this Cycle.
 
-Nationalities
-Brazilian
-Colombian
-South Korean
-Canadian
-Turkish
-Argentine
-Japanese
-Egyptian
+T-77
 
-Languages
-Portuguese
-Spanish
-Korean
-English and French
-Turkish
-Spanish
-Japanese
-Arabic
+Unit 11
 
-B
-2. Bogotá is in Colombia.
-3. Tokyo is in Japan.
-4. São Paulo and Rio de Janeiro are in Brazil.
-5. Seoul and Daejeon are in South Korea.
-6. Buenos Aires is in Argentina.
-7. Vancouver and Ottawa are in Canada.
-8. Cairo is in Egypt.
+Unit 12 Supplementary Resources Overview
+After the following
+SB exercises
 
-Exercise 2
-1. A: Are you and your family from New Zealand?
-B: No, we’re not. We’re from Australia.
-A: Oh, so you’re Australian.
+You can use these materials
+in class
+
+Your students can use these materials
+outside the classroom
+
+1 Word Power
+
+TSS Unit 12 Vocabulary Worksheet
+
+SS Unit 12 Vocabulary 1
+GAME Speak or Swim (Parts of the body)
+
+CYCLE 1
+
+2 Conversation
+
+SS Unit 12 Speaking 1
+
+3 Grammar Focus
+
+4 Listening
+
+SB Unit 12 Grammar plus, Focus 1
+SS Unit 12 Grammar 1
+GAME Name the Picture (Health problems)
+GAME Say the Word (Illnesses and
+expressions)
+TSS Unit 12 Extra Worksheet
+
+WB Unit 12 exercises 1–3
+
+5 Snapshot
+
+SS Unit 12 Vocabulary 2
+
+6 Conversation
+
+SS Unit 12 Speaking 2
+
+7 Listening
+
+CYCLE 2
+
+8 Pronunciation
+9 Grammar Focus
+
+TSS Unit 12 Grammar Worksheet
+TSS Unit 12 Listening Worksheet
+
+SB Unit 12 Grammar plus, Focus 2
+SS Unit 12 Grammar 2
+GAME Speak or Swim (Advice)
+
+10 Speaking
+11 Interchange 12
+12 Reading
+
+TSS Unit 12 Project Worksheet
+VID Unit 12
+VRB Unit 12
+
+SS Unit 12 Reading 1–2
+SS Unit 12 Listening 1–3
+SS Unit 12 Video 1–3
+WB Unit 12 exercises 4–8
+
+With or instead of the
+following SB section
+
+You can also use these materials
+for assessment
+
+Units 11–12 Progress Check
+
+ASSESSMENT PROGRAM Units 11–12 Oral Quiz
+ASSESSMENT PROGRAM Units 11–12 Written Quiz
+
+Key
+
+GAME: Online Game
+VID:
+Video DVD
+
+SB: Student’s Book
+VRB: Video Resource Book
+
+Unit 12 Supplementary Resources Overview
+
+SS: Online Self-study
+WB: Online Workbook/Workbook
+
+TSS: Teacher Support Site
+
+Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
+
+My Plan for Unit 12
+Use the space below to customize a plan that fits your needs.
+
+With the following
+SB exercises
+
+I am using these materials
+in class
+
+With or instead of the
+following SB section
+
+I am using these materials
+for assessment
+
+My students are using these materials outside
+the classroom
+
+Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
+
+My Plan for Unit 12
+
+12
+
 ```

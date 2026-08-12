@@ -34,16 +34,29 @@ is 5–9 MB, so it takes a moment to arrive and then runs entirely offline.
 | 8 — Where do you work? | 60 | 6.1 MB | built, verified |
 | 9 — I always eat breakfast. | 52 | 6.6 MB | built, verified |
 | 10 — What sports do you like? | 65 | 7.0 MB | built, verified |
-| 11–16 | — | — | staged: audio imported, `source.md` extracted, not authored |
+| 11 — I'm going to have a party. | 65 | 7.1 MB | built, verified |
+| 12 — How do you feel? | 64 | 7.0 MB | built, verified |
+| 13 — How do I get there? | 55 | 7.4 MB | built, verified |
+| 14 — I had a good time. | 80 | 7.1 MB | built, verified |
+| 15 — Where were you born? | 73 | 8.1 MB | built, verified |
+| 16 — Can I take a message? | 71 | 8.8 MB | built, verified |
 
-`node _source/verify.mjs --all` → 160 checks, all passing. 69 MB for ten units.
+**The book is complete.** All sixteen units, **1,149 marked questions**, 113 MB.
+`node _source/verify.mjs --all` → **256 checks, all passing**.
 
 **Unit titles were wrong and are now fixed.** The tables in `make-index.mjs`
 and `extract.mjs` had eight titles from memory rather than from the book —
 Units 8, 9, 10, 11, 12, 13, 14 and 16. All sixteen now come from the teacher's
 edition contents page (the "Teaching notes" list), which is the authority.
-`source.md` headers for Units 11–16 still show the old titles until those units
-are re-extracted; the tables are correct.
+
+This mattered more than it looked. `extract.mjs` finds a unit's teacher's-edition
+notes by searching for **the unit title as an anchor**; when the title was wrong
+the search failed, `from` fell back to 0, and the slice started at the beginning
+of the teacher's PDF. Units 11–16 had therefore been staged with **the wrong
+answer keys entirely** — front matter and vocabulary lists instead of the keys.
+Re-running `extract.mjs --unit 11…16` after the titles were fixed recovered them.
+Anyone re-staging a unit should sanity-check that `source.md` contains
+`Answers` blocks and `Audio script` sections before authoring against it.
 
 **From Unit 6 on, the audio is CD 2, whose files are page-keyed only**
 (`p036-t1-track-1.mp3`) with no exercise number. Each track is matched to the
@@ -58,7 +71,8 @@ marking engine live in one place. Both shapes still build, so the two early
 units never had to be re-typed.
 
 **Known gap:** Units 1 and 2 include their Grammar plus page (132, 133);
-Units 3–10 do not yet include theirs (pp. 134–141).
+Units 3–16 do not yet include theirs (pp. 134–147). This is the only part of
+the Student's Book not covered.
 
 **Unmarked by choice.** A few exercises ship with their picture and recording
 but no scoring, because the printed key could not be tied to the page without
@@ -252,6 +266,21 @@ Where the book accepts two answers, the file marks one and says so in the
 reveal — Ex 9B *Hi, ______ Cara Ruiz.* asks for *My name is* and notes that
 *I'm* is also correct. The same applies to Unit 10 Ex 3A, where the key itself
 prints two options (*What time/When*, *What sports/What*); both are accepted.
+
+**Two places in Units 11–16 depart from a printed key, both flagged on the page
+itself.** Unit 16 Ex 12B has six statements but the teacher's key stops at five;
+question 6 is marked from the article, which answers it in so many words
+("Look for the autograph booth"). Unit 16 Ex 10B asks for two names while the
+recording and the key both give three — the worksheet marks all three and says
+so. Everything else in these six units comes straight from the teacher's edition.
+
+Where the teacher's edition prints two acceptable answers, both are accepted:
+Unit 10 Ex 3A (*What time/When*, *What sports/What*), Unit 13 Ex 5A item 2
+(*next to/across from*), Unit 15 Ex 3B item 2 (*chemistry/science*).
+
+Unit 11 Ex 3A has eight pictures but the teacher's edition supplies phrases for
+only the first four; pictures 5–8 ship unmarked with a note, since the book
+treats them as open.
 
 **Unit 10 is fully keyed.** Every exercise that scores — the Snapshot (printed
 upside down on p. 64), Ex 3A and 3B, the Ex 4 and Ex 9 listenings, Ex 7A, the

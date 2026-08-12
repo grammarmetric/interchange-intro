@@ -1,0 +1,12 @@
+{
+  "number": 11,
+  "titleEn": "I’m going to have a party.",
+  "titleZh": "我要办个聚会。",
+  "pages": "72–77",
+  "goals": [
+    { "en": "months, dates and birthdays", "zh": "月份、日期和生日" },
+    { "en": "the future with <i>be going to</i>", "zh": "用 be going to 表示将来" },
+    { "en": "Wh-questions with <i>be going to</i>", "zh": "be going to 的特殊疑问句" },
+    { "en": "holidays, festivals and celebrations", "zh": "节日、庆典和庆祝活动" }
+  ]
+}

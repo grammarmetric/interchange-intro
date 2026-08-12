@@ -1,0 +1,34 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 12 (Student's Book pp. 78-83).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "The Ex 12 quiz prints its own answer key upside down along the bottom edge,",
+    "so the crop stops just above it - the worksheet marks all ten itself."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 12.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" },
+    { "page": 6, "x": 163, "y": 1160, "w": 900, "h": 30, "note": "upside-down answer key along the bottom of the Ex 12 quiz" }
+  ],
+
+  "patch": [],
+
+  "crops": [
+    { "id": "ex01-body",     "page": 1, "book": 78, "x": 153, "y": 422,  "w": 912, "h": 858, "note": "Ex 1A Word Power - the labelled body diagram" },
+
+    { "id": "ex02-photo",    "page": 2, "book": 79, "x": 633, "y": 190,  "w": 437, "h": 448, "note": "Ex 2 - Craig brings pizza to Nathan" },
+    { "id": "ex03-ailments", "page": 2, "book": 79, "x": 168, "y": 1018, "w": 898, "h": 268, "note": "Ex 3A - ten common ailments" },
+
+    { "id": "ex04-photos",   "page": 3, "book": 80, "x": 172, "y": 198,  "w": 805, "h": 508, "note": "Ex 4A - Amber, David, Alyssa and Nicholas" },
+    { "id": "ex05-remedies", "page": 3, "book": 80, "x": 148, "y": 888,  "w": 918, "h": 468, "note": "Ex 5 Snapshot - nine common remedies" },
+
+    { "id": "ex06-photo",    "page": 4, "book": 81, "x": 652, "y": 148,  "w": 418, "h": 648, "note": "Ex 6 - Dr. Yun with a patient" },
+
+    { "id": "ex10-problems", "page": 5, "book": 82, "x": 176, "y": 708,  "w": 888, "h": 352, "note": "Ex 10 - four problems, each with its speech bubble" },
+
+    { "id": "ex12-quiz",     "page": 6, "book": 83, "x": 163, "y": 216,  "w": 900, "h": 942, "note": "Ex 12 Reading - the Do You Know Your Body? quiz" }
+  ]
+}

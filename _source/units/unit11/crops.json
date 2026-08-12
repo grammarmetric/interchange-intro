@@ -1,0 +1,39 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 11 (Student's Book pp. 72-77).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "Two watermarks sit on artwork here. irLanguage.com is stamped across",
+    "picture 8 of the Ex 3A grid, so it is painted out. The big irLanguage logo",
+    "on the Ex 8 dessert photograph is avoided instead: the crop stops above it."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 11.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60,  "w": 210, "h": 60,  "note": "www.frenglish.ru, every page, top right" },
+    { "page": 1, "x": 975, "y": 80,  "w": 165, "h": 45,  "note": "Persian stamp in the unit banner" },
+    { "page": 4, "x": 728, "y": 498, "w": 148, "h": 122, "note": "irLanguage logo on the Ex 8 dessert photograph" }
+  ],
+
+  "patch": [
+    { "page": 2, "x": 818, "y": 950, "w": 252, "h": 40, "note": "www.irLanguage.com across picture 8 of the Ex 3A grid" }
+  ],
+
+  "crops": [
+    { "id": "ex01-months",    "page": 1, "book": 72, "x": 178, "y": 443,  "w": 888, "h": 97,   "note": "Ex 1A - the months of the year" },
+    { "id": "ex01-dates",     "page": 1, "book": 72, "x": 178, "y": 568,  "w": 888, "h": 355,  "note": "Ex 1B - the three ordinal-date tables" },
+    { "id": "ex02-cake",      "page": 1, "book": 72, "x": 725, "y": 1100, "w": 400, "h": 325,  "note": "Ex 2 - the birthday cake" },
+
+    { "id": "ex03-photos",    "page": 2, "book": 73, "x": 163, "y": 503,  "w": 903, "h": 492,  "note": "Ex 3A - eight weekend activities (watermark patched out)" },
+
+    { "id": "ex05-people",    "page": 3, "book": 74, "x": 405, "y": 163,  "w": 660, "h": 430,  "note": "Ex 5 - Morgan, Isaac, Brian and Lauren" },
+    { "id": "ex07-holidays",  "page": 3, "book": 74, "x": 158, "y": 1063, "w": 908, "h": 295,  "note": "Ex 7 Snapshot - celebrating holidays in the U.S." },
+
+    { "id": "ex08-photo",     "page": 4, "book": 75, "x": 735, "y": 210,  "w": 385, "h": 285,  "note": "Ex 8 - dessert at the Red Rose (cropped above the logo)" },
+
+    { "id": "ex10-celebrate", "page": 5, "book": 76, "x": 178, "y": 195,  "w": 888, "h": 550,  "note": "Ex 10 Word Power - eight ways to celebrate" },
+
+    { "id": "ex12-reading",   "page": 6, "book": 77, "x": 158, "y": 205,  "w": 908, "h": 1015, "note": "Ex 12 Reading - birthday customs blog post" }
+  ]
+}

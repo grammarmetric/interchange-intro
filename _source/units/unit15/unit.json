@@ -1,0 +1,12 @@
+{
+  "number": 15,
+  "titleEn": "Where were you born?",
+  "titleZh": "你在哪儿出生的？",
+  "pages": "100–105",
+  "goals": [
+    { "en": "family and personal history", "zh": "家庭和个人经历" },
+    { "en": "the past of <i>be</i>", "zh": "be 动词的过去式" },
+    { "en": "Wh-questions with <i>did</i>, <i>was</i> and <i>were</i>", "zh": "用 did、was、were 提问" },
+    { "en": "school days and school memories", "zh": "上学的经历和回忆" }
+  ]
+}

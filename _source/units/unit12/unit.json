@@ -1,0 +1,12 @@
+{
+  "number": 12,
+  "titleEn": "How do you feel?",
+  "titleZh": "你感觉怎么样？",
+  "pages": "78–83",
+  "goals": [
+    { "en": "parts of the body", "zh": "身体各部位" },
+    { "en": "common ailments; <i>have</i> + noun, <i>feel</i> + adjective", "zh": "常见病症；have + 名词、feel + 形容词" },
+    { "en": "remedies and medications", "zh": "常见疗法和药品" },
+    { "en": "imperatives for giving advice", "zh": "用祈使句提建议" }
+  ]
+}

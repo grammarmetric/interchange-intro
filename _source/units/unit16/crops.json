@@ -1,0 +1,37 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 16 (Student's Book pp. 106-111).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "The Persian stamp on the Ex 6 photograph and the irLanguage.com line under",
+    "the Ex 9 photograph both sit on artwork; the crops stop clear of them, and",
+    "avoid rectangles keep it that way."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 16.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60,  "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" },
+    { "page": 3, "x": 810, "y": 936, "w": 168, "h": 42, "note": "Persian stamp on the Ex 6 movie-theater photograph" },
+    { "page": 5, "x": 940, "y": 700, "w": 215, "h": 38, "note": "irLanguage.com under the Ex 9 photograph" }
+  ],
+
+  "patch": [],
+
+  "crops": [
+    { "id": "ex01-photo",    "page": 1, "book": 106, "x": 778, "y": 423,  "w": 292,  "h": 483, "note": "Ex 1 - Nathan on the phone" },
+    { "id": "ex02-phrases",  "page": 1, "book": 106, "x": 181, "y": 1028, "w": 842,  "h": 103, "note": "Ex 2A Word Power - prepositional phrases with at, in and on" },
+    { "id": "ex02-photos",   "page": 1, "book": 106, "x": 153, "y": 1138, "w": 918,  "h": 163, "note": "Ex 2A - at work, on vacation, in a meeting" },
+
+    { "id": "ex04-photo",    "page": 2, "book": 107, "x": 753, "y": 510,  "w": 317,  "h": 603, "note": "Ex 4 - a woman taking a call" },
+
+    { "id": "ex05-snapshot", "page": 3, "book": 108, "x": 150, "y": 203,  "w": 915,  "h": 478, "note": "Ex 5 Snapshot - six popular activities in the U.S." },
+    { "id": "ex06-photo",    "page": 3, "book": 108, "x": 700, "y": 1120, "w": 370,  "h": 400, "note": "Ex 6 - buying tickets at the movie theater" },
+
+    { "id": "ex07-photo",    "page": 4, "book": 109, "x": 723, "y": 168,  "w": 302,  "h": 308, "note": "Ex 7 - dinner with a friend" },
+
+    { "id": "ex09-excuses",  "page": 5, "book": 110, "x": 181, "y": 238,  "w": 538,  "h": 348, "note": "Ex 9A - ten common excuses" },
+
+    { "id": "ex12-reading",  "page": 6, "book": 111, "x": 15,  "y": 203,  "w": 1130, "h": 918, "note": "Ex 12 Reading - the Austin City Limits festival guide" }
+  ]
+}

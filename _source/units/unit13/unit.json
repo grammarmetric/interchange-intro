@@ -1,0 +1,12 @@
+{
+  "number": 13,
+  "titleEn": "How do I get there?",
+  "titleZh": "我怎么去那儿？",
+  "pages": "86–91",
+  "goals": [
+    { "en": "stores and what you can buy there", "zh": "各种商店和能买到的东西" },
+    { "en": "prepositions of place", "zh": "表示位置的介词" },
+    { "en": "asking for and giving directions", "zh": "问路和指路" },
+    { "en": "compound nouns and their stress", "zh": "复合名词及其重音" }
+  ]
+}

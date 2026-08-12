@@ -1,0 +1,34 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 13 (Student's Book pp. 86-91).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "No watermark sits on artwork in this unit - www.frenglish.ru stays in the",
+    "top margin throughout, and every crop starts well below it."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 13.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" }
+  ],
+
+  "patch": [],
+
+  "crops": [
+    { "id": "ex01-places",  "page": 1, "book": 86, "x": 175, "y": 502,  "w": 890, "h": 818, "note": "Ex 1A Word Power - eight places, with the matching list" },
+
+    { "id": "ex03-photo",   "page": 2, "book": 87, "x": 663, "y": 608,  "w": 408, "h": 483, "note": "Ex 3 - a mother asking a passer-by for a restroom" },
+    { "id": "ex04-nouns",   "page": 2, "book": 87, "x": 188, "y": 1232, "w": 775, "h": 128, "note": "Ex 4A - eight compound nouns with their stress marks" },
+
+    { "id": "ex05-preps",   "page": 3, "book": 88, "x": 163, "y": 218,  "w": 900, "h": 138, "note": "Ex 5 - the five prepositions of place, drawn" },
+    { "id": "ex05-map",     "page": 3, "book": 88, "x": 158, "y": 553,  "w": 908, "h": 523, "note": "Ex 5A - the town map" },
+
+    { "id": "ex07-nyc",     "page": 4, "book": 89, "x": 161, "y": 403,  "w": 908, "h": 513, "note": "Ex 7 Snapshot - six New York City attractions" },
+    { "id": "ex08-photo",   "page": 4, "book": 89, "x": 658, "y": 1143, "w": 412, "h": 312, "note": "Ex 8 - a tourist asking the way in New York" },
+
+    { "id": "ex09-map",     "page": 5, "book": 90, "x": 158, "y": 438,  "w": 908, "h": 643, "note": "Ex 9A - midtown Manhattan, with the six numbered stops" },
+
+    { "id": "ex11-reading", "page": 6, "book": 91, "x": 161, "y": 216,  "w": 908, "h": 983, "note": "Ex 11 Reading - A Tour of Palermo, Buenos Aires" }
+  ]
+}

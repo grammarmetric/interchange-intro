@@ -29,505 +29,372 @@ Student's Book pp. 100–105. PDF page = printed page + 8.
 ```
 a
 
+Wi k=
 
+   SNAPSHOT
 
+� Listen and practice.
 
-    Wi                                             k=
+ Esperanza Spalding     John Oliver  RT MNOMe)                                Shin-Soo Choo           STCCUM UN ELIT)       . Japan
+musician                comedian     actress                                  baseball player         game designer        b. Mexico
+                                                                                                                           c. South Korea
 
-    SNAPSHOT
-©   Listen and practice.
+                                                                                                                           d. the U.K.
+                                                                                                                           e. the U.S.
 
+                                                                                                  eG  oO,  ge          pz  a", :suamsuy
 
+Match the people with the countries where they were born. Then check your answers.
+What famous people were born in your country? What do they do?
 
+CONVERSATION | was born in Brazil.
 
-                                                                                                                        . Japan
+Listen and practice.
 
-                                                                                                                       b. Mexico
+TEN tees)  f Bianca. That's a nice name. Where were you born?
 
-                                                                                                                       c. South Korea
+                | was born in Brazil.
 
-     Esperanza Spalding          John Oliver           RT      MNOMe)       Shin-Soo Choo       STCCUM UN ELIT)        d. the U.K.
-    musician                     comedian              actress              baseball player     game designer
+            | Oh! So you weren't born in the U.S.
+               Your English is really good.
 
-                                                                                                                       e. the U.S.
+           f Thanks. | studied English for many years. }
 
+                                                                                               ~
 
-                                                                                          eG   oO,     ge         pz     a",      :suamsuy
+           f Did you study English in Brazil? J
 
-    Match the people with the countries where they were born. Then check your answers.
-    What famous people were born in your country? What do they do?
+           f Yeah, | started when | was seven. }
 
+           f You were pretty young.
 
-    CONVERSATION | was                                 born in Brazil.
+                Yes, | went to a bilingual school. | had
+           | classes in English and in Portuguese.
 
-    Listen and practice.
+            ( You were lucky to learn another language so well. |
 
-                   f       Bianca. That's a nice name. Where were you born?
+           en
 
-      TEN tees)            | was born in Brazil.
+           f Do you speak a second language, too?
 
-                    |      Oh! So you weren't born in the U.S.
-                           Your English is really good.
-
-                  f        Thanks. | studied English for many years.    }
-                                                               ~
-
-                   f       Did you study English in Brazil?    J
-
-                   f       Yeah, | started when | was seven.       }
-
-                   f       You were pretty young.
-
-                           Yes, | went to a bilingual school. | had
-                   |       classes in English and in Portuguese.
-
-                       (   You were lucky to learn another language so well.      |
-                   en
-
-
-
-                  f        Do you speak a second language, too?
-
-                       ( Well, | speak a little Italian. My parents were born in Milan.
+            ( Well, | speak a little Italian. My parents were born in Milan.
 ```
 
 ### Printed page 101  (PDF page 109)
 
 ```
-GRAMMAR                       FOCUS
+GRAMMAR FOCUS
 
-Tre        | was     born here.                   | wasn’t   born in Italy.         Were you in class yesterday?
-     You    were     pretty young.          You    weren't   very old.                Yes, | was. / No, | wasn’t.
-     She    was      seven.                 She    wasn’t    in college.            Was your first teacher American?
-     We     were     atthe hair salon.       We    weren't   atthe café.              Yes, she was. / No, she wasn’t.
-    They    were     born in Milan.        They    weren't   born in Rome.          Were your parents born in the U.S.?
-                                                                                      Yes, they were. / No, they weren’t.
-            weren't = were not                     wasn’t = was not
-                                                                                                 GRAMMAR     PLUS see page 146
+Tre
 
+     | was  born here.              | wasn't  born in Italy.       Were you in class yesterday?
+ You were   pretty young.       You weren't   very old.              Yes, | was. / No, | wasn't.
+ She was    seven.              She wasn't    in college.
+  We were   atthe hair salon.    We weren't   atthe caf�.          Was your first teacher American?
+They were   born in Milan.     They weren't   born in Rome.           Yes, she was. / No, she wasn't.
 
-A    Bianca is talking about her family. Choose the correct verb forms.
-     Then compare with a partner.
+      weren't = were not       wasn't = was not                    Were your parents born in the U.S.?
+                                                                     Yes, they were. / No, they weren't.
 
-     My family and |              were      (was / were) all born in Brazil —
-     we                    (wasn’t / weren't) born in the U.S. |                   (was / were)
-     born in the city of Recife, and my brother                     (was / were) born
-     there, too. My parents                     (wasn't / weren't) born in Recife.
-     They                    (was / were) born in Rio de Janeiro. In Rio, my father
-                       (was / were) a teacher and my mother                        (was / were)
-     an engineer. They have their own business in Recife now.
+                                                                                        GRAMMAR PLUS see page 146
 
-B    PAIR WORK           Look at the picture below. Ask and answer these questions.
-     1.    Was     Tessa on time for class yesterday?                    5.   Was Mr. Walker very angry?
-     2.    Was     it English class?                                     6.   Were Alyssa and Jacob late to class?
-     3.    Was     it a sunny day?                                       7.   Were they at the board?
-     4.    Was     it 10:00?                                             8.   Were the windows open?
+A Bianca is talking about her family. Choose the correct verb forms.
+    Then compare with a partner.
 
+My family and |         were   (was / were) all born in Brazil --
 
+we               (wasn't / weren't) born in the U.S. |                (was / were)
 
+born in the city of Recife, and my brother                    (was / were) born
 
-                                                                                                             rr,
+there, too. My parents         (wasn't / weren't) born in Recife.
 
+They                      (was / were) born in Rio de Janeiro. In Rio, my father
 
+                 (was / were) a teacher and my mother                 (was / were)
 
+an engineer. They have their own business in Recife now.
 
-     A: Was Tessa on time for class yesterday?
-     B: No, she wasn’t. She was late. Was it English class?
+B PAIR WORK Look at the picture below. Ask and answer these questions.
 
+1. Was Tessa on time for class yesterday?               5. Was Mr. Walker very angry?
+2. Was it English class?                                6. Were Alyssa and Jacob late to class?
+3. Was it a sunny day?                                  7. Were they at the board?
+4. Was it 10:00?                                        8. Were the windows open?
 
-                                                                                                 Where were you born?            Ki
+                                                                                    rr,
+
+A: Was Tessa on time for class yesterday?
+B: No, she wasn't. She was late. Was it English class?
+
+                                                                                  Where were you born? Ki
 ```
 
 ### Printed page 102  (PDF page 110)
 
 ```
-PRONUNCIATION                                     Negative contractions
-
-           © A Listen and practice.
-
-                                    one syllable                                         two syllables
-                    aren't                     don't                   isn't                           doesn't
-
-                   weren't                     can't                   wasn’t                          didn’t
-
-
-           © B Listen and practice.
-                   They didn’t like the comedy because it wasn’t funny.
-                   | don't like coffee, and she doesn’t like tea.
-                   This isn’t my book. | can’t read French.
-                   They weren't in class yesterday, and they aren’t in class today.
-
-               C   Write four sentences with negative contractions.
-                   Then read them to a partner.
-
-                             | didn't go to the party because
-                             my friends weren't there.
-
-
-
-
-               CONVERSATION | grew up in New York.
-           ©   Listen and practice.
-
-                                f     So, Mario, where did you grow up?
-
-               ca                     | grew up in New York.
-
-                                      Were you born there?
-
-               ci                     Yeah. | was born in Brooklyn.                  ]
-                                bee
-
-
-
-
-                                      And when did you come to Los Angeles?
-                                bo
-
-
-
-
-               Cam                    In 2008.
-
-                                      How old were you then?
-
-                                      | was eighteen. | went to college here.                      }
-                                >
-
-
-
-
-                                      Oh. What was your major?
-
-                                      Photography. | was a photographer
-                                      for five years after college.
-                                                                                              |
-                                                                                                       |
-                                                                                               z|
-                                                                  oO
-                                                    Sy
-                                          oe
-
-
-
-
-                                                         Q.
-
-
-
-
-                                                                                         2,
-                              —
-
-
-
-
-                                                                                     a
-                                               ~
-
-                                               =
-
-
-
-
-                                                                   iO;
-
-
-
-
-                                                                                                       ~
-                                      A
-
-
-
-
-                                                            QO
-
-
-
-
-                                                                                ow
-
-
-
-
-                                                                                           2
-                                          =
-
-
-
-
-                                                                         5
-
-
-                                                                                         =
-                                                                       O°
-                                                          °
-
-                                                                  @
-
-
-                                                                            @
-                                                              S
-                                       oO
-
-
-
-
-                                                                                              <=
-                                                          =<
-                                                   <
-
-
-
-
-                                      Because | needed the money. And
-                                      | love it. So, what do you think?
-
-                                      Well, uh...
-
-
-
-
-oe   102    OE
+PRONUNCIATION                            Negative contractions
+� A Listen and practice.
+
+                          one syllable               two syllables
+
+            aren't                    don't  isn't                        doesn't
+           weren't                    can't
+                                             wasn't                       didn't
+
+� B Listen and practice.
+
+         They didn't like the comedy because it wasn't funny.
+          | don't like coffee, and she doesn't like tea.
+         This isn't my book. | can't read French.
+         They weren't in class yesterday, and they aren't in class today.
+
+C Write four sentences with negative contractions.
+    Then read them to a partner.
+
+           | didn't go to the party because
+           my friends weren't there.
+
+CONVERSATION | grew up in New York.
+
+� Listen and practice.
+
+ca                  bo beef So, Mario, where did you grow up?
+                               | grew up in New York.
+ci                            Were you born there?
+                              Yeah. | was born in Brooklyn. ]
+Cam                           And when did you come to Los Angeles?
+                               In 2008.
+                    >          How old were you then?
+                               | was eighteen. | went to college here. }
+                              Oh. What was your major?
+                               Photography. | was a photographer
+                              for five years after college.
+
+                    --
+                              A
+                                   oO
+                                 oe
+                                   =
+                                                     ~
+                                 =
+                                                       Sy
+                                                         <
+                                          Q.
+                                                          QO
+                                                             =<
+                                                                �
+                                                                            S
+                                                                      oO
+                                                                        @
+                                                                                      iO;
+                                                                             O�
+                                                                 5
+                                                                                   @
+                                                                                                                         ow
+                                                                                                         a
+                                                                                  2=,
+                                                   <=2z| |
+                                                                                                                               ~|
+                            Because | needed the money. And
+                            | love it. So, what do you think?
+
+                            Well, uh...
+
+oe 102 OE
 ```
 
 ### Printed page 103  (PDF page 111)
 
 ```
-GRAMMAR                       FOCUS
- '> Et Wh-questions with did, was, and were
+GRAMMAR FOCUS
 
-           Where did you grow up?                              | grew up in New York.
-           What did your father do there?                      He worked in a department store.
-           When did you come to Los Angeles?                   | came to Los Angeles in 2008.
-           Why did you become a hairstylist?                   Because | needed the money.
+'> Et Wh-questions with did, was, and were
 
-           Where were you born?                                | was born in Brooklyn.
-           When were you born?                                 | was born in 1990.
-           How old were you in 2008?                           | was eighteen.
-           What was your major in college?                     Photography. | was a photographer for five years.
-                                                                                              GRAMMAR      PLUS see page 146
+Where did you grow up?                          | grew up in New York.
+What did your father do there?                  He worked in a department store.
+When did you come to Los Angeles?               | came to Los Angeles in 2008.
+Why did you become a hairstylist?               Because | needed the money.
 
+Where were you born?                            | was born in Brooklyn.
+When were you born?                             | was born in 1990.
+How old were you in 2008?                       | was eighteen.
+What was your major in college?                 Photography. | was a photographer for five years.
 
-       A      Match the questions with the answers. Then compare with a partner.
-              1. Where were you born? _ é                                a.       His name was Akio.
-              2. Where did you grow up?                                           He was really friendly.
+                                                                                         GRAMMAR PLUS see page 146
 
+A Match the questions with the answers. Then compare with a partner.
 
+o S o &1. Where were you born? _ �              ~"op onsa. His name was Akio.
+       2. Where did you grow up?                             He was really friendly.
+                                                             | wanted to improve my English.
+           How was your first day of school?                 | grew up in Tokyo.
+           Who was your best friend in school?               In Kyoto, Japan.
+           What was he like?                                 It was a little scary.
+           Why did you take this class?
 
+B PAIR WORK Ask and answer the questions in part A. Use your own information and
+    make the necessary changes.
 
-                                                                      ~"op ons
-                 How was your first day of school?                                | wanted to improve my English.
-              S &
+e es o2 bPC GROUP WORK Ask the questions. Use a year      1900 = nineteen hundred
+    in your answers.                                      1906 = nineteen oh six
+                                                          1995 = nineteen ninety-five
+    1. When were you born?                                2000 = two thousand
+        When was your father born?                        2007 = two thousand (and) seven
+        When was your mother born?                        2015 = two thousand (and) fifteen
+        When did you turn 13?
+        When did you start high school?                            or twenty-fifteen
+        When did you begin to study English?
 
+~~. LISTENING | wasn't born here.
 
+� A Listen. What year were these people born? Complete the sentences.
 
+       1. Melissa was born in                             3. Kumiko was born in
+       2. Colin was born in                               4. Omar was born in
 
-                 Who was your best friend in school?                              | grew up in Tokyo.
-            oo
+� B Listen again. Where did these people grow up? Complete the sentences.
 
+       1. Melissa grew up in                              3. Kumiko grew up in
+       2. Colin grew up in                                4. Omar grew up in
 
-
-
-                 What was he like?                                                In Kyoto, Japan.
-                 Why did you take this class?                                     It was a little scary.
-
-       B      PAIR WORK Ask and answer the questions in part A. Use your own information and
-              make the necessary changes.
-
-       C      GROUP WORK            Ask the questions. Use a year
-              in your answers.
-                                                                                 1900 = nineteen hundred
-              1. When        were you born?
-                                                                                 1906 = nineteen oh six
-                 When        was your father born?
-             es 2 bP
-
-
-
-
-                                                                                 1995 = nineteen ninety-five
-                 When        was your mother born?
-                                                                                 2000 = two thousand
-            eo
-
-
-
-
-                 When        did you turn 13?
-                                                                                 2007 = two thousand (and) seven
-                 When        did you start high school?
-                                                                                 2015 = two thousand (and) fifteen
-                 When        did you begin to study English?
-                                                                                         or twenty-fifteen
-
-
-
-
-~~. LISTENING | wasn’t born here.
- © A Listen. What year were these people born? Complete the sentences.
-              1.       Melissa was born in                                       3.   Kumiko was born in
-              2. Colin was born in                                               4. Omar was born in
-
- © B          Listen again. Where did these people grow up? Complete the sentences.
-              1. Melissa grew up in                                              3. Kumiko grew up in
-              2. Colin grew up in                                                4. Omar grew up in
-
-
-
-
-                                                                                                             Where were you born?
+                                                                                  Where were you born?
 ```
 
 ### Printed page 104  (PDF page 112)
 
 ```
-WORD                 POWER       School days
-S   A Complete the word map with words from the list. Then listen and check.
-         Y auditorium
-           cafeteria
-           college
-           computer lab
-           elementary school
-                eograph                   a                           SCHOOL
-           highaches |                                     ee           DAYS
-          history                                                                            auditorium
-           library
-           middle school
-           physical education
-               science
+WORD POWER School days
 
-    B    PAIR WORK Find out about your partner’s elementary, middle, or high school days.
-         Ask these questions. Then tell the class.
+S A Complete the word map with words from the list. Then listen and check.
 
-           What classes did you take?                     Who was your favorite teacher? Why?
-           What was your favorite class? Why?             Where did you spend your free time? Why?
-           What classes didn’t you like? Why not?         What was a typical day of school like?
-           Who was your best friend?                      What didn’t you like about school?
+Y auditorium          a                              SCHOOL
+  cafeteria
+  college                                  ee           DAYS
+  computer lab
+  elementary school                                                         auditorium
+    eograph
+  highaches |
+ history
+  library
+  middle school
+  physical education
 
-         “In high school, Julian's favorite class was physical education because he liked to play sports...”
+      science
 
+B PAIR WORK Find out about your partner's elementary, middle, or high school days.
+   Ask these questions. Then tell the class.
 
-    SPEAKING                  Can you remember... ?
-    A    GROUP WORK How often do you have English class?
-         What do you remember from your last class?
-         Ask and answer these questions.
-                Who was in class? Who wasn’t there?
-                Who was late that day?
-        Snes
+What classes did you take?              Who was your favorite teacher? Why?
+What was your favorite class? Why?      Where did you spend your free time? Why?
+What classes didn't you like? Why not?  What was a typical day of school like?
+Who was your best friend?               What didn't you like about school?
 
+"In high school, Julian's favorite class was physical education because he liked to play sports..."
 
+SnesSPEAKING Can you remember... ?
 
+A GROUP WORK How often do you have English class?
+    What do you remember from your last class?
+    Ask and answer these questions.
 
-                Who was very tired?
-                What color were your teacher's shoes?
-                What were your teacher's first words?
-                Did all the students bring their books?
-                What did you learn?
-                What did you do after class?
+        Who was in class? Who wasn't there?
+        Who was late that day?
+        Who was very tired?
+        What color were your teacher's shoes?
+        What were your teacher's first words?
+        Did all the students bring their books?
+        What did you learn?
+        What did you do after class?
 
-    B    CLASS ACTIVITY What does your group remember?
-         Tell the class.
+B CLASS ACTIVITY What does your group remember?
+    Tell the class.
 
+INTERCHANGE 15 This is your life.
 
-
-    INTERCHANGE                      15    This is your life.
-    Did you and your partner do similar things when you
-    were children? Go to Interchange 15 on page 130.
+Did you and your partner do similar things when you
+were children? Go to Interchange 15 on page 130.
 ```
 
 ### Printed page 105  (PDF page 113)
 
 ```
-READING                 ©
-A Scan the article. What is a “third culture kid?” Do you know anyone who moved to another country?
-                                                                                            z=
-                                                                                            Virwiaracar           +.   4
+READING �
 
-                                                                                            palatyam      %
-                                                                                            Pluticorin        S
-                                                                                            re oil
-                                                                                               Mannar
+A Scan the article. What is a "third culture kid?" Do you know anyone who moved to another country?
 
+                                                                                                                                                                                                   z=
+                                                                                                                                                                                                   Virwiaracar +. 4
 
+                                                                                                                                                                  palatyam %
+                                                                                                                                                                                                   Pluticorin S
+                                                                                                                                                                  re oil
 
+                                                                                                                                                                                                       Mannar
 
-          Tommy was born in Colombo, the largest city           Looking back,
-          in the island country of Sri Lanka. The streets       Tommy remembers
-          of Colombo were busy, and Tommy loved the             learning that the              Galle
-                                                                                                      a     a
-                                                                                                            at 1Fs
-                                                                                                                   nbantota
+Tommy was born in Colombo, the largest city             Looking back,
+in the island country of Sri Lanka. The streets
+of Colombo were busy, and Tommy loved the               Tommy remembers
+colors, sights, and smells. He played on sandy
+beaches with his friends. He spoke Sinhalese            learning that the                   a      a        nbantota
+with his friends and family and learned English         culture in the           Galle              at 1Fs
+at school. He loved visiting the neighborhood           United States                          (Matiurai)
+markets with his family to buy fresh fruits and                                         [
+vegetables. Typical Sri Lankan dishes made
+with coconuts and rice were some of his                 was different from the culture in Sri Lanka.
+favorite foods.
+                                                        Not better, not worse, just different. Tommy
+When he was six, Tommy moved with his
+parents to a small town near New York City.             learned new things every day. He learned
+His parents both had new jobs there. For
+Tommy, life in his new town was a big surprise.         Spanish in school. He also learned ways that
+Everything was different! The streets were
+                                                        people in the U.S. communicate with each other.
+                       quieter and less colorful.
+                       The grocery stores sold so       Tommy remembers everyone saying "How are
+                       many different types of fruits,
+                       vegetables, cheeses, and         you doing?" but it wasn't a question. It was like
+                       cereals. There were so many
+                       restaurants in his new town --   saying "Hil"
+                       he tried Italian food, Chinese
+                                                        Tommy was a "third culture kid." That means he
+                          food, Greek food, and         was raised in a different country than his parents.
+                       Mexican food. The weather        Many third culture kids believe that they are
+                       was different, too. Tommy        lucky. They know and understand more than one
 
-          colors, sights, and smells. He played on sandy        culture in the                          (Matiurai)
-                                                                                                   [
-          beaches with his friends. He spoke Sinhalese          United States
-          with his friends and family and learned English       was different from the culture in Sri Lanka.
-          at school. He loved visiting the neighborhood         Not better, not worse, just different. Tommy
-          markets with his family to buy fresh fruits and       learned new things every day. He learned
-          vegetables. Typical Sri Lankan dishes made            Spanish in school. He also learned ways that
-          with coconuts and rice were some of his               people in the U.S. communicate with each other.
-          favorite foods.                                       Tommy remembers everyone saying “How are
-                                                                you doing?” but it wasn’t a question. It was like
-          When he was six, Tommy moved with his                 saying “Hil”
-          parents to a small town near New York City.
-          His parents both had new jobs there. For
-                                                                Tommy was a “third culture kid.” That means he
-          Tommy, life in his new town was a big surprise.
-                                                                was raised in a different country than his parents.
-          Everything was different! The streets were
-                                                                Many third culture kids believe that they are
-                              quieter and less colorful.
-                                                                lucky. They know and understand more than one
-                             The grocery stores sold so
-                                                                culture, and they often speak more than one
-                              many different types of fruits,
-                                                                language. Tommy went to college in Los Angeles
-                             vegetables, cheeses, and
-                                                                and studied languages. Now he works for a big
-                              cereals. There were so many
-                                                                charity that helps children around the world get
-                              restaurants in his new town —
-                                                                a good education.
-                              he tried Italian food, Chinese
-                             food, Greek food, and
-                             Mexican food. The weather          Sometimes it’s hard to learn a whole new way of
-                             was different, too. Tommy          life, but Tommy says it’s the best thing that ever
-                                 saw snow for the very          happened. He calls Sri Lanka “home” and the
-                                          first time!           U.S. “home,” too!
+                             saw snow for the very      culture, and they often speak more than one
+                                        first time!     language. Tommy went to college in Los Angeles
+                                                        and studied languages. Now he works for a big
+                                                        charity that helps children around the world get
+                                                        a good education.
 
+                                                        Sometimes it's hard to learn a whole new way of
+                                                        life, but Tommy says it's the best thing that ever
+                                                        happened. He calls Sri Lanka "home" and the
+                                                        U.S. "home," too!
 
-                    Rane             ws
+                                       Rane ws                             True  False
 
-
-
-B   Read the article. Check         (/) True or False.
-                                                                                   True                 False
-    1 «   Tommy lived in Sri Lanka most of his life.
+B Read the article. Check (/) True or False.                               OOOOOO
                                                                                    OOOOOO
-
-                                                                                                        OOOOOO
-
-
-
-
+    1 � Tommy lived in Sri Lanka most of his life.
     2 . He was born in Sri Lanka.
     3 - Tommy liked traditional Sri Lankan food.
-    4 .   He didn’t learn any new languages in the U.S.
+    4 . He didn't learn any new languages in the U.S.
     5 . Inthe U.S., Tommy ate mostly at Sri Lankan restaurants.
     6 . Tommy is happy to be a third culture kid.
 
-C   Number these events in Tommy's life from 1 (first) to 8 (last).
-             a.   Tommy saw snow for the first time.                       e.   He learned a new language in the U.S.
-             b.   Tommy went to college.                              1    f.   Tommy was born on an island.
-             c.   Tommy moved to the U.S.                                  g.   In Sri Lanka, Tommy studied English in school.
-             d.   As asmall boy, Tommy played on the                       h.   He works for a charity in the U.S.
-                  beach.
+C Number these events in Tommy's life from 1 (first) to 8 (last).
 
-D GROUP WORK Tommy thinks living in another culture is a good thing.
-  Why do you think he says that? Do you agree? Tell your classmates.
-                                                                                                     Where were you born?     Ki]
+a. Tommy saw snow for the first time.                        e. He learned a new language in the U.S.
+b. Tommy went to college.                               1 f. Tommy was born on an island.
+c. Tommy moved to the U.S.
+d. As asmall boy, Tommy played on the                        g. In Sri Lanka, Tommy studied English in school.
+                                                             h. He works for a charity in the U.S.
+    beach.
+
+D GROUP WORK Tommy thinks living in another culture is a good thing.             Where were you born? Ki]
+    Why do you think he says that? Do you agree? Tell your classmates.
 ```
 
 ## Teacher's edition notes for this unit (answer keys and audio scripts)
@@ -1334,163 +1201,4 @@ apartments (e.g., shower, yard ).
 
 • Play the audio program again. Ss listen and repeat.
 
-Can I take a message?
-
-T-106
-
-3 LISTENING
-Learning Objective: listen for specific information
-about locations discussed using prepositions of place
-
-A [CD 3, Track 49]
-• Explain the task. Point out that Ss should check the
-reason he missed each of the three calls. Then play
-the audio program once or twice, pausing after each
-conversation. Ss listen and complete the task.
-
-Audio script
-1.
-Hannah
-Nathan
-Hannah
-Nathan
-Hannah
-Nathan
-Hannah
-
-Hello?
-Hi, Hannah. It’s Nathan.
-Oh, hi, Nathan. Thanks for calling me back.
-Sure. Sorry I missed your call.
-Were you out shopping?
-No. I was in the shower.
-Well, I called you because I’m having a party
-on Saturday. It starts at about 8:00. Can you
-come?
-Nathan Sure.
-2.
-Andrea Hello?
-Nathan Hello, Andrea? It’s Nathan.
-Andrea Hey, Nathan.
-Nathan Sorry I missed your call.
-Andrea That’s OK. You were busy studying, right?
-Nathan No. I was at the mall. I didn’t hear my phone.
-Andrea That’s OK. Listen. Can I see your notes
-from history class yesterday? I was sick, so I
-missed class.
-Nathan No problem.
-
-3.
-Alexis
-Nathan
-Alexis
-Nathan
-
-Hello?
-Alexis?
-Yes. Is this Nathan?
-Yes. I’m returning your call. Sorry I
-missed you. I was in class.
-Alexis Really? Are you sure you weren’t
-sleeping?
-Nathan No, no. I wasn’t sleeping.
-Alexis I know. Hey, can you work on Saturday
-night? I know you usually work on
-Sunday, but Sam can’t come in on
-Saturday, and the coffee shop gets so
-busy then.
-Nathan I’m so sorry, Alexis, but I have plans on
-Saturday. Maybe Elizabeth can do it?
-
-• Ss compare their answers in pairs. Then elicit the
-answers from the class. (Answers: 1. He was in the
-shower. 2. He was at the mall. 3. He was in class.)
-
-B [CD 3, Track 50]
-• Explain the task. Replay the audio. Ss complete the
-task. Elicit the answers. (Answers: 1. Hannah called
-Nathan because she is having a party. 2. Andrea
-called Nathan because she needs to see Nathan’s
-notes. 3. Alexis called Nathan because Sam can’t
-come in to work on Saturday.)
-
-4 GRAMMAR FOCUS
-Learning Objective: use subject and object pronouns
-in a short phone conversation
-
-[CD 3, Track 51]
-• Focus Ss’ attention on the Grammar Focus box. Play
-the audio program. Ss listen and read silently.
-
-A
-
-B Pair work
-• Explain the task. Direct Ss’ attention to number 1 in
-
-• Ss complete the conversations individually. Elicit the
-answers. Then Ss practice the conversations in pairs.
-
-Answers
-1. A: Can I speak with Ms. Murphy, please?
-B: She’s not here. But maybe I can help you.
-A: Please give her my new cell number. It’s
-555-2981.
-2. A: Hi, this is Colin Shaw. Is Mr. Kerr there?
-B: I’m sorry, but he’s not here right now. Do you
-want to leave a message?
-A: Yes. Please tell him to call me at work.
-3. A: Hello, this is Carol’s Café. Are Lauren and Matt
-in?
-B: No, they’re not. I’m their son. Can I help you?
-A: I found their keys. They left them on the table.
-
-T-107
-
-B: Just bring me the keys. I can give them to my
-parents.
-A: I’m sorry, but I can’t. Can your mom or dad call
-me?
-B: OK.
-
-Unit 16
-
-part A for reference. Ss role-play the conversation
-in pairs. Elicit or explain the meaning of assistant
-(someone who helps another person do work).
-
-• Option: Model the role play with a S for the class.
-Then invite pairs to role-play their conversations.
-
-C Pair work
-• Explain the task. Ss practice the conversation in pairs.
-
-End of Cycle 1
-See the Supplementary Resources chart at the
-beginning of this unit for additional teaching materials
-and student activities related to this Cycle.
-
-Cycle 2, Exercises 5–12
-
-5 SNAPSHOT
-Learning Objective: talk about free-time activities
-
-[CD 3, Track 52]
-• Books closed. Ask the class: “What activities do you
-do in your free time?” Elicit Ss’ answers and write
-them on the board. Then ask: “What activities are
-popular in the U.S.?” Encourage Ss to make guesses.
-
-• Books open. Ss look at the Snapshot and discuss
-whether any of their guesses are pictured.
-
-TIP
-
-To generate interest in a topic, tell Ss to close
-their books and share what they already know
-about the topic. Then have them open their books
-and check the answers.
-
-• Play the audio program. Ss listen and read silently.
-Then play the audio program again. Ss listen
-and repeat.
 ```

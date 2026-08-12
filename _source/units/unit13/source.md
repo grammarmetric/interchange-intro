@@ -1,4 +1,4 @@
-# Unit 13 — You can't miss it.
+# Unit 13 — How do I get there?
 
 Student's Book pp. 86–91. PDF page = printed page + 8.
 
@@ -26,214 +26,171 @@ Student's Book pp. 86–91. PDF page = printed page + 8.
 ### Printed page 86  (PDF page 94)
 
 ```
-WORD             POWER         Places to go, things to buy
-©   A Where can you get these things? Match the things with the places.
-      Then listen and practice.
-       “You can buy a backpack at a department store.”
+WORD POWER Places to go, things to buy
 
+� A Where can you get these things? Match the things with the places.
+         Then listen and practice.
+         "You can buy a backpack at a department store."
 
+Son eS FPP >  a backpack     d
 
+              cold medicine
 
-            a backpack             d
-      >
+              a debit card
 
+              eggs           ----
 
+              an espresso
 
+              gasoline
 
-            cold medicine
-      FPP
+              a magazine
+              stamps
 
+                                                                       f                   a ih Q  1
 
+                                                                       i h. a supermarket  E- '
 
+PAIR WORK What else can you get or do in the places in part A?
 
-            a debit card
-            eggs                 ——
-            an espresso
-      eS
-
-
-
-
-            gasoline
-            a magazine
-      Son
-
-
-
-
-            stamps
-
-
-
-
-                                                                                f                         a   ih       Q   1
-
-
-
-
-                                                                                i h. a supermarket   E-            ’
-
-
-       PAIR WORK         What else can you get or do in the places in part A?
-       A: You can send packages at a post office.
-       B: And you get cereal and milk at a supermarket.
+A: You can send packages at a post office.
+B: And you get cereal and milk at a supermarket.
 ```
 
 ### Printed page 87  (PDF page 95)
 
 ```
-LISTENING I can’t find my cell phone.
- ©A        Vanessa is looking for her cell phone with her friend Tom. What does Tom need?
-           Where is he going to get the things? Complete the chart.
+LISTENING I can't find my cell phone.
 
-                        What does Tom need?                     Where is he going to get it?
-             1.
-             2
+� A Vanessa is looking for her cell phone with her friend Tom. What does Tom need?
+         Where is he going to get the things? Complete the chart.
 
-             3.
-             4
+         What does Tom need?               Where is he going to get it?
+1.
+2
+3.
+4
 
+B PAIR WORK What do you need? Where are you going to get it? Tell your partner.
+    "| need some gas, so I'm going to go to the gas station. . . n 7
 
-      B     PAIR WORK                What do you need? Where are you going to get it? Tell your partner.
-                                                                                               n7
-            “| need some gas, so I’m going to go to the gas station. . .
+ry CONVERSATION Excuse me. Can you help me?
 
+� Listen and practice.
 
+                            P
+                                Excuse me. Can you help me? Is there
+                                a public restroom around here?
 
-ry    CONVERSATION                                    Excuse me. Can you help me?
+             >
 
- ©    Listen and practice.
-                                P
-                                      Excuse me. Can you help me? Is there
-                                      a public restroom around here?
-                            >
+ics)               A public restroom? Hmm. I'm sorry.
+                   | don't think so.
 
+             &     Oh, no. My son needs a restroom -- now.
+               \/  It's an emergency!
 
+                           Hmm... Let's see... Oh, there's a restroom
+tte) ) } inthe department store on Third Avenue.
 
+                   Where on Third Avenue?  i
 
-                                      A public restroom? Hmm. I’m sorry.
-          ics)                        | don’t think so.
-                                \/
+EYSS- ae Df       It's on the corner of Third Avenue and |
+                  Market Street.
 
+             f On the corner of Third and Market? ]
 
-
-
-                                      Oh, no. My son needs a restroom — now.
-                                      It's an emergency!
-                            &
-
-
-
-
-                                      Hmm...    Let’s see... Oh, there’s a restroom
-          tte)          )   }         inthe department store on Third Avenue.
-
-                                      Where on Third Avenue?
-                                                                  i
-
-
-
-
-                                      It’s on the corner of Third Avenue and       |
-          EYSS- ae Df                 Market Street.
-
-                            f         On the corner of Third and Market?       ]
-
-          Passer-by         f         Yes, it’s across from the park. You can’t miss it.
-
-                                      Thanks a lot.
-
-
-
+Passer-by    f Yes, it's across from the park. You can't miss it.
+                  Thanks a lot.
 
 ~~ PRONUNCIATION compound nouns
- © A Listen         and practice. Notice the stress in these compound                        nouns.
-              6                                    @                            @
-            bookstore                          department store                gas station             post office
-            @                                    @                              @
-            coffee shop                        drugstore                       restroom               supermarket
 
-      B     PAIR WORK                Practice these sentences. Pay attention to the stress in the compound                 nouns.
-           There's a bookstore in the gas station.                                 There isn’t a post office in the supermarket.
-           There's a coffee shop in the supermarket.                               There aren't restrooms in the drugstore.
+� A Listen and practice. Notice the stress in these compound nouns.
 
-                                                                                                                     How do | get there?
+  6                     @                                              @            post office
+bookstore          department store                                   gas station  supermarket
+
+@                    @                                                 @
+coffee shop        drugstore                                          restroom
+
+B PAIR WORK Practice these sentences. Pay attention to the stress in the compound nouns.
+
+There's a bookstore in the gas station.                               There isn't a post office in the supermarket.
+There's a coffee shop in the supermarket.                             There aren't restrooms in the drugstore.
+
+                                                                                   How do | get there?
 ```
 
 ### Printed page 88  (PDF page 96)
 
 ```
 fy GRAMMAR FOCUS
-© Bio        oucueraa dees
 
-                                                                                                                                                                         SECOND       AVE                          BSS.            ede A VE
-             ne
+� Bio oucueraa dees
 
-                  |                   NS                                                                                                       x
+         ne                                                                                                                  SECOND AVE             BSS. ede A VE
 
-             E              a a                    Du                     ra                                                ers         A           Meats                    x —
-                           MALS MMs                     ii                                                                        Ez                                                            EEE
-                      on                           on the corner of                                                                    across from                                   next to
+             |                NS                                                                                x                x--
+                                                                                                                                          EEE
+         E          aa               Du ra                                                                ers A Meats
+                                        ii                                                                Ez                        next to
+                    MALS MMs
+                                     on the corner of                                                      across from
+                on
 
-      The department store is on Third Avenue.                                                                                                 It’s next to the bank.
-      It’s on the corner of Third and Market.                                                                                                  The bank is between the department store
-      It's across from the park.                                                                                                                    and the restaurant.
-                                                                                                                                                                                                            GRAMMAR PLUS see page 144
+The department store is on Third Avenue.                                                                  It's next to the bank.
+It's on the corner of Third and Market.
+It's across from the park.                                                                                The bank is between the department store
 
-  A     Look at the map and complete the sentences. Then compare with a partner.
+                                                                                                                   and the restaurant.
 
-                             SRT                                     Ty
-                                hes STATION                                                                          ee
+                                                                                                                                                 GRAMMAR PLUS see page 144
 
-                                                                                                         i         DOCTOR'S
-                                                                           H                             a                                                               E                                                                         A               ;
-                                                                           oO                                     HOSPITAL                                                                                       [oo] [ee Wie             ele) Che] ise
+A Look at the map and complete the sentences. Then compare with a partner.
 
+                    SRT                      Ty                                               ee
 
+                        hes STATION
 
-                                                  i ieEg&                 et
-                                                                                                                                                                                                             :                                                 3
+                                                                         H                ai DOCTOR'S                        E                                        A                   ;
 
+                                                          oO                                   HOSPITAL                                             [oo] [ee Wie ele) Che] ise
 
+                                     i ieEg                                                                                                      :                       3
+                                               &et
 
+                                     Beaee7-STaOcRieEilseas)                          ae                  Sanauet       "ae     ,i                                    DYNES DN Ae KO) .a
 
-                                                    eee cei eas)                                    ae                                      Sane                                 i                                                 DYNES DN Ae KO) .a
-                                                    Ba 7- ails                                                                                aut           “ae              ,
-                                                             STORE
+                                                                                          ON ey AUN Le
 
-                                                                                                         ON                       ey AUN Le
-                                                                                                                                                            Mana’s      Restaurant          §
+                                                                                                                        Mana's Restaurant �
 
+                    yy `                _--                                        "      S` ife ie eeam     ae                                UW 4,        cr i                  ,`
+                                                                                                                                                                      `COFFEE SHOP
+                                                                                                          CY ppOiaSEnW Dey
 
+                                     ;                                      me  "         ia                                                 eg                   i.
 
+                                  "I i-s eSaS
 
-                                                                                                                                                        ae
-                           yy                                  _——                                       S                                                                                            UW
-                                                                                                ”        ‘ fe      ie ee                                pian                                           4,            cr                                    ‘
-                                              ‘                                                            i           am                          CY   pO SEW    Dey                                                     i                            ,
+1. The coffee shop is                                                       on            Main Street. It's                                  the shoe store.
 
-                                                         ;                      me          "                ia                                                                                       eg                      i.              ‘COFFEE SHOP
+2. The movie theater is                                                                       Park and Third. It's                               the park.
 
+3. The gas station is                                                                     the parking lot. It's                                  Second and Market.
 
+4. The post office is                                                                     Main and Second. It's                                  the hospital.
 
+5. The bank is                                                                  the restaurant and the department store.
 
-                                           "I i-s                                    eSaS
+         It's                        Third Avenue.
 
-        1.    The      coffee shop is        on        Main Street. It’s               the shoe store.
-        2.    The      movie theater is                   Park and Third. It’s               the park.
-        3.    The      gas station is                 the parking lot. It’s               Second and Market.
-        4.    The      post office is                 Main and Second. It’s                 the hospital.
-        5.    The      bank is                  the restaurant and the department store.
-             It's                      Third Avenue.
+B PAIR WORK Where are these places on the map? Ask and answer questions.
 
-  B     PAIR WORK                 Where are these places on the map? Ask and answer questions.
+the park thedrugstore the bookstore the hospital the shoe store
 
-         the park               thedrugstore                                    the bookstore                                           the hospital              the shoe store
-
-        A: Where is the park?
-        B: It's between Park and Market, across from the department store.
-
-
+A: Where is the park?
+B: It's between Park and Market, across from the department store.
 
 Unit 13
 ```
@@ -241,136 +198,118 @@ Unit 13
 ### Printed page 89  (PDF page 97)
 
 ```
-LISTENING | think it’s on Main Street.
+LISTENING | think it's on Main Street.
 
-©   Look at the map in Exercise 5. Listen to four conversations. Where are the people going?
-    Number the places from 1 to 4.
+� Look at the map in Exercise 5. Listen to four conversations. Where are the people going?
+     Number the places from 1 to 4.
 
-    CJ the hospital               CT] the bank                C]   the gas station   C]   the coffee shop
+CJ the hospital         CT] the bank  C] the gas station      C] the coffee shop
 
+   SNAPSHOT
 
-    SNAPSHOT
-©   Listen and practice.
+� Listen and practice.
 
+pol aaa ae YORK Cl I o> Tourist Attractions w
 
-       pol aaa ae YORK                            Cl          I         o>   Tourist Attractions            w
+What do you know about these places? What makes them popular?
+What are some popular tourist attractions in your country? What are your top five attractions?
 
+    CONVERSATION        how do! get to Rockefeller Center?
 
+� Listen and practice.
 
+cap        Excuse me, sir. Can you help me? How do
+cap  I | get to Rockefeller Center?
+cap
+          Just walk up Sixth Avenue to 49th Street. |
+     { Rockefeller Center is on the right.
 
-    What do you know about these places? What makes them popular?
-    What are some popular tourist attractions in your country? What are your top five attractions?
+     f Is it near Radio City Music Hall? }
 
+     � Yes, it's right across from Radio City Music Hall.
 
-    CONVERSATION                        how do! get to Rockefeller Center?
-©   Listen and practice.
+          Thank you. And where is the Empire
+          State Building? Is it far from here?
 
-                      Excuse me, sir. Can you help me? How do
-                I     | get to Rockefeller Center?
+     f� It's right behind you. Just turn around and look up!
 
-                     Just walk up Sixth Avenue to 49th Street.      |
-     cap        {    Rockefeller Center is on the right.
-
-                f     Is it near Radio City Music Hall?   }
-
-     cap        £     Yes, it’s right across from Radio City Music Hall.
-
-                     Thank you. And where is the Empire
-                     State Building? Is it far from here?
-
-     cap        f£    It’s right behind you. Just turn around and look up!
-
-
-
-                                                                                             How dol get there? EX x
+                                                              How dol get there? EX x
 ```
 
 ### Printed page 90  (PDF page 98)
 
 ```
-GRAMMAR                                             FOCUS
+GRAMMAR FOCUS
 
 0
-    How do | get to Rockefeller Center?                                   How can | get to the New York Public Library?
-     Walk up/Go up Fifth Avenue.                                            Walk down/Go down Fifth Avenue.
-     Turn left on 49th Street.                                              Turn right on 42nd Street.
-     It’s on the right.                                                     It’s on the left.
 
+How do | get to Rockefeller Center?      How can| get to the New York Public Library?
+ Walk up/Go up Fifth Avenue.               Walk down/Go down Fifth Avenue.
+ Turn left on 49th Street.                 Turn right on 42nd Street.
+ It's on the right.                        It's on the left.
 
+A PAIR WORK Imagine you are tourists at Grand Central Terminal.
+    Ask for directions. Follow the arrows.
 
-A        PAIR WORK                    Imagine you are tourists at Grand Central Terminal.
-         Ask for directions. Follow the arrows.
+              S3rq Stree,                MoMa                   @                                55th Street 56th Street
+                                                                                                 54 t F Street
+              52nd Street                                       2
 
+              5S0ttsht eSytreet                  =|           :
+                                         Rockefeller !!     �S
+    a
+    s
+    Cc                     reat          Center  '       3"
 
-                                        S3rq           Stree,                                            @
-                                                                        MoMa                                                                                  56th   Street
-                                                                                                      2                                  55th Street
-                                       52nd            Street
-                                                                                  = |                :                                   54 t
-                                      Stst Street                                     !              S                                          F Street
-               s
-                a                     50th ey                           Rockefeller !            °
-                                                                                                 “
+     a        49th Stree,                        1       =
 
-              a
-               Cc                         reat                          Center          '        3
-         <
-             >
-                                  49th Stree,                                          1        =
-         s                     o S8th               Street
-    Pi                         2 47
-                           oT Street
-                          T 46th Stree,
-                           >
+    <>
 
+s             o S8th Street
 
-                          <=
-                          o+4 *5th Street                                                                                            g                g
-                               44th Street
-                                                                                                                                 &                    o
-                                                                                                                                 >                    >
-                           43rg        Street                                                                                q                    <
+Pi            o2 T47 Street
 
-                          42nd                                                                                               2                    =
-                                      Street                                                                                 ”                   a
+              T> 46th Stree,
 
+              o+<=4 *5th Street                                                       g              g
 
+              44th Street                                                         &                 o
 
-                                                                                                             Canaral                            = niced
-                         4ist     Street                                                                     Grand                                        .
-                         40th    Street
-                                                                                                             Terminal
-                        39th     Street
+              43rg Street                                                                     >       >
 
+        42nd Street                                                                 q               <
+        4ist Street
+                                                                                "2                a=
+        40th Street
+                                                                   GCarnaanrdal                  = nic.ed
 
+                                                                   Terminal
 
+        39th Street
 
-                                            o
-                                            s
-                                            =
-                                           2
-         34th Street                   5
-                                        <
-                                                             Empire
-                                       s                                                                     36th   s
-     2                                                                                                                  tr
-         3rd Street                                             State                                                        hd
-                                                         Building                                            35th Streer
-                                                3
-    3 Ise Street                                    2nd Street
+                  o
 
+                  =s
+              2
 
+ 34th Street  5<                 Empire
 
-         A:         Excuse me. How do | get to the Empire State Building?
-                    Walk up 42nd Street. Turn left on...
+2 3rd Street  s                                                    36th s tr hd
 
-B        PAIR WORK                    Ask for directions to places near your school.
-         A: How do | get to the bus stop?
-         B: Walk...
+3 Ise Street                  State                                35th Streer
 
+                      Building
 
-INTERCHANGE                                                  13     Giving directions
+                      3 2nd Street
 
+   A: Excuse me. How do | get to the Empire State Building?
+        Walk up 42nd Street. Turn left on...
+
+B PAIR WORK Ask for directions to places near your school.
+   A: How do | get to the bus stop?
+    B: Walk...
+
+INTERCHANGE 13 Giving directions
 Student A, go to Interchange 13A on page 127; Student B, go to Interchange 13B on page 128.
 ```
 
@@ -378,962 +317,801 @@ Student A, go to Interchange 13A on page 127; Student B, go to Interchange 13B o
 
 ```
 READING
+
 A. Skim the guide. Where can you have some tea?
 
+    The-ar museum                                Japanese Gardens                           Then turn right on Avenida Sarmiento
+                                                                                            and head over to the Galileo Galilei
+    Why not start at MALBA, the art              Next, walk up to the park, turn left, and  planetarium. There, you can see a piece of
+    museum on Avenida Figuero Alcorta?           get a taste of Japan in Argentina. You     rock from the moon. There's a telescope
+    There are some fantastic sculptures and      can visit the Japanese Gardens and         you can look at the sky through, too.
+    paintings there.                             see about 150 different types of plants
+                                                 from Japan. Don't forget to taste some
+                                                 Japanese tea before you leave.
 
+                                              |            E                                %
 
+    Across the park from the planetarium,                                                         : `4
+    you can see the Spanish Monument.                                                       5
+    It's a huge statue. It's a gift
+    from the Spanish people to the                                                                                       Se
+    Argentinian people.
 
-     The-ar museum                                  Japanese Gardens
-     Why not start at MALBA, the art                Next, walk up to the park, turn left, and     Then turn right on Avenida Sarmiento
-     museum on Avenida Figuero Alcorta?             get a taste of Japan in Argentina. You        and head over to the Galileo Galilei
-     There are some fantastic sculptures and        can visit the Japanese Gardens and            planetarium. There, you can see a piece of
-     paintings there.                               see about 150 different types of plants       rock from the moon. There’s a telescope
-                                                    from Japan. Don’t forget to taste some        you can look at the sky through, too.
-                                                    Japanese tea before you leave.
+    Statue of Domingo                                   r                                   End your tour at the
+    Faustino Sarmiento                                                                      Campo Argentino del
+                                                 5  us
+    Turn right to see another big statue.                                                   Polo. That's where people
+    That's the statue of Domingo Faustino           "         }                             play a sport named polo,
+    Sarmiento. He was a writer and a                                                        on horseback. The biggest
+    president of Argentina. Auguste Rodin, a     Campo.Argentino del Polo                   polo competition in the
+    famous French artist, made the statue.                                                  world takes place there!
 
+B Read the information in the guide. Where can you... ?
 
+    1. see horses
+    2. look at the sky
+    3. see many types of plants
+    4. find a statue of a writer
+    5. see some art
 
+Cc  Think of a place you both know and like. Plan a guide to tell visitors where things are.
 
-                                                |                                   E              %
-
-
-                                                                                                            ‘4
-     Across the park from the planetarium,                                                              :
-     you can see the Spanish Monument.                                                             5
-     It's a huge statue. It’s a gift
-     from the Spanish people to the
-     Argentinian people.                                                                                                    Se
-
-
-
-
-      Statue of Domingo                                                     r                   End your tour at the
-      Faustino Sarmiento                                  5            us                       Campo Argentino del
-                                                                        "               }       Polo. That's where people
-     Turn right to see another big statue.
-                                                                                                play a sport named polo,
-     That's the statue of Domingo Faustino
-     Sarmiento. He was a writer and a                                                           on horseback. The biggest
-                                                                                                polo competition in the
-     president of Argentina. Auguste Rodin, a
-                                                                                                world takes place there!
-     famous French artist, made the statue.         Campo.Argentino del Polo
-
-
-B     Read the information in the guide. Where can you... ?
-      1. see horses
-      2. look at the sky
-      3. see many types of plants
-      4. find a statue of a writer
-      5. see some art
-
-Cc                       Think of a place you both know and like. Plan a guide to tell visitors where things are.
-
-
-                                                                                                                 How dol get there?            EXE
+                                                                                               How dol get there? EXE
 ```
 
 ## Teacher's edition notes for this unit (answer keys and audio scripts)
 
 ```
-FIFTH EDITION
+2. You can buy cold medicine at a drugstore.
+3. You can get a debit card at a bank.
+4. You can buy eggs at a supermarket.
+5. You can get an espresso at a coffee shop.
+6. You can buy gasoline at a gas station.
+7. You can buy a magazine at a bookstore.
+8. You can get stamps at a post office.
 
-Teacher’s Edition
-Jack C. Richards
+Answers
+1. d
 
-intro
+2. b
 
-University Printing House, Cambridge cb2 8bs, United Kingdom
-One Liberty Plaza, 20th Floor, New York, ny 10006, USA
-477 Williamstown Road, Port Melbourne, vic 3207, Australia
-4843/24, 2nd Floor, Ansari Road, Daryaganj, Delhi – 110002, India
-79 Anson Road, #06–04/06, Singapore 079906
-Cambridge University Press is part of the University of Cambridge.
-It furthers the University’s mission by disseminating knowledge in the pursuit of
-education, learning and research at the highest international levels of excellence.
-www.cambridge.org
-Information on this title: www.cambridge.org/9781108406055
-© Cambridge University Press 2017
-This publication is in copyright. Subject to statutory exception
-and to the provisions of relevant collective licensing agreements,
-no reproduction of any part may take place without the written
-permission of Cambridge University Press.
-First published 1995
-Second edition 2000
-Third edition 2005
-Fourth edition 2013
-20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
-Printed in Malaysia by Vivar Printing
-A catalogue record for this publication is available from the British Library
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
+3. e
 
-9781316620113
-9781316620120
-9781316620137
-9781316620144
-9781316620151
-9781316620168
-9781316622377
-9781316622391
-9781316622407
-9781108406055
-9781316622216
-9781316623855
-9781316623862
-9781316623879
-9781316622193
+4. h
 
-Intro Student’s Book with Online Self-Study
-Intro Student’s Book A with Online Self-Study
-Intro Student’s Book B with Online Self-Study
-Intro Student’s Book with Online Self-Study and Online Workbook
-Intro Student’s Book A with Online Self-Study and Online Workbook
-Intro Student’s Book B with Online Self-Study and Online Workbook
-Intro Workbook
-Intro Workbook A
-Intro Workbook B
-Intro Teacher’s Edition
-Intro Class Audio CDs
-Intro Full Contact with Online Self-Study
-Intro Full Contact A with Online Self-Study
-Intro Full Contact B with Online Self-Study
-Presentation Plus Intro
+5. g
 
-Additional resources for this publication at www.cambridge.org/interchange
-Cambridge University Press has no responsibility for the persistence or accuracy
-of URLs for external or third-party internet websites referred to in this publication,
-and does not guarantee that any content on such websites is, or will remain,
-accurate or appropriate. Information regarding prices, travel timetables, and other
-factual information given in this work is correct at the time of first printing but
-Cambridge University Press does not guarantee the accuracy of such information
-thereafter.
+6. c
 
-Contents
-Introduction
-Plan of Intro Book
-iv
-Informed by teachers
-viii
-The Fifth Edition of Interchange
-x
-Student’s Book overview
-xi
-Online Self-study overview
-xv
-Online Workbook overview
-xvi
-Workbook overview
-xvii
-Teacher’s Edition and Assessment Program overviews
-xviii
-Presentation Plus overview
-xix
-cambridge.org/interchange and Video Program overviews xx
-Introduction to the CEFR
-xxi
-Essential teaching tips
-xxii
-Classroom language
-xxiii
-Teaching notes
-1 What’s your name?
-2 Where are my keys?
-Progress check
-3 Where are you from?
-4 Is this coat yours?
-Progress check
-5 What time is it?
-6 I ride my bike to school.
-Progress check
-7 Does it have a view?
-8 Where do you work?
-Progress check
-9 I always eat breakfast.
-10 What sports do you like?
-Progress check
-11 I’m going to have a party.
-12 How do you feel?
-Progress check
-13 How do I get there?
-14 I had a good time.
-Progress check
-15 Where were you born?
-16 Can I take a message?
-Progress check
-Interchange activities
-Grammar plus
-Grammar plus answer key
-Additional resources
-Appendix
-Language summaries
-Workbook answer key
-Credits
+7. f
 
-T-2
-T-8
-T-14
-T-16
-T-22
-T-28
-T-30
-T-36
-T-42
-T-44
-T-50
-T-56
-T-58
-T-64
-T-70
-T-72
-T-78
-T-84
+8. a
+
+• Play the audio program again. Ss listen and repeat.
+• Option: Ask the class: “Where can you get
+(stamps)?” Elicit the answer. Repeat with the other
+items, in random order.
+
+B Pair work
+
+For more practice with vocabulary for places, play
+Sculptures – download it from the website. Teams
+form sculptures that illustrate different activities in
+different places.
+For more practice with vocabulary for places and
+things, play Vocabulary Tennis – download it from
+the website. Write nine places on the board, and
+have each team say something you can get or do
+there.
+
+TIP
+
+Review vocabulary regularly by making it part of
+your teaching routine. For example, ask each S to
+say a word from a previously taught category (e.g.,
+places, things you buy ) when you take attendance.
+Alternatively, you can start each class with a
+vocabulary warm-up activity.
+
+• Explain the task. Elicit other things you can get or do
+in a bank (e.g., get money, change money, deposit
+a check ) and write them on the board. Help with
+vocabulary if needed. Then ask two Ss to model the
+example conversation.
+
+• Ss complete the task in pairs. Go around the class
+and help with vocabulary as needed.
+
+How do I get there?
+
 T-86
-T-92
-T-98
-T-100
-T-106
-T-112
-T-114
-T-132
-T-148
-T-151
-T-152
-T-168
-T-184
 
-Plan
-of of
-Intro
-book
-Plan
-Intro
-Book
-Titles/Topics
-Titles/Topics
+2 LISTENING
+Learning Objective: listen to a conversation about
+looking for a missing item and shopping
 
-Speaking
-Speaking
+A [CD 3, Track 14]
+• Set the scene. Vanessa can’t find her phone and is
+talking about places where she may have left it. Tom is
+talking about things he needs to buy at those places.
 
-UNIT
-1 1
-UNIT
+• Tell Ss to listen only for the things Tom needs. Then
+play the audio program. Ss listen and complete the
+What does Tom need? column in the chart.
 
-Grammar
-Grammar
+• Tell Ss to listen only for the places to buy the things
+Tom needs. Then play the audio program again. Ss
+listen and complete the Where is he going to get it?
+column in the chart.
 
-PAGES
-2–7
-PAGES
-2–7
+• Play the audio again. Ss check their answers.
+Audio script
+1.
+Tom
+Hi, Vanessa. What’s the matter?
+Vanessa I can’t find my cell phone!
+Tom
+That’s too bad. What are you going to do?
+Vanessa Well, first I’m going to go back to the
+bookstore. Maybe it’s there.
+Tom
+Great! I’ll go with you.
+Vanessa Why? Do you need a book?
+Tom
+No. But I’m going to buy some magazines.
+2.
+Vanessa They don’t have my phone. This is terrible.
+Tom
+Where are you going to look next? The
+post office?
+Vanessa No, I’m going to go to the drugstore. I
+hope it’s there.
+Tom
+Oh, cool. I’ll go with you again. I need
+some ice packs for my elbow.
+Vanessa OK. Let’s go.
 
-Possessive
-adjectives
-my,
-your,
-Possessive
-adjectives
-my,
-your,
-Introducing
-yourself
-and
-friends;
-Introducing
-yourself
-and
-friends;
-What’s
-your
-name?
-What’s
-your
-name?
-her;
-thethe
-verb
-be;be;
-affiaffirmative
-rmative
-his,
-her;
-verb
-saying
-hello
-and
-good-bye;
-asking
-forfor his,
-saying
-hello
-and
-good-bye;
-asking
-Alphabet;
-greetings
-and
-leaveAlphabet;
-greetings
-and
-leavestatements
-and
-contractions
-statements
-and
-contractions
-and
-phone
-numbers
-names
-and
-phone
-numbers
-takings;
-names
-and
-titles
-of of
-address;
-takings;
-names
-and
-titles
-address; names
-numbers
-0–10,
-phone
-numbers,
-and
-numbers
-0–10,
-phone
-numbers,
-and
-email
-addresses
-email
-addresses
-UNIT
-2 2
-UNIT
+3.
+Tom
+So, do you have it?
+Vanessa No, it’s not here! I’m really worried now.
+Tom
+Let’s see. What about the supermarket?
+Do you think it’s there?
+Vanessa No, I never go shopping there. But
+maybe it’s at the department store. I’m
+going to go there next.
+Tom
+Can I come, too?
+Vanessa You’re really nice, Tom, but I can go alone.
+Tom
+No, really, I want to go. I need a new coat.
+4.
+Tom
+So, do you have your phone?
+Vanessa No, I don’t. I’m going to ask at the coffee
+shop and then go home, because . . .
+Tom
+What’s that?
+Vanessa Oh! It’s my cell phone! It’s in one of my
+shopping bags, under a sweater.
+Tom
+That’s wonderful. So, umm, you’re not
+going to the coffee shop, then?
+Vanessa Well, no. I have my phone now, so I can
+go home.
+Tom
+OK. I think I’ll go to the coffee shop
+anyway. I really need a cup of coffee.
+Vanessa You know what? I’ll go with you!
 
-PAGES
-8–13
-PAGES
-8–13
+• Ss compare their answers in pairs. Elicit answers from
+the class and write them on the board.
 
-Where
-are
-mymy
-keys?
-Where
-are
-keys?
-Possessions,
-classroom
-objects,
-Possessions,
-classroom
-objects,
-personal
-items,
-and
-locations
-in in
-a a
-personal
-items,
-and
-locations
-room
-room
+Answers
+1. magazines; the bookstore
+2. ice packs; the drugstore
+3. a coat; the department store
+4. (a cup of) coffee; the coffee shop
 
-Naming
-objects;
-asking
-forfor
-and
-giving
-a, a,
-an,an,
-and
-the;
-this/these,
-Naming
-objects;
-asking
-and
-givingArticles
-Articles
-and
-the;
-this/these,
-thethe
-locations
-of of
-objects
-it/they;
-plurals;
-yes/no
-and
-where
-locations
-objects
-it/they;
-plurals;
-yes/no
-and
-where
-questions
-with
-be;be;
-prepositions
-of of
-questions
-with
-prepositions
-place:
-in,in,
-in in
-front
-of,of,
-behind,
-on,on,
-place:
-front
-behind,
-next
-to,to,
-and
-under
-next
-and
-under
+B Pair work
+• Read the questions and explain the task. Then model
+the example sentence. Ss complete the task in pairs.
 
-PROGRESS
-CHECK
-PROGRESS
-CHECK
+3 CONVERSATION
+Learning Objective: use prepositions of place in a
+conversation about looking for a specific location
 
-PAGES
-14–15
-PAGES
-14–15
+[CD 3, Track 15]
+• Focus Ss’ attention on the picture and set the scene.
+Ask: “What is the woman looking for? Where is it?”
 
-UNIT
-3 3
-UNIT
+• Play the audio program. Ss listen for the answer. Then
+elicit the answers. (Answers: 1. a restroom 2. in the
+department store on Third Avenue/on the corner of
+Third and Market). Elicit any new vocabulary.
 
-PAGES
-16–21
-PAGES
-16–21
+• Play the audio program again. Ss listen and repeat.
+Then they practice the conversation in pairs.
 
-The
-verb
-be:be:
-affiaffirmative
-rmative and
-negative
-The
-verb
-and
-negative
-Where
-are
-you
-from?
-Talking
-about
-cities
-and
-countries;
-Where
-are
-you
-from?
-Talking
-about
-cities
-and
-countries;
-statements,
-yes/no
-questions,
-short
-statements,
-yes/no
-questions,
-short
-asking
-for
-and
-giving
-information
-asking
-for
-and
-giving
-information
-Cities
-and
-countries;
-adjectives
-of of
-Cities
-and
-countries;
-adjectives
-and
-Wh-questions
-answers,
-and
-Wh-questions
-place
-of of
-origin,
-nationality,
-first
-about
-place
-origin,
-nationality,
-first answers,
-personality
-and
-appearance;
-numbers
-personality
-and
-appearance;
-numbers about
-language,
-and
-age;
-describing
-people
-language,
-and
-age;
-describing
-people
-11–103
-and
-ages
-11–103
-and
-ages
-UNIT
-4 4
-UNIT
+4 PRONUNCIATION
+Learning Objective: sound more natural when using
+compound nouns
 
-PAGES
-22–27
-PAGES
-22–27
+• Play the audio program. Ss listen and read silently. Then
 
-adjectives
-our
-and
-their,
-Possessives:
-adjectives
-our
-and
-their,
-Is Is
-this
-coat
-yours?
-Asking
-about
-and
-describing
-clothing
-this
-coat
-yours?
-Asking
-about
-and
-describing
-clothing Possessives:
-names,
-and
-whose;
-present
-pronouns,
-names,
-and
-whose;
-present
-colors;
-talking
-about
-thethe
-weather
-and
-colors;
-talking
-about
-weather pronouns,
-Clothing;
-colors;
-weather
-and
-seasons
-Clothing;
-colors;
-weather
-and
-seasons and
-continuous
-statements
-and
-yes/no
-continuous
-statements
-and
-yes/no
-and
-seasons;
-finding
-thethe
-owners
-of of
-and
-seasons;
-finding
-owners
-questions;
-conjunctions
-and,
-but,
-and
-questions;
-conjunctions
-and,
-but,
-and
-objects
-objects
-so;so;
-placement
-of of
-adjectives
-before
-placement
-adjectives
-before
-nouns
-nouns
-PROGRESS
-CHECK
-28–29
-PROGRESS
-CHECK PAGES
-PAGES
-28–29
-UNIT
-5 5
-UNIT
+A [CD 3, Track 16]
 
-PAGES
-30–35
-PAGES
-30–35
+B Pair work
 
-What
-time
-is is
-it?it?
-What
-time
-Clock
-time;
-times
-of of
-thethe
-day;
-Clock
-time;
-times
-day;
-everyday
-activities
-everyday
-activities
+• Focus Ss’ attention on the compound nouns. Explain
 
-UNIT
-6 6
-UNIT
+• Explain the task. Model the first sentence for Ss.
+• Ss complete the task in pairs.
 
-Asking
-forfor
-and
-telling
-time;
-asking
-Asking
-and
-telling
-time;
-asking
-about
-and
-describing
-current
-about
-and
-describing
-current
-activities
-activities
+that compound nouns are two words that join
+together to make a new noun. Point out that we
+usually stress the first word in a compound noun.
 
-Time
-expressions:
-o’clock,
-Time
-expressions:
-o’clock,
-A.M
-.MP.,M.,
-A.,MP.,
-noon,
-midnight,
-in in
-thethe
-morning/
-noon,
-midnight,
-morning/
-afternoon/evening,
-at at
-7:00/night/
-afternoon/evening,
-7:00/night/
-midnight;
-present
-continuous
-midnight;
-present
-continuous
-Wh-questions
-Wh-questions
+T-87
 
-PAGES
-36–41
-PAGES
-36–41
+Unit 13
 
-I ride
-mymy
-bike
-toto
+play the audio program again. Ss listen and repeat.
+
+5 GRAMMAR FOCUS
+Learning Objective: use prepositions of place to
+describe locations
+
+TIP
+
+To show Ss the purpose of your lesson, explain the
+connection between exercises. For example, say:
+“You just learned the names of different places
+and how to pronounce them. In this Grammar
+Focus, you’re going to learn to describe their
+location.”
+
+[CD 3, Track 17]
+Prepositions of place
+• Focus Ss’ attention on the Grammar Focus box. If
+desired, remind Ss that we use the prepositions next
+to and on to talk about the location of things. (See
+Unit 2, Exercise 9.) Explain that when we talk about
+the location of places, the meaning of next to is the
+same, but the meaning of on is a little different.
+
+• Focus Ss’ attention on the pictures. Elicit or explain
+the rules for using each preposition:
+1. Use on with a street or avenue.
+2. Use on the corner of with two streets or avenues.
+3. Use across from with a place.
+4. Use next to with a place.
+5. Use between with two places.
+
+• Play the audio program. Ss listen and read silently.
+• Option: Play the audio program again. Ss listen
+and repeat.
+
+• Elicit the answers from the class.
+Answers
+1. The coffee shop is on Main Street. It’s next to
+the shoe store.
+2. The movie theater is on the corner of Park and
+Third. It’s next to/across from the park.
+3. The gas station is across from the parking lot.
+It’s on the corner of Second and Market.
+4. The post office is on the corner of Main and
+Second. It’s next to the hospital.
+5. The bank is between the restaurant and the
+department store. It’s on Third Avenue.
+
+• Option: For more practice, write these sentences on
+the board:
+
+1. The drugstore is
+2. The supermarket is
+3. Maria’s Restaurant is
+4. The bank is
+5. The bookstore is
+
+the supermarket.
+Main and Third.
+Third Ave.
+Market and Main.
+the post office.
+
+Ss write the sentences and complete them with the
+correct prepositions. Then elicit the answers from the
+class. (Answers: 1. next to 2. on the corner of 3. on 4.
+between 5. across from)
+
+B Pair work
+• Explain the task and ask a S to read the places.
+Model the example conversation with a S.
+
+• Ss complete the task in pairs. They take turns asking
+about the places. Go around the class and give help
+as needed.
+
+A
+• Focus Ss’ attention on the map. Read the names
+of the streets and places aloud. Ss repeat. Elicit or
+explain any new vocabulary.
+
+• Explain the task and model the example sentence.
+• Ss complete the task individually. Then they compare
+answers in pairs.
+
+• Ask Ss to raise their hands when they finish comparing
+
+• Option: Ss ask their partners about additional places
+on the map.
+
+• Elicit locations for each place from the class. Ask:
+“Where is . . . ?”
+
+• Option: Bring in maps of the area around the school.
+Ss ask and answer questions about places near the
 school.
-I ride
-bike
-school.
-Transportation;
-family
-relationships;
-Transportation;
-family
-relationships;
-daily
-routines;
-days
-of of
-thethe
-week
-daily
-routines;
-days
-week
 
-Simple
-present
-statements
-with
-Simple
-present
-statements
-with
-Asking
-forfor
-and
-giving
-information
-Asking
-and
-giving
-information
-regular
-and
-irregular
-verbs;
-simple
-regular
-and
-irregular
-verbs;
-simple
-about
-how
-people
-gogo
-to to
-work
-or or
-about
-how
-people
-work
-yes/no
-and
-Wh-questions;
-present
-yes/no
-and
-Wh-questions;
-school;
-talking
-about
-family
-members;
-school;
-talking
-about
-family
-members;present
-expressions:
-early,
-late,
-every
-time
-expressions:
-early,
-late,
-every
-describing
-daily
-and
-weekly
-routines
-describing
-daily
-and
-weekly
-routines time
-day,
-onon
-Sundays/weekends/weekdays
-day,
-Sundays/weekends/weekdays
+answers in pairs. Go around the class and mark an X
+next to any wrong answers. Then Ss correct the wrong
+answers in pairs.
 
-PROGRESS
-CHECK
-42–43
-PROGRESS
-CHECK PAGES
-PAGES
-42–43
-UNIT
-7 7
-UNIT
+How do I get there?
 
-PAGES
-44–49
-PAGES
-44–49
+T-88
 
-Does
-it have
-a view?
-Does
-it have
-a view?
-Houses
-and
-apartments;
-rooms;
-Houses
-and
-apartments;
-rooms;
-furniture
-furniture
-UNIT
-8 8
-UNIT
+6 LISTENING
+Learning Objectives: listen for details and make
+inferences about locations
 
-PAGES
-50–55
-PAGES
-50–55
+[CD 3, Track 18]
+• Explain the task. Then play the audio program two
+or three times, pausing after each conversation. Ss
+listen, look at the map, and number the places.
 
-Where
-dodo
-you
-work?
-Where
-you
-work?
-Jobs
-and
-workplaces
-Jobs
-and
-workplaces
-PROGRESS
-CHECK
-56–57
-PROGRESS
-CHECK PAGES
-PAGES
-56–57
+Audio script
+1.
+Man
+Hmm. I think it’s on Third Avenue.
+Woman Is it near the Globe Movie Theater?
+Man
+Yes, it is. It’s right across from the movie
+theater.
+Woman Oh, yeah, yeah. There’s a restaurant there.
+Man
+Right. It’s between the restaurant and
+Harrow’s Department Store.
+2.
+Woman Is it near Harrow’s Department Store?
+Man
+Not really. It’s on Main Street, next to the
+shoe store.
+Woman Is there a shoe store on Main Street? I don’t
+know it.
+Man
+OK, well, it’s also across from the Globe
+Movie Theater.
+Woman OK. I know the Globe. Thank you very much.
+3.
+Man
+Where is it?
+Woman Well, it’s not far from the Second Avenue
+Bookstore.
 
-vi
-iv
+Man
+So it’s on Second Avenue?
+Woman Yes, it is. And it’s next to the post office.
+Man
+Is it near the corner of Second Avenue
+and Market Street?
+Woman Actually, it’s on that corner. It’s across
+from the gas station.
+Man
+Thanks.
+4.
+Woman Is it near the movie theater?
+Man
+No, it isn’t. It’s on Second Avenue, across
+from the parking lot.
+Woman On the corner of Second Avenue and
+Market Street?
+Man
+Yes, that’s right. It’s across from the
+hospital, too.
+Woman OK. Thanks!
 
-Introduction
+• Ss compare their answers in pairs. Elicit the answers
+and write them on the board.
 
-present
-short
-answers;
-Simple
-present
-short
-answers;
-Asking
-about
-and
-describing
-houses
-Asking
-about
-and
-describing
-houses Simple
-there
-is, is,
-there
-are;
-there’s
-no,no,
-there
-there
+Answers
+3, 1, 4, 2
+
+End of Cycle 1
+See the Supplementary Resources chart at the
+beginning of this unit for additional teaching materials
+and student activities related to this Cycle.
+
+Cycle 2, Exercises 7–11
+
+7 SNAPSHOT
+Learning Objective: discuss popular tourist attractions
+
+• Ss discuss the questions in small groups. Then elicit
+answers from the class.
+
+[CD 3, Track 19]
+• Focus Ss’ attention on the pictures. Play the audio
+
+• Option: Display a large map of New York City and
+talk about the location of each tourist attraction.
+
+program. Ss listen and repeat.
+
+8 CONVERSATION
+Learning Objectives: ask for and give directions in a
+conversation about finding a popular tourist destination
+
+[CD 3, Track 20]
+• Focus Ss’ attention on the picture and set the
+scene. A tourist in New York City is asking a man for
+directions.
+
+• Write these questions on the board:
+1. What buildings does the woman ask about?
+2. Where are they?
+
+T-89
+
+Unit 13
+
+• Play the audio program. Ss listen for the answers.
+Then elicit the answers. (Answers: 1. Rockefeller
+Center, Radio City Music Hall, the Empire State
+Building 2. Sixth Avenue and 49th Street, across from
+Rockefeller Center, right behind her)
+
+• Point out that in the phrase on the right, right is
+a direction. In the phrases right across from and
+right behind you, however, right means “exactly”
+or “directly.”
+
+• Play the audio program again. Ss listen and repeat.
+Then they practice the conversation in pairs.
+
+9 GRAMMAR FOCUS
+Learning Objective: ask for and give directions
+
+S: Excuse me. How do I get to the Empire State
+Building?
+
+[CD 3, Track 21]
+
+T: Walk up 42nd Street. Turn left on Madison Avenue,
+and go down Madison Avenue. Then turn right on
+34th Street. Walk up 34th Street and turn left on
+Fifth Avenue. It’s between 33rd and 34th Streets.
+
+Directions
+• Focus Ss’ attention on the Grammar Focus box. Point
+out that How do I get to . . . ? and How can I get
+to . . . ? have the same meaning. Also, point out that
+Walk up and Go up mean about the same thing.
+
+• Option: Point out that the avenues on this map go
+north and south. When people go north, they often
+say “go/walk up.” When they go south, they often
+say “go/walk down.” Use gestures to explain the
+meanings of turn right, turn left, on the right, and on
+the left.
+
+• Play the audio program. Ss listen and read silently.
+
+A
+• Set the scene. Ss imagine they are tourists in New
+York City. They are at Grand Central Terminal, and
+they want to go to six places:
+1. The Empire State Building
+2. The New York Public Library
+3. Bryant Park
+4. Rockefeller Center
+5. The Museum of Modern Art (MoMA)
+6. The United Nations
+Read out the names of the places. Ss repeat.
+
+• Elicit the locations of the places on the map:
+1. The Empire State Building: on Fifth Avenue
+between 33rd and 34th streets
+2. The New York Public Library: on Fifth Avenue
+between 40th Street and 42nd Street
+3. Bryant Park: on Sixth Avenue between 40th Street
+and 42nd Street
+4. Rockefeller Center: between Fifth Avenue and
+Sixth Avenue and between 48th Street and 51st
+Street
+5. MoMA: on 53rd Street, between Fifth Avenue and
+Sixth Avenue
+6. The United Nations: on First Avenue, between
+42nd Street and 49th Street
+
+• Explain the task. Ss take turns role-playing the tourist
+and the New Yorker. The tourist asks for directions
+and the New Yorker gives directions. Point out that
+they should follow the arrows to each place.
+
+• Ss complete the activity in pairs. S1 plays the tourist
+and S2 plays the New Yorker. Then they change roles
+and complete the activity again.
+
+• Elicit directions to each place from the class.
+Encourage Ss to give alternate directions if possible.
+
+Possible answers
+1. The Empire State Building: Walk up 42nd
+Street. Turn left on Madison Avenue, and go
+down Madison Avenue. Then turn right on 34th
+Street. Walk up 34th Street and turn left on
+Fifth Avenue. It’s between 33rd Street and 34th
+Street.
+2. The New York Public Library: Walk up Fifth
+Avenue. It’s on the left, between 40th Street
+and 42nd Street.
+3. Bryant Park: Walk up Fifth Avenue. Turn left on
+42nd Street. It’s behind the library, between
+Fifth Avenue and Sixth Avenue.
+4. Rockefeller Center: Go up Sixth Avenue. It’s
+between 48th Street and 51st Street.
+5. The Museum of Modern Art (MoMA): Walk up
+Fifth Avenue to 53rd Street. Turn left. It’s on
+53rd between Fifth and Sixth Avenues.
+6. The United Nations: Walk down Madison
+Avenue to 42nd Street. Turn left. Go down
+42nd Street to First Avenue. Turn left on First
+Avenue. It’s right in front of you.
+
+B Pair work
+• Explain the task. Elicit names of local places that Ss
+might ask about and write them on the board.
+
+• Model the task with a S. The S reads part A and you
+read part B. Starting from the school, give directions
+to the nearest bus stop. (Use one of the examples
+from the board if there is no bus stop nearby.)
+
+• Ss work in pairs. They take turns asking for and giving
+directions to places near the school.
+
+• Ask a couple of pairs of Ss to repeat one of their
+conversations for the class. Have the class listen for
+whether the directions are correct.
+
+• Model the example conversation with a S, and ask
+the class to follow the arrows with their finger.
+
+10 INTERCHANGE 13
+See pages T-127 and T-128 for teaching notes.
+
+How do I get there?
+
+T-90
+
+11 READING
+Learning Objective: read for details and make
+inferences in an article about a popular destination
+
+A [CD 3, Track 22]
+• Set the scene and explain the task. The guide has
+information for tourists in Palermo, Buenos Aires. If
+possible, point out the location on a world map.
+
+• Ss skim the guide individually to find where they
+can have some tea. Elicit the answer. (Answer: the
+Japanese Gardens)
+
+• Option: Ss listen to the audio program and read the
+information silently.
+
+• Elicit or explain the meaning of any new vocabulary.
+Vocabulary
+
+sculpture: a piece of art made from stone, wood,
+or clay
+planetarium: a building with a machine showing
+the stars and planets
+telescope: a tube-shaped piece of equipment
+used to see things far away
+monument: a building or structure to remember a
+historical event or famous person
+statue: a sculpture of a person or animal
+polo: a game played on horseback, with long
+wooden hammers and a ball
+
+• Option: Ss write three more Where can you . . . ?
+
+B
+• Explain that Ss should follow the map as they read.
+• Ss read the tourist information individually and
+underline any new words.
+
+• Explain the second part of the task. Point out that Ss
+can find most of the answers easily by scanning the
+article for the key words and phrases.
+
+• Ss complete the task individually. Then they compare
+answers in pairs. Elicit the answers from the class and
+write them on the board.
+
+Answers
+1. You can see horses at the Campo Argentino
+del Polo.
+2. You can look at the sky at the Galileo Galilei
+planetarium.
+3. You can see many types of plants in the
+Japanese Gardens.
+4. You can find a statue of a writer at the Statue of
+Domingo Faustino Sarmiento.
+5. You can see some art at MALBA/the art museum.
+
+questions about the article in pairs. Then they
+exchange questions with another pair and answer the
+questions.
+
+C Pair work
+• Explain the task. Elicit some ideas for places and
+things to see or do from the class.
+
+• Ss complete the task in pairs.
+• Option: Put Ss who like different places in pairs. They
+ask for information about each other’s places.
+
+• Option: Write these question-starters on the board
+to help Ss with their conversations:
+
+Where can you see . . . ?
+Where can you eat . . . ?
+Where can you play . . . ?
+Where can you . . . ?
+• Elicit information from several pairs.
+
+End of Cycle 2
+See the Supplementary Resources chart at the
+beginning of this unit for additional teaching materials
+and student activities related to this Cycle.
+
+T-91
+
+Unit 13
+
+Unit 14 Supplementary Resources Overview
+After the following
+SB exercises
+
+You can use these materials
+in class
+
+CYCLE 1
+
+1 Snapshot
+
+SS Unit 14 Vocabulary 1
+GAME Name the Picture (Things people
+hate to do)
+
+2 Conversation
+
+SS Unit 14 Speaking 1
+
+3 Grammar Focus
+
+SB Unit 14 Grammar plus, Focus 1
+SS Unit 14 Grammar 1
+
+4 Pronunciation
+5 Grammar Focus
+
+CYCLE 2
+
+Your students can use these materials
+outside the classroom
+
+TSS Unit 14 Vocabulary Worksheet
+
+GAME Key Words (Simple past
+statements)
+
+6 Speaking
+
+WB Unit 14 exercises 1–4
+
+7 Conversation
+
+SS Unit 14 Speaking 2
+
+8 Grammar Focus
+
+TSS Unit 14 Grammar Worksheet
+
+SB Unit 14 Grammar plus, Focus 2
+SS Unit 14 Grammar 2
+GAME Say the Word (Simple past yes/no
+questions)
+GAME Sentence Runner (Simple past)
+
+9 Listening
+
+TSS Unit 14 Listening Worksheet
+
+10 Word Power
+
+TSS Unit 14 Extra Worksheet
+
+SS Unit 14 Vocabulary 2
+
+TSS Unit 14 Project Worksheet
+VID Unit 14
+VRB Unit 14
+
+SS Unit 14 Reading 1–2
+SS Unit 14 Listening 1–3
+SS Unit 14 Video 1–3
+WB Unit 14 exercises 5–7
+
+11 Interchange 14
+12 Reading
+
+With or instead of the
+following SB section
+
+You can also use these materials
+for assessment
+
+Units 13–14 Progress Check
+
+ASSESSMENT PROGRAM Units 13–14 Oral Quiz
+ASSESSMENT PROGRAM Units 13–14 Written Quiz
+
+Key
+
+GAME: Online Game
+VID:
+Video DVD
+
+SB: Student’s Book
+VRB: Video Resource Book
+
+Unit 14 Supplementary Resources Overview
+
+SS: Online Self-study
+WB: Online Workbook/Workbook
+
+TSS: Teacher Support Site
+
+Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
+
+My Plan for Unit 14
+Use the space below to customize a plan that fits your needs.
+
+With the following
+SB exercises
+
+I am using these materials
+in class
+
+With or instead of the
+following SB section
+
+I am using these materials
+for assessment
+
+My students are using these materials outside
+the classroom
+
+Interchange Teacher’s Edition Intro © Cambridge University Press 2017 Photocopiable
+
+My Plan for Unit 14
+
+14
+
 ```

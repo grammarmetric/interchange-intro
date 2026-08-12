@@ -1,0 +1,12 @@
+{
+  "number": 16,
+  "titleEn": "Can I take a message?",
+  "titleZh": "需要我帮你传话吗？",
+  "pages": "106–111",
+  "goals": [
+    { "en": "phone calls and taking messages", "zh": "打电话和记留言" },
+    { "en": "prepositional phrases with <i>at</i>, <i>in</i> and <i>on</i>", "zh": "at、in、on 的介词短语" },
+    { "en": "subject and object pronouns", "zh": "主格和宾格代词" },
+    { "en": "making, accepting and declining invitations", "zh": "发出、接受和婉拒邀请" }
+  ]
+}

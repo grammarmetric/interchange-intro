@@ -1,0 +1,31 @@
+{
+  "_doc": [
+    "Crop rectangles for Interchange Intro Unit 14 (Student's Book pp. 92-97).",
+    "Pixels in a page rendered by: pdftoppm -png -r 140  (1157 x 1637).",
+    "No watermark sits on artwork in this unit."
+  ],
+  "render": { "dpi": 140, "width": 1157, "height": 1637 },
+  "pdf": "Interchange Intro - Unit 14.pdf",
+  "maxWidth": 900,
+
+  "avoid": [
+    { "page": 0, "x": 930, "y": 60, "w": 210, "h": 60, "note": "www.frenglish.ru, every page, top right" }
+  ],
+
+  "patch": [],
+
+  "crops": [
+    { "id": "ex01-weekend", "page": 1, "book": 92, "x": 150, "y": 460,  "w": 915, "h": 483, "note": "Ex 1 Snapshot - eight things to do on the weekend" },
+    { "id": "ex02-photo",   "page": 1, "book": 92, "x": 638, "y": 1126, "w": 432, "h": 328, "note": "Ex 2 - Shaun and Yuna studying together" },
+
+    { "id": "ex03-photo",   "page": 2, "book": 93, "x": 758, "y": 443,  "w": 312, "h": 528, "note": "Ex 3 - friends cooking a meal together" },
+
+    { "id": "ex05-verbs",   "page": 3, "book": 94, "x": 151, "y": 216,  "w": 812, "h": 603, "note": "Ex 5 - six irregular past-tense pictures" },
+
+    { "id": "ex07-photo",   "page": 4, "book": 95, "x": 688, "y": 173,  "w": 382, "h": 448, "note": "Ex 7 - climbing Sydney Harbor Bridge" },
+
+    { "id": "ex10-list",    "page": 5, "book": 96, "x": 178, "y": 548,  "w": 888, "h": 182, "note": "Ex 10A Word Power - the summer-activity list and verb chart" },
+
+    { "id": "ex12-reading", "page": 6, "book": 97, "x": 161, "y": 238,  "w": 908, "h": 893, "note": "Ex 12 Reading - four social media posts about the weekend" }
+  ]
+}

@@ -1,4 +1,4 @@
-# Unit 16 — Can she call you later?
+# Unit 16 — Can I take a message?
 
 Student's Book pp. 106–111. PDF page = printed page + 8.
 
@@ -29,1286 +29,1310 @@ Student's Book pp. 106–111. PDF page = printed page + 8.
 ### Printed page 106  (PDF page 114)
 
 ```
-Ta                >
+Ta >
 
-         CONVERSATION                        Please ask her to call me.
+       CONVERSATION          Please ask her to call me.
+   � Listen and practice.
+                                                                                                                                                                                                                     j
+                  5 Good morning -- Creative Tours. }    --
+                                                                                                                                                                                                                       a
+                  s Hello. Can | speak to Julie Wilson, please? }                                                                                                                                                    ,
+                                                                                                                                                                                                                 x`
+                  y I'm sorry, but she's in a meeting right now. ]
+                                                                                                                                                                                                               ;
+                     Oh, OK.
+                                                                                                                                                                                                                f
+   Cray oat       Can | take a message?
+                                                                                                                                                                                                 F
+                                                                                                                                                        i
 
-    ©    Listen and practice.                                                                                                                             j
+                  | Yes, thanks. This is her friend Nathan.
 
-                             5   Good morning — Creative Tours.       }         —                                                                 a
+                  Please ask her to call me tonight.                                                                                                       \|
 
-                             s   Hello. Can | speak to Julie Wilson, please?             }                                                        ,
+                  Does she have your number?                                                                                                                   |
 
-                             y   I'm sorry, but she’s in a meeting right now.                ]                                                x       ‘
+        Nathan |  Yes, she does.         _                                                                                                                            8
+   raya tC                               =                                                                                                                        !N     2
 
-                                 Oh, OK.                                                                                                          ;
-             Cray oat            Can | take a message?
-                                                                                i                                                    f
+                  5 OK. I'll give her your message.
 
-                             |   Yes, thanks. This is her friend Nathan.
-                                 Please ask her to call me tonight.                 \|                                           F
+~  Can            Thank you so much.                  .                                                                                                           `a :             ff
 
+       WORD POWER            Prepositional phrases
+   � A Listen and practice.
 
-                                 Does she have your number?                              |
-                 Nathan |        Yes, she does.               _                                       8
-                                                              =                              ! N              2
+   at home        at the mall            in bed                                                                                                                   in the shower        on vacation
+   at work        at the library         in class                                                                                                                 in the hospital      on a trip
+   at school      at the beach           in Mexico                                                                                                                in a meeting         on his/her break
 
-             raya tC         5   OK. I'll give her your message.
+                                   _--                                                                                                                                             in a meeting
 
-~              Can               Thank you so much.                   .                          ‘a       :         ff
+   jat work �
 
+    B PAIR WORK Make a list of five friends and family members.
+        Give it to your partner. Where are these people right now?
+        Ask and answer questions.
 
-
-
-         WORD            POWER             Prepositional phrases
-
-    © A Listen and practice.
-
-                at home          at the mall                in bed                           in the shower                 on vacation
-                at work          at the library             in class                         in the hospital               on a trip
-                at school        at the beach               in Mexico                        in a meeting                  on his/her break
-
-
-
-
-                    _—
-
-
-
-        jat work »                                                                                                in a meeting
-
-
-         B    PAIR WORK Make a list of five friends and family members.
-              Give it to your partner. Where are these people right now?
-              Ask and answer questions.
-
-              A: Where's your brother right now?
-              B: He’s on vacation. He’s in India.
+        A: Where's your brother right now?
+         B: He's on vacation. He's in India.
 ```
 
 ### Printed page 107  (PDF page 115)
 
 ```
-LISTENING                    Sorry | missed your call.
-©    A        Listen to Nathan return three phone calls. Why did he miss each call? Check (Y) the correct answers.
-              1. Hewas...              [-] shopping.            [_]     inthe shower.      [_]   ata party.
-              2. He was...                | studying.           CJ      at the mall.       0     sick.
-              3. He was...             [] in class.             []      sleeping.          []    at work.
+LISTENING Sorry | missed your call.
 
-© B Listen again. Why did they call Nathan? Correct the sentences.
-              1. Hannah called Nathan because he is having a party.
-              2. Andrea called Nathan because she needs to see Nathan's textbook.
-              3. Alexis called Nathan because Sam can come in to work on Saturday.
+� A Listen to Nathan return three phone calls. Why did he miss each call? Check (Y) the correct answers.
 
+1. Hewas...                  [-] shopping.      [_] inthe shower.      [_] ata party.
+2. He was...                   | studying.      CJ at the mall.        0 sick.
+3. He was...                                    [] sleeping.           [] at work.
+                             [] in class.
 
-     GRAMMAR                      FOCUS
-[>       Subject and object pronouns
+� B Listen again. Why did they call Nathan? Correct the sentences.
 
-         Subjects                                       Objects
-         I                                                me
-     You                                                  you
-         He                                               him
-         She got Nathan’s message. | Nathan left          her         amessage.
-     We                                                   us
-         They                                             them
-                                               GRAMMAR         PLUS see page 147
+         1. Hannah called Nathan because he is having a party.
+         2. Andrea called Nathan because she needs to see Nathan's textbook.
+         3. Alexis called Nathan because Sam can come in to work on Saturday.
 
+GRAMMAR FOCUS
 
-     A        Complete the phone conversations with the correct pronouns.
-              Then practice with a partner.
-              1. A: Can            |         speak with Ms. Murphy, please?
-                 B:                    's not here. But maybe
-                    can help you.
-                 A: Please give                        my new cell number.
-                    It’s 555-2981.
-              2. A: Hi, this is Colin Shaw. Is Mr. Kerr there?
-                B:                     ‘m sorry, but                         's not here
-                    right now. Do you want to leave a message?
-                 A: Yes. Please tell               to call me at work.
-              3. A: Hello, this is Carol’s Café. Are Lauren and Matt in?
-                 B: No,                    ‘re not. I’m their son. Can | help                          ?
-                A:                     found their keys.                 left                on the table.
-                 B: Just bring                    the keys. | can give                to my parents.
-                 A: I'm sorry, but                    can’t. Can your mom or dad call                ?
-                 B: OK.
+[> Subject and object pronouns
 
-     B        PAIR WORK       Role-play this phone conversation.
-              Student A:     “Call” your business partner Robert White's office. You want a meeting on
-                             Monday at 4:00 P.m.
-              Student B:     You are Robert White's assistant. Answer the phone. Mr. White is not in.
-                             Take a message.
+Subjects                                    Objects
 
-     C        PAIR WORK Change roles. This time you want a meeting
-              on Tuesday at 2:00 p.m.
-                                                                                                           Can | take a message?
+ I                                          me
+You                                         you
+ He                                         him
+ She got Nathan's message. | Nathan left    her amessage.
+We                                          us
+ They                                       them
+
+                                GRAMMAR PLUS see page 147
+
+A Complete the phone conversations with the correct pronouns.
+    Then practice with a partner.
+
+1. A: Can                 |        speak with Ms. Murphy, please?
+                             's not here. But maybe
+B:
+                                             my new cell number.
+          can help you.
+
+A: Please give
+
+          It's 555-2981.
+
+2. A: Hi, this is Colin Shaw. Is Mr. Kerr there?
+
+B:                           `m sorry, but            's not here
+
+          right now. Do you want to leave a message?
+
+A: Yes. Please tell                         to call me at work.
+
+3. A: Hello, this is Carol's Caf�. Are Lauren and Matt in?
+
+B: No,                       `re not. I'm their son. Can | help                ?
+
+A:                           found their keys.                   left             on the table.
+
+B: Just bring                   the keys. | can give                         to my parents.
+
+A: I'm sorry, but                           can't. Can your mom or dad call                  ?
+
+B: OK.
+
+B PAIR WORK Role-play this phone conversation.
+
+Student A:    "Call" your business partner Robert White's office. You want a meeting on
+Student B:    Monday at 4:00 P.m.
+
+              You are Robert White's assistant. Answer the phone. Mr. White is not in.
+              Take a message.
+
+C PAIR WORK Change roles. This time you want a meeting                            Can | take a message?
+    on Tuesday at 2:00 p.m.
 ```
 
 ### Printed page 108  (PDF page 116)
 
 ```
-SNAPSHOT
-       ©    Listen and practice.
+SNAPSHOT                                    he ue os -
 
+      � Listen and practice.
 
-                      oer                 ee                        he ue                os -
+          oer ee
 
+               | eT Coe Morelntocda   | BREN eee Werlaey-vettly                                         |  WEN ae)mane ter=11
 
+      Check (/) the activities that are popular in your country.
+      What other activities are popular in your country?
+      What are your favorite activities? Are there any activities you don't like? Why?
 
+      CONVERSATION Do you want to see a movie?
 
-                      |    eT Coe Morelntocda                   |   BREN eee Werlaey-vetlty                          |   WEN ae)mane ter=11
+      � Listen and practice.
 
-            Check (/) the activities that are popular in your country.
-            What other activities are popular in your country?
-            What are your favorite activities? Are there any activities you don’t like? Why?
+            | NATHAN Hello?
 
+          ly   JULIE   Hi, Nathan. | got your message.
 
-            CONVERSATION                            Do you want to see a movie?
+      i|       NATHAN. Hi. Thanks for calling me back.
+                             Sorry | called you at work.
 
-       ©    Listen and practice.
+          yy   JULIE   Oh, that's OK. | was in a meeting, so |
 
-                  |       NATHAN       Hello?
-                 ly       JULIE        Hi, Nathan. | got your message.
-           i |
+                       turned my cell phone off. What's up?
 
+      KD       NATHAN Well, do you want to see a
+                             movie with me tonight?
 
+      is       JULIE   Tonight? I'm sorry, but | can't. | have to work
 
+                       late tonight.
 
-                          NATHAN.      Hi. Thanks for calling me back.
-                                       Sorry | called you at work.
+                                                                ===
 
-                 yy       JULIE        Oh, that’s OK. | was in a meeting, so |
-                                      turned my cell phone off. What's up?
+               NATHAN Oh, that's too bad. How about tomorrow night?
 
-                          NATHAN      Well, do you want to see a
-            KD
+                                                                a       fF
 
+                       Sure, I'd love to. What time do you want to meet?
 
+            2  NATHAN  How about around seven o'clock at
+               JULIE   the Astoria on Pratt Avenue?
+      Unit 16
+MEER                                                                                         \
+                       Terrific! Text me when you leave your office, OK?
 
+                                                           i iI , ay
 
-                                       movie with me tonight?
-
-             is           JULIE       Tonight? I’m sorry, but | can’t. | have to work
-                                      late tonight.
-                                                                               ===
-                          NATHAN      Oh, that’s too bad. How about tomorrow night?
-                                                                                 a            fF
-
-
-                                       Sure, I'd love to. What time do you want to meet?
-
-                          NATHAN      How about around seven o'clock at
-                                      the Astoria on Pratt Avenue?
-                                                                                                      \
-             2            JULIE        Terrific! Text me when you leave your office, OK?
-                                                                                                          I
-                                                                                          i i, ay
-MEER   Unit 16
-                                                                                          iM ayt'ty              3
-                                                                                                              ” ER
+                                                                        iM ayt'ty               3 " ER
 ```
 
 ### Printed page 109  (PDF page 117)
 
 ```
-PRONUNCIATION                              Reduction of want to and have to
+PRONUNCIATION Reduction of want to and have to
 
-© A Listen and practice. Notice the reduction of want to
-       and have to.
-                        /wana/
+� A Listen and practice. Notice the reduction of want to
+         and have to.
+                            /wana/
          A: Do you want to go to dinner with me tonight?
-                                           /heefta/
-          B: I’m sorry, but | can’t. | have to study for a test.
+                                                /heefta/
+         B: I'm sorry, but | can't. | have to study for a test.
 
-    B     PAIR WORK       Practice the conversation          in
+      B PAIR WORK Practice the conversation in
           Exercise 6 again. Try to reduce want to
+
          and have to.
 
+GRAMMAR FOCUS
 
+� Invitations; verb + to
 
+Do you want to see a play with me tonight?            Would you like to go to an amusement park?
+  Sure. I'd really like to see a good play.             Yes, I'd love to (go to an amusement park)!
+  I'd like to (see a play), but | have to work late.     I'd like to (go), but | need to study.
 
-    GRAMMAR                   FOCUS
-©       Invitations; verb + to
+                        I'd = | would                                                        GRAMMAR PLUS see page 147
 
-        Do you want to see a play with me tonight?                Would you like to go to an amusement park?
-          Sure. I'd really like to see a good play.                Yes, I'd love to (go to an amusement park)!
-          I'd like to (see a play), but | have to work late.        I'd like to (go), but | need to study.
-                           I'd = | would
-                                                                                          GRAMMAR     PLUS see page 147
+A Complete the invitations. Then match them with the responses.
 
+Invitations                                           Responses
+                                                      a. I'd like to, but | don't have a swimsuit!
+1. Would you     like to    go to an
+                            _d                        b. I'm sorry, but | have to talk to the teacher
+art festival this weekend?                                after school.
 
-    A Complete the invitations. Then match them with the responses.
-         Invitations                                                     Responses
-         1. Would you            like to          go to an               a.   I'd like to, but | don’t have a swimsuit!
-              art festival this weekend?          _d
-                                                                         b. I'm sorry, but | have to talk to the teacher
-         2.   Do you__go                         oi a                         after school.
-              volleyball game tomorrow night?
-         3. Would you                             see a                  c.   | don’t really like volleyball. Do you want
-            comedy tonight?                                                   to do something else?
+2. vDoolley ybao ll u gam_e _tog moro row noiighta ?  c. | don't really like volleyball. Do you want
+                                                          to do something else?
+3. Would you                see a
 
-         4. Doyou_____                       go swimming                 d. I'd like to, but | can’t. I'm going to go on
-            on Saturday? __                                                 a trip this weekend.
-         5. Do you                           play soccer
-            after school today?                                          e. Yes, I'd love to. It’s my favorite type of music.
-         6. Would you.                 gottoa                            f. Tonight? | can’t. | need to help my parents.
-            hip-hop concert on Saturday night?
+comedy tonight?
 
-    B     PAIR WORK Practice the invitations from part A.
-          Respond with your own information.
+4. Doyou_____               go swimming               d. I'd like to, but | can't. I'm going to go on
+                            play soccer                  a trip this weekend.
+   on Saturday? __
+5. Do you                                             e. Yes, I'd love to. It's my favorite type of music.
 
-         A: Would you like to go to an art festival this weekend?
-          B: I'd like to, but | can’t. | have to...
+    after school today?
 
+6. Would you.               gottoa                    f. Tonight? | can't. | need to help my parents.
 
+hip-hop concert on Saturday night?
 
+B PAIR WORK Practice the invitations from part A.
+    Respond with your own information.
 
-                                                                                                     Can | take a message?
+   A: Would you like to go to an art festival this weekend?
+    B: I'd like to, but | can't. | have to...
+
+                                                                 Can | take a message?
 ```
 
 ### Printed page 110  (PDF page 118)
 
 ```
-SPEAKING                     what is your excuse?
-   A    Do you ever use these excuses? Check (YW) Often, Sometimes, or Never.
-        Add your own excuse, and then compare with a partner.
+SPEAKING what is your excuse?
 
-                                                  Often | Sometimes | Never
-           | have to work late.
+A Do you ever use these excuses? Check (YW) Often, Sometimes, or Never.
+    Add your own excuse, and then compare with a partner.
 
+                             Often | Sometimes | Never
 
+| have to work late.         OOOOOOOOO0O
+| have a headache.                    OOOOOOOOOOO
+| have to babysit.                             OOOOOOOOOO0O
+| have a class.
+| need to do the laundry.
+| need to go to bed early.
+| need to study for a test.
+| want to visit my family.
+I'm not feeling well.
+| already have plans.
 
+B Write down three things you want to do this weekend.
+            | want to go to the street fair on Saturday.
 
-                                                                                   OOOOOOOOOO0O
-                                                   OOOOOOOOO0O
+C CLASS ACTIVITY Go around the class and invite your classmates to do
+    the things from part B. Your classmates respond with excuses.
 
-                                                                 OOOOOOOOOOO
-           | have a headache.
-           | have to babysit.
-           | have a class.
-           | need to do the laundry.
-           | need to go to bed early.
-           | need to study for a test.
-           | want to visit my family.
-           I'm not feeling well.
-           | already have plans.
+    A: Would you like to go to a concert tonight?
+    B: I'm sorry, but | can't. | have to work late tonight.
 
+    LISTENING 1'll see you then!
 
+� A These four people need to change their plans. Listen to their phone calls.
+          Who will be late? Who can't come? Check (V) the correct answers.
 
-    B Write down three things you want to do this weekend.
+                             Will be late  Can't come
+                                       |
+--. Jason
+2. Jessica                          OJ
+                                        OOOO3. Christian0
+4 . Danielle
+                                       |
 
-                   | want to go to the street fair on Saturday.
+� B Listen again. Who can't come? Write their first names
+         and their excuses.
 
+First name    Excuse
 
-    C   CLASS ACTIVITY Go around the class and invite your classmates to do
-        the things from part B. Your classmates respond with excuses.
-        A: Would you like to go to a concert tonight?
-        B: I’m sorry, but | can’t. | have to work late tonight.
+   INTERCHANGE 16 The perfect weekend
+   Make plans with your classmates. Go to Interchange 16 on page 131.
 
-
-    LISTENING                   1'll see you then!
-© A These four people need to change their plans. Listen to their phone calls.
-        Who will be late? Who can’t come? Check (V) the correct answers.
-
-                                              Will be late                     Can't come
-                . Jason                                 |
-           —
-
-
-
-
-                                                                                  OOOO
-
-
-
-
-           2.     Jessica                         OJ
-
-           3.     Christian                       0
-
-           4 . Danielle                                 |
-
-
-© B Listen again. Who can’t come? Write their first names
-      and their excuses.
-        First name                      Excuse
-
-
-
-
-    INTERCHANGE                          16      The perfect weekend
-
-    Make plans with your classmates. Go to Interchange 16 on page 131.
-
-
-
- Unit 16
+Unit 16
 ```
 
 ### Printed page 111  (PDF page 119)
 
 ```
-READING                  ©
-A    Look at the guide. What type of festival is Austin City Limits?
+READING �
 
+A Look at the guide. What type of festival is Austin City Limits?
 
+    AUSTIN CITY LIMITS!
 
-                AUSTIN                                     CITY                      LIMITS!
-    Some people call Austin the “Live Music Capital of the World.” Every year, it hosts Austin City Limits.
-    About 195,000 people go to this amazing festival. Most years, there are around 130 different bands
-    that play. That’s a lot of cool music to listen to!
+Some people call Austin the "Live Music Capital of the World." Every year, it hosts Austin City Limits.
+About 195,000 people go to this amazing festival. Most years, there are around 130 different bands
+that play. That's a lot of cool music to listen to!
 
+      Where's the music?                         Autograph hunters:                                 Where to shop
+                                                 this way!
+Check out the AMD stage and the                                                               Do you like to shop?
+Austin Ventures stage. These stages       Do you want a famous person's autograph?            Go straight to the art
+are where many musicians perform,         Look for the autograph booth. Maybe your            market -- right next to
+but there are eight stages in total, so   favorite band member is there. Don't forget to      the shopping center.
+continue exploring. If you're lucky, you  take a poster or a T-shirt for the band to sign.    There's a lot there --
+might hear Kendrick Lamar or Florence                                                         from cell phone cases
+                                                Snack attack                                  to handmade African
+                     and the Machine!     When you get hungry or thirsty, walk over to        Clothes. You can buy hats,
+                     Sometimes            ACL Eats. It's a big food court. Local restaurants  photographs, books,
+                     musicians even play  serve up delicious local food from the state        paintings, and . . . guess
+                     ona bridge.          of Texas. You can get salads, tacos, pizza, hot     what? You can even buy
+                                          dogs, hamburgers, and drinks there. There's
+                                          something for everyone.
 
-            Where’s      the music?                       Autograph         hunters:                        Where to shop
-    Check out the AMD stage and the
-                                                          this way!                                   Do you like to shop?
-    Austin Ventures stage. These stages          Do you want a famous person’s autograph?             Go straight to the art
-    are where many musicians perform,            Look for the autograph booth. Maybe your             market — right next to
-    but there are eight stages in total, so      favorite band member is there. Don’t forget to       the shopping center.
-    continue exploring. If you’re lucky, you     take a poster or a T-shirt for the band to sign.     There’s a lot there —
-    might hear Kendrick Lamar or Florence                                                             from cell phone cases
-                        and the Machine!                  Snack    attack                             to handmade African
-                        Sometimes                When you get hungry or thirsty, walk over to         Clothes. You can buy hats,
-                        musicians even play      ACL Eats. It’s a big food court. Local restaurants   photographs, books,
-                        ona bridge.              serve up delicious local food from the state         paintings, and . . . guess
-                                                 of Texas. You can get salads, tacos, pizza, hot      what? You can even buy
-                                                 dogs, hamburgers, and drinks there. There’s
-                                                 something for everyone.
+B Read the website. Check (W) True or False.oun pwn a
 
+     . About 130,000 people go to enjoy the festival.
+     . There are eight stages for musicians.
+     . You can buy food at the festival, but you can't buy clothes.
+     . ACL Eats is the name of a stage.
 
+        The art market is near the shopping center.
+        It's possible to get an autograph at the festival.
 
+    GROUP WORK What events do you like to go to? Is there a special
+    event in your city or town? Tell your classmates.
 
-B    Read the website. Check (W) True or False.
-
-
-          . About 130,000 people go to enjoy the festival.
-    a
-
-
-
-
-          . There are eight stages for musicians.
-    pwn
-
-
-
-
-          . You can buy food at the festival, but you can’t buy clothes.
-          . ACL Eats is the name of a stage.
-           The art market is near the shopping center.
-    oun
-
-
-
-
-            It's possible to get an autograph at the festival.
-
-     GROUP WORK What events do you like to go to? Is there a special
-     event in your city or town? Tell your classmates.
-
-                                                                                                       Can | take a message?
+                                                                                              Can | take a message?
 ```
 
 ## Teacher's edition notes for this unit (answer keys and audio scripts)
 
 ```
-FIFTH EDITION
 
-Teacher’s Edition
-Jack C. Richards
+Vocabulary
 
-intro
+meeting: a group of people that get together for
+a specific reason
+message: information from one person to another
+take a message: write a message
 
-University Printing House, Cambridge cb2 8bs, United Kingdom
-One Liberty Plaza, 20th Floor, New York, ny 10006, USA
-477 Williamstown Road, Port Melbourne, vic 3207, Australia
-4843/24, 2nd Floor, Ansari Road, Daryaganj, Delhi – 110002, India
-79 Anson Road, #06–04/06, Singapore 079906
-Cambridge University Press is part of the University of Cambridge.
-It furthers the University’s mission by disseminating knowledge in the pursuit of
-education, learning and research at the highest international levels of excellence.
-www.cambridge.org
-Information on this title: www.cambridge.org/9781108406055
-© Cambridge University Press 2017
-This publication is in copyright. Subject to statutory exception
-and to the provisions of relevant collective licensing agreements,
-no reproduction of any part may take place without the written
-permission of Cambridge University Press.
-First published 1995
-Second edition 2000
-Third edition 2005
-Fourth edition 2013
-20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
-Printed in Malaysia by Vivar Printing
-A catalogue record for this publication is available from the British Library
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
-ISBN
+• Play the audio program again. Ss listen and repeat.
+• Ss take turns practicing the conversation in pairs.
+• Option: Ask one or two pairs to role-play the
+conversation for the class.
+For a new way to practice this Conversation,
+try Disappearing Dialog – download it from
+the website.
 
-9781316620113
-9781316620120
-9781316620137
-9781316620144
-9781316620151
-9781316620168
-9781316622377
-9781316622391
-9781316622407
-9781108406055
-9781316622216
-9781316623855
-9781316623862
-9781316623879
-9781316622193
+• Elicit or explain any new vocabulary. Use pictures
+where appropriate.
 
-Intro Student’s Book with Online Self-Study
-Intro Student’s Book A with Online Self-Study
-Intro Student’s Book B with Online Self-Study
-Intro Student’s Book with Online Self-Study and Online Workbook
-Intro Student’s Book A with Online Self-Study and Online Workbook
-Intro Student’s Book B with Online Self-Study and Online Workbook
-Intro Workbook
-Intro Workbook A
-Intro Workbook B
-Intro Teacher’s Edition
-Intro Class Audio CDs
-Intro Full Contact with Online Self-Study
-Intro Full Contact A with Online Self-Study
-Intro Full Contact B with Online Self-Study
-Presentation Plus Intro
+2 WORD POWER
+Learning Objective: describe locations using the
+prepositional phrases with at, in, and on
 
-Additional resources for this publication at www.cambridge.org/interchange
-Cambridge University Press has no responsibility for the persistence or accuracy
-of URLs for external or third-party internet websites referred to in this publication,
-and does not guarantee that any content on such websites is, or will remain,
-accurate or appropriate. Information regarding prices, travel timetables, and other
-factual information given in this work is correct at the time of first printing but
-Cambridge University Press does not guarantee the accuracy of such information
-thereafter.
+A [CD 3, Track 48]
+• Books open. Focus Ss’ attention on the phrases
+in the box. Play the audio program. Ss listen and
+read silently.
 
-Contents
-Introduction
-Plan of Intro Book
-iv
-Informed by teachers
-viii
-The Fifth Edition of Interchange
-x
-Student’s Book overview
-xi
-Online Self-study overview
-xv
-Online Workbook overview
-xvi
-Workbook overview
-xvii
-Teacher’s Edition and Assessment Program overviews
-xviii
-Presentation Plus overview
-xix
-cambridge.org/interchange and Video Program overviews xx
-Introduction to the CEFR
-xxi
-Essential teaching tips
-xxii
-Classroom language
-xxiii
-Teaching notes
-1 What’s your name?
-2 Where are my keys?
-Progress check
-3 Where are you from?
-4 Is this coat yours?
-Progress check
-5 What time is it?
-6 I ride my bike to school.
-Progress check
-7 Does it have a view?
-8 Where do you work?
-Progress check
-9 I always eat breakfast.
-10 What sports do you like?
-Progress check
-11 I’m going to have a party.
-12 How do you feel?
-Progress check
-13 How do I get there?
-14 I had a good time.
-Progress check
-15 Where were you born?
-16 Can I take a message?
-Progress check
-Interchange activities
-Grammar plus
-Grammar plus answer key
-Additional resources
-Appendix
-Language summaries
-Workbook answer key
-Credits
+• Elicit or explain any new vocabulary.
+Vocabulary
 
-T-2
-T-8
-T-14
-T-16
-T-22
-T-28
-T-30
-T-36
-T-42
-T-44
-T-50
-T-56
-T-58
-T-64
-T-70
-T-72
-T-78
-T-84
-T-86
-T-92
-T-98
-T-100
+break: a short pause from work
+
+• Option: Explain when to use these prepositions:
+
+B Pair work
+• Explain the first part of the task. Elicit some names
+of Ss’ friends or family members and write them on
+the board.
+
+• Ss make lists of people they know individually.
+• Explain the second part of the task and ask two Ss to
+model the example conversation.
+
+• Ss exchange lists in pairs. Then they ask and answer
+Where questions about the people on the lists.
+For more practice with prepositional phrases, play
+Run For It! – download it from the website.
+
+1. Use at with home, work, and school.
+2. Use at the with places in cities or towns (e.g., mall,
+library, beach ).
+3. Use in with bed, class, and the names of countries,
+cities, or towns (e.g., Mexico, Toronto ).
+4. Use in the with hospital and places in houses or
+apartments (e.g., shower, yard ).
+5. Use on with vacation, a trip, and his/her break.
+
+• Play the audio program again. Ss listen and repeat.
+
+Can I take a message?
+
 T-106
+
+3 LISTENING
+Learning Objective: listen for specific information
+about locations discussed using prepositions of place
+
+A [CD 3, Track 49]
+• Explain the task. Point out that Ss should check the
+reason he missed each of the three calls. Then play
+the audio program once or twice, pausing after each
+conversation. Ss listen and complete the task.
+
+Audio script
+1.
+Hannah
+Nathan
+Hannah
+Nathan
+Hannah
+Nathan
+Hannah
+
+Hello?
+Hi, Hannah. It’s Nathan.
+Oh, hi, Nathan. Thanks for calling me back.
+Sure. Sorry I missed your call.
+Were you out shopping?
+No. I was in the shower.
+Well, I called you because I’m having a party
+on Saturday. It starts at about 8:00. Can you
+come?
+Nathan Sure.
+2.
+Andrea Hello?
+Nathan Hello, Andrea? It’s Nathan.
+Andrea Hey, Nathan.
+Nathan Sorry I missed your call.
+Andrea That’s OK. You were busy studying, right?
+Nathan No. I was at the mall. I didn’t hear my phone.
+Andrea That’s OK. Listen. Can I see your notes
+from history class yesterday? I was sick, so I
+missed class.
+Nathan No problem.
+
+3.
+Alexis
+Nathan
+Alexis
+Nathan
+
+Hello?
+Alexis?
+Yes. Is this Nathan?
+Yes. I’m returning your call. Sorry I
+missed you. I was in class.
+Alexis Really? Are you sure you weren’t
+sleeping?
+Nathan No, no. I wasn’t sleeping.
+Alexis I know. Hey, can you work on Saturday
+night? I know you usually work on
+Sunday, but Sam can’t come in on
+Saturday, and the coffee shop gets so
+busy then.
+Nathan I’m so sorry, Alexis, but I have plans on
+Saturday. Maybe Elizabeth can do it?
+
+• Ss compare their answers in pairs. Then elicit the
+answers from the class. (Answers: 1. He was in the
+shower. 2. He was at the mall. 3. He was in class.)
+
+B [CD 3, Track 50]
+• Explain the task. Replay the audio. Ss complete the
+task. Elicit the answers. (Answers: 1. Hannah called
+Nathan because she is having a party. 2. Andrea
+called Nathan because she needs to see Nathan’s
+notes. 3. Alexis called Nathan because Sam can’t
+come in to work on Saturday.)
+
+4 GRAMMAR FOCUS
+Learning Objective: use subject and object pronouns
+in a short phone conversation
+
+[CD 3, Track 51]
+• Focus Ss’ attention on the Grammar Focus box. Play
+the audio program. Ss listen and read silently.
+
+A
+
+B Pair work
+• Explain the task. Direct Ss’ attention to number 1 in
+
+• Ss complete the conversations individually. Elicit the
+answers. Then Ss practice the conversations in pairs.
+
+Answers
+1. A: Can I speak with Ms. Murphy, please?
+B: She’s not here. But maybe I can help you.
+A: Please give her my new cell number. It’s
+555-2981.
+2. A: Hi, this is Colin Shaw. Is Mr. Kerr there?
+B: I’m sorry, but he’s not here right now. Do you
+want to leave a message?
+A: Yes. Please tell him to call me at work.
+3. A: Hello, this is Carol’s Café. Are Lauren and Matt
+in?
+B: No, they’re not. I’m their son. Can I help you?
+A: I found their keys. They left them on the table.
+
+T-107
+
+B: Just bring me the keys. I can give them to my
+parents.
+A: I’m sorry, but I can’t. Can your mom or dad call
+me?
+B: OK.
+
+Unit 16
+
+part A for reference. Ss role-play the conversation
+in pairs. Elicit or explain the meaning of assistant
+(someone who helps another person do work).
+
+• Option: Model the role play with a S for the class.
+Then invite pairs to role-play their conversations.
+
+C Pair work
+• Explain the task. Ss practice the conversation in pairs.
+
+End of Cycle 1
+See the Supplementary Resources chart at the
+beginning of this unit for additional teaching materials
+and student activities related to this Cycle.
+
+Cycle 2, Exercises 5–12
+
+5 SNAPSHOT
+Learning Objective: talk about free-time activities
+
+[CD 3, Track 52]
+• Books closed. Ask the class: “What activities do you
+do in your free time?” Elicit Ss’ answers and write
+them on the board. Then ask: “What activities are
+popular in the U.S.?” Encourage Ss to make guesses.
+
+• Books open. Ss look at the Snapshot and discuss
+whether any of their guesses are pictured.
+
+TIP
+
+To generate interest in a topic, tell Ss to close
+their books and share what they already know
+about the topic. Then have them open their books
+and check the answers.
+
+• Play the audio program. Ss listen and read silently.
+Then play the audio program again. Ss listen
+and repeat.
+
+Vocabulary
+
+popular: liked or enjoyed by many people
+concert: a music performance
+amusement park: a fun park with rides, games,
+and other entertainment
+street fair: a neighborhood festival held on the
+street, usually with food, art, and things to buy
+play: a live theatrical performance
+musical: a play with songs and music
+
+• Read out the task and questions. Ss check (✓) the
+activities individually.
+
+• Ss discuss the questions in small groups. If possible,
+put Ss from different countries in each group.
+
+• Elicit answers from each group.
+For a different way to practice this Snapshot, try
+Vocabulary Steps – download it from the website. Ss
+rank the activities using criteria such as most popular,
+most fun, most expensive, and most dangerous.
+
+• Elicit or explain the meaning of any new vocabulary.
+
+6 CONVERSATION
+Learning Objectives: make, accept, and decline
+invitations in a conversation about making plans; use
+verb + to to make plans
+
+[CD 3, Track 53]
+• Books closed. Set the scene. Julie is calling Nathan.
+Remind Ss that Nathan left a message for Julie in
+Exercise 1.
+
+• Write these focus questions on the board:
+1. What does Nathan invite Julie to do?
+2. What is Julie going to do tonight?
+3. Does Julie accept Nathan’s invitation?
+• Play the audio program. Ss listen for the answers.
+Elicit the answers. (Answers: 1. He invites her to see a
+movie. 2. She’s going to work late. 3. Yes, she does.)
+
+• Books open. Focus Ss’ attention on the picture and
+
+• Elicit or explain any new vocabulary.
+Vocabulary
+
+What’s up?: What’s new?
+
+• Play the audio program. Ss listen and read silently.
+• Play the audio program again. Ss listen and repeat.
+• Ss practice the conversation in pairs.
+TIP
+
+To encourage Ss to listen to each other when they
+work in pairs, tell them to practice conversations
+from a distance. They can also sit back-to-back.
+
+• Option: Ask one or two pairs to role-play the
+conversation for the class.
+For a new way to practice this Conversation, try
+Say It With Feeling! – download it from the website.
+
+conversation. Ss read the conversation silently.
+
+Can I take a message?
+
+T-108
+
+7 PRONUNCIATION
+Learning Objective: sound more natural by using
+reductions of want to and have to
+
+A [CD 3, Track 54]
+• Focus Ss’ attention on the picture and set the scene.
+Speaker A is inviting Speaker B to dinner.
+
+• Play the audio program. Ss listen and read silently.
+• Play the audio program again. Ss listen and repeat.
+• Elicit other things people invite each other to do
+and write them on the board. If needed, refer Ss to
+Exercise 5 on page 108.
+
+• Ss practice the short conversation in pairs. Encourage
+them to substitute other activities. Go around the
+class and listen to Ss’ pronunciation of want to and
+have to.
+
+TIP
+
+To help Ss use reductions in a fun way, ask them
+to practice conversations faster and faster. This
+reduces anxiety and makes pronunciation sound
+more natural.
+
+B Pair work
+• Focus Ss’ attention on the Conversation on page
+108. Play the audio program for Exercise 6. Ss
+pay attention to the pronunciation of want to and
+have to.
+
+• Ss practice the conversation in pairs. Go around the
+class and help with pronunciation as needed.
+
+8 GRAMMAR FOCUS
+Learning Objectives: make, accept, and decline
+invitations using verb + to
+
+[CD 3, Track 55]
+• Focus Ss’ attention on the Grammar Focus box.
+Elicit or explain that we use Do you want to . . . ? and
+Would you like to . . . ? to make invitations. Point out
+that Would you like to . . . ? is more formal than Do
+you want to . . . ?
+
+• Ask: “What phrases have the pattern verb + to?”
+Elicit the answer. (Possible answers: want to, have to,
+need to, would like to, would love to) Point out that
+I’d is the contraction for I would. Also, point out that
+another verb usually follows the verb + to pattern
+(e.g., I need to work.).
+
+• Play the audio program. Ss listen and read silently.
+
+A
+• Explain the first part of the task and model the
+example invitation.
+
+• Option: For lower-level classes, point out that all the
+answers are either want to or like to.
+
+• Ss complete the invitations individually. Then they
+compare answers in pairs.
+
+• Ask different Ss to read out the invitations.
+Encourage Ss to use reductions when they read the
+questions with want to.
+
+Answers
+1. Would you like to go to an art festival this
+weekend?
+2. Do you want to go to a volleyball game
+tomorrow night?
+3. Would you like to see a comedy tonight?
+
+4. Do you want to go swimming on Saturday?
+5. Do you want to play soccer after school today?
+6. Would you like to go to a hip-hop concert on
+Saturday night?
+
+• Explain the second part of the task. Ask a S to
+model the example invitation and a different S to
+read the response.
+
+• Ss match the invitations with the responses in pairs.
+• To check answers, ask different pairs to read each
+invitation and response.
+
+Answers
+1. d. I’d like to, but I can’t. I’m going to go on a
+trip this weekend.
+2. c. I don’t really like volleyball. Do you want to
+do something else?
+3. f. Tonight? I can’t. I need to help my parents.
+4. a. I’d like to, but I don’t have a swimsuit!
+5. b. I’m sorry, but I have to talk to the teacher
+after school.
+6. e. Yes, I’d love to. It’s my favorite type of music.
+
+• Ss practice the conversations in pairs. Go around the
+class and check Ss’ pronunciation and intonation.
+
+B Pair work
+• Write these time expressions on the board:
+tomorrow night
+after school today
+tonight
+this weekend
+on Saturday
+on Sunday afternoon
+
+Tell Ss to copy the time expressions and write their
+plans next to each one.
+
+• Explain the task and ask two Ss to model the
+example conversation.
+
+• Ss complete the task in pairs. Go around the class
+and encourage Ss to use their own information.
+
+T-109
+
+Unit 16
+
+9 SPEAKING
+Learning Objective: make invitations and give excuses
+with have to, need to, and want to
+
+A
+• Focus Ss’ attention on the title. Elicit or explain that an
+excuse is a reason for not doing something. Point out
+that an excuse can be the truth or a lie.
+
+• Explain the task and ask different Ss to read out the
+excuses. Elicit or explain any new vocabulary. (e.g.,
+babysit, already ).
+
+• Ss check (✓) Often, Sometimes, or Never individually.
+Then they compare answers in pairs.
+
+• Option: Elicit other excuses and write them on
+the board.
+
+B
+• Explain the task and model the example sentence.
+Then Ss write three sentences individually. Go around
+the class and help as needed.
+
+C Class activity
+• Explain the task. Then ask two Ss to model the
+example conversation. Student B completes the
+response with an excuse (e.g., I have to babysit.).
+
+• Ask two Ss to model the conversation using a different
+invitation and excuse. For example:
+S1: Do you want to go to a musical on Friday night?
+S2: I’m sorry, but I can’t. I have to study.
+
+• Ss go around the class, making invitations and
+responding with excuses.
+
+10 LISTENING
+Learning Objective: listen for main ideas and details as
+people change plans
+
+A [CD 3, Track 56]
+
+4.
+Grandpa
+Danielle
+Grandpa
+
+• Set the scene and explain the task. Then play the
+
+Danielle
+
+audio program. Ss listen and check (✓) Will be late or
+Can’t come. Then play the audio program again. Ss
+listen and check their answers.
+
+Audio script
+1.
+Woman
+Jason
+Woman
+Jason
+Woman
+2.
+Man
+Jessica
+
+Hello. Doctor Roy’s office.
+Hello. This is Jason Miller. I’m sorry, but I
+can’t come at 11:00 today.
+I see. Well, how about 3:00?
+No, sorry, I can’t come in today. I have to
+work. Is 11:00 tomorrow OK?
+Let me see. . . . Yes. That’s fine. See you
+tomorrow.
+Hello. Zachary Kendall’s office.
+Hi. This is Jessica Pascal. I have a meeting
+with Mr. Kendall at 10:00, but I’m not going
+to be on time. My bus was late this morning.
+OK. What time can you be here?
+At 10:30.
+OK. I’ll tell him. Thanks for calling.
+
+Man
+Jessica
+Man
+3.
+Woman Hello. Easton Art Museum.
+Christian Hi. My name’s Christian Everly. I bought a
+ticket to the art festival on Saturday, but I
+can’t come. My parents are visiting from out
+of town. Can I get my money back?
+Woman I’m sorry; we can’t do that. But I can sell you
+two more tickets for your parents.
+Christian No, I don’t think so. They don’t really like
+festivals.
+
+Grandpa
+Danielle
+
+Hello?
+Hi, Grandpa!
+Hi, Danielle! Are you coming to help
+me with my computer tonight?
+Well . . . I’m calling about that. I can’t
+come tonight because I need to study
+for a test.
+OK. I understand. School comes first.
+You can help me another time.
+Thanks for being so nice, Grandpa.
+
+• Ss compare their answers in pairs. Then go over the
+answers with the class. (Answers: 1. Jason can’t come.
+2. Jessica will be late. 3. Christian can’t come.
+4. Danielle can’t come.)
+
+B [CD 3, Track 57]
+• Play the audio program again. Ss listen and write
+the names of the people who can’t come and their
+excuses. Play the audio program again if needed.
+
+• Elicit the answers from the class.
+Answers
+First name
+Jason
+Christian
+Danielle
+
+Excuse
+He has to work.
+His parents are visiting.
+She needs to study for a test.
+
+TIP
+
+To help Ss focus on a complex listening task, have
+them listen two or three times. Each time they
+should listen for a different thing.
+
+11 INTERCHANGE 16
+See page T-131 for teaching notes.
+
+Can I take a message?
+
+T-110
+
+12 READING
+Learning Objective: skim and scan a text for
+information about special events
+
+A [CD 3, Track 58]
+• Focus Ss’ attention on the guide. Point out that the
+article is intended to interest readers in a festival in
+Austin, Texas.
+
+• Explain the task. Ss skim the guide and complete the
+task individually. Then they compare their answers in
+small groups. (Answer: Austin City Limits is a music
+festival.)
+
+B
+• Explain the first part of the task. Ss read the guide
+individually and underline any new words.
+
+• Ss discuss the meanings of any new words in
+small groups. Elicit or explain any remaining new
+vocabulary.
+
+Vocabulary
+
+stage: a platform that people perform on
+autograph: a famous person’s signature
+food court: an area where different types of food
+are sold
+art market: an area where different arts and crafts
+are sold
+
+• Explain the second part of the task.
+• Point out that Ss can find the answers quickly
+by scanning the guide for the key words in each
+statement.
+
+T-111
+
+Unit 16
+
+• Ss complete the task individually. Then they compare
+the answers in small groups.
+
+• Elicit answers from the class. Ask different Ss to
+read the statements and say true or false. For false
+statements, elicit a correction from the class.
+
+Answers
+1. False (195,000 people)
+2. True
+3. False (You can buy clothes.)
+4. False (ACL Eats is the name of the food court.)
+5. True
+
+C Group work
+• Explain the task. Ss their favorite kinds of events, and
+any special events where they live, in small groups.
+
+• Ask groups to share information about their favorite
+events with the class.
+For a new way to teach this reading, try Reading
+Race – download it from the website.
+
+End of Cycle 2
+See the Supplementary Resources chart at the
+beginning of this unit for additional teaching materials
+and student activities related to this Cycle and for
+assessment tools.
+
+Units
+
+15–16 Progress check
+SELF-ASSESSMENT
+Learning Objectives: reflect on one’s learning; identify
+areas that need improvement
+
+• Ask: “What did you learn in Units 15 and 16?” Elicit
+Ss’ answers.
+
+• Ss complete the Self-assessment. Explain to Ss that
+this is not a test; it is a way for them to evaluate what
+they’ve learned and identify areas where they need
+additional practice. Encourage them to be honest,
+and point out they will not get a bad grade if they
+check (✓) A little.
+
+• Ss move on to the Progress check exercises. You can
+have Ss complete them in class or for homework,
+using one of these techniques:
+1. Ask Ss to complete all the exercises.
+2. Ask Ss: “What do you need to practice?” Then
+assign exercises based on their answers.
+3. Ask Ss to choose and complete exercises based
+on their Self-assessment.
+
+1 SPEAKING
+Learning Objective: demonstrate one’s ability to
+discuss one’s past
+
+A Pair work
+• Explain the task and focus Ss’ attention on the chart.
+Point out that Ss should choose three years and add
+a new question. Then Ss complete the chart with
+information about their partners.
+
+• To model how to complete the chart, write a year
+on the board. Then have different Ss ask you each
+question about that year. Answer the questions with
+information about your life.
+
+• Working individually, Ss choose three years and write
+them down. Then they complete the last question
+with their own idea.
+
+• Ss work in pairs. They take turns asking and
+answering questions to complete the chart.
+
+B Class activity
+• Explain the task and ask a S to model the example
+sentence.
+
+• Elicit information from different Ss in the class.
+• Option: For large classes, Ss can tell about just one
+year. Alternatively, Ss can share information in groups.
+
+2 SPEAKING
+Learning Objective: demonstrate one’s ability to ask
+and answer questions about someone from the past
+
+• To model the task, think of a famous person from the
+
+Group work
+
+• Ss play the game in small groups. The S who guesses
+
+• Focus Ss’ attention on the pictures. Ask: “Who are
+these people?” (Answers: Audrey Hepburn, Nelson
+Mandela, Paul Walker) Then ask: “What do you know
+about them?”
+
+• Explain the first part of the task. Point out that Ss
+should not choose people who are still alive today.
+
+past, someone no longer living. The class asks you
+yes/no questions with was/were to guess the person.
+the person correctly thinks of the next person.
+
+• Option: Tell Ss they can ask only ten questions to
+guess the person.
+
+• Option: Ss research information about famous
+people from the past before class.
+
+• Model the example questions. Elicit other possible
+questions and write them on the board. Then ask
+three Ss to model the example conversation.
+
 T-112
+
+3 LISTENING
+Learning Objective: demonstrate one’s ability to
+understand phone calls and leave or take a messages
+
+[CD 3, Track 59]
+• Explain the task. Ss listen to statements and
+questions from six phone conversations. They choose
+the best response to each statement or question.
+
+• Ss read the answer choices silently. Then play the
+audio program once or twice. Ss listen and complete
+the task.
+
+Audio script
+1. Can I give her a message?
+2. Can you ask him to call me?
+
+3. Do you have my number?
+4. We had a great barbecue on Sunday. Why
+didn’t you come?
+5. There’s an interesting new movie at Cinema
+City. Do you want to go tonight?
+6. Hi. This is Amanda. Is Benjamin there, please?
+
+• Elicit the answers from the class.
+Answers
+1. Yes. Please tell her to call me.
+2. Sure. Does he have your number?
+3. No, I don’t.
+4. I had a terrible headache.
+5. I’d love to, but I can’t.
+6. I’m sorry. He’s not here right now.
+
+4 SPEAKING
+Learning Objective: demonstrate one’s ability to ask
+and answer questions about things one wants, needs,
+and has to do
+
+A Class activity
+• Explain the task and focus Ss’ attention on the chart.
+
+B Pair work
+• Explain the task and write this model conversation on
+the board:
+
+A: Emiko needs to do laundry tomorrow.
+B: Vlad needs to do laundry, too.
+
+Then elicit yes/no questions for each phrase from the
+class.
+
+Ss use the model conversation to compare their
+answers in pairs.
+
+• Ask two Ss to model the example conversation. Point
+
+• Elicit answers from the class. Ask: “Who needs to do
+
+out that when Student B answers “Yes, I do,” Student
+A should write Student B’s name in the chart.
+
+laundry tomorrow? Who wants to go home early?”
+Continue with the remaining questions.
+
+• Ss go around the class and complete the chart.
+Encourage Ss to change partners often and to try to
+write a different name on each line.
+
+5 SPEAKING
+Learning Objective: demonstrate one’s ability to make,
+accept, and refuse invitations
+
+A
+• Elicit weekend activities from the class (e.g., go
+to the beach, have a picnic, study ). Write them on
+the board.
+
+• Explain the task. Then Ss complete the task
+individually. Go around the class and give help
+as needed.
+
+B Class activity
+• Explain the task. Ask two different pairs of Ss to
+model the example conversations.
+
+• Ss go around the class and complete the task, using
+their lists from part A.
+
+WHAT’S NEXT?
+Learning Objective: become more involved in one’s
+learning
+
+• Ask Ss to underline one thing they need to review.
+
+• Focus Ss’ attention on the Self-assessment again.
+
+• If needed, plan additional instruction, activities, or
+
+Ask: “How well can you do these things now?”
+
+T-113 Units 15–16 Progress check
+
+Ask: “What did you underline? How can you review it?”
+reviews based on Ss’ answers.
+
+Interchange activities
+INTERCHANGE 1
+Learning Objective: speak more
+fluently when exchanging names,
+phone numbers, and email addresses
+
+Interchange activities
+INTERCHANGE 1 Celebrity classmates
+A Imagine you are a celebrity. Write your name, phone number,
+and email address on the screens.
+
+A
+
+Contacts
+
+Name
+
+• Explain the task. If needed,
+
+Usain Bolt
+
+explain who Emma Watson and
+Usain Bolt are. Elicit examples of
+celebrities.
+
+“celebrities.” Ask and answer questions to complete the screens.
+A: Hi. My name is Emma Watson.
+B: I’m Usain Bolt. Nice to meet you, Emma.
+A: Usain, what’s your email address?
+B: It’s U-S-A-I-N-B-O-L-T underscore eight-seven at C-U-P dot O-R-G.
+A: I’m sorry. Can you repeat that?
+Contacts
+
+Email address
+
+Contacts
+
+Emma Watson
+
+Email address
+
+• Explain the activity and model
+
+Contacts
+
+the conversation with a strong S.
+Take the role of Student B and
+give the S the role of Student A.
+
+Name
+
+To modify this activity for small
+classroom or one-on-one
+situations, the T and S/Ss can
+fill out several cards and leave
+them at stations around the
+room. Then pairs move around
+and pretend to be different
+celebrities at each spot.
+
 T-114
-T-132
-T-148
-T-151
-T-152
-T-168
-T-184
 
-Plan
-of of
-Intro
-book
-Plan
-Intro
-Book
-Titles/Topics
-Titles/Topics
+Interchange activities
 
-Speaking
-Speaking
+Phone Number
 
-UNIT
-1 1
-UNIT
+Email address
 
-Grammar
-Grammar
+• Focus Ss’ attention on the useful
 
-PAGES
-2–7
-PAGES
-2–7
+TIP
 
-Possessive
-adjectives
-my,
-your,
-Possessive
-adjectives
-my,
-your,
-Introducing
-yourself
-and
-friends;
-Introducing
-yourself
-and
-friends;
-What’s
-your
-name?
-What’s
-your
-name?
-her;
-thethe
-verb
-be;be;
-affiaffirmative
-rmative
-his,
-her;
-verb
-saying
-hello
-and
-good-bye;
-asking
-forfor his,
-saying
-hello
-and
-good-bye;
-asking
-Alphabet;
-greetings
-and
-leaveAlphabet;
-greetings
-and
-leavestatements
-and
-contractions
-statements
-and
-contractions
-and
-phone
-numbers
-names
-and
-phone
-numbers
-takings;
-names
-and
-titles
-of of
-address;
-takings;
-names
-and
-titles
-address; names
-numbers
-0–10,
-phone
-numbers,
-and
-numbers
-0–10,
-phone
-numbers,
-and
-email
-addresses
-email
-addresses
-UNIT
-2 2
-UNIT
+Phone Number
 
-PAGES
-8–13
-PAGES
-8–13
+Name
 
-Where
-are
-mymy
-keys?
-Where
-are
-keys?
-Possessions,
-classroom
-objects,
-Possessions,
-classroom
-objects,
-personal
-items,
-and
-locations
-in in
-a a
-personal
-items,
-and
-locations
-room
-room
+B Class activity
 
-Naming
-objects;
-asking
-forfor
-and
-giving
-a, a,
-an,an,
-and
-the;
-this/these,
-Naming
-objects;
-asking
-and
-givingArticles
-Articles
-and
-the;
-this/these,
-thethe
-locations
-of of
-objects
-it/they;
-plurals;
-yes/no
-and
-where
-locations
-objects
-it/they;
-plurals;
-yes/no
-and
-where
-questions
-with
-be;be;
-prepositions
-of of
-questions
-with
-prepositions
-place:
-in,in,
-in in
-front
-of,of,
-behind,
-on,on,
-place:
-front
-behind,
-next
-to,to,
-and
-under
-next
-and
-under
+take their books, go around the
+class, introduce themselves to
+three “celebrities,” and complete
+the cards.
 
-PROGRESS
-CHECK
-PROGRESS
-CHECK
+Phone Number
 
-PAGES
-14–15
-PAGES
-14–15
+Name
 
-UNIT
-3 3
-UNIT
+Go around the class and give
+help as needed.
 
-PAGES
-16–21
-PAGES
-16–21
+• Ss complete the activity. They
 
-The
-verb
-be:be:
-affiaffirmative
-rmative and
-negative
-The
-verb
-and
-negative
-Where
-are
-you
-from?
-Talking
-about
-cities
-and
-countries;
-Where
-are
-you
-from?
-Talking
-about
-cities
-and
-countries;
-statements,
-yes/no
-questions,
-short
-statements,
-yes/no
-questions,
-short
-asking
-for
-and
-giving
-information
-asking
-for
-and
-giving
-information
-Cities
-and
-countries;
-adjectives
-of of
-Cities
-and
-countries;
-adjectives
-and
-Wh-questions
-answers,
-and
-Wh-questions
-place
-of of
-origin,
-nationality,
-first
-about
-place
-origin,
-nationality,
-first answers,
-personality
-and
-appearance;
-numbers
-personality
-and
-appearance;
-numbers about
-language,
-and
-age;
-describing
-people
-language,
-and
-age;
-describing
-people
-11–103
-and
-ages
-11–103
-and
-ages
-UNIT
-4 4
-UNIT
+Email address
 
-PAGES
-22–27
-PAGES
-22–27
+B CLASS ACTIVITY Go around the class. Introduce yourself to three
 
-adjectives
-our
-and
-their,
-Possessives:
-adjectives
-our
-and
-their,
-Is Is
-this
-coat
-yours?
-Asking
-about
-and
-describing
-clothing
-this
-coat
-yours?
-Asking
-about
-and
-describing
-clothing Possessives:
-names,
-and
-whose;
-present
-pronouns,
-names,
-and
-whose;
-present
-colors;
-talking
-about
-thethe
-weather
-and
-colors;
-talking
-about
-weather pronouns,
-Clothing;
-colors;
-weather
-and
-seasons
-Clothing;
-colors;
-weather
-and
-seasons and
-continuous
-statements
-and
-yes/no
-continuous
-statements
-and
-yes/no
-and
-seasons;
-finding
-thethe
-owners
-of of
-and
-seasons;
-finding
-owners
-questions;
-conjunctions
-and,
-but,
-and
-questions;
-conjunctions
-and,
-but,
-and
-objects
-objects
-so;so;
-placement
-of of
-adjectives
-before
-placement
-adjectives
-before
-nouns
-nouns
-PROGRESS
-CHECK
-28–29
-PROGRESS
-CHECK PAGES
-PAGES
-28–29
-UNIT
-5 5
-UNIT
+• Ss complete the task individually.
 
-PAGES
-30–35
-PAGES
-30–35
+pairs. Then they change roles.
 
-What
-time
-is is
-it?it?
-What
-time
-Clock
-time;
-times
-of of
-thethe
-day;
-Clock
-time;
-times
-day;
-everyday
-activities
-everyday
-activities
+646-555-0831
 
-UNIT
-6 6
-UNIT
+Email address
 
-Asking
-forfor
-and
-telling
-time;
-asking
-Asking
-and
-telling
-time;
-asking
-about
-and
-describing
-current
-about
-and
-describing
-current
-activities
-activities
+example screen. Ask Ss to spell
+the name and say the phone
+number. Then read aloud the
+email address: “U-S-A-I-NB-O-L-T underscore eight-seven
+at C-U-P dot O-R-G.” Point out
+that this is not Bolt’s real phone
+number or email address.
 
-Time
-expressions:
-o’clock,
-Time
-expressions:
-o’clock,
-A.M
-.MP.,M.,
-A.,MP.,
-noon,
-midnight,
-in in
-thethe
-morning/
-noon,
-midnight,
-morning/
-afternoon/evening,
-at at
-7:00/night/
-afternoon/evening,
-7:00/night/
-midnight;
-present
-continuous
-midnight;
-present
-continuous
-Wh-questions
-Wh-questions
+• Ss practice the conversation in
 
-PAGES
-36–41
-PAGES
-36–41
+Phone Number
 
-I ride
-mymy
-bike
-toto
-school.
-I ride
-bike
-school.
-Transportation;
-family
-relationships;
-Transportation;
-family
-relationships;
-daily
-routines;
-days
-of of
-thethe
-week
-daily
-routines;
-days
-week
+Name
 
-Simple
-present
-statements
-with
-Simple
-present
-statements
-with
-Asking
-forfor
-and
-giving
-information
-Asking
-and
-giving
-information
-regular
-and
-irregular
-verbs;
-simple
-regular
-and
-irregular
-verbs;
-simple
-about
-how
-people
-gogo
-to to
-work
-or or
-about
-how
-people
-work
-yes/no
-and
-Wh-questions;
-present
-yes/no
-and
-Wh-questions;
-school;
-talking
-about
-family
-members;
-school;
-talking
-about
-family
-members;present
-expressions:
-early,
-late,
-every
-time
-expressions:
-early,
-late,
-every
-describing
-daily
-and
-weekly
-routines
-describing
-daily
-and
-weekly
-routines time
-day,
-onon
-Sundays/weekends/weekdays
-day,
-Sundays/weekends/weekdays
+usainbolt_87@cup.org
 
-PROGRESS
-CHECK
-42–43
-PROGRESS
-CHECK PAGES
-PAGES
-42–43
-UNIT
-7 7
-UNIT
+• Focus Ss’ attention on the
 
-PAGES
-44–49
-PAGES
-44–49
+expressions in the box. Write
+them on the board and read
+them aloud. Ss repeat.
 
-Does
-it have
-a view?
-Does
-it have
-a view?
-Houses
-and
-apartments;
-rooms;
-Houses
-and
-apartments;
-rooms;
-furniture
-furniture
-UNIT
-8 8
-UNIT
+Contacts
 
-PAGES
-50–55
-PAGES
-50–55
+Phone Number
 
-Where
-dodo
-you
-work?
-Where
-you
-work?
-Jobs
-and
-workplaces
-Jobs
-and
-workplaces
-PROGRESS
-CHECK
-56–57
-PROGRESS
-CHECK PAGES
-PAGES
-56–57
+Usain Bolt
 
-vi
-iv
+114
 
-Introduction
-
-present
-short
-answers;
-Simple
-present
-short
-answers;
-Asking
-about
-and
-describing
-houses
-Asking
-about
-and
-describing
-houses Simple
-there
-is, is,
-there
-are;
-there’s
-no,no,
-there
-there
+Interchange 1
 ```
