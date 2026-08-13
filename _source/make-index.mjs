@@ -55,6 +55,14 @@ const rows = UNITS.map(([n, en, zh, pages]) => {
 
 const built = UNITS.filter(([n]) => fs.existsSync(path.join(ROOT, 'unit' + pad(n) + '.html'))).length;
 
+// The bridge-course syllabus, if it has been written. Sits above the unit list.
+const syllabus = fs.existsSync(path.join(ROOT, 'syllabus.html'))
+  ? '<a class="syl" href="./syllabus.html"><span class="sn">1–5</span>' +
+    '<span class="body"><span class="t">Bridge course syllabus</span>' +
+    '<span class="z" lang="zh-CN">衔接课程教学大纲 — 第 1–5 单元</span></span>' +
+    '<span class="meta">10 days &middot; 2 hours a day</span></a>\n'
+  : '';
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +71,7 @@ const html = `<!DOCTYPE html>
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
 <title>Interchange Intro — Interactive worksheets</title>
 <style>
-:root{--orange:#e8871e;--ink:#1e2430;--ink-2:#4a5464;--ink-3:#7b8598;
+:root{--orange:#e8871e;--ink:#1e2430;--ink-2:#4a5464;--ink-3:#7b8598;--blue:#2f6fb0;
   --line:#e2e6ec;--bg:#f4f6f9;--card:#fff;--shadow:0 1px 2px rgba(20,30,50,.06),0 4px 16px rgba(20,30,50,.06)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Segoe UI",-apple-system,
@@ -89,6 +97,12 @@ a.u:hover{border-color:var(--orange)}
 .todo .n{background:var(--line);color:var(--ink-3)}
 .soon{margin-left:10px;font-size:.75em;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--ink-3)}
 .note{margin:18px 0 0;color:var(--ink-3);font-size:.85em}
+.syl{display:flex;align-items:center;gap:14px;padding:13px 16px;margin:0 0 18px;background:var(--card);
+  border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:11px;
+  box-shadow:var(--shadow);text-decoration:none;color:inherit}
+.syl:hover{border-color:var(--blue)}
+.sn{flex:0 0 auto;width:36px;height:36px;border-radius:9px;background:var(--blue);color:#fff;
+  font-weight:800;font-size:.78em;display:flex;align-items:center;justify-content:center}
 @media (max-width:560px){.meta{display:none}}
 </style>
 </head>
@@ -99,7 +113,7 @@ a.u:hover{border-color:var(--orange)}
   <p class="sub">${built} of 16 units &middot; English | 中文 &middot; works offline</p>
 </div></header>
 <main>
-<div class="list">
+${syllabus}<div class="list">
 ${rows}
 </div>
 <p class="note" lang="zh-CN">每份练习都是一个独立文件，可以离线打开。点右上角的「中文」切换说明语言。</p>

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<title>Interchange Intro — Bridge course syllabus</title>
+</head>
+<body>
+<style>
+:root{
+  --orange:#e8871e; --orange-d:#c26a0c; --ink:#1e2430; --ink-2:#4a5464; --ink-3:#7b8598;
+  --line:#e2e6ec; --bg:#f4f6f9; --card:#ffffff; --ok:#1a8a4a; --ok-bg:#e8f6ee;
+  --blue:#2f6fb0; --blue-bg:#eef4fb; --warm-b:#f0dcc0; --warm-bg:#fdf7ef;
+  --shadow:0 1px 2px rgba(20,30,50,.06),0 4px 16px rgba(20,30,50,.06);
+  --maxw:960px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-size:16px; line-height:1.55;
+  font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,
+    "Microsoft YaHei","PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif;
+}
+a{color:var(--blue)}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--orange); outline-offset:2px; border-radius:4px}
+
+/* ---------- header ---------- */
+.hero{background:linear-gradient(135deg,#3a2c1c 0%,#1e2430 100%); color:#fff; padding:30px 20px 26px}
+.hwrap{max-width:var(--maxw); margin:0 auto}
+.kicker{font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; color:#f3b05a; font-weight:700}
+h1{margin:.2em 0 .08em; font-size:2rem; line-height:1.12; font-weight:700; text-wrap:balance}
+.h1zh{font-size:1.2rem; font-weight:700; color:#f6d9b0; margin:0 0 .35em}
+.sub{color:#c2c8d2; font-size:.92rem; margin:0}
+.sub .zh{color:#98a1af; display:block; font-size:.87rem}
+.goals{display:flex; flex-wrap:wrap; gap:8px; margin-top:18px}
+.goal{background:rgba(232,135,30,.18); border:1px solid rgba(232,135,30,.45); color:#fbdfbc;
+  padding:5px 12px; border-radius:999px; font-size:.8rem; line-height:1.4}
+.goal .zh{color:#e9c79b}
+
+/* ---------- shell ---------- */
+main{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px;
+  display:flex; flex-direction:column; gap:34px}
+section{display:flex; flex-direction:column; gap:14px}
+.band{align-self:flex-start; background:var(--ink); color:#fff; font-weight:700; font-size:.72rem;
+  letter-spacing:.13em; text-transform:uppercase; padding:6px 13px; border-radius:5px;
+  border-left:5px solid var(--orange)}
+.band .zh{letter-spacing:.04em; opacity:.75; margin-left:.5em; text-transform:none}
+.card{background:var(--card); border:1px solid var(--line); border-radius:12px;
+  padding:18px 20px; box-shadow:var(--shadow)}
+
+/* ---------- overview table ---------- */
+.scroller{overflow-x:auto; background:var(--card); border:1px solid var(--line);
+  border-radius:12px; box-shadow:var(--shadow)}
+table{border-collapse:collapse; width:100%; min-width:640px; font-size:.9rem}
+th,td{text-align:left; padding:10px 14px; border-bottom:1px solid var(--line); vertical-align:top}
+thead th{font-size:.7rem; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-3);
+  font-weight:700; background:#fbfcfd; white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td.d{font-variant-numeric:tabular-nums; font-weight:800; color:var(--orange-d); white-space:nowrap}
+td.u{font-weight:600; white-space:nowrap}
+td.p{color:var(--ink-3); font-variant-numeric:tabular-nums; white-space:nowrap; font-size:.85rem}
+.zhline{color:var(--ink-3); font-size:.87em; margin-top:1px}
+
+/* ---------- day cards ---------- */
+.days{display:flex; flex-direction:column; gap:16px}
+.day{background:var(--card); border:1px solid var(--line); border-radius:12px;
+  box-shadow:var(--shadow); overflow:hidden}
+.day.pc{border-left:4px solid var(--blue)}
+.dayhead{display:flex; flex-wrap:wrap; gap:12px; align-items:flex-start;
+  padding:16px 20px; border-bottom:1px solid var(--line); background:#fbfcfd}
+.dnum{flex:0 0 auto; background:var(--orange); color:#2b1600; font-weight:800; font-size:.72rem;
+  letter-spacing:.06em; border-radius:6px; padding:5px 10px; text-transform:uppercase;
+  font-variant-numeric:tabular-nums}
+.dtitle{flex:1 1 260px; min-width:0}
+.dtitle b{display:block; font-size:1.05rem; line-height:1.3}
+.pagetag{flex:0 0 auto; align-self:center; font-size:.72rem; font-weight:700; color:var(--ink-3);
+  border:1px solid var(--line); border-radius:5px; padding:3px 8px; background:#fff;
+  font-variant-numeric:tabular-nums; white-space:nowrap}
+.pts{display:flex; flex-wrap:wrap; gap:7px; padding:14px 20px 0}
+.pt{background:var(--blue-bg); border:1px solid #cddff0; color:#26527f; border-radius:999px;
+  padding:4px 11px; font-size:.78rem; line-height:1.45}
+.pt .zh{color:#4c7099}
+.run{list-style:none; margin:0; padding:14px 20px 18px; display:flex; flex-direction:column}
+.run li{display:flex; gap:14px; padding:9px 0; border-top:1px solid var(--line)}
+.run li:first-child{border-top:0}
+.run li.br{color:var(--ink-3)}
+.min{flex:0 0 52px; font-variant-numeric:tabular-nums; font-weight:800; font-size:.82rem;
+  color:var(--ink-2); padding-top:2px; letter-spacing:.02em}
+.act{flex:1 1 auto; min-width:0; font-size:.93rem}
+.ex{display:inline-block; background:#f1f3f7; border-radius:4px; padding:0 6px;
+  font-size:.8em; font-weight:800; color:var(--ink-2); margin-right:5px; white-space:nowrap}
+
+/* ---------- panels ---------- */
+.tip{border:1px solid var(--warm-b); background:var(--warm-bg); border-radius:10px;
+  padding:14px 16px; font-size:.9rem}
+.tip h3,.card h3{margin:0 0 8px; font-size:.95rem}
+ul.plain{margin:0; padding-left:1.15em; display:flex; flex-direction:column; gap:9px; font-size:.92rem}
+ul.plain li::marker{color:var(--orange)}
+.kv{display:flex; flex-direction:column; gap:11px; font-size:.92rem}
+.kv b{color:var(--ink)}
+code{background:#f1f3f7; border-radius:4px; padding:1px 5px; font-size:.88em;
+  font-family:Consolas,"SF Mono",Menlo,monospace}
+footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 50px;
+  color:var(--ink-3); font-size:.82rem; border-top:1px solid var(--line); padding-top:18px}
+@media (max-width:560px){
+  h1{font-size:1.6rem}
+  .run li{flex-direction:column; gap:3px}
+  .min{flex:none}
+}
+</style>
+
+<header class="hero">
+  <div class="hwrap">
+    <div class="kicker">Interchange Intro &middot; Fifth Edition</div>
+    <h1>Bridge Course &mdash; Units 1&ndash;5</h1>
+    <div class="h1zh" lang="zh-CN">衔接课程 — 第 1–5 单元</div>
+    <p class="sub">10 days &middot; 2 hours a day &middot; 20 hours, all of it in class
+      <span class="zh" lang="zh-CN">10 天 · 每天 2 小时 · 共 20 小时，全部在课堂上完成</span></p>
+    <div class="goals">
+      <span class="goal">Two days per unit<span class="zh" lang="zh-CN"> / 每单元两天</span></span>
+      <span class="goal">English and 中文 side by side<span class="zh" lang="zh-CN"> / 英文与中文对照</span></span>
+      <span class="goal">415 marked questions<span class="zh" lang="zh-CN"> / 415 道判分题</span></span>
+      <span class="goal">Nothing set for home<span class="zh" lang="zh-CN"> / 不留家庭作业</span></span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ COURSE AT A GLANCE ============ -->
+<section>
+  <div class="band">Course at a glance<span class="zh" lang="zh-CN">课程一览</span></div>
+  <div class="scroller">
+    <table>
+      <thead><tr>
+        <th>Day 天</th><th>Unit &amp; cycle 单元</th><th>Book 课本</th><th>Main language point 语言重点</th>
+      </tr></thead>
+      <tbody>
+        <tr><td class="d">1</td><td class="u">Unit 1 · Cycle 1</td><td class="p">pp. 2–4</td>
+          <td>Names, introductions, the alphabet<div class="zhline" lang="zh-CN">姓名、自我介绍、字母表</div></td></tr>
+        <tr><td class="d">2</td><td class="u">Unit 1 · Cycle 2</td><td class="p">pp. 5–7, 132</td>
+          <td>The verb <i>be</i>; numbers; contact information<div class="zhline" lang="zh-CN">be 动词；数字；联系方式</div></td></tr>
+        <tr><td class="d">3</td><td class="u">Unit 2 · Cycle 1</td><td class="p">pp. 8–10</td>
+          <td><i>a</i> / <i>an</i>, plurals, <i>this</i> / <i>these</i><div class="zhline" lang="zh-CN">冠词 a/an、名词复数、this/these</div></td></tr>
+        <tr><td class="d">4</td><td class="u">Unit 2 · Cycle 2</td><td class="p">pp. 11–13, 133</td>
+          <td>Where-questions; prepositions of place<div class="zhline" lang="zh-CN">where 疑问句；表示位置的介词</div></td></tr>
+        <tr><td class="d">5</td><td class="u">Unit 3 · Cycle 1</td><td class="p">pp. 16–18</td>
+          <td>Countries; negatives and yes/no questions<div class="zhline" lang="zh-CN">国家；否定句和一般疑问句</div></td></tr>
+        <tr><td class="d">6</td><td class="u">Unit 3 · Cycle 2</td><td class="p">pp. 19–21</td>
+          <td>Wh-questions with <i>be</i>; describing people<div class="zhline" lang="zh-CN">be 动词特殊疑问句；描述人</div></td></tr>
+        <tr><td class="d">7</td><td class="u">Unit 4 · Cycle 1</td><td class="p">pp. 22–24</td>
+          <td>Clothes, colors, possessives<div class="zhline" lang="zh-CN">衣服、颜色、物主形容词与代词</div></td></tr>
+        <tr><td class="d">8</td><td class="u">Unit 4 · Cycle 2</td><td class="p">pp. 25–27</td>
+          <td>Weather; present continuous<div class="zhline" lang="zh-CN">天气；现在进行时</div></td></tr>
+        <tr><td class="d">9</td><td class="u">Unit 5 · Cycle 1</td><td class="p">pp. 30–32</td>
+          <td>Telling the time; time zones<div class="zhline" lang="zh-CN">说时间；时区</div></td></tr>
+        <tr><td class="d">10</td><td class="u">Unit 5 · Cycle 2</td><td class="p">pp. 33–35</td>
+          <td>Present continuous Wh-questions; review<div class="zhline" lang="zh-CN">现在进行时特殊疑问句；总复习</div></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tip">
+    <h3>Why two days per unit &nbsp;<span lang="zh-CN">为什么每单元用两天</span></h3>
+    <p style="margin:0">Every unit in this book is built in two halves, called <b>Cycle 1</b> and <b>Cycle 2</b>,
+      each with its own conversation and its own grammar point. One cycle is one lesson.
+      Nothing is set for home, so all the listening, the exercises and the speaking happen in the two hours.</p>
+    <p class="zhline" style="margin:.6em 0 0; font-size:.92em" lang="zh-CN">本书每个单元都分成两半，叫 <b>Cycle 1</b> 和 <b>Cycle 2</b>，各有自己的对话和语法点。一个 cycle 就是一次课。因为不留家庭作业，所有听力、练习和口语都在这两小时里完成。</p>
+  </div>
+</section>
+
+<!-- ============ HOW A SESSION RUNS ============ -->
+<section>
+  <div class="band">How each session runs<span class="zh" lang="zh-CN">每次课怎么上</span></div>
+  <div class="card">
+    <div class="kv">
+      <div><b>Before we start 课前</b> — open the unit for today at
+        <a href="https://grammarmetric.github.io/interchange-intro/">grammarmetric.github.io/interchange-intro</a>.
+        Each file is 5–9 MB and takes a moment to arrive; after that it works with no internet.
+        <div class="zhline" lang="zh-CN">打开今天的单元。每个文件 5–9 MB，加载需要一点时间；加载完就可以离线使用。</div></div>
+      <div><b>The language switch 语言开关</b> — the worksheet has an <b>English | 中文</b> button.
+        Read the instruction in 中文 whenever it helps, then switch back. The English dialogue,
+        word banks and grammar boxes never disappear — that is the part you are learning.
+        <div class="zhline" lang="zh-CN">练习页上有 <b>English | 中文</b> 按钮。看不懂说明就切到中文，然后切回英文。英文对话、词库和语法框始终都在——那才是要学的内容。</div></div>
+      <div><b>Answering 答题</b> — answers are chosen from a menu, not typed. You practise spelling
+        out loud (Day 1), not on the keyboard.
+        <div class="zhline" lang="zh-CN">答案是从下拉菜单里选，不用打字。拼写靠嘴巴练（第 1 天），不靠键盘。</div></div>
+      <div><b>At the end of every session 每次课结束时</b> — press <b>Check answers</b> to see your score,
+        then <b>Save file</b>. Next time, press <b>Load file</b> to get your work back.
+        <div class="zhline" lang="zh-CN">先点 <b>Check answers</b> 看分数，再点 <b>Save file</b> 保存。下次上课点 <b>Load file</b> 就能接着用。</div></div>
+      <div><b>Stuck? 卡住了？</b> — <b>Show answers</b> reveals the key. Use it after you have tried,
+        not instead of trying.
+        <div class="zhline" lang="zh-CN"><b>Show answers</b> 会显示答案。先自己做，做完再看，不要用它代替思考。</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE TEN DAYS ============ -->
+<section>
+  <div class="band">The ten days<span class="zh" lang="zh-CN">十天安排</span></div>
+  <div class="days">
+
+    <!-- DAY 1 -->
+    <article class="day">
+      <div class="dayhead">
+        <span class="dnum">Day 1</span>
+        <div class="dtitle"><b>Unit 1 — What&rsquo;s your name? · Cycle 1</b>
+          <div class="zhline" lang="zh-CN">第 1 单元《你叫什么名字？》· 第一部分</div></div>
+        <span class="pagetag">pp. 2–4 · Ex 1–7</span>
+      </div>
+      <div class="pts">
+        <span class="pt">say hello and introduce yourself<span class="zh" lang="zh-CN"> / 打招呼、自我介绍</span></span>
+        <span class="pt">my, your, his, her<span class="zh" lang="zh-CN"> / 我的、你的、他的、她的</span></span>
+        <span class="pt">the alphabet<span class="zh" lang="zh-CN"> / 字母表</span></span>
+        <span class="pt">Mr. Mrs. Miss Ms.<span class="zh" lang="zh-CN"> / 称谓</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act">Course opening. Open <code>unit01.html</code> together and learn the six toolbar buttons.
+          <div class="zhline" lang="zh-CN">课程开场。一起打开 unit01.html，认识工具栏上的六个按钮。</div></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 1</span>Conversation: <i>My name is Joshua Brown.</i> Listen twice, repeat after the recording, then complete the gap-fill.
+          <div class="zhline" lang="zh-CN">对话《我叫 Joshua Brown》。听两遍，跟读，然后完成填空。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 2</span>Snapshot: names and nicknames. Match each name to its nickname.
+          <div class="zhline" lang="zh-CN">图表《名字和昵称》。把名字和昵称配对。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 3</span>Grammar focus: <i>my, your, his, her.</i> Do the two conversations, then say them aloud.
+          <div class="zhline" lang="zh-CN">语法重点：my / your / his / her。做完两段对话，再朗读一遍。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 4 · 5</span>The alphabet. Say it, then spell your own name aloud, then do the listening.
+          <div class="zhline" lang="zh-CN">字母表。先念一遍，再大声拼出自己的名字，然后做听力。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 6 · 7</span>Titles, and saying hello. <b>Check answers</b>, then <b>Save file</b>.
+          <div class="zhline" lang="zh-CN">称谓，以及打招呼。点 Check answers，再点 Save file。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 2 -->
+    <article class="day">
+      <div class="dayhead">
+        <span class="dnum">Day 2</span>
+        <div class="dtitle"><b>Unit 1 — What&rsquo;s your name? · Cycle 2</b>
+          <div class="zhline" lang="zh-CN">第 1 单元《你叫什么名字？》· 第二部分</div></div>
+        <span class="pagetag">pp. 5–7 · Ex 8–14 · GP 132</span>
+      </div>
+      <div class="pts">
+        <span class="pt">the verb <i>be</i><span class="zh" lang="zh-CN"> / be 动词</span></span>
+        <span class="pt">numbers 0–10<span class="zh" lang="zh-CN"> / 数字 0–10</span></span>
+        <span class="pt">phone numbers and email<span class="zh" lang="zh-CN"> / 电话和邮箱</span></span>
+        <span class="pt">saying good-bye<span class="zh" lang="zh-CN"> / 道别</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up: spell three names aloud; ask <i>What&rsquo;s his name?</i>
+          <div class="zhline" lang="zh-CN">先 Load file。热身：大声拼三个名字；互相问 What's his name?</div></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 8</span>Conversation: <i>Are you Andrea Clark?</i> Listen, repeat, then answer the five true/false questions.
+          <div class="zhline" lang="zh-CN">对话《你是 Andrea Clark 吗？》听、跟读，然后做五道判断题。</div></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 9</span>Grammar focus: the verb <i>be</i>. Full forms and contractions — <i>I am / I&rsquo;m.</i>
+          <div class="zhline" lang="zh-CN">语法重点：be 动词。完整形式和缩写 —— I am / I'm。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 10</span>Pronunciation: linked sounds. Notice how <i>My name is</i> joins into one piece.
+          <div class="zhline" lang="zh-CN">语音：连读。注意 My name is 是怎么连成一串的。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 11 · 12</span>Numbers 0–10, then the listening: writing down classmates&rsquo; phone numbers.
+          <div class="zhline" lang="zh-CN">数字 0–10，然后做听力：记下同学的电话号码。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 14 · GP</span>Saying good-bye, then <b>Grammar plus</b> p. 132. <b>Check answers</b> — Unit 1 has 102 questions. <b>Save file</b>.
+          <div class="zhline" lang="zh-CN">道别，然后做第 132 页的 Grammar plus。点 Check answers —— 第 1 单元共 102 题。再 Save file。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 3 -->
+    <article class="day">
+      <div class="dayhead">
+        <span class="dnum">Day 3</span>
+        <div class="dtitle"><b>Unit 2 — Where are my keys? · Cycle 1</b>
+          <div class="zhline" lang="zh-CN">第 2 单元《我的钥匙在哪儿？》· 第一部分</div></div>
+        <span class="pagetag">pp. 8–10 · Ex 1–6</span>
+      </div>
+      <div class="pts">
+        <span class="pt">things in your bag<span class="zh" lang="zh-CN"> / 包里的东西</span></span>
+        <span class="pt"><i>a</i> and <i>an</i><span class="zh" lang="zh-CN"> / 冠词 a 和 an</span></span>
+        <span class="pt">plurals<span class="zh" lang="zh-CN"> / 名词复数</span></span>
+        <span class="pt"><i>this/these, it/they</i><span class="zh" lang="zh-CN"> / 这个/这些，它/它们</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up on Unit 1: <i>What&rsquo;s your last name? How do you spell it?</i>
+          <div class="zhline" lang="zh-CN">先 Load file。用第 1 单元热身：What's your last name? How do you spell it?</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 1</span>Snapshot: <i>What&rsquo;s in your bag?</i> Then name what is really in yours.
+          <div class="zhline" lang="zh-CN">图表《你包里有什么？》然后说说自己包里实际有什么。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 2</span>Articles: classroom objects with <i>a</i> or <i>an</i>. The rule is the sound, not the letter.
+          <div class="zhline" lang="zh-CN">冠词：教室里的物品，用 a 还是 an。判断依据是读音，不是字母。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 3</span>Conversation: <i>What are these?</i> Listen, repeat, then the comprehension questions.
+          <div class="zhline" lang="zh-CN">对话《这些是什么？》听、跟读，然后做理解题。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 4</span>Pronunciation: the three sounds of plural <i>–s</i>. Listen and sort.
+          <div class="zhline" lang="zh-CN">语音：复数 –s 的三种读音。听录音并分类。</div></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 5 · 6</span>Grammar focus: <i>this/these, it/they</i>, plurals — then ask <i>What&rsquo;s this called?</i> about real objects. <b>Check answers</b>, <b>Save file</b>.
+          <div class="zhline" lang="zh-CN">语法重点：this/these、it/they、复数 —— 然后指着真实物品问 What's this called? 最后 Check answers、Save file。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 4 -->
+    <article class="day pc">
+      <div class="dayhead">
+        <span class="dnum">Day 4</span>
+        <div class="dtitle"><b>Unit 2 · Cycle 2 &nbsp;+&nbsp; first progress check</b>
+          <div class="zhline" lang="zh-CN">第 2 单元 · 第二部分 ＋ 第一次进度检查</div></div>
+        <span class="pagetag">pp. 11–13 · Ex 7–12 · GP 133</span>
+      </div>
+      <div class="pts">
+        <span class="pt">say where things are<span class="zh" lang="zh-CN"> / 说清楚东西在哪里</span></span>
+        <span class="pt">Yes/No and <i>where</i> questions<span class="zh" lang="zh-CN"> / 一般疑问句和 where 疑问句</span></span>
+        <span class="pt">in, on, under, behind<span class="zh" lang="zh-CN"> / 方位介词</span></span>
+        <span class="pt">Units 1–2 score<span class="zh" lang="zh-CN"> / 第 1–2 单元成绩</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up: <i>a</i> or <i>an</i>, and singular to plural, at speed.
+          <div class="zhline" lang="zh-CN">先 Load file。热身：快速判断 a 还是 an，以及单数变复数。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 7</span>Conversation: <i>Where are my car keys?</i> Listen, repeat, then the true/false questions.
+          <div class="zhline" lang="zh-CN">对话《我的车钥匙在哪儿？》听、跟读，然后做判断题。</div></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 8</span>Grammar focus: Yes/No questions and <i>where</i> questions with <i>be</i>, and the short answers.
+          <div class="zhline" lang="zh-CN">语法重点：be 动词的一般疑问句、where 疑问句，以及简短回答。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 9</span>Word Power: prepositions and the article <i>the</i>. Then describe this room.
+          <div class="zhline" lang="zh-CN">词汇：方位介词和定冠词 the。然后描述一下这个房间。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 10 · 11</span>Listening: where are Emily&rsquo;s things? Then ask and answer about Kevin&rsquo;s.
+          <div class="zhline" lang="zh-CN">听力：Emily 的东西在哪儿？然后就 Kevin 的东西一问一答。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">GP · CHECK</span><b>Grammar plus</b> p. 133, then <b>Check answers</b> on Units 1 <i>and</i> 2. Write both scores down — this is the first progress check.
+          <div class="zhline" lang="zh-CN">做第 133 页的 Grammar plus，然后对第 1、2 单元都点 Check answers。把两个分数记下来 —— 这是第一次进度检查。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 5 -->
+    <article class="day">
+      <div class="dayhead">
+        <span class="dnum">Day 5</span>
+        <div class="dtitle"><b>Unit 3 — Where are you from? · Cycle 1</b>
+          <div class="zhline" lang="zh-CN">第 3 单元《你是哪里人？》· 第一部分</div></div>
+        <span class="pagetag">pp. 16–18 · Ex 1–5</span>
+      </div>
+      <div class="pts">
+        <span class="pt">cities and countries<span class="zh" lang="zh-CN"> / 城市和国家</span></span>
+        <span class="pt">negative statements with <i>be</i><span class="zh" lang="zh-CN"> / be 动词否定句</span></span>
+        <span class="pt">Yes/No questions<span class="zh" lang="zh-CN"> / 一般疑问句</span></span>
+        <span class="pt">syllable stress<span class="zh" lang="zh-CN"> / 单词重音</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up: five things in the room, with <i>the</i> and a preposition.
+          <div class="zhline" lang="zh-CN">先 Load file。热身：说出房间里五样东西的位置，要用 the 和方位介词。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 1</span>Snapshot: the ten largest cities. Match each city to its country — Shanghai and Beijing are on the list.
+          <div class="zhline" lang="zh-CN">图表《世界十大城市》。把城市和国家配对 —— 名单上有上海和北京。</div></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 2</span>Conversation: <i>Are you from Rio?</i> Listen, repeat, then answer.
+          <div class="zhline" lang="zh-CN">对话《你是里约人吗？》听、跟读，然后回答问题。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">30 min</span><span class="act"><span class="ex">Ex 3</span>Grammar focus: negatives and Yes/No questions with <i>be</i>. <i>I&rsquo;m not from Rio. Are you from Beijing? Yes, I am.</i>
+          <div class="zhline" lang="zh-CN">语法重点：be 动词的否定句和一般疑问句。I'm not from Rio. Are you from Beijing? Yes, I am.</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 4</span>Pronunciation: syllable stress. Which part of <i>Ja-PAN</i>, <i>CHI-na</i> is strong?
+          <div class="zhline" lang="zh-CN">语音：单词重音。Ja-PAN、CHI-na 里哪一部分要重读？</div></span></li>
+        <li><span class="min">10 min</span><span class="act"><span class="ex">Ex 5</span>Speaking: <i>Is Bruno Mars from Italy?</i> <b>Check answers</b>, <b>Save file</b>.
+          <div class="zhline" lang="zh-CN">口语：Is Bruno Mars from Italy? 然后 Check answers、Save file。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 6 -->
+    <article class="day">
+      <div class="dayhead">
+        <span class="dnum">Day 6</span>
+        <div class="dtitle"><b>Unit 3 — Where are you from? · Cycle 2</b>
+          <div class="zhline" lang="zh-CN">第 3 单元《你是哪里人？》· 第二部分</div></div>
+        <span class="pagetag">pp. 19–21 · Ex 6–11</span>
+      </div>
+      <div class="pts">
+        <span class="pt">Wh-questions with <i>be</i><span class="zh" lang="zh-CN"> / be 动词特殊疑问句</span></span>
+        <span class="pt">numbers and ages<span class="zh" lang="zh-CN"> / 数字和年龄</span></span>
+        <span class="pt">appearance and personality<span class="zh" lang="zh-CN"> / 长相和性格</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up: three true sentences about yourself, one of them negative.
+          <div class="zhline" lang="zh-CN">先 Load file。热身：说三句关于自己的真话，其中一句用否定。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 6</span>Conversation: <i>Who&rsquo;s that?</i> Listen, repeat, then answer.
+          <div class="zhline" lang="zh-CN">对话《那是谁？》听、跟读，然后回答问题。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 7</span>Numbers and ages. Say how old people in your family are.
+          <div class="zhline" lang="zh-CN">数字和年龄。说说家里人的年龄。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">30 min</span><span class="act"><span class="ex">Ex 8</span>Grammar focus: Wh-questions with <i>be</i> — <i>who, what, where, how old.</i>
+          <div class="zhline" lang="zh-CN">语法重点：be 动词的特殊疑问句 —— who、what、where、how old。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 9</span>Word Power: describing people. Sort the words into appearance and personality.
+          <div class="zhline" lang="zh-CN">词汇：描述人。把词分成「长相」和「性格」两类。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 10</span>Listening: three descriptions — which two words fit each person? <b>Check answers</b>, <b>Save file</b>.
+          <div class="zhline" lang="zh-CN">听力：三段描述 —— 每个人对应哪两个词？然后 Check answers、Save file。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 7 -->
+    <article class="day">
+      <div class="dayhead">
+        <span class="dnum">Day 7</span>
+        <div class="dtitle"><b>Unit 4 — Is this coat yours? · Cycle 1</b>
+          <div class="zhline" lang="zh-CN">第 4 单元《这件外套是你的吗？》· 第一部分</div></div>
+        <span class="pagetag">pp. 22–24 · Ex 1–6</span>
+      </div>
+      <div class="pts">
+        <span class="pt">clothes<span class="zh" lang="zh-CN"> / 衣服</span></span>
+        <span class="pt">colors<span class="zh" lang="zh-CN"> / 颜色</span></span>
+        <span class="pt">possessives<span class="zh" lang="zh-CN"> / 物主形容词和代词</span></span>
+        <span class="pt"><i>s</i> and <i>sh</i><span class="zh" lang="zh-CN"> / s 和 sh 的区别</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up: ask me four Wh-questions with <i>be</i>.
+          <div class="zhline" lang="zh-CN">先 Load file。热身：用 be 动词向老师提四个特殊疑问句。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 1</span>Word Power: clothes. Listen, repeat, then say what you are wearing today.
+          <div class="zhline" lang="zh-CN">词汇：衣服。听、跟读，然后说说自己今天穿了什么。</div></span></li>
+        <li><span class="min">10 min</span><span class="act"><span class="ex">Ex 2</span>Colors. Add a color to every piece of clothing you just named.
+          <div class="zhline" lang="zh-CN">颜色。给刚才说的每件衣服加上颜色。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">10 min</span><span class="act"><span class="ex">Ex 3</span>Pronunciation: <i>s</i> and <i>sh</i> — <i>sock</i> and <i>shirt</i>.
+          <div class="zhline" lang="zh-CN">语音：s 和 sh —— sock 和 shirt。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 4</span>Conversation: <i>Whose jeans are these?</i> Listen, repeat, then answer.
+          <div class="zhline" lang="zh-CN">对话《这条牛仔裤是谁的？》听、跟读，然后回答问题。</div></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 5</span>Grammar focus: possessives. The difference between <i>my coat</i> and <i>mine</i>.
+          <div class="zhline" lang="zh-CN">语法重点：物主形容词和物主代词。my coat 和 mine 的区别。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 6</span>Listening: <i>Her sneakers are purple.</i> Put the six people in order. <b>Check answers</b>, <b>Save file</b>.
+          <div class="zhline" lang="zh-CN">听力《她的运动鞋是紫色的》。给六个人排序。然后 Check answers、Save file。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 8 -->
+    <article class="day pc">
+      <div class="dayhead">
+        <span class="dnum">Day 8</span>
+        <div class="dtitle"><b>Unit 4 · Cycle 2 &nbsp;+&nbsp; second progress check</b>
+          <div class="zhline" lang="zh-CN">第 4 单元 · 第二部分 ＋ 第二次进度检查</div></div>
+        <span class="pagetag">pp. 25–27 · Ex 7–11</span>
+      </div>
+      <div class="pts">
+        <span class="pt">weather and seasons<span class="zh" lang="zh-CN"> / 天气和季节</span></span>
+        <span class="pt">present continuous<span class="zh" lang="zh-CN"> / 现在进行时</span></span>
+        <span class="pt"><i>and</i>, <i>but</i><span class="zh" lang="zh-CN"> / 连词 and 和 but</span></span>
+        <span class="pt">Units 3–4 score<span class="zh" lang="zh-CN"> / 第 3–4 单元成绩</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up: point at four things and say whose they are.
+          <div class="zhline" lang="zh-CN">先 Load file。热身：指四样东西，说出它们是谁的。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 7</span>Snapshot: weather and seasons around the world. What is the weather like here today?
+          <div class="zhline" lang="zh-CN">图表《世界各地的天气和季节》。今天这里天气怎么样？</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 8</span>Conversation: <i>Are you wearing your gloves?</i> Listen, repeat, then answer.
+          <div class="zhline" lang="zh-CN">对话《你戴手套了吗？》听、跟读，然后回答问题。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">30 min</span><span class="act"><span class="ex">Ex 9</span>Grammar focus: present continuous — what is happening <i>right now</i> — plus <i>and</i> and <i>but</i>. This is the biggest new idea of the course so far.
+          <div class="zhline" lang="zh-CN">语法重点：现在进行时 —— 此刻正在发生的事 —— 以及 and 和 but。这是本课程到目前为止最重要的新概念。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 10</span>Listening: <i>You look great in pink.</i> Find the six people. Done out loud — this one is not scored.
+          <div class="zhline" lang="zh-CN">听力《你穿粉色很好看》。找出六个人。口头完成 —— 这一题不计分。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">CHECK</span><b>Check answers</b> on Units 3 <i>and</i> 4. Write both scores down and compare them with Day 4.
+          <div class="zhline" lang="zh-CN">对第 3、4 单元都点 Check answers。记下分数，和第 4 天的成绩比一比。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 9 -->
+    <article class="day">
+      <div class="dayhead">
+        <span class="dnum">Day 9</span>
+        <div class="dtitle"><b>Unit 5 — What time is it? · Cycle 1, and into Cycle 2</b>
+          <div class="zhline" lang="zh-CN">第 5 单元《现在几点？》· 第一部分，并开始第二部分</div></div>
+        <span class="pagetag">pp. 30–32 · Ex 1–6</span>
+      </div>
+      <div class="pts">
+        <span class="pt">tell the time<span class="zh" lang="zh-CN"> / 说时间</span></span>
+        <span class="pt">a.m., p.m., noon, midnight<span class="zh" lang="zh-CN"> / 上午、下午、正午、午夜</span></span>
+        <span class="pt">time zones<span class="zh" lang="zh-CN"> / 时区</span></span>
+        <span class="pt">intonation<span class="zh" lang="zh-CN"> / 升降调</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up: say three things I am doing right now.
+          <div class="zhline" lang="zh-CN">先 Load file。热身：说出老师此刻正在做的三件事。</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 1</span>Snapshot: time zones. What time is it in London right now?
+          <div class="zhline" lang="zh-CN">图表《时区》。伦敦现在几点？</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 2</span>Conversation: <i>It&rsquo;s two o&rsquo;clock in the morning!</i> Listen, repeat, then answer.
+          <div class="zhline" lang="zh-CN">对话《现在是凌晨两点！》听、跟读，然后回答问题。</div></span></li>
+        <li><span class="min">25 min</span><span class="act"><span class="ex">Ex 3</span>Grammar focus: <i>What time is it?</i> — o&rsquo;clock, a.m. and p.m., noon and midnight.
+          <div class="zhline" lang="zh-CN">语法重点：What time is it? —— o'clock、a.m. 和 p.m.、noon 和 midnight。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 4</span>Listening: <i>What time is it in Tokyo?</i>
+          <div class="zhline" lang="zh-CN">听力《东京现在几点？》</div></span></li>
+        <li><span class="min">15 min</span><span class="act"><span class="ex">Ex 5</span>Conversation: <i>What are you doing?</i> Listen and repeat.
+          <div class="zhline" lang="zh-CN">对话《你在做什么？》听并跟读。</div></span></li>
+        <li><span class="min">10 min</span><span class="act"><span class="ex">Ex 6</span>Pronunciation: rising and falling intonation. <b>Check answers</b>, <b>Save file</b>.
+          <div class="zhline" lang="zh-CN">语音：升调和降调。然后 Check answers、Save file。</div></span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 10 -->
+    <article class="day pc">
+      <div class="dayhead">
+        <span class="dnum">Day 10</span>
+        <div class="dtitle"><b>Unit 5 · Cycle 2 &nbsp;+&nbsp; course review</b>
+          <div class="zhline" lang="zh-CN">第 5 单元 · 第二部分 ＋ 全课程复习</div></div>
+        <span class="pagetag">pp. 33–35 · Ex 7–10</span>
+      </div>
+      <div class="pts">
+        <span class="pt">present continuous Wh-questions<span class="zh" lang="zh-CN"> / 现在进行时特殊疑问句</span></span>
+        <span class="pt">everyday activities<span class="zh" lang="zh-CN"> / 日常活动</span></span>
+        <span class="pt">first reading<span class="zh" lang="zh-CN"> / 第一篇阅读</span></span>
+        <span class="pt">Units 1–5 review<span class="zh" lang="zh-CN"> / 第 1–5 单元复习</span></span>
+      </div>
+      <ul class="run">
+        <li><span class="min">10 min</span><span class="act"><b>Load file.</b> Warm up: ask and answer the time four times.
+          <div class="zhline" lang="zh-CN">先 Load file。热身：就时间一问一答四轮。</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 7</span>Grammar focus: present continuous Wh-questions — <i>What are you doing? Where is she going?</i>
+          <div class="zhline" lang="zh-CN">语法重点：现在进行时的特殊疑问句 —— What are you doing? Where is she going?</div></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 8</span>Word Power: <i>What are they doing?</i> Listen, repeat, then describe the pictures.
+          <div class="zhline" lang="zh-CN">词汇《他们在做什么？》听、跟读，然后描述图片。</div></span></li>
+        <li class="br"><span class="min">10 min</span><span class="act">Break <span lang="zh-CN">休息</span></span></li>
+        <li><span class="min">20 min</span><span class="act"><span class="ex">Ex 10</span>Reading: <i>Message me!</i> Skim the conversation first, then answer. Your first real reading in English.
+          <div class="zhline" lang="zh-CN">阅读《给我发消息！》先快速浏览整段对话，再答题。这是第一篇真正的英文阅读。</div></span></li>
+        <li><span class="min">30 min</span><span class="act"><span class="ex">REVIEW</span>Course review. Press <b>Clear all</b> on one exercise per unit and do it again from memory — Unit 1 Ex 9, Unit 2 Ex 8, Unit 3 Ex 8, Unit 4 Ex 9, Unit 5 Ex 7. Five scores, no <b>Show answers</b>.
+          <div class="zhline" lang="zh-CN">全课程复习。每个单元挑一道大题点 Clear all，凭记忆重做一遍 —— 第 1 单元练习 9、第 2 单元练习 8、第 3 单元练习 8、第 4 单元练习 9、第 5 单元练习 7。共五个分数，不许用 Show answers。</div></span></li>
+        <li><span class="min">10 min</span><span class="act">Close: what you can say in English now that you could not on Day 1. Unit 6 is <i>I ride my bike to school</i> — the simple present.
+          <div class="zhline" lang="zh-CN">总结：比起第 1 天，你现在能用英语说什么了。第 6 单元是《我骑车上学》—— 一般现在时。</div></span></li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ WHAT YOU WILL BE ABLE TO DO ============ -->
+<section>
+  <div class="band">By Day 10 you can<span class="zh" lang="zh-CN">十天后你能做到</span></div>
+  <div class="card">
+    <ul class="plain">
+      <li>Introduce yourself, spell your name aloud, and exchange a phone number.
+        <div class="zhline" lang="zh-CN">自我介绍，大声拼出自己的名字，交换电话号码。</div></li>
+      <li>Name the things around you and say where they are.
+        <div class="zhline" lang="zh-CN">说出身边物品的名称，并说清楚它们在哪里。</div></li>
+      <li>Say where you are from, ask where someone else is from, and describe what they look like.
+        <div class="zhline" lang="zh-CN">说自己是哪里人，问别人是哪里人，并描述对方的长相。</div></li>
+      <li>Describe clothes and colors, and say whose something is.
+        <div class="zhline" lang="zh-CN">描述衣服和颜色，说清楚东西是谁的。</div></li>
+      <li>Tell the time, and say what someone is doing right now.
+        <div class="zhline" lang="zh-CN">说时间，说出某人此刻正在做什么。</div></li>
+      <li>Use <i>be</i> in statements, negatives, Yes/No questions and Wh-questions — the backbone of the next ten units.
+        <div class="zhline" lang="zh-CN">在陈述句、否定句、一般疑问句和特殊疑问句中使用 be 动词 —— 这是后面十个单元的骨架。</div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TEACHER NOTES ============ -->
+<section>
+  <div class="band">Notes for the teacher<span class="zh" lang="zh-CN">教师备注</span></div>
+  <div class="tip">
+    <ul class="plain">
+      <li><b>The Interchange pair-work pages are not in the worksheets.</b> They live in the Student&rsquo;s Book:
+        Unit 1 Ex 13 (p. 114), Unit 2 Ex 12 (p. 115), Unit 3 Ex 11 (p. 118), Unit 4 Ex 11 (pp. 116–117),
+        Unit 5 Ex 9 (p. 119). None are scheduled above — bring the book if you want them, or skip them:
+        with one student they need reworking anyway.</li>
+      <li><b>Grammar plus exists for Units 1 and 2 only</b> (pp. 132, 133), which is why it appears on
+        Days 2 and 4 and nowhere else. Units 3–5 have no Grammar plus in the worksheets.</li>
+      <li><b>Unit 4 Ex 10 ships unmarked</b> — the name boxes are not numbered on the page, so it cannot be
+        scored without guessing. Day 8 does it orally by design.</li>
+      <li><b>Question totals</b>, for setting expectations: Unit 1 &mdash; 102, Unit 2 &mdash; 89, Unit 3 &mdash; 94,
+        Unit 4 &mdash; 70, Unit 5 &mdash; 60. <b>415 marked questions</b> across the ten days.</li>
+      <li><b>Save file / Load file is what makes a no-homework course work.</b> Progress also sits in
+        <code>localStorage</code>, but that is per-browser; the saved file is the one that survives.</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Interchange Intro, Fifth Edition &middot; Cambridge University Press.
+  <a href="./index.html">← All sixteen units 全部十六个单元</a>
+</footer>
+</body>
+</html>

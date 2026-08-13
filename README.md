@@ -8,6 +8,7 @@ band 6.
 ```
 index.html          contents page, links every built unit
 unit01.html …       one self-contained worksheet per unit — these are the deliverables
+syllabus.html       bridge-course syllabus, Units 1–5 over ten 2-hour days
 _source/            everything needed to rebuild them
 ```
 
@@ -83,6 +84,30 @@ weekly grid). Both say so on the page.
 and recording but is not marked. The teacher's key gives the six names in book
 order, and the name boxes are not numbered on the page, so scoring them would
 have meant guessing which box is which.
+
+---
+
+## The bridge-course syllabus
+
+`syllabus.html` is a teaching plan built on top of these worksheets: **Units 1–5
+across ten two-hour days**, one cycle per session, with nothing set for homework.
+English and 中文 sit side by side on every line rather than behind a switch —
+it is read by the student and the teacher at the same time.
+
+Each session is a timed run sheet naming the actual exercises, and every day
+totals exactly 120 minutes. The unit titles, Chinese goal lines, page numbers and
+cycle splits are taken from the worksheet sources, not written from memory.
+
+Three things it deliberately schedules around:
+
+- **The Interchange pair-work pages are not in the worksheets** — they are in the
+  Student's Book (pp. 114–119). None are scheduled; they are listed in the
+  syllabus's teacher notes for anyone who wants to bring the book.
+- **Grammar plus exists for Units 1–2 only**, so it appears on Days 2 and 4 and
+  nowhere else.
+- **Unit 4 Ex 10 is unmarked**, so Day 8 does it orally by design.
+
+`make-index.mjs` links it from the contents page whenever the file is present.
 
 ---
 
